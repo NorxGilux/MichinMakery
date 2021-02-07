@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <update version="0.0.11">
+      <author url="https://github.com/Nakamijo/Michin_Makery">Michin Makery</author>
+      <file name="companions.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/companions.xml" />
+    </update>
+  </info>
+
+  <!-- lunatic -->
+  <element name="Lunar Pixie" type="Companion" source="Michin Makery" id="ID_MIMA_COMPANION_LUNAR_PIXIE" requirements="ID_MIMA_LUNATIC_FOLLOWER">
+    <supports>Familiar,Variant Familiar</supports>
+    <description>
+      <p>This tiny creature is a Pixie infused by the power of the moon. Their colour varies in the range of blue, silver and white.</p>
+    </description>
+    <setters>
+      <set name="strength">2</set>
+      <set name="dexterity">20</set>
+      <set name="constitution">10</set>
+      <set name="intelligence">10</set>
+      <set name="wisdom">14</set>
+      <set name="charisma">20</set>
+      <set name="ac">15</set>
+      <set name="hp">2 (1d4)</set>
+      <set name="speed">30 ft., climb 30 ft.</set>
+      <set name="languages">Celestial, Sylvan, Elvish</set>
+      <set name="skills">Perception +4, Persuasion +7, Stealth +7</set>
+      <set name="type">Fey, Celestial</set>
+      <set name="size">Tiny</set>
+      <set name="alignment">neutral good</set>
+      <set name="challenge">1</set>
+      <set name="actions">ID_MIMA_COMPANION_ACTION_LUNAR_SHINING_LIGHT,ID_MIMA_COMPANION_ACTION_LUNAR_PIXIE_HEALING_TWINKLE,ID_MIMA_COMPANION_ACTION_LUNAR_PIXIE_HEALING_TOUCH,ID_MIMA_COMPANION_ACTION_LUNAR_PIXIE_BLINDING_LIGHT,ID_MIMA_COMPANION_ACTION_LUNAR_PIXIE_SLEEPING_POWDER,ID_MIMA_COMPANION_ACTION_LUNAR_PIXIE_SUPERIOR_INVISIBILITY</set>
+    </setters>
+    <rules>
+      <stat name="companion:ac" value="15" />
+      <stat name="companion:hp:max" value="2" bonus="base" />
+      <stat name="companion:speed" value="10" bonus="base" />
+      <stat name="companion:speed:fly" value="30" bonus="base" />
+      <stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+      <stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+      <stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+    </rules>
+  </element>
+  <element name="Healing Twinkle" type="Companion Action" source="Michin Makery" id="ID_MIMA_COMPANION_ACTION_LUNAR_PIXIE_HEALING_TWINKLE">
+    <description>
+      <p>The Lunar Pixie heals for 1d4 + 5. Range: 30 feet.</p>
+    </description>
+    <sheet>
+      <description>The Lunar Pixie heals for 1d4 + 5. Range: 30 feet.</description>
+    </sheet>
+  </element>
+  <element name="Healing Touch" type="Companion Action" source="Michin Makery" id="ID_MIMA_COMPANION_ACTION_LUNAR_PIXIE_HEALING_TOUCH">
+    <description>
+      <p>The Lunar Pixie heals for 1d8 + 5. Range: 5 feet.</p>
+    </description>
+    <sheet>
+      <description>The Lunar Pixie heals for 1d8 + 5. Range: 5 feet.</description>
+    </sheet>
+  </element>
+  <element name="Blinding Light" type="Companion Action" source="Michin Makery" id="ID_MIMA_COMPANION_ACTION_LUNAR_PIXIE_BLINDING_LIGHT">
+    <description>
+      <p>Ranged Weapon Attack: +7 to hit, range 50 ft., one target. Hit: 6 (1d4 + 5) radiant damage. The target must succeed a DC 15 constitution saving throw or becomes blinded until the end of it's next turn.</p>
+    </description>
+    <sheet>
+      <description>Ranged Weapon Attack: +7 to hit, range 50 ft., one target. Hit: 6 (1d4 + 5) radiant damage. The target must succeed a DC 15 constitution saving throw or becomes blinded until the end of it's next turn.</description>
+    </sheet>
+  </element>
+  <element name="Sleeping Powder" type="Companion Action" source="Michin Makery" id="ID_MIMA_COMPANION_ACTION_LUNAR_PIXIE_SLEEPING_POWDER">
+    <description>
+      <p>Any creature within 5ft. must succeed a DC 15 dexterity saving throw. On a failed save the target sleeps until it takes damage or someone uses an action to awake it up. Otherwise the targets sleeps for 1d8 hours.</p>
+    </description>
+    <sheet>
+      <description>Any creature within 5ft. must succeed a DC 15 dexterity saving throw. On a failed save the target sleeps until it takes damage or someone uses an action to awake it up. Otherwise the targets sleeps for 1d8 hours.</description>
+    </sheet>
+  </element>
+  <element name="Superior Invisibility" type="Companion Action" source="Michin Makery" id="ID_MIMA_COMPANION_ACTION_LUNAR_PIXIE_SUPERIOR_INVISIBILITY">
+    <description>
+      <p>The Lunar Pixie magically turns invisible until its concentration ends (as if concentrating on a spell). Any equipment the Lunar Pixie wears or carries is invisible with it.</p>
+    </description>
+    <sheet>
+      <description>The Lunar Pixie magically turns invisible until its concentration ends (as if concentrating on a spell). Any equipment the Lunar Pixie wears or carries is invisible with it.</description>
+    </sheet>
+  </element>
+
+  <element name="Lunar Felidae" type="Companion" source="Michin Makery" id="ID_MIMA_COMPANION_LUNAR_FELIDAE" requirements="ID_MIMA_LUNATIC_FOLLOWER">
+    <description>
+      <p>The Lunar Felidae are lunatic versions of a tiger, lion or any other cat-like creature. They tend to have eyes in the range of blue, silver and white. Their fur may have a slightly silver shine.</p>
+      <p class="indent">Lunar Felidae may be used as mount. They may carry two medium creatures at once.</p>
+    </description>
+    <setters>
+      <set name="strength">18</set>
+      <set name="dexterity">16</set>
+      <set name="constitution">14</set>
+      <set name="intelligence">10</set>
+      <set name="wisdom">14</set>
+      <set name="charisma">16</set>
+      <set name="ac">15</set>
+      <set name="hp">35 (6d10+2)</set>
+      <set name="speed">60 ft.</set>
+      <set name="languages">Celestial, Sylvan, Elvish</set>
+      <set name="skills">Perception +4, Stealth +6</set>
+      <set name="type">Beast, Celestial</set>
+      <set name="size">Large</set>
+      <set name="alignment">unaligned</set>
+      <set name="challenge">2</set>
+      <set name="traits">ID_MIMA_COMPANION_ACTION_LUNAR_SHINING_LIGHT,ID_MIMA_COMPANION_TRAIT_LUNAR_FELIDAE_KEEN_SMELL,ID_MIMA_COMPANION_TRAIT_LUNAR_FELIDAE_POUNCE</set>
+      <set name="actions">ID_MIMA_COMPANION_ACTION_LUNAR_FELIDAE_BITE,ID_MIMA_COMPANION_ACTION_LUNAR_FELIDAE_CLAW</set>
+    </setters>
+    <rules>
+      <stat name="companion:ac" value="15" />
+      <stat name="companion:hp:max" value="35" bonus="base" />
+      <stat name="companion:speed" value="60" bonus="base" />
+      <stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+      <stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+      <stat name="companion:attack" value="6" bonus="base" />
+      <stat name="companion:damage" value="4" bonus="base" />
+    </rules>
+  </element>
+  <element name="Keen Smell" type="Companion Trait" source="Michin Makery" id="ID_MIMA_COMPANION_TRAIT_LUNAR_FELIDAE_KEEN_SMELL">
+    <description>
+      <p>The Lunar Felidae has advantage on Wisdom (Perception) checks that rely on smell.</p>
+    </description>
+    <sheet>
+      <description>The Lunar Felidae has advantage on Wisdom (Perception) checks that rely on smell.</description>
+    </sheet>
+  </element>
+  <element name="Pounce" type="Companion Trait" source="Michin Makery" id="ID_MIMA_COMPANION_TRAIT_LUNAR_FELIDAE_POUNCE">
+    <description>
+      <p>If the Lunar Felidae moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action.</p>
+    </description>
+    <sheet>
+      <description>If the Lunar Felidae moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action.</description>
+    </sheet>
+  </element>
+  <element name="Bite" type="Companion Action" source="Michin Makery" id="ID_MIMA_COMPANION_ACTION_LUNAR_FELIDAE_BITE">
+    <description>
+      <p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) equaly splitted to piercing and radiant damage.</p>
+    </description>
+    <sheet>
+      <description>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) equaly splitted to piercing and radiant damage.</description>
+    </sheet>
+  </element>
+  <element name="Claw" type="Companion Action" source="Michin Makery" id="ID_MIMA_COMPANION_ACTION_LUNAR_FELIDAE_CLAW">
+    <description>
+      <p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) equaly splitted to piercing and radiant damage.</p>
+    </description>
+    <sheet>
+      <description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) equaly splitted to piercing and radiant damage.</description>
+    </sheet>
+  </element>
+
+  <element name="Lunar Canis" type="Companion" source="Michin Makery" id="ID_MIMA_COMPANION_LUNAR_CANIS" requirements="ID_MIMA_LUNATIC_FOLLOWER">
+    <description>
+      <p>The Lunar Canis are lunatic versions of a wolf, koyote or any other dog-like creature. They tend to have eyes in the range of blue, silver and white. Their fur may have a slightly silver shine.</p>
+      <p class="indent">Lunar Canis may be used as mount. They may carry two medium creatures at once.</p>
+    </description>
+    <setters>
+      <set name="strength">16</set>
+      <set name="dexterity">14</set>
+      <set name="constitution">16</set>
+      <set name="intelligence">10</set>
+      <set name="wisdom">12</set>
+      <set name="charisma">16</set>
+      <set name="ac">15</set>
+      <set name="hp">35 (6d10+2)</set>
+      <set name="speed">60 ft.</set>
+      <set name="languages">Celestial, Sylvan, Elvish</set>
+      <set name="skills">Perception +4, Stealth +6</set>
+      <set name="type">Beast, Celestial</set>
+      <set name="size">Large</set>
+      <set name="alignment">unaligned</set>
+      <set name="challenge">2</set>
+      <set name="traits">ID_MIMA_COMPANION_ACTION_LUNAR_SHINING_LIGHT,ID_MIMA_COMPANION_TRAIT_LUNAR_CANIS_KEEN_HEARING_AND_SMELL,ID_MIMA_COMPANION_TRAIT_LUNAR_CANIS_PACK_TACTICS</set>
+      <set name="actions">ID_MIMA_COMPANION_ACTION_LUNAR_CANIS_BITE</set>
+    </setters>
+    <rules>
+      <stat name="companion:ac" value="14" />
+      <stat name="companion:hp:max" value="35" bonus="base" />
+      <stat name="companion:speed" value="60" bonus="base" />
+      <stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+      <stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+      <stat name="companion:attack" value="5" bonus="base" />
+      <stat name="companion:damage" value="3" bonus="base" />
+    </rules>
+  </element>
+  <element name="Keen Hearing and Smell" type="Companion Trait" source="Michin Makery" id="ID_MIMA_COMPANION_TRAIT_LUNAR_CANIS_KEEN_HEARING_AND_SMELL">
+    <description>
+      <p>The Lunar Canis has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+    </description>
+    <sheet>
+      <description>The Lunar Canis has advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
+    </sheet>
+  </element>
+  <element name="Pack Tactics" type="Companion Trait" source="Michin Makery" id="ID_MIMA_COMPANION_TRAIT_LUNAR_CANIS_PACK_TACTICS">
+    <description>
+      <p>The Lunar Canis has advantage on an attack roll against a creature if at least one of the Canis's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>
+    </description>
+    <sheet>
+      <description>The Lunar Canis has advantage on an attack roll against a creature if at least one of the Canis's allies is within 5 ft. of the creature and the ally isn't incapacitated.</description>
+    </sheet>
+  </element>
+  <element name="Bite" type="Companion Action" source="Michin Makery" id="ID_MIMA_COMPANION_ACTION_LUNAR_CANIS_BITE">
+    <description>
+      <p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) equaly splitted to piercing and radiant damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</p>
+    </description>
+    <sheet>
+      <description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) equaly splitted to piercing and radiant damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</description>
+    </sheet>
+  </element>
+
+  <element name="Shining Light" type="Companion Action" source="Michin Makery" id="ID_MIMA_COMPANION_ACTION_LUNAR_SHINING_LIGHT">
+    <description>
+      <p>A lunatic companion can emit moonlight from itself making it's skin and/or fur glowing. The creature sheds bright light in a 30-foot radius and dim light for an additional 30 feet. The light is colored a silverish.</p>
+    </description>
+    <sheet>
+      <description>A lunatic companion can emit moonlight from itself making it's skin and/or fur glowing. The creature sheds bright light in a 30-foot radius and dim light for an additional 30 feet. The light is colored a silverish.</description>
+    </sheet>
+  </element>
+  
+  
+</elements>
