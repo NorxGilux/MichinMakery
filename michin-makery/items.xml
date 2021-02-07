@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <update version="0.0.7">
+      <file name="items.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/items.xml" />
+    </update>
+  </info>
+  
+  <element name="Chakram" type="Weapon" source="Michin Makery" id="ID_MIMA_WEAPON_CHAKRAM">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+    <description>
+      <p>The Chakram is a non-popular throwing weapon. Mostly a razor-sharp circle which may return to the owner.</p>
+      <div element="ID_MIMA_WEAPON_PROPERTY_SPECIAL_CHAKRAM" />
+    </description>
+    <setters>
+      <set name="category">Weapons</set>
+      <set name="cost" currency="gp">15</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="range">60/120</set>
+      <set name="damage" type="slashing">1d6</set>
+      <set name="proficiency">ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_CHAKRAM</set>
+    </setters>
+  </element>
+  <element name="Special (Chakram)" type="Weapon Property" source="Michin Makery" id="ID_MIMA_WEAPON_PROPERTY_SPECIAL_CHAKRAM">
+    <description>
+      <p>The chakram returns to you when thrown, unless you failed an attack by rolling a natural 1.</p>
+    </description>
+  </element>
+  <element name="Weapon Proficiency (Chakram)" type="Proficiency" source="Michin Makery" id="ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_CHAKRAM">
+    <supports>Weapon, Martial, Melee, Thrown, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+  </element>
+  <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+    <rules>
+      <grant type="Proficiency" id="ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_CHAKRAM" />
+    </rules>
+  </append>
+
+  <element name="Nodachi" type="Weapon" source="Michin Makery" id="ID_MIMA_WEAPON_NODACHI">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+    <description>
+      <p></p>
+    </description>
+    <setters>
+      <set name="category">Weapons</set>
+      <set name="cost" currency="gp">100</set>
+      <set name="weight" lb="8">8 lb.</set>
+      <set name="slot">twohand</set>
+      <set name="damage" type="slashing">2d6</set>
+      <set name="proficiency">ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_NODACHI</set>
+    </setters>
+  </element>
+  <element name="Weapon Proficiency (Nodachi)" type="Proficiency" source="Michin Makery" id="ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_NODACHI">
+    <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+  </element>
+  <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+    <rules>
+      <grant type="Proficiency" id="ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_NODACHI" />
+    </rules>
+  </append>
+
+  <element name="Ticket for the Moonstone Mask" type="Item" source="Michin Makery" id="ID_MIMA_TREASURE_TICKET_MOONSTONE_MASK">
+    <description>
+      <p>Granting you one time entrance to the famous Moonstone Mask in Neverwinter.</p>
+    </description>
+    <setters>
+      <set name="keywords">ticket,moonstone,mask</set>
+      <set name="category">Treasure</set>
+      <set name="cost" currency="gp">-</set>
+      <set name="stackable">true</set>
+      <set name="valuable">true</set>
+    </setters>
+  </element>
+
+  <element name="Messaging Stone of the Arcanum (Zuiburg)" type="Magic Item" source="Michin Makery" id="ID_MIMA_MAGIC_ITEM_MESSAGING_STONE_ARCANUM_ZUIBURG">
+    <description>
+      <p>A small shimmering stone. With this stone the Arcanum of Zuiburg is able to deliver messages to it's bearer and vice versa.</p>
+    </description>
+    <setters>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="1/4">1/4 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+  </element>
+
+  <element name="Vraccasium Armor" type="Magic Item" source="Michin Makery" id="ID_MIMA_ARMOR_VRACCASIUM_ARMOR">
+    <description>
+      <p>This reddish schimmering armor is reinforced with a magical improved metal alloy called Vraccasium that what produced by the dwarf god Vraccas. While wearing the armor, any critical hit against you becomes a normal hit. If you are exposed to a magical effect that allows you to make a Strength or Constitution save to take half the damage, you will instead take no damage if you successfully complete the save.</p>
+    </description>
+    <setters>
+      <set name="keywords">medium, heavy</set>
+      <set name="category">Magic Armor</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="slot">body</set>
+      <set name="type" addition="medium or heavy, but not hide">Armor</set>
+      <set name="rarity">Rare</set>
+      <set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+      <set name="name-format">Vraccasium {{parent}}</set>
+    </setters>
+  </element>
+
+  <element name="Dream Beer" type="Magic Item" source="Michin Makery" id="ID_MIMA_MAGIC_ITEM_DREAM_BEER">
+    <description>
+      <p>A mysterious pink brew that has some strange effects. It's one of the most alcoholic beers.</p>
+      <p class="indent">The beer burns with rose-colored flames and creates dreamy hallucinations around it's drinker including pinkish bubbles while exhaling.</p>
+      <p class="indent">Drinking this brew and using something like a dragons breath may create a rose-colored scenery telling fairy tales or legends.</p>
+    </description>
+    <setters>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Common</set>
+    </setters>
+  </element>
+
+  <element name="Dream Bread" type="Magic Item" source="Michin Makery" id="ID_MIMA_MAGIC_ITEM_DREAM_BEER">
+    <description>
+      <p>A small mysterious bread in shape of a cloudy sheep. It reminds of a blueish-rose colored cotton candy.</p>
+      <p class="indent">Eating one of those loave let's you sleep for 6 hours without interruptions. During those 6 hours you will have wonderful dreams and awake fully recovered. Determine with your DM what is included in that recovery.</p>
+      <p class="indent">This item is considered as a harmless drug and can make you addicted. Those who don't need to sleep (but can choose too) are immune to the addiction.</p>
+    </description>
+    <setters>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="1">1/2 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+  </element>
+</elements>

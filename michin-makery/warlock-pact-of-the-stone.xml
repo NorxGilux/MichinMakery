@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.7">
+			<author url="https://github.com/Nakamijo/Michin_Makery">Michin Makery</author>
+			<file name="warlock-pact-of-the-stone.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/warlock-pact-of-the-stone.xml" />
+		</update>
+	</info>
+
+	<element name="Pact of the Stone" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_STONE">
+		<supports>Pact Boon</supports>
+		<description>
+			<p>Your patron gifts you a magical stone to bolsters your inner power. Choose a gem related to your patron. You can use this Trinket as a spellcasting focus and fuse it into any of your weapon, rod, staff or wand making it an object of the stone and a spellcasting focus for you. The stone itself or the infused object grants you a +1 bonus to ability checks and saving throws. If you loose this stone, you cannot cast any Spells above 2nd level. You can perform a 1-hour ceremony to receive it back, it vanishes from it's current location and returns back to you. The ceremony can be performed during a short or long rest, and it destroys the previous stone. The Stone disappears in a flash of colored light when you die.</p>
+		</description>
+		<sheet>
+			<p>Your magical stone or infused object can be used as a spellcasting focus. While the stone or the infused object is on you it grants you a +1 bonus to ability checks and saving throws. If you loose this stone, you cannot cast any Spells above 2nd level. You can perform a 1-hour ceremony to receive it back, it vanishes from it's current location and returns back to you. The Stone disappears in a flash of colored light when you die.</p>
+		</sheet>
+		<rules>
+			<stat name="initiative" value="1" />
+
+			<stat name="acrobatics:misc" value="1" />
+			<stat name="animal handling:misc" value="1" />
+			<stat name="arcana:misc" value="1" />
+			<stat name="athletics:misc" value="1" />
+			<stat name="deception:misc" value="1" />
+			<stat name="history:misc" value="1" />
+			<stat name="insight:misc" value="1" />
+			<stat name="intimidation:misc" value="1" />
+			<stat name="investigation:misc" value="1" />
+			<stat name="medicine:misc" value="1" />
+			<stat name="nature:misc" value="1" />
+			<stat name="perception:misc" value="1" />
+			<stat name="performance:misc" value="1" />
+			<stat name="persuasion:misc" value="1" />
+			<stat name="religion:misc" value="1" />
+			<stat name="sleight of hand:misc" value="1" />
+			<stat name="stealth:misc" value="1" />
+			<stat name="survival:misc" value="1" />
+
+			<stat name="strength:save:misc" value="1" />
+			<stat name="dexterity:save:misc" value="1" />
+			<stat name="constitution:save:misc" value="1" />
+			<stat name="intelligence:save:misc" value="1" />
+			<stat name="wisdom:save:misc" value="1" />
+			<stat name="charisma:save:misc" value="1" />
+		</rules>
+	</element>
+  
+	<element name="Eldritch Stone (Poison)" type="Class Feature" source="Michin Makery" id="ID_MIMA_ELDRITCH_STONE_POISON">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>eldritch blast cantrip, Pact of the Stone</prerequisite>
+    <requirements>ID_PHB_SPELL_ELDRITCH_BLAST,ID_MIMA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_STONE,!ID_MIMA_ELDRITCH_STONE_ACID,!ID_MIMA_ELDRITCH_STONE_FIRE,!ID_MIMA_ELDRITCH_STONE_COLD,!ID_MIMA_ELDRITCH_STONE_RADIANT,!ID_MIMA_ELDRITCH_STONE_NECROTIC,!ID_MIMA_ELDRITCH_STONE_LIGHTNING</requirements>
+		<description>
+      <p>
+        <em>Prerequisite: eldritch blast cantrip</em>
+      </p>
+			<p>
+				When you cast <em>eldritch blast</em>, you can choose to deal poison damage instead of force damage.
+			</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_ELDRITCH_BLAST" />
+      </div>
+		</description>
+		<sheet>
+			<description>When you cast eldritch blast, you can choose to deal poison damage instead of force damage. </description>
+		</sheet>
+	</element>
+	<element name="Eldritch Stone (Acid)" type="Class Feature" source="Michin Makery" id="ID_MIMA_ELDRITCH_STONE_ACID">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>eldritch blast cantrip, Pact of the Stone</prerequisite>
+    <requirements>ID_PHB_SPELL_ELDRITCH_BLAST,ID_MIMA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_STONE,!ID_MIMA_ELDRITCH_STONE_POISON,!ID_MIMA_ELDRITCH_STONE_FIRE,!ID_MIMA_ELDRITCH_STONE_COLD,!ID_MIMA_ELDRITCH_STONE_RADIANT,!ID_MIMA_ELDRITCH_STONE_NECROTIC,!ID_MIMA_ELDRITCH_STONE_LIGHTNING</requirements>
+		<description>
+      <p>
+        <em>Prerequisite: eldritch blast cantrip</em>
+      </p>
+			<p>
+				When you cast <em>eldritch blast</em>, you can choose to deal acid damage instead of force damage.
+			</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_ELDRITCH_BLAST" />
+      </div>
+		</description>
+		<sheet>
+			<description>When you cast eldritch blast, you can choose to deal acid damage instead of force damage. </description>
+		</sheet>
+	</element>
+	<element name="Eldritch Stone (Fire)" type="Class Feature" source="Michin Makery" id="ID_MIMA_ELDRITCH_STONE_FIRE">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>eldritch blast cantrip, Pact of the Stone</prerequisite>
+    <requirements>ID_PHB_SPELL_ELDRITCH_BLAST,ID_MIMA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_STONE,!ID_MIMA_ELDRITCH_STONE_POISON,!ID_MIMA_ELDRITCH_STONE_ACID,!ID_MIMA_ELDRITCH_STONE_COLD,!ID_MIMA_ELDRITCH_STONE_RADIANT,!ID_MIMA_ELDRITCH_STONE_NECROTIC,!ID_MIMA_ELDRITCH_STONE_LIGHTNING</requirements>
+		<description>
+			<p>
+				<em>Prerequisite: eldritch blast cantrip</em>
+			</p>
+			<p>
+				When you cast <em>eldritch blast</em>, you can choose to deal fire damage instead of force damage.
+			</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_ELDRITCH_BLAST" />
+      </div>
+		</description>
+		<sheet>
+			<description>When you cast eldritch blast, you can choose to deal fire damage instead of force damage. </description>
+		</sheet>
+	</element>
+	<element name="Eldritch Stone (Cold)" type="Class Feature" source="Michin Makery" id="ID_MIMA_ELDRITCH_STONE_COLD">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>eldritch blast cantrip, Pact of the Stone</prerequisite>
+    <requirements>ID_PHB_SPELL_ELDRITCH_BLAST,ID_MIMA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_STONE,!ID_MIMA_ELDRITCH_STONE_POISON,!ID_MIMA_ELDRITCH_STONE_ACID,!ID_MIMA_ELDRITCH_STONE_FIRE,!ID_MIMA_ELDRITCH_STONE_RADIANT,!ID_MIMA_ELDRITCH_STONE_NECROTIC,!ID_MIMA_ELDRITCH_STONE_LIGHTNING</requirements>
+		<description>
+      <p>
+        <em>Prerequisite: eldritch blast cantrip</em>
+      </p>
+			<p>
+				When you cast <em>eldritch blast</em>, you can choose to deal cold damage instead of force damage.
+			</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_ELDRITCH_BLAST" />
+      </div>
+		</description>
+		<sheet>
+			<description>When you cast eldritch blast, you can choose to deal cold damage instead of force damage. </description>
+		</sheet>
+	</element>
+	<element name="Eldritch Stone (Radiant)" type="Class Feature" source="Michin Makery" id="ID_MIMA_ELDRITCH_STONE_RADIANT">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>eldritch blast cantrip, Pact of the Stone</prerequisite>
+    <requirements>ID_PHB_SPELL_ELDRITCH_BLAST,ID_MIMA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_STONE,!ID_MIMA_ELDRITCH_STONE_POISON,!ID_MIMA_ELDRITCH_STONE_ACID,!ID_MIMA_ELDRITCH_STONE_FIRE,!ID_MIMA_ELDRITCH_STONE_COLD,!ID_MIMA_ELDRITCH_STONE_NECROTIC,!ID_MIMA_ELDRITCH_STONE_LIGHTNING</requirements>
+		<description>
+      <p>
+        <em>Prerequisite: eldritch blast cantrip</em>
+      </p>
+			<p>
+				When you cast <em>eldritch blast</em>, you can choose to deal radiant damage instead of force damage.
+			</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_ELDRITCH_BLAST" />
+      </div>
+		</description>
+		<sheet>
+			<description>When you cast eldritch blast, you can choose to deal radiant damage instead of force damage. </description>
+		</sheet>
+	</element>
+	<element name="Eldritch Stone (Necrotic)" type="Class Feature" source="Michin Makery" id="ID_MIMA_ELDRITCH_STONE_NECROTIC">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>eldritch blast cantrip, Pact of the Stone</prerequisite>
+    <requirements>ID_PHB_SPELL_ELDRITCH_BLAST,ID_MIMA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_STONE,!ID_MIMA_ELDRITCH_STONE_POISON,!ID_MIMA_ELDRITCH_STONE_ACID,!ID_MIMA_ELDRITCH_STONE_FIRE,!ID_MIMA_ELDRITCH_STONE_COLD,!ID_MIMA_ELDRITCH_STONE_RADIANT,!ID_MIMA_ELDRITCH_STONE_LIGHTNING</requirements>
+		<description>
+      <p>
+        <em>Prerequisite: eldritch blast cantrip</em>
+      </p>
+			<p>
+				When you cast <em>eldritch blast</em>, you can choose to deal necrotic damage instead of force damage.
+			</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_ELDRITCH_BLAST" />
+      </div>
+		</description>
+		<sheet>
+			<description>When you cast eldritch blast, you can choose to deal necrotic damage instead of force damage. </description>
+		</sheet>
+	</element>
+	<element name="Eldritch Stone (Lightning)" type="Class Feature" source="Michin Makery" id="ID_MIMA_ELDRITCH_STONE_LIGHTNING">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>eldritch blast cantrip, Pact of the Stone</prerequisite>
+    <requirements>ID_PHB_SPELL_ELDRITCH_BLAST,ID_MIMA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_STONE,!ID_MIMA_ELDRITCH_STONE_POISON,!ID_MIMA_ELDRITCH_STONE_ACID,!ID_MIMA_ELDRITCH_STONE_FIRE,!ID_MIMA_ELDRITCH_STONE_COLD,!ID_MIMA_ELDRITCH_STONE_RADIANT,!ID_MIMA_ELDRITCH_STONE_NECROTIC</requirements>
+		<description>
+      <p>
+        <em>Prerequisite: eldritch blast cantrip</em>
+      </p>
+			<p>
+				When you cast <em>eldritch blast</em>, you can choose to deal lightning damage instead of force damage.
+			</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_ELDRITCH_BLAST" />
+      </div>
+		</description>
+		<sheet>
+			<description>When you cast eldritch blast, you can choose to deal lightning damage instead of force damage. </description>
+		</sheet>
+	</element>
+
+  <element name="Sensing Stone" type="Class Feature" source="Michin Makery" id="ID_MIMA_SENSING_STONE">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>7th level, Pact of the Stone</prerequisite>
+    <requirements>[level:7],ID_MIMA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_STONE</requirements>
+    <description>
+      <p>The gifted Stone (or your object of the Stone) can be used as a compass. At will you may cast <em>Detect Magic</em> without expending a spell slot or materials.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_DETECT_MAGIC" />
+      </div>
+    </description>
+    <sheet>
+      <description>At will you may cast <em>Detect Magic</em> without expending a spell slot or materials.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" />
+    </rules>
+  </element>
+
+  <element name="Powerful Stone" type="Class Feature" source="Michin Makery" id="ID_MIMA_POWERFUL_STONE">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>9th level, Pact of the Stone</prerequisite>
+    <requirements>[level:9],ID_MIMA_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_STONE</requirements>
+    <description>
+      <p>The gifted Stone (or your object of the Stone) grants you a +2 Bonus on your spell save DC and spell attack roll.</p>
+    </description>
+    <sheet>
+      <description>The gifted Stone (or your object of the Stone) grants you a +2 Bonus on your spell save DC and spell attack roll.</description>
+    </sheet>
+    <rules>
+      <stat name="warlock:spellcasting:dc" value="2" />
+      <stat name="warlock:spellcasting:attack" value="2" />
+    </rules>
+  </element>
+</elements>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <update version="0.0.3">
+      <file name="items-green-dragon.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/items-green-dragon.xml" />
+    </update>
+  </info>
+
+  <element name="Green Stone of Dragon Luck" type="Magic Item" source="Michin Makery" id="ID_MIMA_GREEN_DRAGON_STONE">
+    <description>
+      <p>This green agate looks like a little green dragon.</p>
+      <p class="indent">
+        While this polished agate is on your person, you gain a +1 bonus to ability checks, skill checks and saving throws. Once per short rest you can use this item to cast the spell <em>Speak with Plants</em>.
+      </p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_SPEAK_WITH_PLANTS" />
+      </div>
+    </description>
+    <setters>
+      <set name="keywords">stone,green,dragon</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Rare</set>
+      <set name="slot">misc</set>
+    </setters>
+    <rules>
+      <stat name="initiative" value="1" />
+
+      <stat name="acrobatics:misc" value="1" />
+      <stat name="animal handling:misc" value="1" />
+      <stat name="arcana:misc" value="1" />
+      <stat name="athletics:misc" value="1" />
+      <stat name="deception:misc" value="1" />
+      <stat name="history:misc" value="1" />
+      <stat name="insight:misc" value="1" />
+      <stat name="intimidation:misc" value="1" />
+      <stat name="investigation:misc" value="1" />
+      <stat name="medicine:misc" value="1" />
+      <stat name="nature:misc" value="1" />
+      <stat name="perception:misc" value="1" />
+      <stat name="performance:misc" value="1" />
+      <stat name="persuasion:misc" value="1" />
+      <stat name="religion:misc" value="1" />
+      <stat name="sleight of hand:misc" value="1" />
+      <stat name="stealth:misc" value="1" />
+      <stat name="survival:misc" value="1" />
+
+      <stat name="strength:save:misc" value="1" />
+      <stat name="dexterity:save:misc" value="1" />
+      <stat name="constitution:save:misc" value="1" />
+      <stat name="intelligence:save:misc" value="1" />
+      <stat name="wisdom:save:misc" value="1" />
+      <stat name="charisma:save:misc" value="1" />
+
+      <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_PLANTS" />
+    </rules>
+  </element>
+
+  <element name="Green Goggles of the Dragon" type="Magic Item" source="Michin Makery" id="ID_MIMA_GREEN_DRAGON_GOGGLES">
+    <description>
+      <p>Dark green sunglasses that make a long yeeaaahhh sound when you put them on.</p>
+      <p class="indent">
+        While wearing these dark lenses, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing these goggles increases it's range by 60 feet. Once per short rest you can use this item to cast the spell <em>Speak with Plants</em>.
+      </p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_SPEAK_WITH_PLANTS" />
+      </div>
+    </description>
+    <setters>
+      <set name="keywords">goggles,green,dragon</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="slot">head</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Rare</set>
+    </setters>
+    <rules>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_PLANTS" />
+    </rules>
+  </element>
+
+  <element name="Green Dragon Crossbow" type="Magic Item" source="Michin Makery" id="ID_MIMA_GREEN_DRAGON_CROSSBOW">
+    <description>
+      <p>A crossbow made from the bones of a dragon with a green string.</p>
+      <p class="indent">
+        You have a +1 bonus to attack and damage rolls made with this magic weapon. Once per short rest you can use this item to cast the spell <em>Speak with Plants</em>.
+      </p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_SPEAK_WITH_PLANTS" />
+      </div>
+    </description>
+    <setters>
+      <set name="keywords">crossbow,green,dragon</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="ID_INTERNAL_WEAPON_GROUP_CROSSBOWS">Weapon</set>
+      <set name="rarity">Rare</set>
+      <set name="enhancement">1</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</set>
+    </setters>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_PLANTS" />
+    </rules>
+  </element>
+
+  <element name="Green Dragon Pendant" type="Magic Item" source="Michin Makery" id="ID_MIMA_GREEN_DRAGON_PENDANT">
+    <description>
+      <p>A dragon-like necklace which is apparently wrapped in dark green clouds.</p>
+      <p class="indent">
+        A glittering cold black star-shaped pendant on a adamant chain, this necklace grants its wearer the power to manipulate light. While wearing the necklace, you can cast the darkness spell. You are the center from the darkness and it move with you. Once you use the necklace this way, you can’t do so again until the next dawn. One per short rest you can use this item to cast the spell <em>Speak with Plants</em>.
+      </p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_DARKNESS" />
+      </div>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_SPEAK_WITH_PLANTS" />
+      </div>
+    </description>
+    <setters>
+      <set name="keywords">pendant,green,dragon</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="slot">neck</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Rare</set>
+    </setters>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_DARKNESS" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_PLANTS" />
+    </rules>
+  </element>
+</elements>

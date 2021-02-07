@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Apeling</name>
+    <update version="0.1">
+      <file name="race-apeling.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-apeling.xml" />
+    </update>
+  </info>
+
+  <element name="Apeling" type="Race" source="dandwiki" id="ID_RACE_APELING">
+    <description>
+      <p class="flavor">Apelings are humanoid monkeys.</p>
+      <h4>PHYSICAL DESCRIPTION</h4>
+      <p>Apelings are a fusion of human and monkey traits. This relation is evident in their fur, tails, fangs and other traits. However, their intelligence, larger size, and more bipedal posture suggest some closeness to humanity. Apelings are slightly smaller than humans, but are sill medium. They usually have more defined muscles than monkeys, though they are still rather slender, keeping a very athletic appearance. Fur colours range from common black and brown to the more exotic colors such as pink or green. White fur is usually a "sign" of inherent greatness. Apelings age fast, reaching full adulthood in only 12 years. Although apelings only have a slightly longer lifespan than humans, their active nature and lifestyle mean they burn through their years faster than a human, putting their average lifespan at 100 years. Few careful and quieter apelings may live to see 150 and usually hold roles as tribal leaders and chiefs. Despite ageing fast, apelings do not feel the usual effects of old age until months before their death, many still adventuring within the last year of their life.</p>
+      <h4>HISTORY</h4>
+      <p>Apelings are direct descendants from a long forgotten Monkey God. This God was extremely joyful and filled with pride, but was one day challenged by an unknown villain. This challenge would see the disappearance of the Monkey God, but an influx in similar lesser creatures known now as Apelings.</p>
+      <h4>SOCIETY</h4>
+      <p>Apelings are extremely confident, headstrong, and upbeat. Their boastful presence might dismay common folk and be found disrespectful by upper class citizens, however; apelings hold a firm loyalty to those who have proven themselves.</p>
+      <p class="indent">Apelings usually live in small, closely held tribal communities. Entire nations or cities of apelings are few and far apart. Leadership roles are often held either by the elders or by the most personally accomplished, however, leaders generally don't have much power as many apelings prefer group decisions over the decisions of one individual. In the traditional sense, apelings do not have "families" and usually have an "all kin are family" mentality.</p>
+      <p class="indent">Apelings found outside the normal communities either from being banished or simply wanderlust have an easy time adjusting to the "easy" life of cities. Finding work in such places comes easy due to the general truthfulness and raw strength of the race. Though work as teachers in any form meets a swift end, due to a simple disinterest in treading the same old beaten path.</p>
+      <p class="indent">Dwarfs and Apelings get along great establishing trades of not only goods but physical feats. Though the boastful attitude Apelings have can be off-putting, Dwarves have long since grown fond of their attitude. Apelings still have trouble distinguishing male and female dwarves.</p>
+      <p class="indent">Through their time with the dwarves, Apelings have adopted similar feelings towards elves. Though contact with elves remain oddly scarce.</p>
+      <p class="indent">Most apeling adventurers tend to be more independent than their kin at home, but still hold on a lot to their sense of family and loyalty. Naturally energetic and overtly eager, spending their time standing still is against their nature.</p>
+      <h4>APELING NAMES</h4>
+      <p>
+        <span class="feature">Male Names:</span>Kinta, Lang, Sips, Qiang, Xin<br />
+        <span class="feature">Female Names:</span>Lin, Mei, Ming
+      </p>
+      <h4>APELING TRAITS</h4>
+      <p>A race of nimble and strong monkey-like people.</p>
+      <p class="indent">
+        <strong>
+          <em>Ability Score Increase.</em>
+        </strong> Your Dexterity score increases by 2, and your Charisma score by 1.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Age.</em>
+        </strong> Apelings mature faster than humans, reaching adulthood by the age of 12, and commonly live to be around 100 years old.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Alignment.</em>
+        </strong> Apelings' love for adventure and energetic personalities often cause them to be more chaotic.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Size.</em>
+        </strong> Apelings are shorter but weigh about as much as most humans. Your size is Medium.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Speed.</em>
+        </strong> Your base walking speed is 35 feet.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Adapt Climbers.</em>
+        </strong> Your natural agility allows you to climb at full speed +5, rather than half. You can also climb across ceilings, as long as you succeed on either a DC 12 Athletics or Acrobatics check; failing causes you to lose your grip and fall.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Empty Stomach.</em>
+        </strong> You burn through your energy faster than most humanoids and must eat twice as much as a normal human requires each day.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Heavy Slumber.</em>
+        </strong> During a long rest, anyone trying to wake you up must make a DC 15 Charisma ability check. Taking damage will wake you up as will being thrown into or splashed with water.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Limit Break.</em>
+        </strong> Apelings are always striving to push themselves. As a reaction, when you fail Strength, Dexterity or Constitution ability check or saving throw, you can remake the check and take the new result. Once you use this ability, you can't use it again until you complete a long rest.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Skills of the Primate.</em>
+        </strong> You have proficiency in either Acrobatics or Athletics, as well as expertise in the same skill. You can use your feet and tail as if they were hands. If you use both of your feet simultaneously to interact with an object, your speed becomes 0.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Darkvision.</em>
+        </strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Languages.</em>
+        </strong> You can speak, read and write Common and one other language of your choice.
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Kinta, Lang, Sips, Qiang, Xin</set>
+      <set name="names" type="female">Lin, Mei, Ming</set>
+      <set name="names-format">{{name}}</set>
+      <set name="height" modifier="1d12">4'0"</set>
+      <set name="weight" modifier="1d8">100 lb.</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" value="2" />
+      <stat name="charisma" value="1" />
+      <stat name="innate speed" value="35" bonus="base" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <select type="Language" name="Language (Racial Feat.)" supports="Standard||Exotic" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ADAPT_CLIMBERS" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_EMPTY_STOMACH" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HEAVY_SLUMBER" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIMIT_BREAK" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SKILLS_OF_THE_PRIMATE" />
+    </rules>
+  </element>
+  <element name="Adapt Climbers" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_ADAPT_CLIMBERS">
+    <description>
+      <p>Your natural agility allows you to climb at full speed +5, rather than half. You can also climb across ceilings, as long as you succeed on either a DC 12 Athletics or Acrobatics check; failing causes you to lose your grip and fall.</p>
+    </description>
+    <sheet>
+      <description>Your natural agility allows you to climb at full speed +5, rather than half. You can also climb across ceilings, as long as you succeed on either a DC 12 Athletics or Acrobatics check; failing causes you to lose your grip and fall.</description>
+    </sheet>
+    <rules>
+			<stat name="innate speed:climb:misc" value="innate speed" />
+			<stat name="innate speed:climb:misc" value="5" />
+    </rules>
+  </element>
+  <element name="Empty Stomach" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_EMPTY_STOMACH">
+    <description>
+      <p>You burn through your energy faster than most humanoids and must eat twice as much as a normal human requires each day.</p>
+    </description>
+    <sheet>
+      <description>You burn through your energy faster than most humanoids and must eat twice as much as a normal human requires each day.</description>
+    </sheet>
+  </element>
+  <element name="Heavy Slumber" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_HEAVY_SLUMBER">
+    <description>
+      <p>During a long rest, anyone trying to wake you up must make a DC 15 Charisma ability check. Taking damage will wake you up as will being thrown into or splashed with water.</p>
+    </description>
+    <sheet>
+      <description>During a long rest, anyone trying to wake you up must make a DC 15 Charisma ability check. Taking damage will wake you up as will being thrown into or splashed with water.</description>
+    </sheet>
+  </element>
+  <element name="Limit Break Reaction" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_LIMIT_BREAK">
+    <description>
+      <p>Apelings are always striving to push themselves. As a reaction, when you fail Strength, Dexterity or Constitution ability check or saving throw, you can remake the check and take the new result. Once you use this ability, you can't use it again until you complete a long rest.</p>
+    </description>
+    <sheet usage="1 Reaction/Long Rest">
+      <description>Apelings are always striving to push themselves. As a reaction, when you fail Strength, Dexterity or Constitution ability check or saving throw, you can remake the check and take the new result. Once you use this ability, you can't use it again until you complete a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Skills of the Primate" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_SKILLS_OF_THE_PRIMATE">
+    <description>
+      <p>You have proficiency in either Acrobatics or Athletics, as well as expertise in the same skill. You can use your feet and tail as if they were hands. If you use both of your feet simultaneously to interact with an object, your speed becomes 0.</p>
+    </description>
+    <sheet display="false">
+      <description>You have proficiency in either Acrobatics or Athletics, as well as expertise in the same skill. You can use your feet and tail as if they were hands. If you use both of your feet simultaneously to interact with an object, your speed becomes 0.</description>
+    </sheet>
+    <rules>
+      <select type="Racial Trait" name="Skills of the Primate" supports="ID_RACIAL_TRAIT_SKILLS_OF_THE_PRIMATE_ACROBATICS|ID_RACIAL_TRAIT_SKILLS_OF_THE_PRIMATE_ATHLETICS" optional="false" />
+    </rules>
+  </element>
+
+  <element name="Acrobatics" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_SKILLS_OF_THE_PRIMATE_ACROBATICS">
+    <description>
+      <p>You have proficiency in Acrobatics, as well as expertise in that skill. You can use your feet and tail as if they were hands. If you use both of your feet simultaneously to interact with an object, your speed becomes 0.</p><div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_ACROBATICS" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+      <grant type="Racial Trait" id="ID_EXPERTISE_SKILL_ACROBATICS" />
+		</rules>
+  </element>
+  <element name="Athletics" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_SKILLS_OF_THE_PRIMATE_ATHLETICS">
+    <description>
+      <p>You have proficiency in Athletics, as well as expertise in that skill. You can use your feet and tail as if they were hands. If you use both of your feet simultaneously to interact with an object, your speed becomes 0.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+      <grant type="Racial Trait" id="ID_EXPERTISE_SKILL_ATHLETICS" />
+		</rules>
+  </element>
+</elements>

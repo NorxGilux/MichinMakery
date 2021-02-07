@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <update version="0.0.1">
+      <author url="https://github.com/Nakamijo/Michin_Makery">Michin Makery</author>
+      <file name="race-kalapulu.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/race-kalapulu.xml" />
+    </update>
+  </info>
+
+  <element name="Kalapulu" type="Race" source="Michin Makery" id="ID_MIMA_RACE_KALAPULU">
+    <description>
+    <p class="flavor">Pacifistic creatures that are very chill and nature-loving</p>
+    <p>A group of advanturers entering a portal to anywhere, not knowing what's on the other side and what dimension it will be. They found themselves on a wide flower meadow. After a few hours they found a giant mysterious forest with a bunch of mushrooms growning on the ground and trees. Eventually they found a wall made out of wood and plantings with a puzzle. After solving it, they entered a village of Kalapulu and feel their mind drifting away.</p>
+    <h4>Physical Description</h4>
+    <p>Kalapulu appear like wooden reptile humanoids with mushrooms sometimes growing out their bodies. Their hair look like tendrils.</p>
+    <h4>History</h4>
+    <p>Their are no historical source written so far. There was once a group of adventurers who found those creatures.</p>
+    <h4>Society</h4>
+    <p>Kalapulu are always pacifistic, instead of fighting they enlight a peace pipe to settle the anger. They do not eat any kind of meat or animal products.</p>
+    <h4>Personality</h4>
+    <p>Those creatures are very chilled most of the time, if not they change it with verious methodes. They refuse to fight most of the time and love to create a good mood within the group or community they live in.</p>
+    <h4>Kalapulu Names</h4>
+    <p>Kalapulu are named after any kind of plants or fungs they are most realated to.</p>
+    <h4>Kalapulu Traits</h4>
+    <p>Chilled pacifistic visionary creatures.</p>
+    <p>
+      <span class="feature">Ability Score Increase.</span>Your Ability score increases by 2.<br />
+      <span class="feature">Age.</span>Kalapulu reach maturity at an age of 13. They can life 60 to 80 years.<br />
+      <span class="feature">Alignment.</span>Kalapulu tend to be lawful or neutral and are always good.<br />
+      <span class="feature">Size.</span>Kalapulu are between 3 and 4 feet tall and average about 42 pounds. Their size is medium.<br />
+      <span class="feature">Speed.</span>Your base walking, climbing and swimming speed is 25 feet.<br />
+      <span class="feature">Aquatic Lifestyle.</span>You can breathe underwater.<br />
+      <span class="feature">Partial Photosynthesis.</span>Your plant-based body allows you to skip up to two meals per day depending on the sunlight. Being in bright sunlight allows you to regenerate hit points equal to your proficiency bonus + constitution modifier every hour.<br />
+      <span class="feature">Natural Weapon (Tendrils).</span>You can use your tendrils as natural weapons with 5 feet range and reach (10 feet). They deal 1d4 + your strength modifier bludgeoning damage. You are proficient with those attacks and use strength as your attack ability.<br />
+      <span class="feature">Defensive Haze.</span>As a reaction to an attack that hits you, you may spread spores from your mushrooms causing any breathing creature within 10 feet to succeed on a consitution saving throw against 8 + your proficiency bonus + constitution modifier. On fail the spores deal 1d6 + your proficiency bonus as poison damage and paralyze the creature. On succes they only recieve half the damage and are not paralyzed. Creatures that are paralyzed may redo the saving throw at the end of their turn to break free from the paralyzation.<br />
+      <span class="feature">Visionary Pazifist.</span>Consuming mind-drifting substance let you see visions. They can be colorful alternations of the reality or visons of the past or future which may or may not be true.<br />
+      <span class="feature">Languages.</span>You can speak, read and write in Common and Kumoish.<br />
+    </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">INSERT</set>
+      <set name="names" type="female">INSERT</set>
+      <set name="names" type="family">INSERT</set>
+      <set name="names-format">{{name}} {{family}}</set>
+      <set name="height" modifier="2d10">4'6"</set>
+      <set name="weight" modifier="1d4">90 lb.</set>
+    </setters>
+    <rules>
+      <select type="Ability Score Improvement" name="Ability Score Increase, INSERT_RACE_NAME" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA"  number="2" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <stat name="innate speed" value="25" bonus="base" />
+      <stat name="innate speed:climb" value="25" bonus="base" />
+      <stat name="innate speed:swim" value="25" bonus="base" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_MIMA_KUMOISH" />
+      <grant type="Racial Trait" id="ID_MIMA_KALAPULU_RACIAL_TRAIT_AQUATIC_LIFESTYLE" />
+      <grant type="Racial Trait" id="ID_MIMA_KALAPULU_RACIAL_TRAIT_PARTIAL_PHOTOSYNTHESIS" />
+      <grant type="Racial Trait" id="ID_MIMA_KALAPULU_RACIAL_TRAIT_TENDRILS" />
+      <grant type="Racial Trait" id="ID_MIMA_KALAPULU_RACIAL_TRAIT_DEFENSIVE_HAZE" />
+      <grant type="Racial Trait" id="ID_MIMA_KALAPULU_RACIAL_TRAIT_VISIONARY_PAZIFIST" />
+    </rules>
+  </element>
+  <element name="Aquatic Lifestyle" type="Racial Trait" source="Michin Makery" id="ID_MIMA_KALAPULU_RACIAL_TRAIT_AQUATIC_LIFESTYLE">
+    <description>
+      <p>You can breathe underwater.</p>
+    </description>
+    <sheet>
+      <description>You can breathe underwater.</description>
+    </sheet>
+  </element>
+  <element name="Partial Photosynthesis" type="Racial Trait" source="Michin Makery" id="ID_MIMA_KALAPULU_RACIAL_TRAIT_PARTIAL_PHOTOSYNTHESIS">
+    <description>
+      <p>Your plant-based body allows you to skip up to two meals per day depending on the sunlight. Being in bright sunlight allows you to regenerate hit points equal to your proficiency bonus + constitution modifier every hour.</p>
+    </description>
+    <sheet>
+      <description>Your plant-based body allows you to skip up to two meals per day depending on the sunlight. Being in bright sunlight allows you to regenerate hit points equal to {{kalapulu:partialphotosynthesis}} every hour.</description>
+    </sheet>
+    <rules>
+      <stat name="kalapulu:partialphotosynthesis" value="proficiency"/>
+      <stat name="kalapulu:partialphotosynthesis" value="constitution:modifier"/>
+    </rules>
+  </element>
+  <element name="Natural Weapons (Tendrils)" type="Racial Trait" source="Michin Makery" id="ID_MIMA_KALAPULU_RACIAL_TRAIT_TENDRILS">
+    <description>
+      <p>You gain one natural weapons which you are considered proficienct with:</p>
+      <ul>
+        <li>Bite: Melee Weapon Attack, 1d4 + Strength bludgeoning damage.</li>
+      </ul>
+    </description>
+    <sheet usage="Tendrils">
+      <description>
+        You gain the following natural weapons:
+        &#x2022; Tendril: Melee Weapon Attack, reach (10 ft.), +{{kalapulu:tendril}} vs AC, 1d4 + {{kalapulu:tendril}} bludgeoning damage.
+      </description>
+    </sheet>
+    <rules>
+      <stat name="kalapulu:tendril" value="strength:modifier" />
+      <stat name="kalapulu:tendril" value="proficiency" />
+    </rules>
+  </element>
+  <element name="Defensive Haze" type="Racial Trait" source="Michin Makery" id="ID_MIMA_KALAPULU_RACIAL_TRAIT_DEFENSIVE_HAZE">
+    <description>
+      <p>As a reaction to an attack that hits you, you may spread spores from your mushrooms causing any breathing creature within 10 feet to succeed on a consitution saving throw against 8 + your proficiency bonus + constitution modifier. On fail the spores deal 1d6 + your proficiency bonus as poison damage and paralyze the creature. On succes they only recieve half the damage and are not paralyzed. Creatures that are paralyzed may redo the saving throw at the end of their turn to break free from the paralyzation.</p>
+    </description>
+    <sheet>
+      <description>As a reaction to an attack that hits you, you may spread spores from your mushrooms causing any breathing creature within 10 feet to succeed on a consitution saving throw against {{kalapulu:defensivehaze}}. On fail the spores deal 1d6 + {{proficiency}} as poison damage and paralyze the creature. On succes they only recieve half the damage and are not paralyzed. Creatures that are paralyzed may redo the saving throw at the end of their turn to break free from the paralyzation.</description>
+    </sheet>
+    <rules>
+      <stat name="kalapulu:defensivehaze" value="8"/>
+      <stat name="kalapulu:defensivehaze" value="proficiency"/>
+      <stat name="kalapulu:defensivehaze" value="constitution:modifier"/>
+    </rules>
+  </element>
+  <element name="Visionary Pazifist" type="Racial Trait" source="Michin Makery" id="ID_MIMA_KALAPULU_RACIAL_TRAIT_VISIONARY_PAZIFIST">
+    <description>
+      <p>Consuming mind-drifting substance let you see visions. They can be colorful alternations of the reality or visons of the past or future which may or may not be true.</p>
+    </description>
+    <sheet>
+      <description>Consuming mind-drifting substance let you see visions. They can be colorful alternations of the reality or visons of the past or future which may or may not be true.</description>
+    </sheet>
+  </element>
+
+  <element name="Kumoish" type="Language" source="Michin Makery" id="ID_LANGUAGE_MIMA_KUMOISH">
+    <supports>Exotic</supports>
+    <description>
+      <p>Typically spoken by Kalapulu. It sounds similar to Sylvan but doesn't share other similarities. It can be spoken underwater.</p>
+    </description>
+    <setters>
+      <set name="exotic">true</set>
+      <set name="speakers">Kalapulu</set>
+      <set name="script">Kumoish</set>
+    </setters>
+  </element>
+</elements>

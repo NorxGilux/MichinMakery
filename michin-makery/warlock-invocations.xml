@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <update version="0.0.2">
+      <author url="https://github.com/Nakamijo/Michin_Makery">Michin Makery</author>
+      <file name="warlock-invocations.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/warlock-invocations.xml" />
+    </update>
+  </info>
+
+  <!-- casual -->
+  <element name="Voice of the Rune Keeper" type="Class Feature" source="Michin Makery" id="ID_MIMA_VOICE_RUNE_KEEPER">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>15th level</prerequisite>
+    <requirements>[level:15]</requirements>
+    <description>
+      <p>You are always under the effect of a <em>Tongues</em> spell.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_TONGUES" />
+      </div>
+      </description>
+    <sheet>
+      <description>You understand any spoken language you hear. Any creature that knows at least one language and can hear you understands what you say.</description>
+    </sheet>
+  </element>
+</elements>

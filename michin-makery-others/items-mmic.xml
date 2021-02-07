@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Missing Items</name>
+		<author url="http://knightsofvasteel.com/apps/magwas-magic-item-compendium/">MMIC</author>
+		<update version="0.1">
+			<file name="items-mmic.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/items-mmic.xml" />
+		</update>
+	</info>
+  <element name="Tromplöte" type="Magic Item" source="Magwa’s Magic Item Compendium" id="ID_MMIC_TROMPLOETE">
+    <description>
+      <p>An infamous bard who could not decide between being a trumpeter or a flutist built this abomination instead.</p>
+      <p class="indent">You can use your action to toot the Tromplöte. Roll a d4 to determine the spell that follows (DC14):</p>
+      <p class="indent">1: Thunderwave as a 2nd level spell </p>
+      <p class="indent">2: Minor Illusion (sound only) </p>
+      <p class="indent">3: Vicious Mockery on a random creature </p>
+      <p class="indent">4: Shatter (around yourself) </p>
+      <p class="indent">After using it twice, you have to finish a short rest to use it again. </p>
+      <p class="indent">(Requires tovacco (no one knows why).)</p>
+    </description>
+    <setters>
+      <set name="keywords">instrument, random, thunderwave, minor illusion, vicious mockery, shatter</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+  </element>
+</elements>

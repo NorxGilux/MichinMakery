@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Michin Makery</name>
+		<description>The content from various sources implemented.</description>
+		<update version="0.0.2">
+			<file name="michin-makery-others.index" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others.index" />
+		</update>
+	</info>
+	<files>
+    <!-- sources -->
+    <file name="sources.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/sources.xml" />
+    
+    <!-- races -->
+    <file name="race-apeling.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-apeling.xml" />
+    <file name="race-foreclaimer.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-foreclaimer.xml" />
+    <file name="race-moonborn.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-moonborn.xml" />
+    <file name="race-pandafolk.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-pandafolk.xml" />
+    
+    <!-- classes -->
+		<file name="class-healer.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/class-healer.xml" />
+		<file name="class-witch.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/class-witch.xml" />
+    
+    <!-- items -->
+    <file name="items-missing.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/items-missing.xml" />
+    <file name="items-tomb-of-annihilation.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/items-tomb-of-annihilation.xml" />
+    <file name="items-mmic.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/items-mmic.xml" />
+	</files>
+</index>

@@ -1,0 +1,1788 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Witch</name>
+    <description>A class for binding, using, and abusing spirits.</description>
+    <author url="https://www.gmbinder.com/share/-L7gG0ZSzBHgbWv7t_wf">Zarieth</author>
+    <update version="0.1">
+      <file name="class-witch.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/class-witch.xml" />
+    </update>
+  </info>
+
+  <element name="Witch" type="Class" source="Zarieth" id="ID_CC_CLASS_WITCH">
+    <description>
+      <p>
+        A tattooed elf, veiled and cloaked, draws his obsidian dagger across the sand, calling forth from the lines a ghostly apparition to help him and his allies find their way. A trio of halfling hermits gather among candles and incense, chanting words of power to bait spirits from the shadows. The bejeweled human, dressed in exotic garb and golden chains bellows a spell which echoes with the voices of an army of lost souls, a fiendish glint in his eyes as blood drips from his palm.
+      </p>
+      <p class="indent">Unlike shamans who pray to the spirits of nature, witches trap the tormented souls of those lost betwixt the realm of the living and the beyond. As a witch, you learn to summon these souls and bind them to your will, gaining protection from them and power over them. As you attain higher levels, the covenant you choose to live by grants you further abilities which extend the utility and power of these bonds in different ways.</p>
+      <h4>The Power of Spirit</h4>
+      <p>Witches may or may not have a level of respect for the spirits they bind, though one could say they should. Some witches tap into the residual energies of long-departed souls, while others use extant spiritual beings as conduits for their spellcasting. Either way and whether or not they wish, witches bind part of their own soul to those that surround them.</p>
+      <p class="indent">Witch spells mostly deal with manipulation of spiritual energies (both living and dead) and protections against the beings who supply those energies. As part of their connection to the spiritual world, they are also privy to information and secrets normally not meant for mortal minds. As such, witches are powerful enchanters, abjurers, and diviners.</p>
+      <h4>Bonds of the Soul</h4>
+      <p>Witches acknowledge that there is a spiritual connection between all things – forces that inexplicably and randomly bind beings and happenings together in a kind of mass, shared fate. They see other witches as brothers and sisters, and other classes as close cousins. As a consequence, witches are often fond of forming alliances. The covenant that a witch subscribes to is one such alliance.</p>
+      <p class="indent">Covenants are the manifestation of a philosophy regarding the nature of spirits. Some, like the Covenant of Unity, believe in a supreme energy that extends beyond the physical world, weaving together magic and the collective conscience of all living things. Others, from the Covenant of Blood for example, believe in a more intimate connection between the physical world and the other side. In this philosophy, each soul is tied to something close to it in the physical world – a body, an object, or location that was important to it when it was alive.</p>
+      <h4>Creating A Witch</h4>
+      <p>When deciding to play a witch, think about what led your character to tap into the spirit world. Maybe witchcraft is a tradition in the area, or your character comes from an area rife with a ghostly past. Superstition is also a good trigger for a fascination with spirits. What is your relationship with spirits? Is there a measure of mutual respect? </p>
+      <p class="indent">Perhaps your character feels more like a servant to the spirit than the other way around, or maybe they possess the entitlement to dominate and extort spiritual beings.</p>
+      <p class="indent">How did your character come to be an adventurer? It could be that he or she was a pariah in their community due to contact with the other side, cast out and forced to fend for him or herself. Perhaps your character is even haunted by a particular spirit, and seeks away to control or be rid of it.</p>
+      <h5>Quick Build</h5>
+      <p>You can make a witch quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, select the Hermit background. Third, select the chill touch, guidance, and light cantrips.</p>
+      <h3>Class Features</h3>
+      <p>As a witch, you gain the following class features</p>
+      <h5>Hit Points</h5>
+      <ul class="unstyled">
+        <li>
+          <strong>Hit Dice:</strong> 1d6 per witch level
+        </li>
+        <li>
+          <strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier
+        </li>
+        <li>
+          <strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per witch level after 1st
+        </li>
+      </ul>
+      <h5>Proficiencies</h5>
+      <ul class="unstyled mb">
+        <li>
+          <strong>Armor:</strong> Light armor
+        </li>
+        <li>
+          <strong>Weapons:</strong> Clubs, daggers, darts, quarterstaffs, scimitars, sickles, slings
+        </li>
+        <li>
+          <strong>Tools:</strong> Herbalism kit
+        </li>
+      </ul>
+      <ul class="unstyled">
+        <li>
+          <strong>Saving Throws:</strong> Wisdom, Charisma
+        </li>
+        <li>
+          <strong>Skills:</strong> Choose two from Arcana, History, Insight, Medicine, Nature, Religion, and Persuasion
+        </li>
+      </ul>
+      <h5>Equipment</h5>
+      <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+      <ul>
+        <li>(a) a component pouch or (b) an arcane focus or (c) a druidic focus</li>
+        <li>(a) a priest's pack or (b) a scholar's pack</li>
+        <li>Any simple weapon and two daggers</li>
+      </ul>
+      <h5 class="caption">The Witch</h5>
+      <table class="class-features">
+        <thead>
+          <tr>
+            <td class="col-5">Level</td>
+            <td class="col-5">Bonds</td>
+            <td class="left">Features</td>
+            <td class="col-10">Cantrips Known</td>
+            <td class="col-10">Spells Known</td>
+            <td>1st</td>
+            <td>2nd</td>
+            <td>3rd</td>
+            <td>4th</td>
+            <td>5th</td>
+            <td>6th</td>
+            <td>7th</td>
+            <td>8th</td>
+            <td>9th</td>
+          </tr>
+        </thead>
+        <tr>
+          <td> 1st</td>
+          <td>--</td>
+          <td class="left">Quickening, Spellcasting</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 2nd</td>
+          <td>1</td>
+          <td class="left">Witch Covenant, Binding Rites</td>
+          <td>3</td>
+          <td>4</td>
+          <td>3</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 3rd</td>
+          <td>1</td>
+          <td class="left">Spirit Ward</td>
+          <td>3</td>
+          <td>5</td>
+          <td>4</td>
+          <td>2</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 4th</td>
+          <td>1</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>4</td>
+          <td>7</td>
+          <td>4</td>
+          <td>3</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 5th</td>
+          <td>1</td>
+          <td class="left">--</td>
+          <td>4</td>
+          <td>7</td>
+          <td>4</td>
+          <td>3</td>
+          <td>2</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 6th</td>
+          <td>2</td>
+          <td class="left">Covenant Feature</td>
+          <td>4</td>
+          <td>8</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 7th</td>
+          <td>2</td>
+          <td class="left">Spiritual Spellcasting</td>
+          <td>4</td>
+          <td>9</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>1</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 8th</td>
+          <td>2</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>4</td>
+          <td>10</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 9th</td>
+          <td>2</td>
+          <td class="left">--</td>
+          <td>4</td>
+          <td>11</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>1</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td>10th</td>
+          <td>3</td>
+          <td class="left">Covenant Feature</td>
+          <td>5</td>
+          <td>12</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td>11th</td>
+          <td>3</td>
+          <td class="left">Channel Spell</td>
+          <td>5</td>
+          <td>13</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td>12th</td>
+          <td>3</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>5</td>
+          <td>14</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td>13th</td>
+          <td>3</td>
+          <td class="left">--</td>
+          <td>5</td>
+          <td>15</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>1</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td>14th</td>
+          <td>4</td>
+          <td class="left">Covenant feature</td>
+          <td>5</td>
+          <td>16</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>1</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td>15th</td>
+          <td>4</td>
+          <td class="left">Strength of Spirit</td>
+          <td>5</td>
+          <td>16</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td>16th</td>
+          <td>4</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>5</td>
+          <td>17</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td>17th</td>
+          <td>4</td>
+          <td class="left">--</td>
+          <td>5</td>
+          <td>17</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>18th</td>
+          <td>5</td>
+          <td class="left">Familiar Spirit</td>
+          <td>5</td>
+          <td>18</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>19th</td>
+          <td>5</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>5</td>
+          <td>19</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>20th</td>
+          <td>5</td>
+          <td class="left">Ghostly Step</td>
+          <td>5</td>
+          <td>19</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>2</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+      </table>
+      <div element="ID_CC_CLASS_FEATURE_WITCH_QUICKENING" />
+      <div element="ID_CC_CLASS_FEATURE_WITCH_SPELLCASTING_WITCH" />
+      <div element="ID_CC_CLASS_FEATURE_WITCH_WITCH_COVENANT" />
+      <div element="ID_CC_CLASS_FEATURE_WITCH_BINDING_RITES" />
+      <div element="ID_CC_CLASS_FEATURE_WITCH_SPIRIT_WARD" />
+      <div element="ID_CC_CLASS_FEATURE_WITCH_ABILITY_SCORE_IMPROVEMENT_WITCH" />
+      <div element="ID_CC_CLASS_FEATURE_WITCH_SPIRITUAL_SPELLCASTING" />
+      <div element="ID_CC_CLASS_FEATURE_WITCH_CHANNEL_SPELL" />
+      <dic element="ID_CC_CLASS_FEATURE_WITCH_STRENGTH_OF_SPIRIT" />
+      <div element="ID_CC_CLASS_FEATURE_WITCH_FAMILIAR_SPIRIT" />
+      <div element="ID_CC_CLASS_FEATURE_WITCH_GHOSTLY_STEP" />
+    </description>
+    <sheet display="false">
+      <description>A specialist for binding, using, and abusing spirits.</description>
+    </sheet>
+    <setters>
+      <set name="short">A specialist for binding, using, and abusing spirits.</set>
+      <set name="hd">d6</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_CC_MULTICLASS_WITCH"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" requirements="!ID_CC_MULTICLASS_WITCH"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_CC_MULTICLASS_WITCH"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_CC_MULTICLASS_WITCH"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_CC_MULTICLASS_WITCH"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" requirements="!ID_CC_MULTICLASS_WITCH"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE" requirements="!ID_CC_MULTICLASS_WITCH"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_CC_MULTICLASS_WITCH"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_CC_MULTICLASS_WITCH"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_CC_MULTICLASS_WITCH"/>
+      <select type="Proficiency" name="Skill Proficiency (Witch)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_PERSUASION" number="2" requirements="!ID_CC_MULTICLASS_WITCH"/>
+      <grant type="Class Feature" id="ID_CC_CLASS_FEATURE_WITCH_QUICKENING" level="1"/>
+      <grant type="Class Feature" id="ID_CC_CLASS_FEATURE_WITCH_SPELLCASTING_WITCH" level="1" />
+      <grant type="Class Feature" id="ID_CC_CLASS_FEATURE_WITCH_WITCH_COVENANT" level="2" />
+      <grant type="Class Feature" id="ID_CC_CLASS_FEATURE_WITCH_BINDING_RITES" level="2" />
+      <grant type="Class Feature" id="ID_CC_CLASS_FEATURE_WITCH_SPIRIT_WARD" level="3" />
+      <grant type="Class Feature" id="ID_CC_CLASS_FEATURE_WITCH_ABILITY_SCORE_IMPROVEMENT_WITCH" level="4" />
+      <grant type="Class Feature" id="ID_CC_CLASS_FEATURE_WITCH_SPIRITUAL_SPELLCASTING" level="7" />
+      <grant type="Class Feature" id="ID_CC_CLASS_FEATURE_WITCH_CHANNEL_SPELL" level="11" />
+      <grant type="Class Feature" id="ID_CC_CLASS_FEATURE_WITCH_STRENGTH_OF_SPIRIT" level="15" />
+      <grant type="Class Feature" id="ID_CC_CLASS_FEATURE_WITCH_FAMILIAR_SPIRIT" level="18" />
+      <grant type="Class Feature" id="ID_CC_CLASS_FEATURE_WITCH_GHOSTLY_STEP" level="20" />
+    </rules>
+    <multiclass id="ID_CC_MULTICLASS_WITCH">
+      <prerequisite>Charisma 13</prerequisite>
+      <requirements>[cha:13]</requirements>
+      <setters>
+        <set name="multiclass proficiencies">Light armor</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+      </rules>
+    </multiclass>
+  </element>
+  <element name="Spellcasting" type="Class Feature" source="Zarieth" id="ID_CC_CLASS_FEATURE_WITCH_SPELLCASTING_WITCH">
+    <description>
+      <p>Your contact with the spirit world and intuitive knowledge of the magic which allows it to persist grants you the use of spells.</p>
+      <h5 class="caption">Cantrips</h5>
+      <p>You know three cantrips of your choice from the witch spell list. You learn additional witch cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Witch table.</p>
+      <h5 class="caption">Spell Slots</h5>
+      <p>The Witch table shows how many spell slots you have to cast your spells of 1st level and above. To cast one of these witch spells, you must expend a spell slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+      <p class="intend">For example, if you know the 1st-level spell cure wounds and you have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot.</p>
+      <h5 class="caption">Spells Known of 1st Level and Higher</h5>
+      <p>You know three 1st-level spells of your choice from the witch spell list. </p>
+      <p class="intend">The Spells Known column of the Witch table shows when you learn more witch spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p>
+      <p class="intend">Additionally, when you gain a level in this class, you can choose on of the witch spells you know and replace it with another spell from the witch spell list, which also must be of a level for which you have spell slots.</p>
+      <h5 class="caption">Spellcasting Ability</h5>
+      <p>Charisma is your spellcasting ability for your witch spells, since your magic comes from bargaining with spirits. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a witch spell you cast and when making an attack roll with one.</p>
+      <center>
+        <p>
+          <strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier
+        </p>
+        <p>
+          <strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier
+        </p>
+      </center>
+      <h5 class="caption">Ritual Casting</h5>
+      <p>You can cast any witch spell you know as a ritual if that spell has the ritual tag.</p>
+      <h5 class="caption">Spellcasting Focus</h5>
+      <p>You can use an arcane focus or druidic focus as a spellcasting focus for your witch spells.</p>
+    </description>
+    <sheet display="false">
+      <description>You can cast magic.</description>
+    </sheet>
+    <spellcasting name="Witch" ability="Charisma" prepare="false">
+      <list>CC_LIST_WITCH</list>
+    </spellcasting>
+    <rules>
+      <stat name="witch:spellcasting:slots:1" value="2" level="1" />
+      <stat name="witch:spellcasting:slots:1" value="1" level="2" />
+      <stat name="witch:spellcasting:slots:1" value="1" level="3" />
+      <stat name="witch:spellcasting:slots:2" value="2" level="3" />
+      <stat name="witch:spellcasting:slots:2" value="1" level="4" />
+      <stat name="witch:spellcasting:slots:3" value="2" level="5" />
+      <stat name="witch:spellcasting:slots:3" value="1" level="6" />
+      <stat name="witch:spellcasting:slots:4" value="1" level="7" />
+      <stat name="witch:spellcasting:slots:4" value="1" level="8" />
+      <stat name="witch:spellcasting:slots:4" value="1" level="9" />
+      <stat name="witch:spellcasting:slots:5" value="1" level="9" />
+      <stat name="witch:spellcasting:slots:5" value="1" level="10" />
+      <stat name="witch:spellcasting:slots:5" value="1" level="18" />
+      <stat name="witch:spellcasting:slots:6" value="1" level="11" />
+      <stat name="witch:spellcasting:slots:6" value="1" level="19" />
+      <stat name="witch:spellcasting:slots:7" value="1" level="13" />
+      <stat name="witch:spellcasting:slots:7" value="1" level="20" />
+      <stat name="witch:spellcasting:slots:8" value="1" level="15" />
+      <stat name="witch:spellcasting:slots:9" value="1" level="17" />
+
+      <select type="Spell" name="Cantrip (Witch)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="Witch" />
+      <select type="Spell" name="Cantrip (Witch)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Witch" />
+      <select type="Spell" name="Cantrip (Witch)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" number="2" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" number="2" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" number="2" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" number="3" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" number="3" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" number="3" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" number="3" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" number="4" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="10" number="4" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" number="4" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="12" number="4" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" number="5" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="14" number="5" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" number="5" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="16" number="5" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" number="6" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="18" number="6" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" number="6" spellcasting="Witch" />
+      <select type="Spell" name="Spell (Witch)" supports="$(spellcasting:list),$(spellcasting:slots)" level="20" number="6" spellcasting="Witch" />
+    </rules>
+  </element>
+  <element name="Quickening" type="Class Feature" source="Zarieth" id="ID_CC_CLASS_FEATURE_WITCH_QUICKENING">
+    <description>
+      <p>At 1st level, you gain the ability to enter a trance known as the witch’s quickening, letting you see beyond the borders of the material world. As an action you can enter this trance to see into the Ethereal Plane up to 60 feet.</p>
+      <p class="intend">Additionally you also gain insight into the emotional energy surrounding you, you know if and what spirits are bound within 60 feet, and you gain advantage on Wisdom (Insight) checks.</p>
+      <p class="intend">The trance lasts for 1 minute, or until you end it as an action. You can use this feature a number of times equal to your Charisma modifier (minimum 1). You regain any expended uses when you finish a long rest.</p>
+    </description>
+    <sheet usage="{{quickening:usage}}/long rest">
+      <description>
+        As an action you can enter a trance to see into the Ethereal Plane up to 60 feet. Additionally you also gain insight into the emotional energy surrounding you, you know if and what spirits are bound within 60 feet, and you gain advantage on Wisdom (Insight) checks. The trance lasts for 1 minute, or until you end it as an action.
+      </description>
+    </sheet>
+    <rules>
+      <stat name="quickening:usage" value="1" bonus="base" />
+      <stat name="quickening:usage" value="charisma:modifier" bonus="base" />
+    </rules>
+  </element>
+  <element name="Witch Covenant" type="Class Feature" source="Zarieth" id="ID_CC_CLASS_FEATURE_WITCH_WITCH_COVENANT">
+    <description>
+      <p>At 2nd level you commit yourself to a spiritual philosophy known as a witch's covenant: the Covenant of Blood, the Covenant of Charm, the Covenant of Ruin, the Covenant of Shadows, Covenant of Silver, Covenant of Steel, or the Covenant of Unity, detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</p>
+      <h5 class="caption">Covenant Spells</h5>
+      <p class="intend">Each covenant has a list of spells that you gain at the witch levels noted in the covenant description. Once you gain a covenant spell, you know it, and it doesn't count against the number of spells you know.</p>
+      <p class="intend">If you have a covenant spell that doesn't appear on the witch spell list, the spell is nonetheless a witch spell for you.</p>
+    </description>
+    <sheet display="false">
+      <description>
+        Choose.
+      </description>
+    </sheet>
+    <rules>
+      <select type="Archetype" name="Witch Covenent" supports="Witch Covenent" level="2"/>
+    </rules>
+  </element>
+  <element name="Binding Rites" type="Class Feature" source="Zarieth" id="ID_CC_CLASS_FEATURE_WITCH_BINDING_RITES">
+    <description>
+      <p>At 2nd level you can bind spirits to your service. Binding a spirit requires 10 minutes of uninterrupted meditation. During this time, the witch speaks the invocations required to summon the spirit forth and enacts the rite of binding depending on which philosophy the witch subscribes to. A blood witch might utilize a bone fragment to bind the spirit, while a shadow witch might bargain with the summoned spirit, exchanging a secret for the spirit’s service. A witch may perform this ritual at any time to swap a bound spirit for a new one, losing the old passive benefit and gaining the new (or simply to change the spell slot level the same spirit is occupying).</p>
+      <p class="intend">You choose a spirit to bind from the list at the end of this class description, and you fill one of your available spell slots with the spirit. The spell slot used is no longer available for casting spells, and it remains unavailable for as long as the spirit filling it remains bound to you. The spirit is said to be of a level equal to the spell slot used to bind it. Thus, a Spirit of Passion occupying a 6th level spell slot is a level 6 spirit. You cannot have more than one spirit with the same name bound at once. </p>
+      <p class="intend">Depending on the type of spirit, you gain certain benefits while the spirit remains bound and an additional effect when you release the spirit, as detailed in the Binding Rites section. Releasing a spirit is a bonus action, although some spirits allow release as a reaction. Once a spirit has been released, it no longer provides its passive effect and the spell slot it occupied is expended. </p>
+      <p class="intend">You can bind a number of spirits up to the number shown for your witch level in the Bonds column of the witch table.</p>
+    </description>
+    <sheet>
+      <description>
+        You can bind spirits to your service. Binding a spirit requires 10 minutes of uninterrupted meditation. A witch may perform this ritual at any time to swap a bound spirit for a new one, losing the old passive benefit and gaining the new (or simply to change the spell slot level the same spirit is occupying). You fill one of your available spell slots with the spirit. The spell slot used is no longer available for casting spells, and it remains unavailable for as long as the spirit filling it remains bound to you. The spirit is said to be of a level equal to the spell slot used to bind it. Depending on the type of spirit, you gain certain benefits while the spirit remains bound and an additional effect when you release the spirit, as detailed in the Binding Rites section. Releasing a spirit is a bonus action, although some spirits allow release as a reaction. Once a spirit has been released, it no longer provides its passive effect and the spell slot it occupied is expended. You can bind up to {{witch:spirits}} spirits.
+      </description>
+    </sheet>
+    <rules>
+      <stat name="witch:spirits" value="1" level="2"/>
+      <stat name="witch:spirits" value="1" level="6"/>
+      <stat name="witch:spirits" value="1" level="10"/>
+      <stat name="witch:spirits" value="1" level="14"/>
+      <stat name="witch:spirits" value="1" level="18"/>
+    </rules>
+  </element>
+  <element name="Spirit Ward" type="Class Feature" source="Zarieth" id="ID_CC_CLASS_FEATURE_WITCH_SPIRIT_WARD">
+    <description>
+      <p>At 3rd level, you learn a rite that offers protection against spirits who wish you or your allies harm. As an action, you can create a spirit ward with a radius of 15 feet, centered on a point you touch. The ward lasts 1 minute. While inside the ward, creatures you choose who you can see cannot be charmed, frightened, or possessed by undead and have resistance to all damage from incorporeal undead. Additionally, if an affected creature is reduced to 0 hit points within the ward but is not killed outright, the creature becomes stable at the beginning on their first turn inside the ward.</p>
+      <p class="intend">Once you use this feature, you must finish a short or long rest to use it again. Beginning at 9th level, you can use your Spirit Ward twice between rests, and beginning at 18th level you can use it three times between rests.</p>
+    </description>
+    <sheet usage="{{witch:spiritwardusage}}/short rest">
+      <description>
+        As an action, you can create a spirit ward with a radius of 15 feet, centered on a point you touch. The ward lasts 1 minute. While inside the ward, creatures you choose who you can see cannot be charmed, frightened, or possessed by undead and have resistance to all damage from incorporeal undead. Additionally, if an affected creature is reduced to 0 hit points within the ward but is not killed outright, the creature becomes stable at the beginning on their first turn inside the ward.
+      </description>
+    </sheet>
+    <rules>
+      <stat name="witch:spiritwardusage" value="1" level="3"/>
+      <stat name="witch:spiritwardusage" value="2" level="9"/>
+      <stat name="witch:spiritwardusage" value="3" level="18"/>
+    </rules>
+  </element>
+  <element name="Ability Score Improvement" type="Class Feature" source="Zarieth" id="ID_CC_CLASS_FEATURE_WITCH_ABILITY_SCORE_IMPROVEMENT_WITCH">
+    <compendium display="false" />
+    <description>
+      <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Improvement Option (Witch 4)" supports="Improvement Option,Witch,4" level="4" />
+      <select type="Class Feature" name="Improvement Option (Witch 8)" supports="Improvement Option,Witch,8" level="8" />
+      <select type="Class Feature" name="Improvement Option (Witch 12)" supports="Improvement Option,Witch,12" level="12" />
+      <select type="Class Feature" name="Improvement Option (Witch 16)" supports="Improvement Option,Witch,16" level="16" />
+      <select type="Class Feature" name="Improvement Option (Witch 19)" supports="Improvement Option,Witch,19" level="19" />
+    </rules>
+  </element>
+  <element name="Spiritual Spellcasting" type="Class Feature" source="Zarieth" id="ID_CC_CLASS_FEATURE_WITCH_SPIRITUAL_SPELLCASTING">
+    <description>
+      <p>At 7th level you call upon the spirits you have bound to help you cast your spells. You can dismiss a spirit as a bonus action to recover a spell slot of a level equal to that of the spirit’s. The release effect of the spirit you dismissed is not activated.</p>
+    </description>
+    <sheet>
+      <description>
+        You can dismiss a spirit as a bonus action to recover a spell slot of a level equal to that of the spirit’s. The release effect of the spirit you dismissed is not activated.
+      </description>
+    </sheet>
+  </element>
+  <element name="Channel Spell" type="Class Feature" source="Zarieth" id="ID_CC_CLASS_FEATURE_WITCH_CHANNEL_SPELL">
+    <description>
+      <p>Beginning at 11th level, damage from spells you cast on undead and creatures on a different plane of existence ignores resistance to that damage.</p>
+    </description>
+    <sheet>
+      <description>
+        Damage from spells you cast on undead and creatures on a different plane of existence ignores resistance to that damage.
+      </description>
+    </sheet>
+  </element>
+  <element name="Strength of Spirit" type="Class Feature" source="Zarieth" id="ID_CC_CLASS_FEATURE_WITCH_STRENGTH_OF_SPIRIT">
+    <description>
+      <p>At 15th level, you learn to sap additional fortitude from the spirits you bind. When you finish a long rest, you gain a number of temporary hit points equal to the combined level of all the spirits you have bound.</p>
+    </description>
+    <sheet>
+      <description>
+        When you finish a long rest, you gain a number of temporary hit points equal to the combined level of all the spirits you have bound.
+      </description>
+    </sheet>
+  </element>
+  <element name="Familiar Spirit" type="Class Feature" source="Zarieth" id="ID_CC_CLASS_FEATURE_WITCH_FAMILIAR_SPIRIT">
+    <description>
+      <p>At 18th level, you learn the find familiar spell.</p>
+      <p class="intend">Additionally, when you cast find familiar or if you already have a familiar, you can awaken spiritual energy within the animal as part of an additional ritual that takes 10 minutes. Once complete, you choose one spirit from the list at the end of the class description. Your familiar provides you with the spirit’s passive effect as long as your familiar is within 100 feet of you. Its level is equal to your Charisma modifier. If the familiar dies, the spirit produces its release effect if there is a valid target within range of the familiar.</p>
+    </description>
+    <sheet>
+      <description>
+        When you cast find familiar or if you already have a familiar, you can awaken spiritual energy within the animal as part of an additional ritual that takes 10 minutes. Once complete, you choose one spirit from the list. Your familiar provides you with the spirit’s passive effect as long as your familiar is within 100 feet of you. Its level is equal to {{charisma:modifier}}. If the familiar dies, the spirit produces its release effect if there is a valid target within range of the familiar.
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" spellcasting="Witch" />
+    </rules>
+  </element>
+  <element name="Ghostly Step" type="Class Feature" source="Zarieth" id="ID_CC_CLASS_FEATURE_WITCH_GHOSTLY_STEP">
+    <description>
+      <p>At 20th level you gain the ability to enter the spirit realm as a bonus action by projecting part of yourself beyond the material plane for 10 minutes or until you rematerialize as a bonus action. You and all your belongings become invisible. You have resistance to all non-magical damage, and cannot be grappled, paralyzed, petrified, poisoned, or restrained. </p>
+      <p class="intend">For the duration, you can pass through solid objects as if they were difficult terrain. If you end your turn in an object, you take 1d10 force damage. If you rematerialize in a location occupied by a creature or solid object, you are shunted to the nearest unoccupied space and take damage equal to twice the number of feet you are moved as a result. </p>
+      <p class="intend">Once you use this feature, you must finish a long rest before you can use it again.</p>
+    </description>
+    <sheet usage="1/long rest">
+      <description>
+        You gain the ability to enter the spirit realm as a bonus action by projecting part of yourself beyond the material plane for 10 minutes or until you rematerialize as a bonus action. You and all your belongings become invisible. You have resistance to all non-magical damage, and cannot be grappled, paralyzed, petrified, poisoned, or restrained. For the duration, you can pass through solid objects as if they were difficult terrain. If you end your turn in an object, you take 1d10 force damage. If you rematerialize in a location occupied by a creature or solid object, you are shunted to the nearest unoccupied space and take damage equal to twice the number of feet you are moved as a result.
+      </description>
+    </sheet>
+  </element>
+
+  <element name="Covenant of Blood" type="Archetype" source="Zarieth" id="ID_CC_ARCHETYPE_COVENANT_OF_BLOOD">
+    <supports>Witch Covenent</supports>
+    <description>
+      <p>Witches of the Covenant of Blood believe in strong connections between the physical world and the spiritual one. Spirits are connected to the physical world through objects that were important to them while they were alive. This knowledge allows a witch to bind spirits more easily — as long as they know something of the spirit's life.</p>
+      <p class="intend">Though not always, witches from the Covenant of Blood tend to dominate the spirits under their control. They generally take care to leave spirits intact and in a state no worse than before they were bound, but nevertheless are capable of using a spirit's weaknesses against them, taking advantage of their connections to the physical world in order to gain great control of them.</p>
+      <div element="ID_CC_ARCHETYPE_FEATURE_COB_COVENANT_SPELLS" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COB_AWAKEN_THE_BLOOD" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COB_SYMPATHETIC_MAGIC" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COB_BLOOD_BINDING" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COB_CALL_FORTH_THE_FLESH" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COB_COVENANT_SPELLS" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COB_AWAKEN_THE_BLOOD" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COB_SYMPATHETIC_MAGIC" level="6" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COB_BLOOD_BINDING" level="10" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COB_CALL_FORTH_THE_FLESH" level="14" />
+    </rules>
+  </element>
+  <element name="Covenant of Blood Spells" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COB_COVENANT_SPELLS">
+    <description>
+      <p>You learn some extra spells.</p>
+      <p class="intend">At 3rd level: Hold Person, Locate Object</p>
+      <p class="intend">At 5rd level: Remove Curse, Vampiric Touch</p>
+      <p class="intend">At 7rd level: Locate Creature, Polymorph</p>
+      <p class="intend">At 9rd level: Awaken, Greater Restoration</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_LOCATE_OBJECT" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_REMOVE_CURSE" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_VAMPIRIC_TOUCH" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_LOCATE_CREATURE" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_AWAKEN" level="9" />
+      <grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" level="9" />
+    </rules>
+  </element>
+  <element name="Awaken the Blood" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COB_AWAKEN_THE_BLOOD">
+    <description>
+      <p>Beginning at 2nd level, when you release a spirit from your power, you can use the energy from those broken spiritual bonds to repair corporeal bodies. When you release a spirit, a creature you touch regains hit points equal to three times the spirit's level.</p>
+    </description>
+    <sheet>
+      <description>
+        When you release a spirit, a creature you touch regains hit points equal to three times the spirit's level.
+      </description>
+    </sheet>
+  </element>
+  <element name="Sympathetic Magic" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COB_SYMPATHETIC_MAGIC">
+    <description>
+      <p>At 6th level, you gain the power to cast spells on targets over vast distances beyond what the spell may ordinarily allow. Provided you have an article (blood, hair, clothing, or favoured object) from the target, your spells of 5th level or lower which have a single target may affect the creature if it is on the same plane of existence as you.</p>
+      <p class="intend">When you cast a spell that targets a creature in this way, the article you have from the target is consumed.</p>
+    </description>
+    <sheet>
+      <description>
+        Provided you have an article (blood, hair, clothing, or favoured object) from the target, your spells of 5th level or lower which have a single target may affect the creature if it is on the same plane of existence as you. When you cast a spell that targets a creature in this way, the article you have from the target is consumed.
+      </description>
+    </sheet>
+  </element>
+  <element name="Blood Binding" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COB_BLOOD_BINDING">
+    <description>
+      <p>At 10th level, when a hostile creature dies within 30 feet of you, you can bind its soul as a reaction. You bind a spirit type of your choice to a spell slot of your choice. This binding expires after 24 hours or whenever you use this ability again. The target cannot be resurrected so long as its spirit remains bound in this way.</p>
+      <p class="intend">Once you use this feature, you must finish a short or long rest before you can use it again.</p>
+    </description>
+    <sheet usage="1/short rest">
+      <description>
+        When a hostile creature dies within 30 feet of you, you can bind its soul as a reaction. You bind a spirit type of your choice to a spell slot of your choice. This binding expires after 24 hours or whenever you use this ability again. The target cannot be resurrected so long as its spirit remains bound in this way.
+      </description>
+    </sheet>
+  </element>
+  <element name="Call Forth the Flesh" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COB_CALL_FORTH_THE_FLESH">
+    <description>
+      <p>At 14th level, you gain the ability to force an ethereal or incorporeal creature that you can see within 60 feet into the material plane as an action. The target must succeed on a Constitution saving throw or lose their incorporeal movement trait and immunities to grappled, paralyzed, petrified, prone, and restrained for 1 minute. Alternatively, you can use this feature to to cast revivify once without expending a spell slot or material components.</p>
+      <p class="intend">Once you use this feature, you must finish a long rest before you can use it again.</p>
+    </description>
+    <sheet usage="1/long rest">
+      <description>
+        You can force an ethereal or incorporeal creature that you can see within 60 feet into the material plane as an action. The target must succeed on a Constitution saving throw or lose their incorporeal movement trait and immunities to grappled, paralyzed, petrified, prone, and restrained for 1 minute. Alternatively, you can use this feature to to cast revivify once without expending a spell slot or material components.
+      </description>
+    </sheet>
+  </element>
+
+  <element name="Covenant of Charm" type="Archetype" source="Zarieth" id="ID_CC_ARCHETYPE_COVENANT_OF_CHARM">
+    <supports>Witch Covenent</supports>
+    <description>
+      <p>Witches of the Covenant of Charm tap deep into the emotions which govern lingering spirits’ behaviours. They use these emotions as signposts and guides to manipulate the desires and shape the aspirations of the living. They believe that although lingering spirits are echoes of the past, they hold the key to individual futures. By harnessing the raw emotional energy of the beyond, one can gain absolute control over the hearts and minds of those around them.</p>
+      <p class="intend">Witches of this philosophy vary in their treatment of spirits. Some befriend and learn from the spirits they bind, using that knowledge to further their own ends. Others take only cursory notice of the spirits they enslave – an attitude that often carries over into their living interactions, manipulating and charming those they will, without any true regard for the desires of those they meet.</p>
+      <div element="ID_CC_ARCHETYPE_FEATURE_COC_COVENANT_SPELLS" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COC_IN_PERFECT_TRUST" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COC_SPIRIT_TOKEN" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COC_OF_ONE_HEART" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COC_CRUX_OF_DESIRE" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COC_COVENANT_SPELLS" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COC_IN_PERFECT_TRUST" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COC_SPIRIT_TOKEN" level="6" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COC_OF_ONE_HEART" level="10" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COC_CRUX_OF_DESIRE" level="14" />
+    </rules>
+  </element>
+  <element name="Covenant of Blood Spells" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COC_COVENANT_SPELLS">
+    <description>
+      <p>You learn some extra spells.</p>
+      <p class="intend">At 3rd level: Detect Thoughts, Suggestion</p>
+      <p class="intend">At 5rd level: Hypnotic Pattern, Tongues</p>
+      <p class="intend">At 7rd level: Hallucinatory Terrain, Phantasmal Killer</p>
+      <p class="intend">At 9rd level: Dream, Modify Memory</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_HYPNOTIC_PATTERN" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_TONGUES" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_PHANTASMAL_KILLER" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_DREAM" level="9" />
+      <grant type="Spell" id="ID_PHB_SPELL_MODIFY_MEMORY" level="9" />
+    </rules>
+  </element>
+  <element name="Awaken the Blood" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COC_IN_PERFECT_TRUST">
+    <description>
+      <p>At 2nd level, you have grown attuned to the hearts and minds of those around you. While in your quickening, you can add your proficiency bonus to Charisma (Deception) and Charisma (Persuasion) checks, or twice your proficiency bonus if you are already proficient.</p>
+      <p class="intend">Additionally, during your quickening, you gain the ability peer into the heart of a creature within 60 feet of you as an action. The target must succeed on a Wisdom saving throw against your spell save DC or you gain insight into its emotional state and something that is currently influencing this state such as something it worries over, desires, loves, or hates. Constructs and creatures immune to being charmed automatically succeed on this saving throw. On a failed save the target is not aware of this intrusion.</p>
+      <p class="intend">Once you use this feature, you must finish a long rest before you can use it again.</p>
+    </description>
+    <sheet usage="1/long rest">
+      <description>
+        While in your quickening, you can add your proficiency bonus to Charisma (Deception) and Charisma (Persuasion) checks, or twice your proficiency bonus if you are already proficient. Additionally, during your quickening, you gain the ability peer into the heart of a creature within 60 feet of you as an action. The target must succeed on a Wisdom saving throw against your spell save DC or you gain insight into its emotional state and something that is currently influencing this state such as something it worries over, desires, loves, or hates. Constructs and creatures immune to being charmed automatically succeed on this saving throw. On a failed save the target is not aware of this intrusion.
+      </description>
+    </sheet>
+  </element>
+  <element name="Spirit Token" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COC_SPIRIT_TOKEN">
+    <description>
+      <p>At 6th level you can tie one of your spirits you already have bound to a small object. As an action, you bind the spirit to an object that is significant to a creature you choose, the spirit still counts towards your maximum bonds while attached to the object. As long as the creature is in possession of the token, the spirit provides its passive effect as though the spirit were bound by the target (even if they are not a witch). In either case, the magic holding the spirit to the object expires after 24 hours when it returns to your control. If the token is returned to you, you can break this magic sooner as a bonus action, regaining use of the spirit.</p>
+    </description>
+    <sheet>
+      <description>
+        You can tie one of your spirits you already have bound to a small object. As an action, you bind the spirit to an object that is significant to a creature you choose, the spirit still counts towards your maximum bonds while attached to the object. As long as the creature is in possession of the token, the spirit provides its passive effect as though the spirit were bound by the target (even if they are not a witch). In either case, the magic holding the spirit to the object expires after 24 hours when it returns to your control. If the token is returned to you, you can break this magic sooner as a bonus action, regaining use of the spirit.
+      </description>
+    </sheet>
+  </element>
+  <element name="Of One Heart" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COC_OF_ONE_HEART">
+    <description>
+      <p>At 10th level, creatures charmed by you are also considered charmed by your allies. </p>
+      <p class="intend">Additionally, when you trigger a spirit's release effect, until the start of your next turn allies within 60 feet of you can damage charmed creatures without affecting the charm.</p>
+    </description>
+    <sheet>
+      <description>
+        Creatures charmed by you are also considered charmed by your allies. Additionally, when you trigger a spirit's release effect, until the start of your next turn allies within 60 feet of you can damage charmed creatures without affecting the charm.
+      </description>
+    </sheet>
+  </element>
+  <element name="Crux of Desire" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COC_CRUX_OF_DESIRE">
+    <description>
+      <p>At 14th level, you can't be charmed or frightened, and your spells and spirits ignore immunity to the charmed condition.</p>
+    </description>
+    <sheet>
+      <description>
+        You can't be charmed or frightened, and your spells and spirits ignore immunity to the charmed condition.
+      </description>
+    </sheet>
+  </element>
+
+  <element name="Covenant of Ruin" type="Archetype" source="Zarieth" id="ID_CC_ARCHETYPE_COVENANT_OF_RUIN">
+    <supports>Witch Covenent</supports>
+    <description>
+      <p>The Covenant of Ruin has less respect for spirits than the other covenants. Witches who bind these spirits utilize their magic to torture and pressure spirits in order to extract power from them. Their philosophy revolves around invoking ruin and causing as much damage as possible.</p>
+      <p class="intend">Though good witches of this covenant are rare, they are not unknown. Good witches who share this covenant's ideology typically aim to bind evil spirits, turning these beings into weapons for good against their will (though this can hardly be considered to be completely benign). Such witches often claim their actions are for the greater good — using evil to combat greater evil.</p>
+      <div element="ID_CC_ARCHETYPE_FEATURE_COR_COVENANT_SPELLS" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COR_DOOM" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COR_DEVASTATING_RELEASE" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COR_RUINOUS_WARD" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COR_RITE_OF_EXORCISM" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COR_COVENANT_SPELLS" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COR_DOOM" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COR_DEVASTATING_RELEASE" level="6" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COR_RUINOUS_WARD" level="10" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COR_RITE_OF_EXORCISM" level="14" />
+    </rules>
+  </element>
+  <element name="Covenant of Ruin Spells" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COR_COVENANT_SPELLS">
+    <description>
+      <p>You learn some extra spells.</p>
+      <p class="intend">At 3rd level: Crown of Madness, Shatter</p>
+      <p class="intend">At 5rd level: Bestow Curse, Call Lightning</p>
+      <p class="intend">At 7rd level: Confusion, Ice Storm</p>
+      <p class="intend">At 9rd level: Cloudkill, Destructive Wave</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_CROWN_OF_MADNESS" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_SHATTER" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_CALL_LIGHTNING" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_CONFUSION" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_CLOUDKILL" level="9" />
+      <grant type="Spell" id="ID_PHB_SPELL_DESTRUCTIVE_WAVE" level="9" />
+    </rules>
+  </element>
+  <element name="Doom" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COR_DOOM">
+    <description>
+      <p>Beginning when you choose this covenant at 2nd level, the targets of your spirits’ release effects have disadvantage on the next ability check or attack roll they make within the next 10 minutes.</p>
+    </description>
+    <sheet>
+      <description>
+        The targets of your spirits’ release effects have disadvantage on the next ability check or attack roll they make within the next 10 minutes.
+      </description>
+    </sheet>
+  </element>
+  <element name="Devastating Release" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COR_DEVASTATING_RELEASE">
+    <description>
+      <p>At 6th level, spirits you release erupt with energy as their bonds are broken, causing harm to those around you. When you release a spirit, roll a number of d6s equal to the level of the spirit. Creatures of your choice within 30 feet of you take psychic damage equal to the total. Those who take damage hear wails and screams as the spirit is released, and feel a rush of sorrow and discomfort.</p>
+    </description>
+    <sheet>
+      <description>
+        When you release a spirit, roll a number of d6s equal to the level of the spirit. Creatures of your choice within 30 feet of you take psychic damage equal to the total. Those who take damage hear wails and screams as the spirit is released, and feel a rush of sorrow and discomfort.
+      </description>
+    </sheet>
+  </element>
+  <element name="Ruinous Ward" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COR_RUINOUS_WARD">
+    <description>
+      <p>Beginning at 10th level, the Spirit Wards you create are accompanied by spiritual dissonance which can strain and break the weak of soul. When a creature starts its turn inside your Spirit Ward, you can choose for the ward to deal 3d6 psychic damage to the creature (no action required by you).</p>
+    </description>
+    <sheet>
+      <description>
+        When a creature starts its turn inside your Spirit Ward, you can choose for the ward to deal 3d6 psychic damage to the creature (no action required by you).
+      </description>
+    </sheet>
+  </element>
+  <element name="Rite of Exorcism" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COR_RITE_OF_EXORCISM">
+    <description>
+      <p>At 14th level, you can attempt to exorcise a living creature’s soul. If a creature within 30 feet of you fails a Wisdom or Charisma saving throw against one of your spells or spirits' release effects, you can use your reaction to attempt to exorcise that creature's soul. The target takes 5d6 psychic damage and 5d6 necrotic damage as their soul is torn from their body, and they are stunned until the end of your next turn.</p>
+      <p class="intend">Once you use this feature, you can’t use it again until you finish a long rest.</p>
+    </description>
+    <sheet usage="1/long rest">
+      <description>
+        You can attempt to exorcise a living creature’s soul. If a creature within 30 feet of you fails a Wisdom or Charisma saving throw against one of your spells or spirits' release effects, you can use your reaction to attempt to exorcise that creature's soul. The target takes 5d6 psychic damage and 5d6 necrotic damage as their soul is torn from their body, and they are stunned until the end of your next turn.
+      </description>
+    </sheet>
+  </element>
+
+  <element name="Covenant of Shadows" type="Archetype" source="Zarieth" id="ID_CC_ARCHETYPE_COVENANT_OF_SHADOWS">
+    <supports>Witch Covenent</supports>
+    <description>
+      <p>The Covenant of Shadows subscribes to the belief that everything that exists, both physically and metaphysically, is a shadow cast by that which came before it. Shadows are windows into worlds beyond the material plane — as one world becomes dimmer, others become brighter and easier to see by comparison. </p>
+      <p class="intend">There is reason to be wary of the dark. Witches from this covenant are more cautious dealing with spirits. They know that dangers lurk in the shadows, and they are careful with their dealings lest the spirits they bind show their dark side.</p>
+      <div element="ID_CC_ARCHETYPE_FEATURE_COSH_COVENANT_SPELLS" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COSH_THE_SHADOWS_HAVE_EYES" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COSH_BLINDING_SHACKLES" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COSH_DARK_MIMICRY" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COSH_HAUNTING_SHADES" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COSH_COVENANT_SPELLS" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COSH_THE_SHADOWS_HAVE_EYES" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COSH_BLINDING_SHACKLES" level="6" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COSH_DARK_MIMICRY" level="10" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COSH_HAUNTING_SHADES" level="14" />
+    </rules>
+  </element>
+  <element name="Covenant of Shadows Spells" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COSH_COVENANT_SPELLS">
+    <description>
+      <p>You learn some extra spells.</p>
+      <p class="intend">At 3rd level: Darkness, Pass Without Trace</p>
+      <p class="intend">At 5rd level: Feign Death, Nondetection</p>
+      <p class="intend">At 7rd level: Dimension Door, Greater Invisibility</p>
+      <p class="intend">At 9rd level: Mislead, Seeming</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_PASS_WITHOUT_TRACE" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_FEIGN_DEATH" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_NONDETECTION" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_DIMENSION_DOOR" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_GREATER_INVISIBILITY" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_MISLEAD" level="9" />
+      <grant type="Spell" id="ID_PHB_SPELL_SEEMING" level="9" />
+    </rules>
+  </element>
+  <element name="The Shadows Have Eyes" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COSH_THE_SHADOWS_HAVE_EYES">
+    <description>
+      <p>You can use the spirits which dwell in the darkness to see. Beginning at 2nd level, you can see normally in darkness, both magical and nonmagical, to a distance of 120 feet as long as you have at least one spirit bound, and you have advantage on Wisdom (Perception) checks in dim light or darkness.</p>
+    </description>
+    <sheet>
+      <description>
+        You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet as long as you have at least one spirit bound, and you have advantage on Wisdom (Perception) checks in dim light or darkness.
+      </description>
+    </sheet>
+  </element>
+  <element name="Blinding Shackles" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COSH_BLINDING_SHACKLES">
+    <description>
+      <p>At 6th level, hostile creatures that are affected by any of your spirits’ release effects must succeed on a Constitution saving throw against your spell save DC or be blinded for 1 minute. At the end of each of its turns, a target can make a Constitution saving throw, ending the effect on itself on a success. This ability has no effect on creatures who do not use light to see.</p>
+    </description>
+    <sheet>
+      <description>
+        Hostile creatures that are affected by any of your spirits’ release effects must succeed on a Constitution saving throw against your spell save DC or be blinded for 1 minute. At the end of each of its turns, a target can make a Constitution saving throw, ending the effect on itself on a success. This ability has no effect on creatures who do not use light to see.
+      </description>
+    </sheet>
+  </element>
+  <element name="Dark Mimicry" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COSH_DARK_MIMICRY">
+    <description>
+      <p>At 10th level, as long as you have at least one spirit bound, you can call upon the movements of nearby shadows to replace the somatic components of your spells.</p>
+      <p class="intend">Alternatively, the ghostly whispers of your bound spirit may replace the verbal components of your spells. You can therefore cast spells with these components even if you yourself cannot motion or vocalize. Additionally, when you are hidden from a creature and cast a spell, casting the spell doesn't reveal your position to it.</p>
+    </description>
+    <sheet>
+      <description>
+        As long as you have at least one spirit bound, you can call upon the movements of nearby shadows to replace the somatic components of your spells.Alternatively, the ghostly whispers of your bound spirit may replace the verbal components of your spells. You can therefore cast spells with these components even if you yourself cannot motion or vocalize. Additionally, when you are hidden from a creature and cast a spell, casting the spell doesn't reveal your position to it.
+      </description>
+    </sheet>
+  </element>
+  <element name="Haunting Shades" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COSH_HAUNTING_SHADES">
+    <description>
+      <p>Beginning at 14th level, after you release a spirit that targets a hostile creature, you can choose for the spirit to also haunt that creature for up to 1 minute, requiring your concentration as if on a spell. The passive effect of the spirit continues but uses the haunted creature as the origin. The passive effect otherwise treats you as the owner. After 1 minute or when you lose concentration, the spirit’s release effect activates again.</p>
+      <p class="intend">Once you use this feature, you must finish a long rest before you can use it again.</p>
+    </description>
+    <sheet usage="1/long rest">
+      <description>
+        After you release a spirit that targets a hostile creature, you can choose for the spirit to also haunt that creature for up to 1 minute, requiring your concentration as if on a spell. The passive effect of the spirit continues but uses the haunted creature as the origin. The passive effect otherwise treats you as the owner. After 1 minute or when you lose concentration, the spirit’s release effect activates again.
+      </description>
+    </sheet>
+  </element>
+
+  <element name="Covenant of Silver" type="Archetype" source="Zarieth" id="ID_CC_ARCHETYPE_COVENANT_OF_SILVER">
+    <supports>Witch Covenent</supports>
+    <description>
+      <p>Silver is a powerful weapon in any witch's arsenal but a witch who holds to the Covenant of Silver understands how to unlocking the transformative and soul-binding powers of a simple looking glass. It is through this window to the soul that the Silver witch draws their power. Reflections are the silver chains that bind the worlds together. </p>
+      <p class="intend">Witches of the covenant of silver know that everything living has a reflection in the otherworld, and everything dead must reciprocate. Their craft is full of risk and reward, and through reflections, they come to understand and manipulate those outcomes.</p>
+      <div element="ID_CC_ARCHETYPE_FEATURE_COSI_COVENANT_SPELLS" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COSI_LOOKING_GLASS" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COSI_SOUL_SHATTER" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COSI_SOUL_CLOAK" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COSI_DARK_REFLECTION" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COSI_COVENANT_SPELLS" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COSI_LOOKING_GLASS" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COSI_SOUL_SHATTER" level="6" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COSI_SOUL_CLOAK" level="10" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COSI_DARK_REFLECTION" level="14" />
+    </rules>
+  </element>
+  <element name="Covenant of Silver Spells" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COSI_COVENANT_SPELLS">
+    <description>
+      <p>You learn some extra spells.</p>
+      <p class="intend">At 3rd level: Alter Self, Mirror Image</p>
+      <p class="intend">At 5rd level: Clairvoyance, Major Image</p>
+      <p class="intend">At 7rd level: Arcane Eye, Locate Creature</p>
+      <p class="intend">At 9rd level: Mislead, Scrying</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_CLAIRVOYANCE" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_MAJOR_IMAGE" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_LOCATE_CREATURE" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_MISLEAD" level="9" />
+      <grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="9" />
+    </rules>
+  </element>
+  <element name="Looking Glass" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COSI_LOOKING_GLASS">
+    <description>
+      <p>At 2nd level you gain a Tiny trinket known as a Soul Mirror. As an action you can face the mirror at a creature you can see and capture its reflection. The reflection remains captured until you release it as a bonus action or use this feature again.</p>
+      <p class="intend">As an action while you have a reflection captured, you can speak the name of the target to create an invisible sensor within 10 feet of it. The soul mirror then shows the view from the sensor as if it were there, instead of a reflection. The sensor moves with the target, remaining within 10 feet of it until the target's reflection is released. A creature that can see invisible objects sees the sensor as a translucent disc the size of your soul mirror.</p>
+      <p class="intend">If you lose your Soul Mirror, you can perform a 1-hour ceremony to summon a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous mirror. The mirror shatters when you die.</p>
+    </description>
+    <sheet>
+      <description>
+        You gain a Tiny trinket known as a Soul Mirror. As an action you can face the mirror at a creature you can see and capture its reflection. The reflection remains captured until you release it as a bonus action or use this feature again. As an action while you have a reflection captured, you can speak the name of the target to create an invisible sensor within 10 feet of it. The soul mirror then shows the view from the sensor as if it were there, instead of a reflection. The sensor moves with the target, remaining within 10 feet of it until the target's reflection is released. A creature that can see invisible objects sees the sensor as a translucent disc the size of your soul mirror. If you lose your Soul Mirror, you can perform a 1-hour ceremony to summon a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous mirror. The mirror shatters when you die.
+      </description>
+    </sheet>
+  </element>
+  <element name="Soul Shatter" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COSI_SOUL_SHATTER">
+    <description>
+      <p>Beginning at 6th level, if you have a reflection captured in your soul mirror, you can summon an eruption of ghostly mirror-shards whenever you release a spirit as a reaction to taking damage. The reflection is released along with the spirit, and the target of the spirit's release effect takes force or radiant damage (your choice) equal to the triggering damage. You regain a number of hit points equal to the damage dealt.</p>
+    </description>
+    <sheet>
+      <description>
+        If you have a reflection captured in your soul mirror, you can summon an eruption of ghostly mirror-shards whenever you release a spirit as a reaction to taking damage. The reflection is released along with the spirit, and the target of the spirit's release effect takes force or radiant damage (your choice) equal to the triggering damage. You regain a number of hit points equal to the damage dealt.
+      </description>
+    </sheet>
+  </element>
+  <element name="Soul Cloak" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COSI_SOUL_CLOAK">
+    <description>
+      <p>Beginning at 10th level, you can assume the form of the creature whose reflection you trapped in your soul mirror as an action. When you do so, the reflection is released and magically transforms into a disguise that appears on you. You now look like the creature, but flipped horizontally like a reflection. This disguise lasts for 1 hour or until you end it as a bonus action. </p>
+      <p class="intend">While you're in the disguise you can perfectly mimic the mannerisms, speech patterns, accent, and other superficial qualities of the original creature. </p>
+      <p class="intend">Another creature can see through this disguise by succeeding on a Wisdom (Insight) check with disadvantage against your spell save DC.</p>
+      <p class="intend">Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+    </description>
+    <sheet usage="1/short rest">
+      <description>
+        You can assume the form of the creature whose reflection you trapped in your soul mirror as an action. When you do so, the reflection is released and magically transforms into a disguise that appears on you. You now look like the creature, but flipped horizontally like a reflection. This disguise lasts for 1 hour or until you end it as a bonus action. While you're in the disguise you can perfectly mimic the mannerisms, speech patterns, accent, and other superficial qualities of the original creature. Another creature can see through this disguise by succeeding on a Wisdom (Insight) check with disadvantage against your spell save DC.
+      </description>
+    </sheet>
+  </element>
+  <element name="Dark Reflection" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COSI_DARK_REFLECTION">
+    <description>
+      <p>At 14th level, you can use your action to compel a creature you can see within 60 feet to look at a warped illusion of itself. The target sees you as a wretched, horrifying version of itself — a visage that manipulates it with its insecurities and plays on its fears. You cast geas on the target without expending a spell slot or material components. When cast in this way, the target is also frightened of you for the duration, and the duration of the spell is seven years. </p>
+      <p class="intend">Once you use this feature, you can't use it again until you finish a long rest.</p>
+    </description>
+    <sheet usage="1/long rest">
+      <description>
+        You can use your action to compel a creature you can see within 60 feet to look at a warped illusion of itself. The target sees you as a wretched, horrifying version of itself — a visage that manipulates it with its insecurities and plays on its fears. You cast geas on the target without expending a spell slot or material components. When cast in this way, the target is also frightened of you for the duration, and the duration of the spell is seven years.
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_GEAS" />
+    </rules>
+  </element>
+
+  <element name="Covenant of Steel" type="Archetype" source="Zarieth" id="ID_CC_ARCHETYPE_COVENANT_OF_STEEL">
+    <supports>Witch Covenent</supports>
+    <description>
+      <p>Witches who tie themselves to the Covenant of Steel are a select few who combine their spiritual connection with a grounding in eldritch combat. These witches traditionally devote themselves to the grim task of binding or banishing malign spirits, and then bending such spirits to their cause. </p>
+      <p class="intend">Those of the Covenant of Steel often cannot afford to dwell on the wellbeing of their spirits, having often bound them to keep them from endangering the living. They know better than most the danger and power of these rogue entities, and lesser minds have been driven mad by their ethereal influence. For witches of this coven, any interaction with spirits is often kept to a necessary minimum, and even then with great suspicion.</p>
+      <div element="ID_CC_ARCHETYPE_FEATURE_COST_COVENANT_SPELLS" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COST_BONUS_PROFICIENCIES" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COST_FIGHTING_STYLE" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COST_IMBUE_WEAPON" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COST_EXTRA_ATTACK" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COST_REFLEXES_OF_STEEL" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COST_STEEL_RAIN" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COST_COVENANT_SPELLS" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COST_BONUS_PROFICIENCIES" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COST_FIGHTING_STYLE" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COST_IMBUE_WEAPON" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COST_EXTRA_ATTACK" level="6" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COST_REFLEXES_OF_STEEL" level="10" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COST_STEEL_RAIN" level="14" />
+    </rules>
+  </element>
+  <element name="Covenant of Steel Spells" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COST_COVENANT_SPELLS">
+    <description>
+      <p>You learn some extra spells.</p>
+      <p class="intend">At 3rd level: Branding Smite, Spiritual Weapon</p>
+      <p class="intend">At 5rd level: Crusader's Mantle, Phantom Steed</p>
+      <p class="intend">At 7rd level: Banishment, Staggering Smite</p>
+      <p class="intend">At 9rd level: Banishing Smite, Dispel Evil and Good</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_BLINDING_SMITE" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPIRITUAL_WEAPON" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_CRUSADERS_MANTLE" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_PHANTOM_STEED" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_STAGGERING_SMITE" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_BANISHING_SMITE" level="9" />
+      <grant type="Spell" id="ID_PHB_SPELL_DISPEL_EVIL_AND_GOOD" level="9" />
+    </rules>
+  </element>
+  <element name="Bonus Proficiencies" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COST_BONUS_PROFICIENCIES">
+    <description>
+      <p>Beginning at 2nd level, you gain proficiency with medium armor, simple weapons and the longsword. </p>
+      <p class="intend">If you're proficient with a simple or martial melee weapon, you can use it as a spellcasting focus for your witch spells.</p>
+    </description>
+    <sheet>
+      <description>
+        If you're proficient with a simple or martial melee weapon, you can use it as a spellcasting focus for your witch spells.
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD"/>
+    </rules>
+  </element>
+  <element name="Fighting Style" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COST_FIGHTING_STYLE">
+    <description>
+      <p>At 2nd level, you adopt a style of fighting as your speciality. Choose one of the following options. You can't take a Fighting Style option more than once, even if something in the game lets you choose again. </p>
+      <h5 class="caption">Blind Fighting.</h5>
+      <p>Being unable to see a creature doesn’t impose disadvantage on your attack rolls against it, provided the creature isn’t hidden from you. </p>
+      <h5 class="caption">Dueling.</h5>
+      <p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon. </p>
+      <h5 class="caption">Eerie.</h5>
+      <p>While you have a spirit bound, you gain a +1 bonus to AC. </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Class Feature" name="Fighting Style (Witch)" supports="ID_CC_CLASS_FEATURE_FIGHTINGYSTYLE_BLIND_FIGHTING|ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING|ID_CC_CLASS_FEATURE_FIGHTINGYSTYLE_EERIE"/>
+    </rules>
+  </element>
+  <element name="Blind Fighting" type="Class Feature" source="Zarieth" id="ID_CC_CLASS_FEATURE_FIGHTINGYSTYLE_BLIND_FIGHTING">
+    <description>
+      <p>Being unable to see a creature doesn’t impose disadvantage on your attack rolls against it, provided the creature isn’t hidden from you. </p>
+   </description>
+    <sheet>
+      <description>
+        Being unable to see a creature doesn’t impose disadvantage on your attack rolls against it, provided the creature isn’t hidden from you.
+      </description>
+    </sheet>
+  </element>
+  <element name="Eerie" type="Class Feature" source="Zarieth" id="ID_CC_CLASS_FEATURE_FIGHTINGYSTYLE_EERIE">
+    <description>
+      <p>While you have a spirit bound, you gain a +1 bonus to AC. </p>
+    </description>
+    <sheet>
+      <description>
+        While you have a spirit bound, you gain a +1 bonus to AC.
+      </description>
+    </sheet>
+  </element>
+  <element name="Imbue Weapon" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COST_IMBUE_WEAPON">
+    <description>
+      <p>At 2nd level, you can channel the power of your bound spirits through a weapon. Whenever you finish a short or long rest, you can touch one weapon that you are proficient with and choose one spirit you have bound. The spirit is infused into the weapon until you finish a long rest, and it cannot be released while it is infused in this way. </p>
+      <p class="intend">When you attack with the weapon, it gains a bonus to attack and damage rolls equal to the spirit's level divided by three, unless it is a magic weapon that already has a bonus to those rolls. Whenever you hit a creature with this weapon, you gain a number of temporary hit points equal to your Charisma modifier (minimum of 1).</p>
+    </description>
+    <sheet usage="1/short rest">
+      <description>
+        Whenever you finish a short or long rest, you can touch one weapon that you are proficient with and choose one spirit you have bound. The spirit is infused into the weapon until you finish a long rest, and it cannot be released while it is infused in this way. When you attack with the weapon, it gains a bonus to attack and damage rolls equal to the spirit's level divided by three, unless it is a magic weapon that already has a bonus to those rolls. Whenever you hit a creature with this weapon, you gain a number of temporary hit points equal to your Charisma modifier (minimum of 1).
+      </description>
+    </sheet>
+  </element>
+  <element name="Extra Attack" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COST_EXTRA_ATTACK">
+    <description>
+      <p>Beginning at 6th level, if you have a reflection captured in your soul mirror, you can summon an eruption of ghostly mirror-shards whenever you release a spirit as a reaction to taking damage. The reflection is released along with the spirit, and the target of the spirit's release effect takes force or radiant damage (your choice) equal to the triggering damage. You regain a number of hit points equal to the damage dealt.</p>
+    </description>
+    <sheet>
+      <description>
+        You can attack twice, instead of once, whenever you take the Attack action on your turn.
+      </description>
+    </sheet>
+    <rules>
+      <stat name="extra attack:count" value="2" level="6" bonus="extra attack" />
+    </rules>
+  </element>
+  <element name="Reflexes of Steel" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COST_REFLEXES_OF_STEEL">
+    <description>
+      <p>At 10th level, your physical and spiritual reflexes are razor sharp. You can give yourself a bonus to your initiative rolls equal to the number of spirits you have bound. </p>
+      <p class="intend">Additionally, when you make a saving throw you can use your reaction to gain a bonus to the roll equal to the number of spirits you have bound.</p>
+    </description>
+    <sheet>
+      <description>
+        You can give yourself a bonus to your initiative rolls equal to the number of spirits you have bound. Additionally, when you make a saving throw you can use your reaction to gain a bonus to the roll equal to the number of spirits you have bound.
+      </description>
+    </sheet>
+  </element>
+  <element name="Steel Rain" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COST_STEEL_RAIN">
+    <description>
+      <p>At 14th level, your body and soul have been forged and tempered by your training. As an action, you can release a spirit to unleash a flurry of spiritually fueled strikes. You make a number of weapon attacks equal to the spirit's level, and the damage from these attacks ignores resistance and immunity. The spirit's release effect does not trigger. </p>
+      <p class="intend">Once you use this feature, you can't use it again until you finish a long rest.</p>
+    </description>
+    <sheet usage="1/long rest">
+      <description>
+        As an action, you can release a spirit to unleash a flurry of spiritually fueled strikes. You make a number of weapon attacks equal to the spirit's level, and the damage from these attacks ignores resistance and immunity. The spirit's release effect does not trigger.
+      </description>
+    </sheet>
+  </element>
+
+  <element name="Covenant of Unity" type="Archetype" source="Zarieth" id="ID_CC_ARCHETYPE_COVENANT_OF_UNITY">
+    <supports>Witch Covenent</supports>
+    <description>
+      <p>The Covenant of Unity subscribes to a philosophy that all spiritual entities are connected by a collective consciousness. They use this knowledge to surmount power over the spiritual realm itself. In other words, these witches gain their abilities by harnessing the secrets which govern the very basis of spiritual existence, rather than focusing on the relationships between the metaphysical and the material world.</p>
+      <p class="intend">The Covenant of Unity is perhaps more sympathetic to the spirits such witches bind. Witches of this covenant tend to see spirits as allies instead of tools. They trust the spirits they bind enough to allow their power to grow under their command with the purpose of sharing this power.</p>
+      <div element="ID_CC_ARCHETYPE_FEATURE_COU_COVENANT_SPELLS" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COU_SPIRIT_LINK" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COU_FORCEFUL_PRESENCE" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COU_POWERFUL_BONDS" />
+      <div element="ID_CC_ARCHETYPE_FEATURE_COU_PALE_HOST" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COU_COVENANT_SPELLS" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COU_SPIRIT_LINK" level="2" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COU_FORCEFUL_PRESENCE" level="6" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COU_POWERFUL_BONDS" level="10" />
+      <grant type="Archetype Feature" id="ID_CC_ARCHETYPE_FEATURE_COU_PALE_HOST" level="14" />
+    </rules>
+  </element>
+  <element name="Covenant of Unity Spells" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COU_COVENANT_SPELLS">
+    <description>
+      <p>You learn some extra spells.</p>
+      <p class="intend">At 3rd level: Augury, Blur</p>
+      <p class="intend">At 5rd level: Phantom Steed, Spirit Guardians</p>
+      <p class="intend">At 7rd level: Death Ward, Conjure Woodland Beings</p>
+      <p class="intend">At 9rd level: Legend Lore, Telepathic Bond</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_AUGURY" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_BLUR" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_PHANTOM_STEED" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPIRIT_GUARDIANS" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_CONJURE_WOODLAND_BEINGS" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_LEGEND_LORE" level="9" />
+      <grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="9" />
+    </rules>
+  </element>
+  <element name="Spirit Link" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COU_SPIRIT_LINK">
+    <description>
+      <p>Beginning at 2nd level, you can effortlessly link yourself to the souls around you. While in your quickening you can use your action to discern whether a creature you can see has greater or fewer hit points than yourself and any conditions it currently suffers from.</p>
+    </description>
+    <sheet>
+      <description>
+        You can effortlessly link yourself to the souls around you. While in your quickening you can use your action to discern whether a creature you can see has greater or fewer hit points than yourself and any conditions it currently suffers from.
+      </description>
+    </sheet>
+  </element>
+  <element name="Forceful Presence" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COU_FORCEFUL_PRESENCE">
+    <description>
+      <p>At 6th level, after you release a spirit you can choose to retain control over it, so that the spirit remains bound and ready to be released again. </p>
+      <p class="intend">You can use this ability a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a long rest.</p>
+    </description>
+    <sheet usage="{{forcefulpresence:usage}}/long rest">
+      <description>
+        After you release a spirit you can choose to retain control over it, so that the spirit remains bound and ready to be released again.
+      </description>
+    </sheet>
+    <rules>
+      <stat name="forcefulpresence:usage" value="1" bonus="base" />
+      <stat name="forcefulpresence:usage" value="charisma:modifier" bonus="base" />
+    </rules>
+  </element>
+  <element name="Powerful Bonds" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COU_POWERFUL_BONDS">
+    <description>
+      <p>At 10th level, your body and soul develop the ability to contain more powerful spirits. The passive and release effects of spirits you bind are considered one level higher than the spell slot you use to bind them.</p>
+    </description>
+    <sheet>
+      <description>
+        The passive and release effects of spirits you bind are considered one level higher than the spell slot you use to bind them.
+      </description>
+    </sheet>
+  </element>
+  <element name="Pale Host" type="Class Feature" source="Zarieth" id="ID_CC_ARCHETYPE_FEATURE_COU_PALE_HOST">
+    <description>
+      <p>At 14th level, if you are reduced to 0 hit points, but not killed outright, you are not knocked unconscious and your body becomes possessed by a spirit you control while you have 0 hit points. You remain conscious and possessed in this way for 1 round per level of the highest level spirit you have bound. You still must make death saving throws, and you suffer the normal effects of taking damage or regaining hit points while at 0 hit points. </p>
+      <p class="intend">Onlookers notice a strangeness in your movements, eyes, and voice while you remain possessed. While possessed, you can use your action on your turn to activate the release effect of one of the spirits you have bound and have it remain bound. This does not expend any uses of the Forceful Presence ability.</p>
+    </description>
+    <sheet>
+      <description>
+        If you are reduced to 0 hit points, but not killed outright, you are not knocked unconscious and your body becomes possessed by a spirit you control while you have 0 hit points. You remain conscious and possessed in this way for 1 round per level of the highest level spirit you have bound. You still must make death saving throws, and you suffer the normal effects of taking damage or regaining hit points while at 0 hit points. Onlookers notice a strangeness in your movements, eyes, and voice while you remain possessed. While possessed, you can use your action on your turn to activate the release effect of one of the spirits you have bound and have it remain bound. This does not expend any uses of the <em>Forceful Presence</em> ability.
+      </description>
+    </sheet>
+  </element>
+  
+  //creating spell list
+  <append id="ID_PHB_SPELL_BLADE_WARD">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CHILL_TOUCH">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FRIENDS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_GUIDANCE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_INFESTATION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_LIGHT">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MAGE_HAND">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MENDING">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MINOR_ILLUSION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_POISON_SPRAY">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_RESISTANCE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_THAUMATURGY">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_TOLL_THE_DEAD">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_TRUE_STRIKE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ANIMAL_FRIENDSHIP">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_CAUSE_FEAR">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_CHAOS_BOLT">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CHARM_PERSON">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CURE_WOUNDS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DETECT_MAGIC">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FAERIE_FIRE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FIND_FAMILIAR">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HEALING_WORD">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HEX">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_ICE_KNIFE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_LONGSTRIDER">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_WITCH_BOLT">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_AGANAZZARS_SCORCHER">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ALTER_SELF">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_AUGURY">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CROWN_OF_MADNESS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DARKNESS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DARKVISION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ENHANCE_ABILITY">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ENTHRALL">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_HEALING_SPIRIT">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HOLD_PERSON">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_LESSER_RESTORATION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_LOCATE_ANIMALS_OR_PLANTS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_LOCATE_OBJECT">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_MIND_SPIKE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MISTY_STEP">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MOONBEAM">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PROTECTION_FROM_POISON">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_SHADOW_BLADE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SUGGESTION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_BESTOW_CURSE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CLAIRVOYANCE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CONJURE_ANIMALS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DAYLIGHT">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="Dispel Magic">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_ENEMIES_ABOUND">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FEAR">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FLY">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_LIFE_TRANSFERENCE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MAGIC_CIRCLE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MAJOR_IMAGE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_REMOVE_CURSE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SPEAK_WITH_DEAD">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SPIRIT_GUARDIANS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_SUMMON_LESSER_DEMONS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_TINY_SERVANT">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_TONGUES">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_VAMPIRIC_TOUCH">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_WATER_WALK">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_BANISHMENT">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_BLIGHT">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_CHARM_MONSTER">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_COMPULSION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CONFUSION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DEATH_WARD">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DIVINATION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DOMINATE_BEAST">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_GUARDIAN_OF_NATURE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_LOCATE_CREATURE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_POLYMORPH">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_SHADOW_OF_MOIL">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_SUMMON_GREATER_DEMON">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_VITRIOLIC_SPHERE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_WALL_OF_FIRE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ANIMATE_OBJECTS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ANTILIFE_SHELL">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_AWAKEN">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_COMMUNE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CONTACT_OTHER_PLANE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CONTAGION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_DANSE_MACABRE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DOMINATE_PERSON">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DREAM">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_ENERVATION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_GEAS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_GREATER_RESTORATION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HOLD_MONSTER">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_INSECT_PLAGUE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_LEGEND_LORE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MASS_CURE_WOUNDS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MODIFY_MEMORY">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_NEGATIVE_ENERGY_FLOOD">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PLANAR_BINDING">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_REINCARNATE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SCRYING">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_SYNAPTIC_STATIC">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_WRATH_OF_NATURE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CIRCLE_OF_DEATH">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CONJURE_FEY">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CONTINGENCY">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_CREATE_HOMUNCULUS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_EYEBITE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FIND_THE_PATH">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HEAL">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MASS_SUGGESTION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_MENTAL_PRISON">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_PRIMORDIAL_WARD">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_SOUL_CAGE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SUNBEAM">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_TRUE_SEEING">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_CROWN_OF_STARS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ETHEREALNESS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FINGER_OF_DEATH">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MIRAGE_ARCANE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MORDENKAINENS_MAGNIFICENT_MANSION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PLANE_SHIFT">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_POWER_WORD_PAIN">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_REGENERATE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SEQUESTER">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SYMBOL">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_ABI_DALZIMS_HORRID_WILTING">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ANIMAL_SHAPES">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ANTIPATHY_SYMPATHY">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DOMINATE_MONSTER">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FEEBLEMIND">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_MADDENING_DARKNESS">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_POWER_WORD_STUN">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SUNBURST">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ASTRAL_PROJECTION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FORESIGHT">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_INVULNERABILITY">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_MASS_POLYMORPH">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_XGTE_SPELL_PSYCHIC_SCREAM">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SHAPECHANGE">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_TRUE_POLYMORPH">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+  <append id="ID_PHB_SPELL_TRUE_RESURRECTION">
+    <supports>CC_LIST_WITCH</supports>
+  </append>
+</elements>

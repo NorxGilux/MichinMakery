@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Pandafolk</name>
+    <author url="https://www.dandwiki.com/wiki/Pandafolk_(5e_Race)">dandwiki</author>
+    <update version="0.1">
+      <file name="race-pandafolk.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-pandafolk.xml" />
+    </update>
+  </info>
+
+  <element name="Pandafolk" type="Race" source="dandwiki" id="ID_RACE_PANDAFOLK">
+    <description>
+      <p class="flavor">Cuddly Panda bears who will punch your face.</p>
+      <p>Chian was sitting on his favorite rock close to the village. It was his favorite because he could look all the way over the jungle from there. He opened his eyes wide from surprise when suddenly a butterfly landed on his nose. Trying to sit as still as possible to make sure the butterfly wouldn't fly away, he didn't notice he was slightly leaning to the left. After a second or two he lost his balance, making him tumble all the way down the hill...</p>
+      <h4>PHYSICAL DESCRIPTION</h4>
+      <p>Pandafolk are beasts capable of standing bipedally. Their bodies are covered in a pattern of black and white fur. Their face is iconically white with round black ears and black circles around their eyes. Unlike the typical panda, they have fully prehensile paws with an opposing thumb. Portions of their fur can also grow longer to make things like whiskers and beards.</p>
+      <h4>HISTORY</h4>
+      <p>The pandafolk are a peaceful race dwelling amongst the bamboo forests on mountains enshrouded by golden mists. They were originally nomadic, travelling as the groves of bamboo rose and fell. However, with the wisdom endowed to them by the dragon spirit, they learned to cultivate their own crop and so settled in fertile valleys. However, they were ill-prepared for the ills which would befall them. Being docile and a bit roly-poly, they were ill-equipped to face predators and other threats which would often come and raze their settlements. The dragon spirit heard their grief and sent five envoys: a turtle, a fox, a yeti, a jaguar, and a serpent. These envoys would draw the divisions of the pandafolk race to train in their own art, scattering the race in five directions. They would live to survive and develop new skills under the guidance of their given patron. When the time was right, they would return to take back the land they deserved.</p>
+      <h4>SOCIETY</h4>
+      <p>Pandafolk are herbivores. They thus must live in areas liveable for plants on a large scale. They were originally nomads, dependant on the growth of bamboo in predictable cycles and locations. However, this often put them at the mercy of freak weather and deforestation. Thus, with the guidance of the great dragon spirit, they came to learn farming and grew their own bamboo. Their current society is currently split into five clans, each under their respective patron envoy sent by the dragon spirit. They have set up small villages led by elders, where they spend most of their days training their mind and spirit in accordance with the envoy's ways.</p>
+      <h4>PERSONALITY</h4>
+      <p>Pandafolk can be fastidious about their training, but are generally laid-back. They enjoy slow meals where they can forget about hardship and problems, preferring to spend time socializing with others. People usually note them to be a bit food-driven and lazy. However, they can be dedicated to something they have a passion for, and never lose their sense of humor. They value friendship and relationships greatly, and are always willing to help a comrade in need. To some pandafolk, friends are as simple as those willing to break bread with them.</p>
+      <h4>RELIGION</h4>
+      <p>The great dragon spirit is not a real central deity to the pandafolk. They do not follow a religion revolving around gods, but rather around spirits of animals and nature. However, it is simply sometimes translated to "god" in Common, rather than the pandafolk concept for it, for which there is no equivalent. They do frequent exercises meant to channel their chi, which is the energy they believe to run through all of life. It is the essence of all things, and when one dies, it will carry on to be joined in the great chi well that is the afterlife, to be made into new life.</p>
+      <h4>PANDAFOLK NAMES</h4>
+      <p>
+        Pandafolk prefer names implying peace and simplicity.<br />
+        <span class="feature">Male Names:</span>Tomo, Oklen, Po, Chian<br />
+        <span class="feature">Female Names:</span>Jade, Kimiko, Xue, Ging
+      </p>
+      <h4>PANDAFOLK TRAITS</h4>
+      <p>Peaceful, slow people that commune with a spirit beast envoy from a dragon.</p>
+      <p class="indent">
+        <strong>
+          <em>Ability Score Increase.</em>
+        </strong> Your Wisdom score increases by 2.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Age.</em>
+        </strong> Pandafolk reach adulthood around 16 years, living to up to and around 250.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Alignment.</em>
+        </strong> Most pandafolk tend towards a lawful alignment, living by the rules given to them from their spirit.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Size.</em>
+        </strong> Pandafolk are 7 to 8 feet tall. Your size is Medium.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Speed.</em>
+        </strong> Your base walking speed is 30 feet.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Steady Gait.</em>
+        </strong> Your stride cannot be interrupted or hastened. You are immune to effects that would alter your speed. Spells like haste or slow no longer change your movement speed. But you will still gain the other benefits or detriments of the spells. Feats and class features can still give you extra movement speed.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Heritage Memory.</em>
+        </strong> You are a people with a rich history passed often by tradition, making you knowledgeable. You are proficient in the History skill.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Languages.</em>
+        </strong> You can speak, read, and write in Common.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Subrace.</em>
+        </strong> Choose from the Turtle, Yeti, Serpent, Jaguar and Fox.
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Tomo, Oklen, Po, Chian</set>
+      <set name="names" type="female">Jade, Kimiko, Xue, Ging</set>
+      <set name="names-format">{{name}}</set>
+      <set name="height" modifier="1d12">7'0"</set>
+      <set name="weight" modifier="1d4">270 lb.</set>
+    </setters>
+    <rules>
+      <stat name="wisdom" value="2" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <select type="Language" name="Language (Racial Feat.)" supports="Standard||Exotic" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_STEADY_GAIT" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HERITAGE_MEMORY" />
+      <select type="Sub Race" name="Pandafolk Subrace" supports="Pandafolk" optional="false" />
+    </rules>
+  </element>
+  <element name="Steady Gait" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_STEADY_GAIT">
+    <description>
+      <p>Your stride cannot be interrupted or hastened. You are immune to effects that would alter your speed. Spells like haste or slow no longer change your movement speed. But you will still gain the other benefits or detriments of the spells. Feats and class features can still give you extra movement speed.</p>
+    </description>
+    <sheet>
+      <description>You are immune to effects that would alter your speed. Spells like haste or slow no longer change your movement speed. But you will still gain the other benefits or detriments of the spells.</description>
+    </sheet>
+  </element>
+  <element name="Heritage Memory" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_HERITAGE_MEMORY">
+    <description>
+      <p>You are a people with a rich history passed often by tradition, making you knowledgeable. You are proficient in the History skill.</p>
+    </description>
+    <sheet display="false">
+      <description>You are a people with a rich history passed often by tradition, making you knowledgeable. You are proficient in the History skill.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+    </rules>
+  </element>
+
+  <element name="Turtle" type="Sub Race" source="dandwiki" id="ID_SUB_RACE_TURTLE">
+    <supports>Pandafolk</supports>
+    <description>
+      <p>The turtle spirit envoy is a steady creature of defense. Pandafolk in his following usually wear actual turtle shells on their back.</p>
+      <p class="indent">
+        <strong>
+          <em>Ability Score Increase.</em>
+        </strong> Your Constitution score increases by 2.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Hard Shell.</em>
+        </strong>When unarmored, your Armor Class is equal to 12 + your Constitution modifier. You may use a shield and still gain this benefit.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Hard Knock.</em>
+        </strong> Your steadiness makes it hard to knock you down. You have advantage in saving throws against being knocked prone.
+      </p>
+    </description>
+    <rules>
+      <stat name="constitution" value="2" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HARD_SHELL" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HARD_KNOCK" />
+    </rules>
+  </element>
+  <element name="Hard Shell" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_HARD_SHELL">
+    <description>
+      <p>When unarmored, your Armor Class is equal to 12 + your Constitution modifier. You may use a shield and still gain this benefit.</p>
+    </description>
+    <sheet>
+      <p>When unarmored, your Armor Class is equal to 12 + {{constitution:modifier}}. You may use a shield and still gain this benefit.</p>
+    </sheet>
+    <rules>
+      <stat name="ac:unarmored defense pandafolk:base" value="12" />
+      <stat name="ac:unarmored defense pandafolk:constitution" value="constitution:modifier" />
+      <stat name="ac:unarmored defense pandafolk" value="ac:unarmored defense pandafolk:base" />
+      <stat name="ac:unarmored defense pandafolk" value="ac:unarmored defense pandafolk:constitution" />
+      <stat name="ac:calculation" value="ac:unarmored defense pandafolk" bonus="calculation" equipped="[armor:none]" alt="Unarmored Defense (Pandafolk)" />
+    </rules>
+  </element>
+  <element name="Hard Knock" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_HARD_KNOCK">
+    <description>
+      <p>Your steadiness makes it hard to knock you down. You have advantage in saving throws against being knocked prone.</p>
+    </description>
+    <sheet>
+      <p>Your steadiness makes it hard to knock you down. You have advantage in saving throws against being knocked prone.</p>
+    </sheet>
+  </element>
+
+  <element name="Yeti" type="Sub Race" source="dandwiki" id="ID_SUB_RACE_YETI">
+    <supports>Pandafolk</supports>
+    <description>
+      <p>Yeti, with the power of cold, aids the pandafolk in withstanding the elements.</p>
+      <p class="indent">
+        <strong>
+          <em>Ability Score Increase.</em>
+        </strong> Your Constitution score increases by 2.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Frigid Buffer.</em>
+        </strong>You are resistant against cold damage.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Snow Cloak.</em>
+        </strong>You may attempt to hide when only lightly obscured by falling snow.
+      </p>
+    </description>
+    <rules>
+      <stat name="constitution" value="2" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FRIGID_BUFFER" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SNOW_CLOAK" />
+    </rules>
+  </element>
+  <element name="Frigid Buffer" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_FRIGID_BUFFER">
+    <description>
+      <p>You are resistant against cold damage.</p>
+    </description>
+    <sheet display="false">
+      <p>You are resistant against cold damage.</p>
+    </sheet>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+    </rules>
+  </element>
+  <element name="Snow Cloak" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_SNOW_CLOAK">
+    <description>
+      <p>You may attempt to hide when only lightly obscured by falling snow.</p>
+    </description>
+    <sheet>
+      <p>You may attempt to hide when only lightly obscured by falling snow.</p>
+    </sheet>
+  </element>
+
+  <element name="Serpent" type="Sub Race" source="dandwiki" id="ID_SUB_RACE_SERPENT">
+    <supports>Pandafolk</supports>
+    <description>
+      <p>Serpents are well-versed in toxins and how to neutralize them.</p>
+      <p class="indent">
+        <strong>
+          <em>Ability Score Increase.</em>
+        </strong> Your Dexterity score increases by 2.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Thick Skin.</em>
+        </strong>You are resistant to poison damage and have advantage in saving throws against being poisoned.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Cure.</em>
+        </strong>You are proficient with the herbalism kit.
+      </p>
+    </description>
+    <rules>
+      <stat name="dexterity" value="2" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_THICK_SKIN" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_CURE" />
+    </rules>
+  </element>
+  <element name="Thick Skin" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_THICK_SKIN">
+    <description>
+      <p>You are resistant to poison damage and have advantage in saving throws against being poisoned.</p>
+    </description>
+    <sheet>
+      <p>You are resistant to poison damage and have advantage in saving throws against being poisoned.</p>
+    </sheet>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+    </rules>
+  </element>
+  <element name="Cure" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_CURE">
+    <description>
+      <p>You are proficient with the herbalism kit.</p>
+    </description>
+    <sheet display="false">
+      <p>You are proficient with the herbalism kit.</p>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
+    </rules>
+  </element>
+
+  <element name="Jaguar" type="Sub Race" source="dandwiki" id="ID_SUB_RACE_JAGUAR">
+    <supports>Pandafolk</supports>
+    <description>
+      <p>The jaguar is a fast prowler which transfers some of its properties to its pandafolk.</p>
+      <p class="indent">
+        <strong>
+          <em>Ability Score Increase.</em>
+        </strong> Your Dexterity score increases by 2.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Dasher.</em>
+        </strong>Your learned reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Jungle Stalker.</em>
+        </strong>You have advantage in Dexterity (Stealth) checks when in a forest environment.
+      </p>
+    </description>
+    <rules>
+      <stat name="dexterity" value="2" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DASHER" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_JUNGLE_STALKER" />
+    </rules>
+  </element>
+  <element name="Dasher" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_DASHER">
+    <description>
+      <p>Your learned reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</p>
+    </description>
+    <sheet>
+      <p>When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</p>
+    </sheet>
+  </element>
+  <element name="Jungle Stalker" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_JUNGLE_STALKER">
+    <description>
+      <p>You have advantage in Dexterity (Stealth) checks when in a forest environment.</p>
+    </description>
+    <sheet>
+      <p>You have advantage in Dexterity (Stealth) checks when in a forest environment.</p>
+    </sheet>
+  </element>
+
+  <element name="Fox" type="Sub Race" source="dandwiki" id="ID_SUB_RACE_FOX">
+    <supports>Pandafolk</supports>
+    <description>
+      <p>The illustrious and tricky fox taught pandafolk the power of wit over might.</p>
+      <p class="indent">
+        <strong>
+          <em>Ability Score Increase.</em>
+        </strong> Your Charisma score increases by 2.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Convincive.</em>
+        </strong>You are proficient with the Persuasion skill.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Fox Magic.</em>
+        </strong>You know one cantrip of your choice from the warlock or sorcerer spell lists. Charisma is your spellcasting modifier for this spell.
+      </p>
+    </description>
+    <rules>
+      <stat name="charisma" value="2" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_CONVINCIVE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FOX_MAGIC" />
+    </rules>
+  </element>
+  <element name="Convincive" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_CONVINCIVE">
+    <description>
+      <p>You are proficient with the Persuasion skill.</p>
+    </description>
+    <sheet display="false">
+      <p>You are proficient with the Persuasion skill.</p>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+    </rules>
+  </element>
+  <element name="Fox Magic" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_FOX_MAGIC">
+    <description>
+      <p>You know one cantrip of your choice from the warlock or sorcerer spell lists. Charisma is your spellcasting modifier for this spell.</p>
+    </description>
+    <sheet display="false">
+      <p>You know one cantrip of your choice from the warlock or sorcerer spell lists. Charisma is your spellcasting modifier for this spell.</p>
+    </sheet>
+    <rules>
+      <select type="Spell" name="Fox Magic" supports="0,(Warlock||Sorcerer)" />
+    </rules>
+  </element>
+
+
+</elements>

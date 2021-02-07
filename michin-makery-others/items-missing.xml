@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Missing Items</name>
+		<author url="https://dnd.wizards.com">WOTC</author>
+		<update version="0.2">
+			<file name="items-missing.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/items-missing.xml" />
+		</update>
+	</info>
+	<element name="Reszur" type="Magic Item" source="Princes of the Apocalypse" id="ID_WOTC_POTA_MAGIC_ITEM_RESZUR">
+		<description>
+			<p>It is decorated with star motifs, the grip of night blue leather, and the name <em>Reszur</em> is graven on the dagger’s pommel.</p>
+			<p class="indent">The weapon is a magical +1; adds a +1 bonus to hit and to damage rolls</p>
+      <p class="indent">The dagger does not make noise when it hits or cuts something</p>
+      <p class="indent">If the wielder speaks the name <em>Reszur</em>, the blade gives off a faint, cold glow, shedding dim light in a 10-foot radius until the wielder speaks the name again</p>
+		</description>
+		<setters>
+			<set name="keywords">Reszur</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity"></set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Dagger</set>
+		</setters>
+	</element>
+  <element name="Healer's Kit" type="Item" source="unknown official" id="ID_ITEM_TOOL_HEALERS_KIT">
+    <description>
+      <p>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 Hit Points, without needing to make a Wisdom (Medicine) check.</p>
+    </description>
+    <setters>
+      <set name="category">Tools</set>
+      <set name="cost" currency="gp">50</set>
+      <set name="weight" lb="3">3 lbs.</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_HEALERS_KIT</set>
+    </setters>
+  </element>
+  <element name="Tool Proficiency (Healer's Kit)" type="Proficiency" source="unknown official" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HEALERS_KIT">
+    <supports>Tool, Artisan tools</supports>
+    <description>
+      <p>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 Hit Points, without needing to make a Wisdom (Medicine) check.</p>
+      <div class="reference">
+        <div element="ID_ITEM_TOOL_HEALERS_KIT" />
+      </div>
+    </description>
+  </element>
+  <element name="Prayers Book" type="Item" source="unknown official" id="ID_ITEM_PRAYERS_BOOK">
+    <description>
+      <p>This a book full of prayers... and maybe a nice fairytale.</p>
+    </description>
+    <setters>
+      <set name="category">Adventuring Gear</set>
+      <set name="cost" currency="gp">25</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="stackable">true</set>
+    </setters>
+  </element>
+</elements>

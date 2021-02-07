@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <update version="0.0.8">
+      <author url="https://github.com/Nakamijo/Michin_Makery">Michin Makery</author>
+      <file name="class-dhāri.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/class-dhāri.xml" />
+    </update>
+  </info>
+
+  <element name="Dhari" type="Class" source="Michin Makery" id="ID_MIMA_CLASS_DHARI">
+    <description>
+      <p>Presenting the most beautiful acrobatic technique by day, silently killing by night. These are the traits for Dhari. Presenting beautiful choreographies with their signature weapon, sometimes infused by the elements. Dhari are trained in Zuiburg.</p>
+      <h4>Deadly Entertainer</h4>
+      <p>A Dhari can do both, entertain and kill. Even in the same moment. Dhari wield a specific weapon they choose like no other, becoming one with their weapons and creating unique techniques.</p>
+      <h4>Creating A Dhari</h4>
+      <p>When deciding to play a Dhari, think about what led your character to the live of a morderous acrobat. Maybe just like to play with your signature weapon, or your character was in a circus. How did your character come to be an adventurer? The call of presenting your acrobatics to the world?</p>
+      <p class="indent"></p>
+      <h5>Quick Build</h5>
+      <p>
+        You can make a Dhari quickly by following these suggestions. First, Dexterity should be your highest ability score, followed by Charisma and Constitution. Second, select the <em>Charlatan</em> or <em>Entertainer</em> background.
+      </p>
+      <h3>Class Features</h3>
+      <p>As a Dhari, you gain the following class features</p>
+      <h5>Hit Points</h5>
+      <ul class="unstyled">
+        <li>
+          <strong>Hit Dice:</strong> 1d8 per Dhari level
+        </li>
+        <li>
+          <strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier
+        </li>
+        <li>
+          <strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Dhari level after 1st
+        </li>
+      </ul>
+      <h5>Proficiencies</h5>
+      <ul class="unstyled mb">
+        <li>
+          <strong>Armor:</strong> Light Armor
+        </li>
+        <li>
+          <strong>Weapons:</strong> Shortsword, daggers, darts, quarterstaffs, sickles, slings
+        </li>
+        <li>
+          <strong>Tools:</strong> none
+        </li>
+      </ul>
+      <ul class="unstyled">
+        <li>
+          <strong>Saving Throws:</strong> Dexterity, Charisma
+        </li>
+        <li>
+          <strong>Skills:</strong> Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth
+        </li>
+      </ul>
+      <h5>Equipment</h5>
+      <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+      <ul>
+        <li>a shortsword</li>
+        <li>a dagger</li>
+        <li>(a) a burglar's pack, (b) a entertainer's pack or (c) a explorer’s pack</li>
+        <li>leather armor</li>
+      </ul>
+      <h5 class="caption">The Dhari</h5>
+      <table class="class-features">
+        <thead>
+          <tr>
+            <td class="col-5">Level</td>
+            <td class="col-10">Elemental Strike</td>
+            <td class="col-60 left">Features</td>
+          </tr>
+        </thead>
+        <tr>
+          <td> 1st</td>
+          <td>-</td>
+          <td class="left">Fleet Footwork, Jack of all Trades</td>
+        </tr>
+        <tr>
+          <td> 2nd</td>
+          <td>cha</td>
+          <td class="left">Elemental Strike</td>
+        </tr>
+        <tr>
+          <td> 3rd</td>
+          <td>cha</td>
+          <td class="left">Artistic Archetype</td>
+        </tr>
+        <tr>
+          <td> 4th</td>
+          <td>cha</td>
+          <td class="left">Ability Score Improvement</td>
+        </tr>
+        <tr>
+          <td> 5th</td>
+          <td>cha+d4</td>
+          <td class="left">Extra Attack</td>
+        </tr>
+        <tr>
+          <td> 6th</td>
+          <td>cha+d4</td>
+          <td class="left">Uncanny Dodge</td>
+        </tr>
+        <tr>
+          <td> 7th</td>
+          <td>cha+d4</td>
+          <td class="left">Evasion</td>
+        </tr>
+        <tr>
+          <td> 8th</td>
+          <td>cha+d4</td>
+          <td class="left">Ability Score Improvement</td>
+        </tr>
+        <tr>
+          <td> 9th</td>
+          <td>cha+d4</td>
+          <td class="left">Superior Artistic Technique</td>
+        </tr>
+        <tr>
+          <td>10th</td>
+          <td>cha+d4</td>
+          <td class="left">Ability Score Improvement</td>
+        </tr>
+        <tr>
+          <td>11th</td>
+          <td>cha+d6</td>
+          <td class="left">Advanced Talent, Increased Artistic Damage</td>
+        </tr>
+        <tr>
+          <td>12th</td>
+          <td>cha+d6</td>
+          <td class="left">Ability Score Improvement</td>
+        </tr>
+        <tr>
+          <td>13th</td>
+          <td>cha+d6</td>
+          <td class="left">Second Chance</td>
+        </tr>
+        <tr>
+          <td>14th</td>
+          <td>cha+d6</td>
+          <td class="left">Blindsense</td>
+        </tr>
+        <tr>
+          <td>15th</td>
+          <td>cha+d6</td>
+          <td class="left">Catching Opportunities</td>
+        </tr>
+        <tr>
+          <td>16th</td>
+          <td>cha+d6</td>
+          <td class="left">Ability Score Improvement</td>
+        </tr>
+        <tr>
+          <td>17th</td>
+          <td>cha+d8</td>
+          <td class="left">Perfection</td>
+        </tr>
+        <tr>
+          <td>18th</td>
+          <td>cha+d8</td>
+          <td class="left">Elusive</td>
+        </tr>
+        <tr>
+          <td>19th</td>
+          <td>cha+d8</td>
+          <td class="left">Ability Score Improvement</td>
+        </tr>
+        <tr>
+          <td>20th</td>
+          <td>cha+d8</td>
+          <td class="left">Perfected Talent</td>
+        </tr>
+      </table>
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_FLEET_FOOTWORK" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_JACKOFALLTRADES" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_ELEMENTAL_STRIKE" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_ARTISTIC_ARCHETYPE" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_ABILITYSCOREIMPROVEMENT_DHARI" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_EXTRA_ATTACK" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_UNCANNY_DODGE" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_EVASION" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_ADVANCED_TALENT" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_SECOND_CHANCE" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_BLINDSENSE" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_CATCHING_OPPORTUNITIES" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_PERFECTION" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_ELUSIVE" />
+      <div element="ID_MIMA_CLASS_FEATURE_DHARI_PERFECTED_TALENT" />
+    </description>
+    <sheet display="false">
+      <description>A highly artistic wielder of a signature weapons.</description>
+    </sheet>
+    <setters>
+      <set name="short">A highly artistic wielder of a signature weapons.</set>
+      <set name="hd">d8</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_MIMA_MULTICLASS_DHARI" />
+      <grant type="proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_MIMA_MULTICLASS_DHARI" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_MIMA_MULTICLASS_DHARI" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_MIMA_MULTICLASS_DHARI" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_MIMA_MULTICLASS_DHARI" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE" requirements="!ID_MIMA_MULTICLASS_DHARI" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_MIMA_MULTICLASS_DHARI" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_MIMA_MULTICLASS_DHARI" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_MIMA_MULTICLASS_DHARI" />
+      <select type="Proficiency" name="Skill Proficiency (Dhari)" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_STEALTH" number="4" requirements="!ID_MIMA_MULTICLASS_DHARI" />
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_FLEET_FOOTWORK" level="1"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_JACKOFALLTRADES" level="1"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_ELEMENTAL_STRIKE" level="2"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_ARTISTIC_ARCHETYPE" level="3"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_ABILITYSCOREIMPROVEMENT_DHARI" level="4"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_EXTRA_ATTACK" level="5"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_UNCANNY_DODGE" level="6"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_EVASION" level="7"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_ADVANCED_TALENT" level="11"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_SECOND_CHANCE" level="13"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_BLINDSENSE" level="14"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_CATCHING_OPPORTUNITIES" level="15"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_PERFECTION" level="17"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_ELUSIVE" level="18"/>
+      <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_PERFECTED_TALENT" level="20"/>
+      <stat name="dhāri:dc" value="8" />
+      <stat name="dhāri:dc" value="proficiency" />
+      <stat name="dhāri:dc" value="dexterity:modifier" />
+    </rules>
+    <multiclass id="ID_MIMA_MULTICLASS_DHARI">
+      <prerequisite>Dexterity 13, Charisma 13</prerequisite>
+      <requirements>[dex:13],[cha:13]</requirements>
+      <setters>
+        <set name="multiclass proficiencies">Light armor, Shortword and two skills from the class’s skill list</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+        <select type="Proficiency" name="Skill Proficiency (Dhari)" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_STEALTH" number="2" />
+      </rules>
+    </multiclass>
+  </element>
+
+  <element name="Fleet Footwork" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_FLEET_FOOTWORK">
+    <description>
+      <p>At 1st level, you learn to be very agile. While you are not using a shield, you can choose to have your AC equal 10 + your Dexterity modifier + your Charisma modifier.</p>
+      <p class="intend">Additionally, you gain a +10 bonus on your movement speed.</p>
+    </description>
+    <sheet>
+      <description>
+        While you are not using a shield, you can choose to have your AC equal {{ac:fleetfootwork}}.
+      </description>
+    </sheet>
+    <rules>
+      <stat name="speed" value="10" bonus="fleetfootwork" />
+      <stat name="ac:fleetfootwork" value="10" />
+      <stat name="ac:fleetfootwork" value="dexterity:modifier" />
+      <stat name="ac:fleetfootwork" value="charisma:modifier" />
+      <stat name="ac:calculation" value="ac:fleetfootwork" bonus="calculation" alt="Fleet Footwork" equipped="[shield:none]" />
+    </rules>
+  </element>
+  <element name="Jack of all Trades" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_JACKOFALLTRADES">
+    <description>
+      <p>Starting at 1st level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include your proficiency bonus.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <stat name="initiative" value="proficiency:half" bonus="proficiency" />
+      <stat name="acrobatics:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ACROBATICS"/>
+      <stat name="animal handling:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ANIMALHANDLING"/>
+      <stat name="arcana:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ARCANA"/>
+      <stat name="athletics:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ATHLETICS"/>
+      <stat name="deception:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_DECEPTION"/>
+      <stat name="history:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_HISTORY"/>
+      <stat name="insight:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INSIGHT"/>
+      <stat name="intimidation:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INTIMIDATION"/>
+      <stat name="investigation:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INVESTIGATION"/>
+      <stat name="medicine:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_MEDICINE"/>
+      <stat name="nature:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_NATURE"/>
+      <stat name="perception:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERCEPTION"/>
+      <stat name="performance:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERFORMANCE"/>
+      <stat name="persuasion:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERSUASION"/>
+      <stat name="religion:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_RELIGION"/>
+      <stat name="sleight of hand:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_SLEIGHTOFHAND"/>
+      <stat name="stealth:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_STEALTH"/>
+      <stat name="survival:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_SURVIVAL"/>
+    </rules>
+  </element>
+  <element name="Elemental Strike" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_ELEMENTAL_STRIKE">
+    <description>
+      <p>At 2nd level, you learned to infuse your weapons with the power of your soul. On reading your (signature) weapons you may choose to infuse them with an element of your choice. Attacks using Elemental Strike are considered magical and deal additional damage of the choosen element according to the Dhari table. You can activate this feature up to an amount equal to your charisma modifier. You regain all expended uses after a long rest. First you can choose between Acid, Cold, Fire, Lightning, Poison and Thunder. Starting with 11th level you can also choose Force, Radiant and Necrotic.</p>
+    </description>
+    <sheet usage="{{charisma:modifier}}/Long Rest">
+      <description requirements="!ID_MIMA_CLASS_FEATURE_DHARI_ARTISTIC_ARCHETYPE">
+        On reading your weapons you may choose to infuse them with an element of your choice (Acid, Cold, Fire, Lightning, Poison, Thunder). Attacks using Elemental Strike are considered magical and deal additional {{charisma:modifier}} damage of the choosen element.
+      </description>
+      <description level="3">
+        On reading your signature weapon(s) you may choose to infuse them with an element of your choice (Acid, Cold, Fire, Lightning, Poison, Thunder). Attacks using Elemental Strike are considered magical and deal additional {{charisma:modifier}} damage of the choosen element.
+      </description>
+      <description level="5">
+        On reading your signature weapon(s) you may choose to infuse them with an element of your choice (Acid, Cold, Fire, Lightning, Poison, Thunder). Attacks using Elemental Strike are considered magical and deal additional {{charisma:modifier}} + 1d{{dhāri:dice:size}} damage of the choosen element.
+      </description>
+      <description level="11">
+        On reading your signature weapon(s) you may choose to infuse them with an element of your choice (Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Radiant, Thunder). Attacks using Elemental Strike are considered magical and deal additional {{charisma:modifier}} + 1d{{dhāri:dice:size}} damage of the choosen element.
+      </description>
+    </sheet>
+    <rules>
+      <stat name="dhāri:dice:size" value="4" bonus="base" level="5" />
+      <stat name="dhāri:dice:size" value="6" bonus="base" level="11" />
+      <stat name="dhāri:dice:size" value="8" bonus="base" level="17" />
+    </rules>
+  </element>
+  <element name="Artistic Archetype" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_ARTISTIC_ARCHETYPE">
+    <description>
+      <p>At 3rd level, you choose an archetype that you strive to express in your combat styles and techniques. You may choose between different signature weapons. Chakrams or a Nodachi. Your archetype grants you techniques at 3rd level and again at 9th in addition to a damage increase at 11th level.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Archetype" name="Artistic Archetype" supports="Artistic Archetype" level="3" />
+    </rules>
+  </element>
+  <element name="Ability Score Improvement" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_ABILITYSCOREIMPROVEMENT_DHARI">
+    <compendium display="false" />
+    <description>
+      <p>When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Improvement Option (Dhari 4)" supports="Improvement Option,Dhari,4" level="4" />
+      <select type="Class Feature" name="Improvement Option (Dhari 8)" supports="Improvement Option,Dhari,8" level="8" />
+      <select type="Class Feature" name="Improvement Option (Dhari 10)" supports="Improvement Option,Dhari,10" level="10" />
+      <select type="Class Feature" name="Improvement Option (Dhari 12)" supports="Improvement Option,Dhari,12" level="12" />
+      <select type="Class Feature" name="Improvement Option (Dhari 16)" supports="Improvement Option,Dhari,16" level="16" />
+      <select type="Class Feature" name="Improvement Option (Dhari 19)" supports="Improvement Option,Dhari,19" level="19" />
+    </rules>
+  </element>
+  <element name="Extra Attack" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_EXTRA_ATTACK">
+    <compendium display="false" />
+    <description>
+      <p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+    </description>
+    <sheet>
+      <description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+    </sheet>
+    <rules>
+      <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+    </rules>
+  </element>
+  <element name="Uncanny Dodge" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_UNCANNY_DODGE">
+    <description>
+      <p>Starting at 6th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.</p>
+    </description>
+    <sheet action="Reaction">
+      <description>When an attacker that you can see hits you with an attack, you can halve the attack’s damage against you.</description>
+    </sheet>
+  </element>
+  <element name="Evasion" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_EVASION">
+    <description>
+      <p>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+    </description>
+    <sheet>
+      <description>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</description>
+    </sheet>
+  </element>
+  <element name="Advanced Talent" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_ADVANCED_TALENT">
+    <description>
+      <p>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10. Additionally, your damage dice for the Chakram weapon changes to a d8.</p>
+    </description>
+    <sheet>
+      <description>Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</description>
+    </sheet>
+  </element>
+  <element name="Second Chance" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_SECOND_CHANCE">
+    <description>
+      <p>Starting at 13th level, once per turn you can reroll a missing attack. Since the chakram makes another attemped on it's way back to you.</p>
+    </description>
+    <sheet>
+      <description>Once per turn you can reroll a missing attack. Since the chakram makes another attemped on it's way back to you.</description>
+    </sheet>
+  </element>
+  <element name="Blindsense" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_BLINDSENSE">
+    <description>
+      <p>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</p>
+    </description>
+    <sheet>
+      <description>If you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</description>
+    </sheet>
+  </element>
+  <element name="Catching Opportunities" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_CATCHING_OPPORTUNITIES">
+    <description>
+      <p>Starting at 15th level, you catch any chance to strike back. When a hostile creature misses a attack against you, you can take your reaction to attack that creature. You attack with every weapon in your hand, main hand and off-hand.</p>
+    </description>
+    <sheet>
+      <description>When a hostile creature misses a attack against you, you can take your reaction to attack that creature. You attack with every weapon in your hand, main hand and off-hand.</description>
+    </sheet>
+  </element>
+  <element name="Perfection" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_PERFECTION">
+    <description>
+      <p>Starting at 17th level, nothing can impair your ability to perform. You can ignore all sources of disadvantage on any of your attack rolls, ability checks, or saving throws.</p>
+    </description>
+    <sheet>
+      <description>You can ignore all sources of disadvantage on any of your attack rolls, ability checks, or saving throws.</description>
+    </sheet>
+  </element>
+  <element name="Elusive" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_ELUSIVE">
+    <description>
+      <p>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren’t incapacitated.</p>
+    </description>
+    <sheet>
+      <description>No attack roll has advantage against you while you aren’t incapacitated.</description>
+    </sheet>
+  </element>
+  <element name="Perfected Talent" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_PERFECTED_TALENT">
+    <description>
+      <p>By 20th level, you reached a certain point of perfection with your skills. Once per Turn, if your attack misses a target within range, you can redo the attack roll. Alternatively, if you fail an ability check/saving throw you may reroll once. Your weapon attacks score a critical hit on a roll of 18 or higher.</p>
+    </description>
+    <sheet>
+      <description>Once per Turn, if your attack misses a target within range, you can redo the attack roll. Alternatively, if you fail an ability check/saving throw you may reroll once. Your weapon attacks score a critical hit on a roll of 18 or higher.</description>
+    </sheet>
+  </element>
+
+  <!-- Chakra-Dhari -->
+  <element name="Chakra-Dhari" type="Archetype" source="Michin Makery" id="ID_MIMA_ARCHETYPE_CHAKRA_DHARI">
+    <supports>Artistic Archetype</supports>
+    <description>
+      <p>The Chakra-Dhari uses bladed discs called Chakram. Special techniques are the Double Punch, Spinner and the Ricochet.</p>
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_TWOWEAPON_FIGHTING_CHAKRAM"/>
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES"/>
+      <div class="reference">
+        <div element="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES_DOUBLE_PUNCH" />
+      </div>
+      <div class="reference">
+        <div element="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES_SPINNER" />
+      </div>
+      <div class="reference">
+        <div element="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES_RICOCHET" />
+      </div>
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_INCREASED_CHAKRAM_DAMAGE"/>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Proficiency" id="ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_CHAKRAM" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_TWOWEAPON_FIGHTING_CHAKRAM" level="3" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES" level="3" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_INCREASED_CHAKRAM_DAMAGE" level="11" />
+    </rules>
+  </element>
+  <element name="Two-Weapon Fighting (Chakrams)" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_TWOWEAPON_FIGHTING_CHAKRAM">
+    <description>
+      <p>When you engage in two-weapon fighting with two Chakrams, you can add your ability modifier to the damage of the second attack.</p>
+    </description>
+    <sheet>
+      <description>When you engage in two-weapon fighting with two Chakrams, you can add your ability modifier to the damage of the second attack.</description>
+    </sheet>
+  </element>
+  <element name="Chakram Techniques" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES">
+    <description>
+      <p>At 3rd level, you learned some important techniques. As your attack action you may use Double Punch or Spinner. At 9th level you learn the superior technique Ricochet.</p>
+      <p class="indent">You regain any expended uses when you finish a Short Rest.</p>
+    </description>
+    <sheet usage="{{proficiency}}/Short Rest">
+      <description level="3">
+        As the cost of two of your attack action, you may use Double Punch or Spinner. You have to wield two Chakrams.
+      </description>
+      <description level="9">
+        As the cost of two of your attack action, you may use Double Punch, Spinner or Ricochet. You have to wield two Chakrams.
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES_DOUBLE_PUNCH" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES_SPINNER" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES_RICOCHET" level="9"/>
+    </rules>
+  </element>
+  <element name="Increased Chakram Damage" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_INCREASED_CHAKRAM_DAMAGE">
+    <description>
+      <p>At 11th level, you learn to use your Chakrams more precisely. Your Chakram deals a d8 slashing damage instead of a d6.</p>
+    </description>
+    <sheet>
+      <description>Your Chakram deals a d8 slashing damage instead of a d6.</description>
+    </sheet>
+  </element>
+
+  <!-- Chakram Techniques -->
+  <element name="Double Punch" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES_DOUBLE_PUNCH">
+    <supports>Chakram Techniques</supports>
+    <description>
+      <p>You can attack one target in melee range with both Chakrams at the same time to deal the damage of them both. You use one attack roll for this attack. On a hit, the target does a strength save against 8 + your proficiency bonus + your dexterity modifier. On a failed save, you knock the target prone.</p>
+    </description>
+    <sheet usage="Chakram Techniques">
+      <description>You can attack one target in melee range with both Chakrams at the same time to deal the damage of them both. You use one attack roll for this attack. On a hit, the target does a strength save against {{dhāri:dc}}. On a failed save, you knock the target prone.</description>
+    </sheet>
+  </element>
+  <element name="Spinner" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES_SPINNER">
+    <supports>Chakram Techniques</supports>
+    <description>
+      <p>You can spin your Chakrams around you to hit any target within 10 feet of you. Make two attack roll for each target as of they may be hit twice. If there is an obstacle blocking the way of your Chakram, it drops and can't fly further. After using this technique you may move without provoking opportunity attacks.</p>
+    </description>
+    <sheet usage="Chakram Techniques">
+      <description>You can spin your Chakrams around you to hit any target within 10 feet of you. Make two attack roll for each target as of they may be hit twice. If there is an obstacle blocking the way of your Chakram, it drops and can't fly further. After using this technique you may move without provoking opportunity attacks.</description>
+    </sheet>
+  </element>
+  <element name="Ricochet" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES_RICOCHET">
+    <description>
+      <p>You’ve learnt the famous Chakra-Dhari technique to hit multiple targets by ricocheting your chakram. You can use your attack action to make two ranged attack with your chakrams against one target. If your attack hits, then any number of additional creatures of your choice within 10 feet of that target must make a Dexterity saving throw against 8 + your proficiency bonus + your dexterity modifier. Each creature that fails the save takes the same amount of damage as your first target. Additionally, you can attack targets that are not in your line of sight, such as around corners.</p>
+    </description>
+    <sheet usage="Chakram Techniques">
+      <description>You can use your attack action to make two ranged attack with your chakrams against one target. If your attack hits, then any number of additional creatures of your choice within 10 feet of that target must make a Dexterity saving throw against {{dhāri:dc}}. Each creature that fails the save takes the same amount of damage as your first target. Additionally, you can attack targets that are not in your line of sight, such as around corners.</description>
+    </sheet>
+  </element>
+
+  <!-- Noda-Dhari -->
+  <element name="Noda-Dhari" type="Archetype" source="Michin Makery" id="ID_MIMA_ARCHETYPE_NODA_DHARI">
+    <supports>Artistic Archetype</supports>
+    <description>
+      <p>The Noda-Dhari uses a handcrafted Nodachi. Special techniques are the Kashira Punch, Senkai and the Lotus Assault.</p>
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_TWOWEAPON_FIGHTING_NODACHI"/>
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES"/>
+      <div class="reference">
+        <div element="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES_KASHIRA_PUNCH" />
+      </div>
+      <div class="reference">
+        <div element="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES_SENKAI" />
+      </div>
+      <div class="reference">
+        <div element="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES_LOTUS_ASSAULT" />
+      </div>
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_INCREASED_NODACHI_DAMAGE"/>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Proficiency" id="ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_NODACHI" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_TWOWEAPON_FIGHTING_NODACHI" level="3" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES" level="3" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_INCREASED_NODACHI_DAMAGE" level="11" />
+    </rules>
+  </element>
+  <element name="Great Weapon Fighting (Nodachi)" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_TWOWEAPON_FIGHTING_NODACHI">
+    <description>
+      <p>When you roll a 1 or 2 on a damage die for an attack you make with a Nodachi, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
+    </p>
+    </description>
+    <sheet>
+      <description>When you roll a 1 or 2 on a damage die for an attack you make with a Nodachi, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</description>
+    </sheet>
+  </element>
+  <element name="Nodachi Techniques" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES">
+    <description>
+      <p>At 3rd level, you learned some important techniques. As your attack action you may use Kashira Punch or Senkai. At 9th level you learn the superior technique Lotus Assault.</p>
+      <p class="indent">You regain any expended uses when you finish a Short Rest.</p>
+    </description>
+    <sheet usage="{{proficiency}}/Short Rest">
+      <description level="3">
+        As your attack action, you may use Kashira Punch or Senkai. You have to wield a Nodachi.
+      </description>
+      <description level="9">
+        As your attack action, you may use Kashira Punch, Senkai or Lotus Assault. You have to wield a Nodachi.
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES_KASHIRA_PUNCH" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES_SENKAI" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES_LOTUS_ASSAULT" level="9"/>
+    </rules>
+  </element>
+  <element name="Increased Nodachi Damage" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_INCREASED_NODACHI_DAMAGE">
+    <description>
+      <p>At 11th level, you learn to use your Nodachi more precisely. Your Nodachi deals 2d8 slashing damage instead of 2d6.</p>
+    </description>
+    <sheet>
+      <description>Your Nodachi deals 2d8 slashing damage instead of 2d6.</description>
+    </sheet>
+  </element>
+
+  <!-- Nodachi Techniques -->
+  <element name="Kashira Punch" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES_KASHIRA_PUNCH">
+    <supports>Nodachi Techniques</supports>
+    <description>
+      <p>You can attack one creature within 5 feet as much as you have attacks. One of those attacks only dealing 1d6 bludgeoning damage instead of 2d6 (slashing) as you attack with the Kashira (pommel) of your Nodachi. On hit with the Kashira the target must succeed on a Constitution saving throw againt 8 + your proficiency bonus + your dexterity modifier or be stunned until the end of your next turn.</p>
+    </description>
+    <sheet usage="Nodachi Techniques">
+      <description>You can attack one creature within 5 feet as much as you have attacks. One of those attacks only dealing 1d6 bludgeoning damage instead of 2d6 (slashing) as you attack with the Kashira (pommel) of your Nodachi. On hit with the Kashira the target must succeed on a Constitution saving throw againt {{dhāri:dc}} or be stunned until the end of your next turn.</description>
+    </sheet>
+  </element>
+  <element name="Senkai" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES_SENKAI">
+    <supports>Nodachi Techniques</supports>
+    <description>
+      <p>You can spin around with your Nodachi to strike every enemy around you within 10 feet with one attack and damage roll for all. Regardless of a hit, every target must succeed on a Strength save against 8 + your proficiency bonus + your dexterity modifier or be pushed back for 10 feet.</p>
+    </description>
+    <sheet usage="Nodachi Techniques">
+      <description>You can spin around with your Nodachi to strike every enemy around you within 10 feet with one attack and damage roll for all. Regardless of a hit, every target must succeed on a Strength save against {{dhāri:dc}} or be pushed back for 10 feet.</description>
+    </sheet>
+  </element>
+  <element name="Lotus Assault" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES_LOTUS_ASSAULT">
+    <description>
+      <p>You've learnt the famous Noda-Dhari technique of dashing and slashing. You can use your attack action to dash to a target within 30 feet of you and make an attack against that target. On hit you may dash to up to 4 other creatures within 30 feet of the initial target and make an attack against them. You end within 10 feet of your initial target.</p>
+    </description>
+    <sheet usage="Nodachi Techniques">
+      <description>You can use your attack action to dash to a target within 50 feet of you and make an attack against that target. On hit you may dash to up to 4 other creatures within 30 feet of the initial target and make an attack against them. You end within 10 feet of your initial target.</description>
+    </sheet>
+  </element>
+</elements>

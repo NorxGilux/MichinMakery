@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <update version="0.0.4">
+      <author url="https://github.com/Nakamijo/Michin_Makery">Michin Makery</author>
+      <file name="race-zuprix.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/race-zuprix.xml" />
+    </update>
+  </info>
+
+  <element name="Zuprix" type="Race" source="Michin Makery" id="ID_MIMA_RACE_ZUPRIX">
+    <description>
+      <p class="flavor">Versatile arcane creatures created to protect something precious.</p>
+      <p>Ciron stared at the other kids playing without him. For outsiders it looks like he is sad that he is not allowed to play with him but actually he is happy about it because he doesn’t want to play with them for a reason. Just by sitting outside he can protect his friend even better from anything. Recently, children in this tiny town get missing and never come back. Due to that the mighty Lomar created Ciron to protect his child. Lomar was once a sage of the Nai’Lo family, a noble high elf family, and had a secret project of creating Zuprix together with a mysterious man called Cephalon and some other wizards. </p>
+      <h4>Physical Description</h4>
+      <p>Zuprix can look like any other race, tribe, folk or being that exist. The only difference is, they got some runic tattoos.</p>
+      <h4>History</h4>
+      <p>Nobody knows where they come from. They exist since the beginning of time and magic to protect precious things. Zuprix can be created by mighty spellcasters, mostly wizards.</p>
+      <h4>Society</h4>
+      <p>Zuprix blend in any society or group, since they don’t look that much different. Only their personality is obscure sometimes.</p>
+      <h4>Personality</h4>
+      <p>Zuprix life to protect one specific object, creature or even a person. They do everything to not let anything evil close to that. Stealing or kidnapping those precious makes them outrageous and dangerous. They sometimes seem mentally absent. Therefore, it’s been told that Zuprix got no soul. In their early year, they adapt behaviors and manners of the people surrounding them like a usual child.</p>
+      <h4>Zuprix Names</h4>
+      <p>
+        Zuprix are usually named by their creators but don’t have to be. They can have any kind of names even a number.
+      </p>
+      <h4>Zuprix Traits</h4>
+      <p>Beings created from arcane energy.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>You got 3 points to spent on any Ability Score in any combination.<br />
+        <span class="feature">Age.</span>Zuprix don’t mature and age in the same way that other races do. They potentially live as long as the precious they are protecting sometimes longer. Maybe even an eternity.<br />
+        <span class="feature">Alignment.</span>Usually Zuprix tend towards a neutral alignment. But depending on their creators and their quest it may change in any direction.<br />
+        <span class="feature">Size.</span>Any one of Tiny, Small, Medium, Large.<br />
+        <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br />
+        <span class="feature">Darkvision.</span>Due to your origin in the arcane you are able to see in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.<br />
+        <span class="feature">Versatile at Birth.</span>Since you are created by the imagination of your creator, you may have natural weapons like Bite or Claws dealing 1d4 (or 1d8 for the second improvement on the same natural weapon) slashing or piercing damage. You can choose to use your Strength or Dexterity modifier for these attacks. Additionally, you may have wings, a cloud or anything that fits to fly and/or be able to swim at a speed of 30 feet. To be able to fly, you can’t be wearing medium or heavy armor. You can also just choose a proficiency or language you like. You can choose this feature up to four times, reducing the points available for your Ability Score Increase by 1 each time after the first (up to 3 times for natural weapons).<br />
+        <span class="feature">Bound by Nature.</span>Your whole life is given to you to protect something precious. You are bound to an object or a creature to protect it from harm and/or fulfill a quest relating to it. While this precious is not destroyed or dead you come back to life 3 days after you died. You reappear next to this precious. This feature also allows you to regrow parts of your body by the same speed.<br />
+        <span class="feature">Ever Active Mind.</span>Zuprix don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you restore the arcane energy within you. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.<br />
+        <span class="feature">Languages.</span>You can speak, read and write in Common and Primordial.<br />
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">1, 3, 5, 7</set>
+      <set name="names" type="female">0, 2, 4, 6</set>
+      <set name="names-format">{{name}}</set>
+      <set name="height" modifier="2d10">4'8"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="innate speed" value="30" bonus="base" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_PRIMORDIAL" />
+      <grant type="Racial Trait" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH" />
+      <grant type="Racial Trait" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_BOUND_BY_NATURE" />
+      <grant type="Racial Trait" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_EVER_ACTIVE_MIND" />
+    </rules>
+  </element>
+
+  <element name="Versatile at Birth" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH">
+    <description>
+      <p>Since you are created by the imagination of your creator, you may have natural weapons like Bite or Claws dealing 1d4 (or 1d8 for the second improvement on the same natural weapon) slashing or piercing damage. You can choose to use your Strength or Dexterity modifier for these attacks. Additionally, you may have wings, a cloud or anything that fits to fly and/or be able to swim at a speed of 30 feet. To be able to fly, you can’t be wearing medium or heavy armor. You can also just choose a proficiency or language you like. You can choose this feature up to four times, reducing the points available for your Ability Score Increase by 1 each time after the first (up to 3 times for natural weapons).</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Racial Trait" name="Versatile at Birth (Size)" supports="Zuprix Size" />
+      <select type="Racial Trait" name="Versatile at Birth (Zuprix Variant)" supports="Zuprix Variant" number="4" />
+    </rules>
+  </element>
+
+  <element name="Tiny" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_SIZE_TINY">
+    <supports>Zuprix Size</supports>
+    <description>
+      <p>You are tiny.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Size" id="ID_SIZE_TINY" />
+    </rules>
+  </element>
+
+  <element name="Small" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_SIZE_SMALL">
+    <supports>Zuprix Size</supports>
+    <description>
+      <p>You are small.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Size" id="ID_SIZE_SMALL" />
+    </rules>
+  </element>
+
+  <element name="Medium" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_SIZE_MEDIUM">
+    <supports>Zuprix Size</supports>
+    <description>
+      <p>You are medium size.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+    </rules>
+  </element>
+
+  <element name="Large" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_SIZE_LARGE">
+    <supports>Zuprix Size</supports>
+    <description>
+      <p>You are large.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Size" id="ID_SIZE_LARGE" />
+    </rules>
+  </element>
+
+  <element name="Natural Weapon" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH_NATURAL_WEAPON">
+    <supports>Zuprix Variant</supports>
+    <description>
+      <p>Since you are created by the imagination of your creator, you may have natural weapons like Bite or Claws dealing 1d4 slashing or piercing damage. You can choose to use your Strength or Dexterity modifier for these attacks. You are also proficient with those attacks.</p>
+    </description>
+    <sheet>
+      <description>
+        You have natural weapons like Bite or Claws dealing 1d4 slashing or piercing damage. You can choose to use your Strength or Dexterity modifier for these attacks. You are also proficient with those attacks.
+      </description>
+    </sheet>
+    <setters>
+      <set name="height" modifier="2d10">4'8"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+  </element>
+
+  <element name="Advanced Natural Weapon" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH_NATURAL_WEAPON_ADVANCED">
+    <supports>Zuprix Variant</supports>
+    <requirements>ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH_NATURAL_WEAPON</requirements>
+    <description>
+      <p>Your natural weapons like Bite or Claws dealing now dealing 1d8.</p>
+    </description>
+    <sheet>
+      <description>
+        Your primary natural weapons now deals 1d8 damage.
+      </description>
+    </sheet>
+  </element>
+
+  <element name="Second Natural Weapon" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH_NATURAL_WEAPON_SECOND">
+    <supports>Zuprix Variant</supports>
+    <requirements>ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH_NATURAL_WEAPON</requirements>
+    <description>
+      <p>You got a second natural weapon that deals 1d4 slashing or piercing damage. You can choose to use your Strength or Dexterity modifier for these attacks. You are also proficient with those attacks.</p>
+    </description>
+    <sheet>
+      <description>
+        You got a second natural weapon that deals 1d4 slashing or piercing damage. You can choose to use your Strength or Dexterity modifier for these attacks. You are also proficient with those attacks.
+      </description>
+    </sheet>
+  </element>
+
+  <element name="Climb" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH_CLIMB">
+    <supports>Zuprix Variant</supports>
+    <description>
+      <p>Since you are created by the imagination of your creator, you may have the ability to climb at a speed of 30 feet.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <stat name="innate speed:climb" value="30" bonus="base" />
+    </rules>
+  </element>
+
+  <element name="Fly" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH_FLY">
+    <supports>Zuprix Variant</supports>
+    <description>
+      <p>Since you are created by the imagination of your creator, you may have the ability to fly at a speed of 30 feet. To use this speed, you can’t be wearing medium or heavy armor.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <stat name="innate speed:fly" value="30" bonus="base" equipped="![armor:medium],![armor:heavy]" />
+    </rules>
+  </element>
+
+  <element name="Swim" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH_SWIM">
+    <supports>Zuprix Variant</supports>
+    <description>
+      <p>Since you are created by the imagination of your creator, you may  be able to swim at a speed of 30 feet.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <stat name="innate speed:swim" value="30" bonus="base" />
+    </rules>
+  </element>
+
+  <element name="Proficiency" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH_PROFICIENCY">
+    <supports>Zuprix Variant</supports>
+    <requirements>!ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH_LANGUAGE</requirements>
+    <description>
+      You may get a Proficiency of your choice.
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Proficiency" name="Proficiency, Zuprix" />
+    </rules>
+  </element>
+
+  <element name="Language" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH_LANGUAGE">
+    <supports>Zuprix Variant</supports>
+    <requirements>!ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH_PROFICIENCY</requirements>
+    <description>
+      You may get a Language of your choice.
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Language" name="Language, Zuprix" />
+    </rules>
+  </element>
+
+  <element name="Ability Score Improvement" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_ABILITY_SCORE_IMPROVEMENT_FIRST">
+    <supports>Zuprix Variant</supports>
+    <description>
+      You may improve an Ability Score of your choice by 1.
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Ability Score Improvement" name="Ability Score Increase, Zuprix" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" />
+    </rules>
+  </element>
+
+  <element name="Ability Score Improvement" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_ABILITY_SCORE_IMPROVEMENT_SECOND">
+    <supports>Zuprix Variant</supports>
+    <requirements>ID_MIMA_ZUPRIX_RACIAL_TRAIT_ABILITY_SCORE_IMPROVEMENT_FIRST</requirements>
+    <description>
+      You may improve an Ability Score of your choice by 1.
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Ability Score Improvement" name="Ability Score Increase, Zuprix" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" />
+    </rules>
+  </element>
+
+  <element name="Ability Score Improvement" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_ABILITY_SCORE_IMPROVEMENT_THIRD">
+    <supports>Zuprix Variant</supports>
+    <requirements>ID_MIMA_ZUPRIX_RACIAL_TRAIT_ABILITY_SCORE_IMPROVEMENT_SECOND</requirements>
+    <description>
+      You may improve an Ability Score of your choice by 1.
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Ability Score Improvement" name="Ability Score Increase, Zuprix" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" />
+    </rules>
+  </element>
+  
+  <element name="Bound by Nature" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_BOUND_BY_NATURE">
+    <description>
+      Your whole life is given to you to protect something precious. You are bound to an object or a creature to protect it from harm and/or fulfill a quest relating to it. While this precious is not destroyed or dead you come back to life 3 days after you died. You reappear next to this precious. This feature also allows you to regrow parts of your body by the same speed.
+    </description>
+    <sheet>
+      <description>
+        While the object or creature your are bound to is not destroyed or dead, you come back to life 3 days after you died. You reappear next to this precious. This feature also allows you to regrow parts of your body by the same speed.
+      </description>
+    </sheet>
+  </element>
+
+  <element name="Ever Active Mind" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_EVER_ACTIVE_MIND">
+    <description>
+      Zuprix don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you restore the arcane energy within you. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+    </description>
+    <sheet>
+      <description>
+        You don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (trance) While meditating, you restore the arcane energy within you. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+      </description>
+    </sheet>
+  </element>
+</elements>

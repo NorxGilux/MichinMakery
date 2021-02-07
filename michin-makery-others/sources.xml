@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.3">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/sources.xml" />
+		</update>
+	</info>
+	<element name="dandwiki" type="Source" source="dandwiki" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_DNDW">
+		<description>
+			<![CDATA[<p></p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">DNDW</set>
+			<set name="url">https://www.dandwiki.com/wiki/</set>
+			<set name="author" url="https://www.dandwiki.com/wiki/">dandwiki</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+  <element name="Zarieth" type="Source" source="Zarieth" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_ZARI">
+    <description>
+      <![CDATA[<p></p>]]>
+    </description>
+    <setters>
+      <set name="abbreviation">ZARI</set>
+      <set name="url">https://www.gmbinder.com/share/-L7gG0ZSzBHgbWv7t_wf</set>
+      <set name="author" url="https://www.gmbinder.com/share/-L7gG0ZSzBHgbWv7t_wf">Zarieth</set>
+      <set name="homebrew">true</set>
+    </setters>
+  </element>
+  <element name="DingoDoodles" type="Source" source="DingoDoodles" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_DIDO">
+    <description>
+      <![CDATA[<p></p>]]>
+    </description>
+    <setters>
+      <set name="abbreviation">DIDO</set>
+      <set name="url">https://www.youtube.com/channel/UCfPUcG3oCmXEYgdFuwlFh8w</set>
+      <set name="author" url="https://www.youtube.com/channel/UCfPUcG3oCmXEYgdFuwlFh8w">DingoDoodles</set>
+      <set name="homebrew">true</set>
+    </setters>
+  </element>
+  <element name="unknown official" type="Source" source="unknown official" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_UNOF">
+    <description>
+      <![CDATA[<p></p>]]>
+    </description>
+    <setters>
+      <set name="abbreviation">UNOF</set>
+      <set name="url">https://dnd.wizards.com</set>
+      <set name="author" url="https://dnd.wizards.com">WOTC</set>
+      <set name="homebrew">false</set>
+    </setters>
+  </element>
+  <element name="Tomb of Annihilation (Items)" type="Source" source="Tomb of Annihilation (Items)" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_WOTC_TOA_ITEMS">
+    <description>
+      <![CDATA[<p></p>]]>
+    </description>
+    <setters>
+      <set name="abbreviation">TOAI</set>
+      <set name="url">https://dnd.wizards.com/products/tabletop-games/rpg-products/tomb-annihilation</set>
+      <set name="author" url="https://dnd.wizards.com">WOTC</set>
+      <set name="homebrew">false</set>
+    </setters>
+  </element>
+  <element name="Magwa’s Magic Item Compendium" type="Source" source="Magwa’s Magic Item Compendium" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_MMIC">
+    <description>
+      <![CDATA[<p></p>]]>
+    </description>
+    <setters>
+      <set name="abbreviation">MMIC</set>
+      <set name="url">http://knightsofvasteel.com/apps/magwas-magic-item-compendium/</set>
+      <set name="author" url="http://knightsofvasteel.com/apps/magwas-magic-item-compendium/">KoV</set>
+      <set name="homebrew">true</set>
+    </setters>
+  </element>
+  <element name="Sherlock_Hulmes" type="Source" source="Sherlock_Hulmes" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_SHHU">
+    <description>
+      <![CDATA[<p></p>]]>
+    </description>
+    <setters>
+      <set name="abbreviation">SHHU</set>
+      <set name="url">https://www.patreon.com/sherlockhulmes</set>
+      <set name="author" url="https://www.patreon.com/sherlockhulmes">SH</set>
+      <set name="homebrew">true</set>
+    </setters>
+  </element>
+</elements>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <update version="0.0.1">
+      <author url="https://github.com/Nakamijo/Michin_Makery">Michin Makery</author>
+      <file name="subrace-devineblood-aasimar.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/subrace-devineblood-aasimar.xml" />
+    </update>
+  </info>
+  
+  <element name="Devine Blood Aasimar" type="Sub Race" source="Michin Makery" id="ID_MIMA_SUB_RACE_DEVINE_BLOOD_AASIMAR">
+    <supports>Aasimar</supports>
+    <description>
+      <p>Devine blood aasimar are stronger celestial souls that have knots to break and evil to erase with your inner light. But power often comes with a cost. Using your <em>Devine Soul</em> may lead into a small amnesia making you forget about the fact you transformed and what happend during that time and shortly before that. So, as a character you have to untie your inner knot to embrace yourself completely.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Wisdom score increases by 1.<br />
+        <span class="feature">Devine Soul.</span>Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and six luminous, incorporeal wings to sprout from your back. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level. Once you use this trait, you can't use it again until you finish a long rest.<br />
+        <span class="feature">Devine Flashback.</span>You cannot remember your transformations. Even if someone tries to explain to you what happend. You may have to meet another celestial to tell you. After this knot has been removed you are aware of your divine soul and of all memories.<br />
+        <span class="feature">Devine Truth.</span>Starting at level 12, the world tells you all any secret and you reveal every deception. You can sense all creatures within 10 feet of you and know if any of those creatures tell you a lie.<br />
+        <span class="feature">Devine Wings.</span>Starting at level 14, your wings come out and became physical. You have a flying speed of 30 feet which is doubled while your <em>Devine Soul</em> transformation is active.<br />
+        <span class="feature">Devine Faith.</span>Starting at level 16, your celestial spirit grats you more physical durability. Your hit point maximum increases by 1, and it increases by 1 ervery time you gain a lvl.<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <stat name="wisdom" value="1" />
+      <grant type="Racial Trait" id="ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_SOUL" level="3"/>
+      <grant type="Racial Trait" id="ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_FLASHBACK" level="3"/>
+      <grant type="Racial Trait" id="ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_TRUTH" level="12"/>
+      <grant type="Racial Trait" id="ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_WINGS" level="14"/>
+      <grant type="Racial Trait" id="ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_FAITH" level="16"/>
+    </rules>
+  </element>
+  <element name="Devine Soul" type="Racial Trait" source="Michin Makery" id="ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_SOUL">
+    <description>
+      <p>Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and six luminous, incorporeal wings to sprout from your back.</p>
+      <p>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.</p>
+      <p>Once you use this trait, you can't use it again until you finish a long rest.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals {{level}}.</description>
+    </sheet>
+  </element>
+  <element name="Devine Flashback" type="Racial Trait" source="Michin Makery" id="ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_FLASHBACK">
+    <description>
+      <p>You cannot remember your transformations. Even if someone tries to explain to you what happend. You may have to meet another celestial to tell you. After this knot has been removed you are aware of your divine soul and of all memories.</p>
+    </description>
+    <sheet />
+    <rules>
+      <select type="Racial Trait" name="Is your knot tied?" supports="ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_FLASHBACK_YES|ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_FLASHBACK_NO" />
+    </rules>
+  </element>
+  <element name="Yes" type="Racial Trait" source="Michin Makery" id="ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_FLASHBACK_YES">
+    <description>
+      <p>You cannot remember your transformations. Even if someone tries to explain to you what happend. You may have to meet another celestial to tell you.</p>
+    </description>
+    <sheet alt="">
+      <description>You cannot remember your transformations. Even if someone tries to explain to you what happend. You may have to meet another celestial to tell you.</description>
+    </sheet>
+  </element>
+  <element name="No" type="Racial Trait" source="Michin Makery" id="ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_FLASHBACK_NO">
+    <description>
+      <p>Your knot has been removed you are aware of your divine soul and of all memories.</p>
+    </description>
+    <sheet alt="">
+      <description>Your knot has been removed you are aware of your divine soul and of all memories.</description>
+    </sheet>
+  </element>
+  <element name="Devine Truth" type="Racial Trait" source="Michin Makery" id="ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_TRUTH">
+    <description>
+      <p>Starting at level 12, the world tells you all any secret and you reveal every deception. You can sense all creatures within 10 feet of you and know if any of those creatures tell you a lie.</p>
+    </description>
+    <sheet>
+      <description>You can sense all creatures within 10 feet of you and know if any of those creatures tell you a lie.</description>
+    </sheet>
+  </element>
+  <element name="Devine Wings" type="Racial Trait" source="Michin Makery" id="ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_WINGS">
+    <description>
+      <p>Starting at level 14, your wings come out and became physical. You have a flying speed of 30 feet which is doubled while your <em>Devine Soul</em> transformation is active.</p>
+    </description>
+    <sheet>
+      <description>You double your flying speed while you are transformed using your <em>Devine Soul</em> trait.</description>
+    </sheet>
+    <rules>
+      <stat name="innate speed:fly" value="30" bonus="base" />
+    </rules>
+  </element>
+  <element name="Devine Faith" type="Racial Trait" source="Michin Makery" id="ID_MIMA_SUB_RACE_DEVINE_BLOOD_DEVINE_FAITH">
+    <description>
+      <p>Starting at level 16, your celestial spirit grats you more physical durability. Your hit point maximum increases by 1, and it increases by 1 ervery time you gain a lvl.</p>
+    </description>
+    <sheet>
+      <description>Your hit point maximum is increased by {{devinesoul:hp}}. </description>
+    </sheet>
+    <rules>
+      <stat name="hp" value="1" level="16"/>
+      <stat name="devinesoul:hp" value="1" level="16"/>
+      <stat name="hp" value="1" level="17"/>
+      <stat name="devinesoul:hp" value="1" level="17"/>
+      <stat name="hp" value="1" level="18"/>
+      <stat name="devinesoul:hp" value="1" level="18"/>
+      <stat name="hp" value="1" level="19"/>
+      <stat name="devinesoul:hp" value="1" level="19"/>
+      <stat name="hp" value="1" level="20"/>
+      <stat name="devinesoul:hp" value="1" level="20"/>
+    </rules>
+  </element>
+</elements>

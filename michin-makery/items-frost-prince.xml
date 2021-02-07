@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <update version="0.0.1">
+      <file name="items-frost-prince.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/items-frost-prince.xml" />
+    </update>
+  </info>
+  
+  	<element name="Cloak of the Frost Prince" type="Magic Item" source="Michin Makery" id="ID_MIMA_FROST_PRINCE_CLOAK">
+		<description>
+			<p>Light-blue snowflakes shimmering on the black velvet. The cloak emits a steady cold. Sometimes it even leaves behind some snow on the ground. While touching it you feel the cold embracing you. During the attunement it seems like there is something inside of the cape giving you great power.</p>
+			<p class="indent">While wearing this cloak you can walk on ice like it’s casual terrain. You can speak the command words “Let’s kick some ice!” to freeze the water beneath your feet and walk on it. (no attunement needed)</p>
+			<p class="indent">With attunement: As a bonus action, you may teleport up to 30 feet to an unoccupied space. Each creature in a 5-foot radius of the end point must make a DC 15 dexterity saving throw, taking 1d10+3 cold damage on a failed save, of half damage on a successful save. You can use this feature up to 4 times and regain 1d4 charges at dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">cloak,cold,frost,prince</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+			<set name="slot">shoulders</set>
+		</setters>
+	</element>
+  
+  	<element name="Ring of the Frost Prince" type="Magic Item" source="Michin Makery" id="ID_MIMA_FROST_PRINCE_RING">
+		<description>
+			<p>An ice-blue gem is shining on this cold piece of metal. On activation tiny snowflakes appear around this gem. While touching it you feel the cold embracing you. During the attunement it seems like there is something inside of the ring giving you great power.</p>
+			<p class="indent">While wearing this ring you can walk on ice like it’s casual terrain. You can speak the command words “Let’s kick some ice!” to freeze the water beneath your feet and walk on it. (no attunement needed)</p>
+			<p class="indent">With attunement: You may enhance any attack that hits and deals cold damage to leave a cloud of freezing air behind. This cloud fills the same area as the attack or spell. Attacks or spells that target individuals create a 5-foot-diameter cloud at the target’s space. The cloud is stationary and lasts until the start of your next turn. Creatures that start their turn in this area or enter it take cold damage. Originated from a spell the cloud deals cold damage equal to your spellcasting ability modifier + the level of spell slot expended when the spell was cast. For weapon attacks the cloud deals cold damage equal to your attack modifier.</p>
+		</description>
+		<setters>
+			<set name="keywords">ring,cold,frost,prince</set>
+			<set name="category">Rings</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">ring</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+  
+  	<element name="Necklace of the Frost Prince" type="Magic Item" source="Michin Makery" id="ID_MIMA_FROST_PRINCE_NECKLACE">
+		<description>
+			<p>This black necklace got ornaments of white-blue snowflakes on it. It seems this necklace simply makes the wearer a lot cooler. While touching it you feel the cold embracing you. During the attunement it seems like there is something inside of the necklace giving you great power.</p>
+			<p class="indent">While wearing this necklace you can walk on ice like it’s casual terrain. You can speak the command words “Let’s kick some ice!” to freeze the water beneath your feet and walk on it. (no attunement needed)</p>
+			<p class="indent">With attunement: Once per day you have advantage on an ability check that requires charisma. Additionally, twice per day, you may grant inspiration since your coolness spready over. Your inspiration die is a 1d8 for this feature.</p>
+		</description>
+		<setters>
+			<set name="keywords">necklace,cold,frost,prince</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+			<set name="slot">neck</set>
+		</setters>
+	</element>
+  
+  	<element name="Bracers of the Frost Prince" type="Magic Item" source="Michin Makery" id="ID_MIMA_FROST_PRINCE_BRACERS">
+		<description>
+			<p>Sheer black metal formed as spikes with several ice-blue gems on it. Sometimes during combat those gems may create snowflakes in it wearer’s hands and create a pile of ice. While touching it you feel the cold embracing you. During the attunement it seems like there is something inside of the bracers giving you great power.</p>
+			<p class="indent">While wearing this bracers you can walk on ice like it’s casual terrain. You can speak the command words <em>Let’s kick some ice!</em> to freeze the water beneath your feet and walk on it. (no attunement needed)</p>
+			<p class="indent">With attunement: As a bonus action you may create a spear of ice in your hand and throw it. On a hit this spear deals 1d8 cold damage. Use your dexterity modifier for the attack roll. You are also proficient with these attacks. You can use this feature up to 6 times, regaining 1d6 charges at dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">bracers,cold,frost,prince</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+			<set name="slot">arms</set>
+		</setters>
+	</element>
+  
+	<element name="Sword of the Frost Prince" type="Magic Item" source="Michin Makery" id="ID_MIMA_FROST_PRINCE_SWORD">
+		<description>
+			<p>This longsword seems for be made of one piece of strong ice. It emits a visible ice-blue aura while holding it. While touching it you feel the cold embracing you. During the attunement it seems like there is something inside of the sword giving you great power.</p>
+			<p class="indent">While wearing this sword you can walk on ice like it’s casual terrain. You can speak the command words <em>Let’s kick some ice!</em> to freeze the water beneath your feet and walk on it. (no attunement needed)</p>
+			<p class="indent">With attunement: Attacks with this sword deal 1d8 extra cold damage. Additionally, the hit target must succeed on a constitution saving throw against 8 + your proficiency + your constitution modifier. On a failed save the target catches a cold and it’s speed is halved until the end if it’s next turn.</p>
+		</description>
+		<setters>
+			<set name="keywords">longsword,cold,frost,prince</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+	</element>
+
+</elements>

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <update version="0.0.11">
+      <author url="https://github.com/Nakamijo/Michin_Makery">Michin Makery</author>
+      <file name="spells.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/spells.xml" />
+    </update>
+  </info>
+
+  <element name="Starlight Cloak" type="Spell" source="Michin Makery" id="ID_MIMA_STARLIGHT_CLOAK" requirements="ID_MIMA_LUNATIC_HERITAGE">
+    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
+    <prerequisite>Lunari or Lunatic Archetype</prerequisite>
+    <description>
+      <p>The stars’ power radiates from you in an aura with a 15-foot radius, awakening hidden potential in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack. </p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Lunar Sphere" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_SPHERE" requirements="ID_MIMA_LUNATIC_HERITAGE">
+    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
+    <prerequisite>Lunari or Lunatic Archetype</prerequisite>
+    <description>
+      <p>You point at a location within range, and a glowing 1-foot-diameter ball of radiant energy streaks there and explodes in a 20-foot-radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 9d6 radiant damage and cannot become invisible. On a successful save, a creature takes half the damage and can turn invisible.</p>
+      <p class="indent">
+        <b>
+          <i>At Higher Levels.</i>
+        </b> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.
+      </p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of moonstone</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Guardian of the Moon" type="Spell" source="Michin Makery" id="ID_MIMA_GUARDIAN_OF_THE_MOON" requirements="ID_MIMA_LUNATIC_HERITAGE">
+    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
+    <prerequisite>Lunari or Lunatic Archetype</prerequisite>
+    <description>
+      <p>The Moon answers your call and transforms a creature into a powerful guardian. The transformation lasts until the spell ends. The creature’s eyes begin to glow, and the hair appears as if made from water, and gain the following benefits:  </p>
+      <ul>
+        <li>Magical darkvision with a range of 120 feet.</li>
+        <li>Gain 10 temporary hit points.</li>
+        <li>Wisdom saving throws with advantage.</li>
+        <li>Melee weapon attacks deal an extra 1d6 magical bludgeoning damage on a hit.</li>
+      </ul>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Lunar Beam" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_BEAM" requirements="ID_MIMA_LUNATIC_HERITAGE">
+    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
+    <prerequisite>Lunari or Lunatic Archetype</prerequisite>
+    <description>
+      <p>You point on a target within range and unleash a lunatic beam to strike it with immense force. The target can be a creature, an object, or a creation of magical force, such as the wall created by wall of force.  On hit, the target takes 8d8 radiant or force damage (your choice) and must make a charisma saving throw. On a failed save the next attack against the target has advantage. Alternatively, the next saving throw of the target has disadvantage, whichever situation is first.</p>
+      <p class="indent">
+        <b>
+          <i>At Higher Levels.</i>
+        </b> When you cast this spell using a spell slot of 6th level or higher, roll an additional 1d8 for each slot level above the 5th.
+      </p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of moonstone</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Lunar Grasp" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_GRASP" requirements="ID_MIMA_LUNATIC_HERITAGE">
+    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
+    <prerequisite>Lunari or Lunatic Archetype</prerequisite>
+    <description>
+      <p>A shining figure glowing with moonlight appears at your shoulder, and reaches out to a creature within range. The creature must make a Charisma saving throw. If they fail, the grasp cleaves into their soul, inflicting 10d6 radiant damage. If this damage reduces the creature to 30 hit points or fewer, they are instantly slain. If they succeed they receive half damage and do not get executed. Once the attack is made, the figure vanishes. If the target has a natural 20 on its saving throw, it receives no damage. On a natural 1 instead, the damage is doubled.</p>
+      <p class="indent">
+        <b>
+          <i>At Higher Levels.</i>
+        </b> When you cast this spell using a slot of 6th level or higher, the radiant damage increases by 1d6 and the hit point threshold increases by 5 per slot level above 5th.
+      </p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of moonstone</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Curing Moonlight" type="Spell" source="Michin Makery" id="ID_MIMA_CURING_MOONLIGHT" requirements="ID_MIMA_LUNATIC_HERITAGE">
+    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
+    <prerequisite>Lunari or Lunatic Archetype</prerequisite>
+    <description>
+      <p>A wave of healing moonlight washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 4d8 + your spellcasting ability modifier and has advantage on it's next attack. This spell has no effect on undead or constructs.</p>
+      <p class="indent">
+        <b>
+          <i>At Higher Levels.</i>
+        </b> When you cast this spell using a spell slot of 7th level or higher, the healing increases by 1d8 for each slot level above 6th.
+      </p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">6</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of moonstone</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Lunar Halo" type="Spell" source="The Compendium of Forgotten Secrets" id="ID_MIMA_" requirements="ID_MIMA_LUNATIC_HERITAGE">
+    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
+    <description>
+     <p>You summon a massive halo of monnlight that surrounds you, sparkling the air around your body and infusing you with glowing vitality. Whenever a creature within 120 feet hits you with an attack or spell a spark of moonlight attempts to strike back. The creature must make a Dexterity saving throw. It takes 5d6 radiant damage on a failed save. While <em>Lunar Halo</em> is active you have advantage on attack rolls and spell attack rolls that deal radiant damage.
+   </p>
+      <p class="indent">
+        <b>
+          <i>At Higher Levels. </i>
+        </b>When you cast this spell using a spell slot of 8th level or higher, the fire damage increases by 1d6 per slot level above 7th.
+      </p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">7</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of moonstone</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+</elements>

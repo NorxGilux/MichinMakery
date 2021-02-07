@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Moonborn</name>
+    <author url="https://www.dandwiki.com/wiki/Moonborn_(5e_Race)">dandwiki</author>
+    <update version="0.1">
+      <file name="race-moonborn.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-moonborn.xml" />
+    </update>
+  </info>
+
+  <element name="Moonborn" type="Race" source="dandwiki" id="ID_RACE_MOONBORN">
+    <description>
+      <p class="flavor">Beings descended from lunar celestials.</p>
+      <h4>PHYSICAL DESCRIPTION</h4>
+      <p>At a glance, moonborn look much like elves in their height, stature and builds. However, they have differences that tell them to worlds apart. For one thing, a moonborn's eyes will always be white. Their iris and pupils are pale to resemble the disk of a full moon. When the moon phases change, this is reflected in their eyes. Additionally, crescent horns made of moonstone sprout from the backs of their skulls and curve towards their forehead from behind. Moonborn are also usually painted with gold or pale inks that depict lunar motifs on their skin. Their hair can be a variety of colors, from grey to silver, or pale green and even purple. There are two types of moonborn: one is of the shard descent, who have dark tones of skin like that of the night; the other is of sliver descent, and they have pale skin that is almost silvery white.</p>
+      <h4>HISTORY</h4>
+      <p>The moonborn are said to be created from Selune after her grievous injuries from her battles against Shar, mistress of the night. As the world of Abeir-Toril flourished under Chauntea's watch, Selune saw the forces of Shar creep yet still into the Realmspace. To better protect life and light, the moon goddess gathered volunteers among her shards and slivers, celestial servants to the moon, and sent them down to the earthly realm with a new form. These are the moonborn. They were tasked with the jobs of watchmen and watchwomen over the vulnerable life of the new world in the harrowing nights when Selune's power waned. With the will of their goddess, they strike down evil creatures of the night like mad lycanthropes. Their numbers have persisted due to their mating with humans and elves, but as the night's powers grow ever stronger, the moonborn remain vigilant at the threat of being snuffed out themselves.</p>
+      <h4>SOCIETY</h4>
+      <p>Moonborn originally came in platoons loosely organized as units for battle. As their blood came to be scattered across the land, many now live in other societies, with their own families, though they never forget their duties. A large community of moonborn is known to reside in Waterdeep, where the House of the Moon temple stands. They are among the most fervent worshippers of Mystra and Selune. During the Time of Troubles, they were among the few who did not believe in Shar's trickery. But they had been overruled in opinion by the rest of the clergy. They thus harbor some inkling that perhaps not all life should be protected on this world, particularly that which is so easily manipulated by the likes of trickery like Shar. Unlike their celestial origin, they are susceptible to pulls of the more evil alignment.</p>
+      <h4>APELING NAMES</h4>
+      <p>
+        Moonborn take names that honor both magic and the moon. <br />
+        <span class="feature">Male Names:</span>Delios, Feren, Caluim, Terisok<br />
+        <span class="feature">Female Names:</span>Celestria, Ambrosia, Geriania, Teria
+      </p>
+      <h4>MOONBORN TRAITS</h4>
+      <p>Beings descended from lunar celestials.</p>
+      <p class="indent">
+        <strong>
+          <em>Ability Score Increase.</em>
+        </strong> Your Charisma score increases by 2.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Age.</em>
+        </strong> The become mature fully at 28. While they do not age, they will die of age at around 500 or so.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Alignment.</em>
+        </strong> Like their goddess, they are compelled towards good. However, some may lose their way and do evil.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Size.</em>
+        </strong> Moonborn are usually about the same height as humans, but have a smaller range in height. Your size is Medium.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Speed.</em>
+        </strong> Your base walking speed is 30 feet.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Darkvision.</em>
+        </strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Magical Senses.</em>
+        </strong> You have some arcane blood that allows you to see things more clearly than others. You have advantage on saving throws against being charmed. You also have advantage in checks to see through illusions.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Lunar Vision.</em>
+        </strong> When in dim light caused by moonlight, you do not have disadvantage on Wisdom (Perception) checks.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Radiant Horns.</em>
+        </strong> The horns of the moonborn are made of moonstone and can cast light where there is none. As a bonus action, you can emit moonlight from your body, shedding dim light for up to 30 feet from your location. This effect ends when you've been knocked unconscious or you dispel this effect with a bonus action.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Languages.</em>
+        </strong> You can speak, read, and write in Common.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Subrace.</em>
+        </strong> Choose from the shard or sliver descent.
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Delios, Feren, Caluim, Terisok</set>
+      <set name="names" type="female">Celestria, Ambrosia, Geriania, Teria</set>
+      <set name="names-format">{{name}}</set>
+      <set name="height" modifier="2d10">4'9"</set>
+      <set name="weight" modifier="2d8">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="charisma" value="2" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MAGICAL_SENSES" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_LUNAR_VISION" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_RADIANT_HORNS" />
+      <select type="Sub Race" name="Moonborn Subrace" supports="Moonborn" optional="false" />
+    </rules>
+  </element>
+  <element name="Magical Senses" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_MAGICAL_SENSES">
+    <description>
+      <p>You have some arcane blood that allows you to see things more clearly than others. You have advantage on saving throws against being charmed. You also have advantage in checks to see through illusions.</p>
+    </description>
+    <sheet>
+      <description>You have some arcane blood that allows you to see things more clearly than others. You have advantage on saving throws against being charmed. You also have advantage in checks to see through illusions.</description>
+    </sheet>
+  </element>
+  <element name="Lunar Vision" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_LUNAR_VISION">
+    <description>
+      <p>When in dim light caused by moonlight, you do not have disadvantage on Wisdom (Perception) checks.</p>
+    </description>
+    <sheet>
+      <description>When in dim light caused by moonlight, you do not have disadvantage on Wisdom (Perception) checks.</description>
+    </sheet>
+  </element>
+  <element name="Radiant Horns" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_RADIANT_HORNS">
+    <description>
+      <p>The horns of the moonborn are made of moonstone and can cast light where there is none. As a bonus action, you can emit moonlight from your body, shedding dim light for up to 30 feet from your location. This effect ends when you've been knocked unconscious or you dispel this effect with a bonus action.</p>
+    </description>
+    <sheet>
+      <description>The horns of the moonborn are made of moonstone and can cast light where there is none. As a bonus action, you can emit moonlight from your body, shedding dim light for up to 30 feet from your location. This effect ends when you've been knocked unconscious or you dispel this effect with a bonus action.</description>
+    </sheet>
+  </element>
+
+  <element name="Shard Descent" type="Sub Race" source="dandwiki" id="ID_SUB_RACE_SHARD_DESCENT">
+    <supports>Moonborn</supports>
+    <description>
+      <p>The shards were a class of planetar angels dedicated to serving Selune. Upon their conversion to a human form, their skin turned dark as night, but their hearts remained radiant.</p>
+      <p class="indent">
+        <strong>
+          <em>Ability Score Increase.</em>
+        </strong> Your Constitution score increases by 1.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Radiant Soul.</em>
+        </strong> You retain the wings of an angel within your soul, and soon you will be able to use them again. Starting at 5th level, as an action, you can summon your angelic wings of light, granting you a flying speed of 40 feet. These wings vanish when you've been knocked unconscious or you dispel this effect with a bonus action. You must finish a short or long rest to use this trait again.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Night Cover.</em>
+        </strong> Your dark skin helps you hide within darkness. You are proficient in the Stealth skill.
+      </p>
+    </description>
+    <rules>
+      <stat name="constitution" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_RADIANT_SOUL" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NIGHT_COVER" />
+    </rules>
+  </element>
+  <element name="Radiant Soul" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_RADIANT_SOUL">
+    <description>
+      <p>You retain the wings of an angel within your soul, and soon you will be able to use them again. Starting at 5th level, as an action, you can summon your angelic wings of light, granting you a flying speed of 40 feet. These wings vanish when you've been knocked unconscious or you dispel this effect with a bonus action. You must finish a short or long rest to use this trait again.</p>
+    </description>
+    <sheet>
+      <description>You retain the wings of an angel within your soul, and soon you will be able to use them again. Starting at 5th level, as an action, you can summon your angelic wings of light, granting you a flying speed of 40 feet. These wings vanish when you've been knocked unconscious or you dispel this effect with a bonus action. You must finish a short or long rest to use this trait again.</description>
+    </sheet>
+  </element>
+  <element name="Night Cover" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_NIGHT_COVER">
+    <description>
+      <p>Your dark skin helps you hide within darkness. You are proficient in the Stealth skill.</p>
+    </description>
+    <sheet>
+      <description>Your dark skin helps you hide within darkness. You are proficient in the Stealth skill.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+    </rules>
+  </element>
+
+  <element name="Silver Descent" type="Sub Race" source="dandwiki" id="ID_SUB_RACE_SILVER_DESCENT">
+    <supports>Moonborn</supports>
+    <description>
+      <p>Slivers are the ephemeral lessers of shards in Selune's court. They were daintier than their angelic counterparts, and not of the strong planetar race. In their human forms, they have retained their silvery form and graceful stature.</p>
+      <p class="indent">
+        <strong>
+          <em>Ability Score Increase.</em>
+        </strong> Your Dexterity score increases by 1.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Weave Disrupt.</em>
+        </strong>Slivers had the strange ability to hamper the powers of magic users. As an action, you may touch a creature within 5 feet of you. The creature must succeed a Wisdom saving throw (DC = 8 + your Charisma modifier + your proficiency bonus) or be rendered unable to cast spells until the end of their next turn. Any spells that they were concentrating on also end on a failed save. You must finish a short or long rest to use this trait again.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Necromatic Dowse.</em>
+        </strong> As the descendant of one of the good creatures of Selune's court, you can detect creatures typically to be evil. As a bonus action, you become aware of any undead type creatures within 120 feet of you. You get a vague idea of their location, though you are not aware of anything regarding their status. You must finish a long rest before using this trait again.
+      </p>
+    </description>
+    <rules>
+      <stat name="dexterity" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_WEAVE_DISRUPT" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NECROMATIC_DOWSE" />
+    </rules>
+  </element>
+  <element name="Weave Disrupt" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_WEAVE_DISRUPT">
+    <description>
+      <p>Slivers had the strange ability to hamper the powers of magic users. As an action, you may touch a creature within 5 feet of you. The creature must succeed a Wisdom saving throw (DC = 8 + your Charisma modifier + your proficiency bonus) or be rendered unable to cast spells until the end of their next turn. Any spells that they were concentrating on also end on a failed save. You must finish a short or long rest to use this trait again.</p>
+    </description>
+    <sheet>
+      <description>Slivers had the strange ability to hamper the powers of magic users. As an action, you may touch a creature within 5 feet of you. The creature must succeed a Wisdom saving throw (DC = 8 + {{charisma:modifier}} + {{proficiency}}) or be rendered unable to cast spells until the end of their next turn. Any spells that they were concentrating on also end on a failed save. You must finish a short or long rest to use this trait again.</description>
+    </sheet>
+  </element>
+  <element name="Necromatic Dowse" type="Racial Trait" source="dandwiki" id="ID_RACIAL_TRAIT_NECROMATIC_DOWSE">
+    <description>
+      <p>As the descendant of one of the good creatures of Selune's court, you can detect creatures typically to be evil. As a bonus action, you become aware of any undead type creatures within 120 feet of you. You get a vague idea of their location, though you are not aware of anything regarding their status. You must finish a long rest before using this trait again.</p>
+    </description>
+    <sheet>
+      <description>As the descendant of one of the good creatures of Selune's court, you can detect creatures typically to be evil. As a bonus action, you become aware of any undead type creatures within 120 feet of you. You get a vague idea of their location, though you are not aware of anything regarding their status. You must finish a long rest before using this trait again.</description>
+    </sheet>
+  </element>
+</elements>
