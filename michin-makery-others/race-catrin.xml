@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <update version="0.0.1">
+      <author url="https://github.com/Nakamijo/Michin_Makery">Michin Makery</author>
+      <file name="race-catrin.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-catrin.xml" />
+    </update>
+  </info>
+
+  <element name="Catrín" type="Race" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_RACE_CATRIN">
+    <description>
+      <p class="flavor">Creatures between life and death.</p>
+      <p>In the old world, it is said that the Xibalbians never die, they just go to rest. The Catrines are a proof of this. They are the cold bodies of the dead that have been brought back to life, either by horrible magic, by fate or by the will of the Old Gods.</p>
+      <p class="indent">The Catrines are very different from the rest of the undead and it would be an offense to compare them to a mere chattering skeletons. They are creatures of will, which is why they convince themselves that they are still alive and this is why they can be found enjoying worldly pleasures like smoking and getting drunk, even though their lungs and stomach no longer function.</p>
+      <h4>Will of the Bones</h4>
+      <p>These creatures have the form (skeletal or not) of the race to which they belonged in life. If their will is weak they simply turn to dust and die definitively, it is for this reason the catrines participate in parties banquets and any celebration they can find. To feel alive, many of them paint flowers on their faces and dress bizarrely to attract attention.</p>
+      <p class="indent">However, their spectral nature makes them clearly different from the rest of mortals and the people of this world despise or fear them. That is why they live in a constant contradiction between showing themselves as they really are or hiding in the shadows.</p>
+      <h4>Terrifying Appearance</h4>
+      <p>The appearance of the catrines is usually terrifying. After all, there are not many people who like to be near the undead, and their species is extremely rare, magic scholars estimate that there is one catrín for every ten thousand mortals.</p>
+      <h4>Catrín Names</h4>
+      <p>Many times the catrines decide to keep their old name as a manifest of their second chance in life, other times they decide to adopt a new one, some examples of these are:</p>
+      <p>
+        <span class="feature">Male Names:</span>Albino, Ahagado, Geist, Huesos, Lázaro, Misterio, Quebranta, Zatanás<br />
+        <span class="feature">Female Names:</span>Calaca, Calavera de Azúcar, Catrina, Flor de Panteón, Huesuda, Osamenta
+      </p>
+      <h4>Catrín Traits</h4>
+      <p>Creatures between life and death.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Constitution Score increases by 2 and your Charisma score increases by 1.<br />
+        <span class="feature">Age.</span>The Catrines can live indefinitely until their will to live is finished, at which point they will turn to dust.<br />
+        <span class="feature">Alignment.</span>Catrines can have any alignment but usually have the on they had before they died.<br />
+        <span class="feature">Size.</span>Your size is the same as you were before you died. In most cases, Medium.<br />
+        <span class="feature">Speed.</span>Your base speed is 30 feet.<br />
+        <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
+        <span class="feature">Tireless Spirit.</span>You don't need to sleep and you can get the benefits of a long rest with just four hours of light activity.<br />
+        <span class="feature">Spectral Resistance.</span>You have resistance to necrotic damage and you treat your fatigue level as one step less severe than you actually are.<br />
+        <span class="feature">Incorporeal Movement.</span>Once per long rest you can move through other creatures and objects as if they were difficult terrain. You take 5 (1d10) force damage if you end your turn inside an object.<br />
+        <span class="feature">Terrifying Appearance.</span>You gain proficiency in intimidation skill and the disguise kit.<br />
+        <span class="feature">Lost Soul.</span>Your creature type is <em>Undead</em> and <em>Humanoid</em>.<br />
+        <span class="feature">Languages.</span>You can speak, read and write any language you are familiar with in life, typically common.<br />
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Albino, Ahagado, Geist, Huesos, Lázaro, Misterio, Quebranta, Zatanás</set>
+      <set name="names" type="female">Calaca, Calavera de Azúcar, Catrina, Flor de Panteón, Huesuda, Osamenta</set>
+      <set name="names-format">{{name}}</set>
+      <set name="height" modifier="2d10"></set>
+      <set name="weight" modifier="1d4"></set>
+    </setters>
+    <rules>
+      <stat name="constitution" value="2" />
+      <stat name="charisma" value="1" />
+      <select type="Racial Trait" name="Size" supports="Catrin Size" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Racial Trait" id="ID_ROSA_CATRIN_RACIAL_TRAIT_TIRELESS_SPIRIT" />
+      <grant type="Racial Trait" id="ID_ROSA_CATRIN_RACIAL_TRAIT_SPECTRAL_RESISTANCE" />
+      <grant type="Racial Trait" id="ID_ROSA_CATRIN_RACIAL_TRAIT_INCORPOREAL_MOVEMENT" />
+      <grant type="Racial Trait" id="ID_ROSA_CATRIN_RACIAL_TRAIT_TERRIFYING_APPEARANCE" />
+      <grant type="Racial Trait" id="ID_ROSA_CATRIN_RACIAL_TRAIT_LOST_SOUL" />
+    </rules>
+  </element>
+
+  <element name="Tiny" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_SIZE_TINY">
+    <supports>Catrin Size</supports>
+    <description>
+      <p>You are tiny.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Size" id="ID_SIZE_TINY" />
+    </rules>
+  </element>
+
+  <element name="Small" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_SIZE_SMALL">
+    <supports>Catrin Size</supports>
+    <description>
+      <p>You are small.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Size" id="ID_SIZE_SMALL" />
+    </rules>
+  </element>
+
+  <element name="Medium" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_SIZE_MEDIUM">
+    <supports>Catrin Size</supports>
+    <description>
+      <p>You are medium size.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+    </rules>
+  </element>
+
+  <element name="Large" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_SIZE_LARGE">
+    <supports>Catrin Size</supports>
+    <description>
+      <p>You are large.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Size" id="ID_SIZE_LARGE" />
+    </rules>
+  </element>
+  
+  <element name="Tireless Spirit" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_TIRELESS_SPIRIT">
+    <description>
+      <p>You don't need to sleep and you can get the benefits of a long rest with just four hours of light activity.</p>
+    </description>
+    <sheet>
+      <description>You don't need to sleep and you can get the benefits of a long rest with just four hours of light activity.</description>
+    </sheet>
+  </element>
+
+  <element name="Spectral Resistance" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_SPECTRAL_RESISTANCE">
+    <description>
+      <p>You have resistance to necrotic damage and you treat your fatigue level as one step less severe than you actually are.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+    </rules>
+  </element>
+
+  <element name="Incorporeal Movement" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_INCORPOREAL_MOVEMENT">
+    <description>
+      <p>Once per long rest you can move through other creatures and objects as if they were difficult terrain. You take 5 (1d10) force damage if you end your turn inside an object.</p>
+    </description>
+    <sheet usage="1/long rest">
+      <description>Once per long rest you can move through other creatures and objects as if they were difficult terrain. You take 5 (1d10) force damage if you end your turn inside an object.</description>
+    </sheet>
+  </element>
+
+  <element name="Terrifying Appearance" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_TERRIFYING_APPEARANCE">
+    <description>
+      <p>You gain proficiency in intimidation skill and the disguise kit.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
+    </rules>
+  </element>
+
+  <element name="Lost Soul" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_LOST_SOUL">
+    <description>
+      <p>Your creature type is <em>Undead</em> and <em>Humanoid</em>.</p>
+    </description>
+    <sheet>
+      <description>Your creature type is Undead and Humanoid</description>
+    </sheet>
+  </element>
+</elements>
