@@ -3,7 +3,7 @@
 	<info>
 		<name>Michin Makery</name>
 		<description>The content from various sources implemented.</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="michin-makery-others.index" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others.index" />
 		</update>
 	</info>
@@ -16,6 +16,7 @@
     <file name="race-foreclaimer.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-foreclaimer.xml" />
     <file name="race-moonborn.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-moonborn.xml" />
     <file name="race-pandafolk.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-pandafolk.xml" />
+    <file name="race-catrin.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-catrin.xml" />
     
     <!-- classes -->
 		<file name="class-healer.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/class-healer.xml" />
