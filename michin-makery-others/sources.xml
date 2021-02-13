@@ -82,15 +82,15 @@
       <set name="homebrew">true</set>
     </setters>
   </element>
-  <element name="Xibalba" type="Source" source="Xibalba setting (Ivan de la Rosa)" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_ROSA">
+  <element name="Xibalba" type="Source" source="Xibalba" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_XIBA">
     <description>
-      <![CDATA[<p>of the Xibalba setting by Ivan de la Rosa HIGHLY NEED A LINK OR OTHER REFERENCES since it came as a random pop-up in some feed without a reference either</p>]]>
+      <![CDATA[<p></p>]]>
     </description>
-    <setter>
-      <set name="abbreviation">ROSA</set>
+    <setters>
+      <set name="abbreviation">XIBA</set>
       <set name="url">https://www.reddit.com/user/CUVICO/</set>
-      <set name="author" url="https://www.reddit.com/user/CUVICO/">Ivan de la Rosa</set>
+      <set name="author" url="https://www.reddit.com/user/CUVICO/">ROSA</set>
       <set name="homebrew">true</set>
-    </setter>
+    </setters>
   </element>
 </elements>

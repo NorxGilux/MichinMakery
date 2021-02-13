@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.2">
+    <update version="0.0.3">
       <author url="https://www.reddit.com/user/CUVICO/">Ivan de la Rosa</author>
       <file name="race-catrin.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-catrin.xml" />
     </update>
   </info>
 
-  <element name="Catrín" type="Race" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_RACE_CATRIN">
+  <element name="Catrín" type="Race" source="Xibalba" id="ID_XIBA_RACE_CATRIN">
     <description>
       <p class="flavor">Creatures between life and death.</p>
       <p>In the old world, it is said that the Xibalbians never die, they just go to rest. The Catrines are a proof of this. They are the cold bodies of the dead that have been brought back to life, either by horrible magic, by fate or by the will of the Old Gods.</p>
@@ -55,15 +55,15 @@
       <stat name="innate speed" value="30" bonus="base" />
       <grant type="Vision" id="ID_VISION_DARKVISION" />
       <grant type="Language" id="ID_LANGUAGE_COMMON" />
-      <grant type="Racial Trait" id="ID_ROSA_CATRIN_RACIAL_TRAIT_TIRELESS_SPIRIT" />
-      <grant type="Racial Trait" id="ID_ROSA_CATRIN_RACIAL_TRAIT_SPECTRAL_RESISTANCE" />
-      <grant type="Racial Trait" id="ID_ROSA_CATRIN_RACIAL_TRAIT_INCORPOREAL_MOVEMENT" />
-      <grant type="Racial Trait" id="ID_ROSA_CATRIN_RACIAL_TRAIT_TERRIFYING_APPEARANCE" />
-      <grant type="Racial Trait" id="ID_ROSA_CATRIN_RACIAL_TRAIT_LOST_SOUL" />
+      <grant type="Racial Trait" id="ID_XIBA_CATRIN_RACIAL_TRAIT_TIRELESS_SPIRIT" />
+      <grant type="Racial Trait" id="ID_XIBA_CATRIN_RACIAL_TRAIT_SPECTRAL_RESISTANCE" />
+      <grant type="Racial Trait" id="ID_XIBA_CATRIN_RACIAL_TRAIT_INCORPOREAL_MOVEMENT" />
+      <grant type="Racial Trait" id="ID_XIBA_CATRIN_RACIAL_TRAIT_TERRIFYING_APPEARANCE" />
+      <grant type="Racial Trait" id="ID_XIBA_CATRIN_RACIAL_TRAIT_LOST_SOUL" />
     </rules>
   </element>
 
-  <element name="Tiny" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_SIZE_TINY">
+  <element name="Tiny" type="Racial Trait" source="Xibalba" id="ID_XIBA_CATRIN_RACIAL_TRAIT_SIZE_TINY">
     <supports>Catrin Size</supports>
     <description>
       <p>You are tiny.</p>
@@ -74,7 +74,7 @@
     </rules>
   </element>
 
-  <element name="Small" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_SIZE_SMALL">
+  <element name="Small" type="Racial Trait" source="Xibalba" id="ID_XIBA_CATRIN_RACIAL_TRAIT_SIZE_SMALL">
     <supports>Catrin Size</supports>
     <description>
       <p>You are small.</p>
@@ -85,7 +85,7 @@
     </rules>
   </element>
 
-  <element name="Medium" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_SIZE_MEDIUM">
+  <element name="Medium" type="Racial Trait" source="Xibalba" id="ID_XIBA_CATRIN_RACIAL_TRAIT_SIZE_MEDIUM">
     <supports>Catrin Size</supports>
     <description>
       <p>You are medium size.</p>
@@ -96,7 +96,7 @@
     </rules>
   </element>
 
-  <element name="Large" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_SIZE_LARGE">
+  <element name="Large" type="Racial Trait" source="Xibalba" id="ID_XIBA_CATRIN_RACIAL_TRAIT_SIZE_LARGE">
     <supports>Catrin Size</supports>
     <description>
       <p>You are large.</p>
@@ -107,7 +107,7 @@
     </rules>
   </element>
   
-  <element name="Tireless Spirit" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_TIRELESS_SPIRIT">
+  <element name="Tireless Spirit" type="Racial Trait" source="Xibalba" id="ID_XIBA_CATRIN_RACIAL_TRAIT_TIRELESS_SPIRIT">
     <description>
       <p>You don't need to sleep and you can get the benefits of a long rest with just four hours of light activity.</p>
     </description>
@@ -116,7 +116,7 @@
     </sheet>
   </element>
 
-  <element name="Spectral Resistance" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_SPECTRAL_RESISTANCE">
+  <element name="Spectral Resistance" type="Racial Trait" source="Xibalba" id="ID_XIBA_CATRIN_RACIAL_TRAIT_SPECTRAL_RESISTANCE">
     <description>
       <p>You have resistance to necrotic damage and you treat your fatigue level as one step less severe than you actually are.</p>
     </description>
@@ -126,7 +126,7 @@
     </rules>
   </element>
 
-  <element name="Incorporeal Movement" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_INCORPOREAL_MOVEMENT">
+  <element name="Incorporeal Movement" type="Racial Trait" source="Xibalba" id="ID_XIBA_CATRIN_RACIAL_TRAIT_INCORPOREAL_MOVEMENT">
     <description>
       <p>Once per long rest you can move through other creatures and objects as if they were difficult terrain. You take 5 (1d10) force damage if you end your turn inside an object.</p>
     </description>
@@ -135,7 +135,7 @@
     </sheet>
   </element>
 
-  <element name="Terrifying Appearance" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_TERRIFYING_APPEARANCE">
+  <element name="Terrifying Appearance" type="Racial Trait" source="Xibalba" id="ID_XIBA_CATRIN_RACIAL_TRAIT_TERRIFYING_APPEARANCE">
     <description>
       <p>You gain proficiency in intimidation skill and the disguise kit.</p>
     </description>
@@ -146,7 +146,7 @@
     </rules>
   </element>
 
-  <element name="Lost Soul" type="Racial Trait" source="Xibalba setting (Ivan de la Rosa)" id="ID_ROSA_CATRIN_RACIAL_TRAIT_LOST_SOUL">
+  <element name="Lost Soul" type="Racial Trait" source="Xibalba" id="ID_XIBA_CATRIN_RACIAL_TRAIT_LOST_SOUL">
     <description>
       <p>Your creature type is <em>Undead</em> and <em>Humanoid</em>.</p>
     </description>
