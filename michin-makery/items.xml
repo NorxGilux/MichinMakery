@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.7">
+    <update version="0.0.8">
       <file name="items.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/items.xml" />
     </update>
   </info>
@@ -126,7 +126,23 @@
     <setters>
       <set name="category">Wondrous Items</set>
       <set name="cost" currency="gp">0</set>
-      <set name="weight" lb="1">1/2 lb.</set>
+      <set name="weight" lb="1/2">1/2 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+  </element>
+
+  <element name="KieKie Berry" type="Magic Item" source="Michin Makery" id="ID_MIMA_MAGIC_ITEM_KIEKIE_BERRY">
+    <description>
+      <p>A tiny mysterious berry in a peachy-rose color and a very smooth surface. It reminds of a some candy or bubblegum. They are first found in Hailukia.</p>
+      <p class="indent">Eating one of those let's you heal for one d6. It also cleanses poisonous substances from your body.</p>
+      <p class="indent">The side effects: you feel kind of befuddling after eating them. Not to say 'high'.</p>
+      <p class="indent">If you are poisoned by something, your DM determines how many of those berries you have to eat to cleanse it. Same goes for the intensity and duration of the befuddling effect.</p>
+    </description>
+    <setters>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="1/64">1/64 lb.</set>
       <set name="type">Wondrous Item</set>
       <set name="rarity">Uncommon</set>
     </setters>
