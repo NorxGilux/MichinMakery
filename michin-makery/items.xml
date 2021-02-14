@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.9">
+    <update version="0.0.10">
       <file name="items.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/items.xml" />
     </update>
   </info>
@@ -148,7 +148,7 @@
     </setters>
   </element>
 
-  <element name="Moon-blessed Pendant" type="Magic Item" source="Michin Maker" id="ID_MIMA_MAGIC_ITEM_MOON_BLESSED_PENDANT">
+  <element name="Moon-blessed Pendant" type="Magic Item" source="Michin Makery" id="ID_MIMA_MAGIC_ITEM_MOON_BLESSED_PENDANT">
     <description>
       <p>This necklace is infused with the power of Selune.</p>
       <p class="indent">Wearing this necklace, you no longer need sleep and can't be forced to sleep by any means. You can gain the benefits of a long rest by doing light activities during the time needed.</p>
