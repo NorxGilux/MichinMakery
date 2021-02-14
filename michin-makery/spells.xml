@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.11">
+    <update version="0.0.12">
       <author url="https://github.com/Nakamijo/Michin_Makery">Michin Makery</author>
       <file name="spells.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/spells.xml" />
     </update>
@@ -162,7 +162,7 @@
   <element name="Lunar Halo" type="Spell" source="The Compendium of Forgotten Secrets" id="ID_MIMA_" requirements="ID_MIMA_LUNATIC_HERITAGE">
     <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <description>
-     <p>You summon a massive halo of monnlight that surrounds you, sparkling the air around your body and infusing you with glowing vitality. Whenever a creature within 120 feet hits you with an attack or spell a spark of moonlight attempts to strike back. The creature must make a Dexterity saving throw. It takes 5d6 radiant damage on a failed save. While <em>Lunar Halo</em> is active you have advantage on attack rolls and spell attack rolls that deal radiant damage.
+     <p>You summon a massive halo of moonlight that surrounds you, sparkling the air around your body and infusing you with glowing vitality. Whenever a creature within 120 feet hits you with an attack or spell a spark of moonlight attempts to strike back. The creature must make a Dexterity saving throw. It takes 5d6 radiant damage on a failed save. While <em>Lunar Halo</em> is active you have advantage on attack rolls and spell attack rolls that deal radiant damage.
    </p>
       <p class="indent">
         <b>
