@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.1">
-      <file name="items-frost-prince.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/items-frost-prince.xml" />
+    <update version="0.0.2">
+      <file name="items-frost-prince.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/items-frost-prince.xml" />
     </update>
   </info>
   

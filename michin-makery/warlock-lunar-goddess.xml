@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.1.10">
-      <author url="https://github.com/Nakamijo/Michin_Makery">Michin Makery</author>
-      <file name="warlock-lunar-goddess.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/warlock-lunar-goddess.xml" />
+    <update version="0.1.11">
+      <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
+      <file name="warlock-lunar-goddess.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/warlock-lunar-goddess.xml" />
     </update>
   </info>
 

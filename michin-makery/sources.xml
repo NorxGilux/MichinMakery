@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/sources.xml" />
+		<update version="0.0.2">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/sources.xml" />
 		</update>
 	</info>
 	<element name="Michin Makery" type="Source" source="Michin Makery" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY">
@@ -11,8 +11,8 @@
 		</description>
 		<setters>
 			<set name="abbreviation">MIMA</set>
-			<set name="url">https://github.com/Nakamijo/aurora_homebrew/</set>
-			<set name="author" url="https://github.com/Nakamijo/aurora_homebrew/">Michin Makery</set>
+			<set name="url">https://github.com/NorxGilux/aurora_homebrew/</set>
+			<set name="author" url="https://github.com/NorxGilux/aurora_homebrew/">Michin Makery</set>
 			<set name="homebrew">true</set>
 		</setters>
 	</element>

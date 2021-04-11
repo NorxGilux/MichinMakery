@@ -4,8 +4,8 @@
     <name>Witch</name>
     <description>A class for binding, using, and abusing spirits.</description>
     <author url="https://www.gmbinder.com/share/-L7gG0ZSzBHgbWv7t_wf">Zarieth</author>
-    <update version="0.1">
-      <file name="class-witch.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/class-witch.xml" />
+    <update version="0.2">
+      <file name="class-witch.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/class-witch.xml" />
     </update>
   </info>
 

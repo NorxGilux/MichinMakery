@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.11">
-      <author url="https://github.com/Nakamijo/Michin_Makery">Michin Makery</author>
-      <file name="companions.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/companions.xml" />
+    <update version="0.0.12">
+      <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
+      <file name="companions.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/companions.xml" />
     </update>
   </info>
 
@@ -217,5 +217,6 @@
     </sheet>
   </element>
   
+  <!-- non-lunatic -->
   
 </elements>

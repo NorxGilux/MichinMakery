@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.10">
-      <file name="items.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery/items.xml" />
+    <update version="0.0.12">
+      <file name="items.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/items.xml" />
     </update>
   </info>
   
@@ -59,19 +59,6 @@
     </rules>
   </append>
 
-  <element name="Ticket for the Moonstone Mask" type="Item" source="Michin Makery" id="ID_MIMA_TREASURE_TICKET_MOONSTONE_MASK">
-    <description>
-      <p>Granting you one time entrance to the famous Moonstone Mask in Neverwinter.</p>
-    </description>
-    <setters>
-      <set name="keywords">ticket,moonstone,mask</set>
-      <set name="category">Treasure</set>
-      <set name="cost" currency="gp">-</set>
-      <set name="stackable">true</set>
-      <set name="valuable">true</set>
-    </setters>
-  </element>
-
   <element name="Messaging Stone of the Arcanum (Zuiburg)" type="Magic Item" source="Michin Makery" id="ID_MIMA_MAGIC_ITEM_MESSAGING_STONE_ARCANUM_ZUIBURG">
     <description>
       <p>A small shimmering stone. With this stone the Arcanum of Zuiburg is able to deliver messages to it's bearer and vice versa.</p>
@@ -82,23 +69,6 @@
       <set name="weight" lb="1/4">1/4 lb.</set>
       <set name="type">Wondrous Item</set>
       <set name="rarity">Uncommon</set>
-    </setters>
-  </element>
-
-  <element name="Vraccasium Armor" type="Magic Item" source="Michin Makery" id="ID_MIMA_ARMOR_VRACCASIUM_ARMOR">
-    <description>
-      <p>This reddish schimmering armor is reinforced with a magical improved metal alloy called Vraccasium that what produced by the dwarf god Vraccas. While wearing the armor, any critical hit against you becomes a normal hit. If you are exposed to a magical effect that allows you to make a Strength or Constitution save to take half the damage, you will instead take no damage if you successfully complete the save.</p>
-    </description>
-    <setters>
-      <set name="keywords">medium, heavy</set>
-      <set name="category">Magic Armor</set>
-      <set name="cost" currency="gp">0</set>
-      <set name="weight" lb="0">0 lb.</set>
-      <set name="slot">body</set>
-      <set name="type" addition="medium or heavy, but not hide">Armor</set>
-      <set name="rarity">Rare</set>
-      <set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
-      <set name="name-format">Vraccasium {{parent}}</set>
     </setters>
   </element>
 

@@ -2,8 +2,8 @@
 <elements>
   <info>
     <name>Apeling</name>
-    <update version="0.1">
-      <file name="race-apeling.xml" url="https://raw.githubusercontent.com/Nakamijo/Michin_Makery/master/michin-makery-others/race-apeling.xml" />
+    <update version="0.2">
+      <file name="race-apeling.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/race-apeling.xml" />
     </update>
   </info>
 
