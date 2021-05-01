@@ -39,10 +39,9 @@
     </description>
     <sheet display="false" />
     <setters>
-      <set name="names" type="male">INSERT</set>
-      <set name="names" type="female">INSERT</set>
-      <set name="names" type="family">INSERT</set>
-      <set name="names-format">{{name}} {{family}}</set>
+      <set name="names" type="male">Kapuzito</set>
+      <set name="names" type="female">Lulachita</set>
+      <set name="names-format">{{name}}</set>
       <set name="height" modifier="2d10">4'6"</set>
       <set name="weight" modifier="1d4">90 lb.</set>
     </setters>
