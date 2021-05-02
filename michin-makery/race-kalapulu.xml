@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.2">
+    <update version="0.0.3">
       <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
       <file name="race-kalapulu.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/race-kalapulu.xml" />
     </update>
