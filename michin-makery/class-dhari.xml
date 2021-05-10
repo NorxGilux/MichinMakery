@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.9">
+    <update version="0.1.0">
       <author url="https://github.com/NorxGilux/MichinMakery">Michin Makery</author>
       <file name="class-dhāri.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/class-dhāri.xml" />
     </update>
@@ -241,7 +241,7 @@
 
   <element name="Fleet Footwork" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_FLEET_FOOTWORK">
     <description>
-      <p>At 1st level, you learn to be very agile. While you are not using a shield, you can choose to have your AC equal 10 + your Dexterity modifier + your Charisma modifier.</p>
+      <p>At 1st level, you learn to be very agile. While you are not using a shield, you can choose to have your AC equal 8 + your Dexterity modifier + your Charisma modifier.</p>
       <p class="intend">Additionally, you gain a +10 bonus on your movement speed.</p>
     </description>
     <sheet>
@@ -250,8 +250,8 @@
       </description>
     </sheet>
     <rules>
-      <stat name="speed" value="10" bonus="fleetfootwork" />
-      <stat name="ac:fleetfootwork" value="10" />
+      <stat name="speed" value="8" bonus="fleetfootwork" />
+      <stat name="ac:fleetfootwork" value="8" />
       <stat name="ac:fleetfootwork" value="dexterity:modifier" />
       <stat name="ac:fleetfootwork" value="charisma:modifier" />
       <stat name="ac:calculation" value="ac:fleetfootwork" bonus="calculation" alt="Fleet Footwork" equipped="[shield:none]" />
