@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.12">
+    <update version="0.0.13">
       <file name="items.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/items.xml" />
     </update>
   </info>
@@ -46,7 +46,7 @@
       <set name="cost" currency="gp">100</set>
       <set name="weight" lb="8">8 lb.</set>
       <set name="slot">twohand</set>
-      <set name="damage" type="slashing">2d6</set>
+      <set name="damage" type="slashing">1d10</set>
       <set name="proficiency">ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_NODACHI</set>
     </setters>
   </element>
