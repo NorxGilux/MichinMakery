@@ -1,29 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.13">
+    <update version="0.1.4">
       <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
       <file name="spells.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/spells.xml" />
     </update>
   </info>
 
-  <element name="Starlight Cloak" type="Spell" source="Michin Makery" id="ID_MIMA_STARLIGHT_CLOAK" requirements="ID_MIMA_LUNATIC_HERITAGE">
+  <element name="Curing Moonlight" type="Spell" source="Michin Makery" id="ID_MIMA_CURING_MOONLIGHT" requirements="ID_MIMA_LUNATIC_HERITAGE">
     <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Lunari or Lunatic Archetype</prerequisite>
     <description>
-      <p>The stars’ power radiates from you in an aura with a 15-foot radius, awakening hidden potential in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack. </p>
+      <p>
+        You create drop of liquid moonlight over the targeted creature. The drop lays onto the creature's skin or may enter their body to heal. The target regains hit points equal to 3d8 + your spellcasting ability modifier and has advantage on it's next attack. This spell has no effect on constructs.
+      </p>
+      <p class="indent">
+        <b>
+          <i>At Higher Levels.</i>
+        </b> When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d8 for each slot level above 3th.
+      </p>
+      <p></p>
+      <p class="indent">
+        The caster of this spell must be a follower of Selûne and must not be undead nor have an evil alignment. This spell has no effect on evil or undead creatures.
+      </p>
     </description>
     <setters>
       <set name="keywords"></set>
       <set name="level">3</set>
-      <set name="school">Evocation</set>
+      <set name="school">evocation</set>
       <set name="time">1 action</set>
-      <set name="duration">1 minute</set>
-      <set name="range">Self</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
       <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent" />
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of moonstone</set>
       <set name="isConcentration">false</set>
       <set name="isRitual">false</set>
     </setters>
@@ -37,6 +48,10 @@
         <b>
           <i>At Higher Levels.</i>
         </b> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.
+      </p>
+      <p></p>
+      <p class="indent">
+        The caster of this spell must be a follower of Selûne and must not be undead nor have an evil alignment.
       </p>
     </description>
     <setters>
@@ -54,17 +69,21 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
-  <element name="Guardian of the Moon" type="Spell" source="Michin Makery" id="ID_MIMA_GUARDIAN_OF_THE_MOON" requirements="ID_MIMA_LUNATIC_HERITAGE">
+  <element name="Embracing Moonlight" type="Spell" source="Michin Makery" id="ID_MIMA_EMBRACING_MOONLIGHT" requirements="ID_MIMA_LUNATIC_HERITAGE">
     <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Lunari or Lunatic Archetype</prerequisite>
     <description>
-      <p>The Moon answers your call and transforms a creature into a powerful guardian. The transformation lasts until the spell ends. The creature’s eyes begin to glow, and the hair appears as if made from water, and gain the following benefits:  </p>
+      <p>You call out to the Moon and infuse a creature with magical moonlight to slightly transform the creature in a guardian of the Moon. The transformation lasts until the spell ends. The creature’s eyes begin to glow, and the hair appears as if made from water, and gain the following benefits:  </p>
       <ul>
         <li>Magical darkvision with a range of 120 feet.</li>
-        <li>Gain 10 temporary hit points.</li>
-        <li>Wisdom saving throws with advantage.</li>
-        <li>Melee weapon attacks deal an extra 1d6 magical bludgeoning damage on a hit.</li>
+        <li>10 temporary hit points.</li>
+        <li>Advantage on Wisdom saving throws.</li>
+        <li>Weapon attacks are considered magical and deal an extra 1d6 radiant damage on a hit.</li>
       </ul>
+      <p></p>
+      <p class="indent">
+        The caster of this spell must be a follower of Selûne and must not be undead nor have an evil alignment. This spell has no effect on evil or undead creatures.
+      </p>
     </description>
     <setters>
       <set name="keywords"></set>
@@ -90,6 +109,10 @@
         <b>
           <i>At Higher Levels.</i>
         </b> When you cast this spell using a spell slot of 6th level or higher, roll an additional 1d8 for each slot level above the 5th.
+      </p>
+      <p></p>
+      <p class="indent">
+        The caster of this spell must be a follower of Selûne and must not be undead nor have an evil alignment.
       </p>
     </description>
     <setters>
@@ -117,6 +140,10 @@
           <i>At Higher Levels.</i>
         </b> When you cast this spell using a slot of 6th level or higher, the radiant damage increases by 1d6 and the hit point threshold increases by 5 per slot level above 5th.
       </p>
+      <p></p>
+      <p class="indent">
+        The caster of this spell must be a follower of Selûne and must not be undead nor have an evil alignment.
+      </p>
     </description>
     <setters>
       <set name="keywords"></set>
@@ -133,15 +160,19 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
-  <element name="Curing Moonlight" type="Spell" source="Michin Makery" id="ID_MIMA_CURING_MOONLIGHT" requirements="ID_MIMA_LUNATIC_HERITAGE">
+  <element name="Lunar Cure" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_CURE" requirements="ID_MIMA_LUNATIC_HERITAGE">
     <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Lunari or Lunatic Archetype</prerequisite>
     <description>
-      <p>A wave of healing moonlight washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 4d8 + your spellcasting ability modifier and has advantage on it's next attack. This spell has no effect on undead or constructs.</p>
+      <p>A wave of healing moonlight washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 4d8 + your spellcasting ability modifier and has advantage on it's next attack. This spell has no effect on constructs.</p>
       <p class="indent">
         <b>
           <i>At Higher Levels.</i>
         </b> When you cast this spell using a spell slot of 7th level or higher, the healing increases by 1d8 for each slot level above 6th.
+      </p>
+      <p></p>
+      <p class="indent">
+        The caster of this spell must be a follower of Selûne and must not be undead nor have an evil alignment. This spell has no effect on evil or undead creatures.
       </p>
     </description>
     <setters>
@@ -159,15 +190,20 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
-  <element name="Lunar Halo" type="Spell" source="The Compendium of Forgotten Secrets" id="ID_MIMA_" requirements="ID_MIMA_LUNATIC_HERITAGE">
+  <element name="Lunar Vengeance" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_VENGEANCE" requirements="ID_MIMA_LUNATIC_HERITAGE">
     <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <description>
-     <p>You summon a massive halo of moonlight that surrounds you, sparkling the air around your body and infusing you with glowing vitality. Whenever a creature within 120 feet hits you with an attack or spell a spark of moonlight attempts to strike back. The creature must make a Dexterity saving throw. It takes 5d6 radiant damage on a failed save. While <em>Lunar Halo</em> is active you have advantage on attack rolls and spell attack rolls that deal radiant damage.
-   </p>
+      <p>
+        You summon a massive amount of moonlight that surrounds you, sparkling the air around your body and infusing you with glowing strength. Whenever a creature within 120 feet hits you with an attack or spell a spark of moonlight attempts to strike back. The creature must make a Dexterity saving throw. It takes 5d6 radiant damage on a failed save. While <em>Lunar Vengeance</em> is active you have advantage on attack rolls and spell attack rolls that deal radiant damage.
+      </p>
       <p class="indent">
         <b>
           <i>At Higher Levels. </i>
-        </b>When you cast this spell using a spell slot of 8th level or higher, the fire damage increases by 1d6 per slot level above 7th.
+        </b>When you cast this spell using a spell slot of 8th level or higher, the radiant damage increases by 1d6 per slot level above 7th.
+      </p>
+      <p></p>
+      <p class="indent">
+        The caster of this spell must be a follower of Selûne and must not be undead nor have an evil alignment.
       </p>
     </description>
     <setters>
@@ -182,6 +218,41 @@
       <set name="hasMaterialComponent">true</set>
       <set name="materialComponent">a piece of moonstone</set>
       <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Lunar Embrace" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_EMBRACE" requirements="ID_MIMA_LUNATIC_HERITAGE">
+    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
+    <prerequisite>Lunari or Lunatic Archetype</prerequisite>
+    <description>
+      <p>
+        You call out to the Moon and infuse some creatures with magical moonlight. Choose a number of creatures up to your spellcasting ability modifier and transform them in guardians of the Moon. The transformation lasts until the spell ends. The creatures eyes begin to glow, and their hair appears as if made from water, and gain the following benefits:
+      </p>
+      <ul>
+        <li>Magical darkvision with a range of 120 feet.</li>
+        <li>50 temporary hit points.</li>
+        <li>Advantage on any saving throw.</li>
+        <li>Weapon attacks are considered magical and deal an extra 1d8 radiant damage on a hit.</li>
+        <li>Spectral wings appear on their back, giving them a flying speed of 40 feet.</li>
+        <li>They have a +3 bonus to AC.</li>
+      </ul>
+      <p></p>
+      <p class="indent">
+        The caster of this spell must be a follower of Selûne and must not be undead nor have an evil alignment. This spell has no effect on evil or undead creatures.
+      </p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">8</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of moonstone</set>
+      <set name="isConcentration">true</set>
       <set name="isRitual">false</set>
     </setters>
   </element>

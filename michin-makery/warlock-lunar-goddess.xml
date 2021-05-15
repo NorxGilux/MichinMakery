@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.1.11">
+    <update version="0.1.12">
       <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
       <file name="warlock-lunar-goddess.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/warlock-lunar-goddess.xml" />
     </update>
@@ -56,13 +56,13 @@
         <tr>
           <td>3rd</td>
           <td>
-            <em>blink, starlight cloak</em>
+            <em>blink, Curing Moonlight</em>
           </td>
         </tr>
         <tr>
           <td>4th</td>
           <td>
-            <em>lunar sphere, guardian of the moon </em>
+            <em>lunar sphere, embracing moonlight</em>
           </td>
         </tr>
         <tr>
@@ -150,7 +150,8 @@
         Starting at 14th level, you can become a conduit of the Moon’s power with moonlight shining out of your eyes, allowing you to double your damage dices for one attack or spell. When using this feature any creature other than you within 30 feet of you must make a Wisdom saving throw against DC 15 or be frightened of you until the end of their next turn. Allied creatures who know you have advantage on this saving throw.
       </p>
       <p class="indent">You can decide to use this feature before your attack roll.</p>
-      <p class="indent">You must finish a short or long rest before you can use this feature again.</p>
+      <p class="indent">You must finish a short or long rest before you can use this part of the feature again.</p>
+      <p class="indent">Additionally to this you and your <em>Servant of the Moon</em> may choose to let Spectral wings appear on your back, gaining a flying speed of 40 feet. You can use your Spectral Wings at any time regardless of the restriction for the first part of this feature.</p>
     </description>
     <sheet usage="1/Short Rest">
       <description>
