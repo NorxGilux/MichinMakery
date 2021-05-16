@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.4">
+    <update version="0.0.5">
       <author url="https://github.com/NorxGilux/MichinMakery">Michin Makery</author>
       <file name="class-spellbinder.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/class-spellbinder.xml" />
     </update>
@@ -18,7 +18,9 @@
       <p>When deciding to play a Spellbinder, think about what led your character to do the tasks of a Spellbinder. Maybe collecting arcane knowledge is a tradition in the area, or your character was supposed to be a researcher. What is your relationship with magic and spells in general? Is there a measure of arcane power? </p>
       <p class="indent">How did your character come to be an adventurer? Maybe you need to travel around to collect all the knowledge spread around the multiverse or you are just hungry for power.</p>
       <h5>Quick Build</h5>
-      <p>You can make a Spellbinder quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Constitution and Intelligence. Second, select the <em>Noble</em> or <em>Cloistered Scholar</em> background. Third, select the <em>Fire Bolt</em>, <em>Shocking Grasp</em> and <em>Ray of Frost</em> or <em>Light</em> cantrips. Fourth, select the <em>Burning Hands</em>, <em>Thunderwave</em> and <em>Mage Armor</em> spells.</p>
+      <p>
+        You can make a Spellbinder quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Constitution and Intelligence. Second, select the <em>Noble</em> or <em>Cloistered Scholar</em> background. Third, select the <em>Fire Bolt</em>, <em>Shocking Grasp</em> and <em>Ray of Frost</em> or <em>Light</em> cantrips. Fourth, select the <em>Burning Hands</em>, <em>Thunderwave</em> and <em>Mage Armor</em> spells.
+      </p>
       <h3>Class Features</h3>
       <p>As a Spellbinder, you gain the following class features</p>
       <h5>Hit Points</h5>
@@ -447,7 +449,7 @@
       <p>At 1st level, you get to be linked to a spellbook. You need this book to feel complete, without it you slowly become insane. This spellbook contains your memories and everything you acknowledged including every cantrip and spell you learned. If you learn any spells the non-traditional way the spells magically appear in the spellbook. You need to have by your side to cast spells. While casting spells your book floats and some light effects coming from it representing the spell Since you are linked to this book you know every time where it.</p>
       <p class="intend">You can’t sense your book while you or your book is on a different plane or in a magic isolated zone.</p>
       <p class="intend">This book is your one and only spellcasting focus and can’t be harmed as long as you live.</p>
-      <p class="intend">You are the only person you can write and read in this book. Every other person need permission from you or can only read cryptic runes shimmering and flowing thru the pages.</p>
+      <p class="intend">You are the only person who can write and read in this book. Every other person need permission from you or can only read cryptic runes shimmering and flowing thru the pages.</p>
     </description>
     <sheet>
       <description>
@@ -458,11 +460,12 @@
 
   <element name="Binding Marbles" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_SPELLBINDER_BINDING_MARBLES">
     <description>
-      <p>At 2nd level, you get the ability to catch the essence of a spell or cantrip casted in your presence. By obtaining such arcane energy you generate small marbles, which are shimmering inside by the cause of the caught energy. As a reaction, you get the chance to generate a marble of a spell or cantrip casted. To create such marbles, you must make a check with your spellcasting ability + proficiency bonus against a DC of 10 + the base spell level casted, not the level which the spell is casted on. For cantrips the DC is 10. You can use a marble to cast the spell or cantrip within it by using your own spell slots. While doing it the marble is consumed.</p>
+      <p>At 2nd level, you get the ability to catch the essence of arcane power in your presence. By obtaining such energy you generate small crystalline marbles, which are shimmering inside by the cause of the caught energy. As a reaction, you get the chance to generate a marble of a spell or cantrip casted within 80 feet of you. To create such marbles, you must make a check with your spellcasting ability modifier + proficiency bonus against a DC of 10 + the base spell level casted, not the level which the spell is casted on. For cantrips the DC is 10. You can use a marble to cast the spell or cantrip within it by using your own spell slots. While doing it the marble is consumed.</p>
+      <p class="intend">You can generate one marble once during a combat using this feature.</p>
     </description>
-    <sheet usage="Reaction">
+    <sheet usage="1/combat">
       <description>
-        As a reaction, you get the chance to generate a marble of a spell or cantrip casted. To create such marbles, you must make a check with +{{spellbinder:bindingmarbles}} against a DC of 10 + the base spell level casted, not the level which the spell is casted on. For cantrips the DC is 10. You can use a marble to cast the spell or cantrip within it by using your own spell slots. While doing it the marble is consumed.
+        As a reaction, you get the chance to generate a marble of a spell or cantrip casted within 80 feet of you. To create such marbles, you must make a check with +{{spellbinder:bindingmarbles}} against a DC of 10 + the base spell level casted, not the level which the spell is casted on. For cantrips the DC is 10. You can use a marble to cast the spell or cantrip within it by using your own spell slots. While doing it the marble is consumed.
       </description>
     </sheet>
     <rules>
@@ -473,22 +476,24 @@
 
   <element name="Spell Binding" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_SPELLBINDER_SPELL_BINDING">
     <description>
-      <p>Starting at 2nd level, after you collected one or more marbles with your Binding Marbles ability you can spend time to let your book absorb the energy from it. For each marble collected you can spend 1 hours to learn the corresponding spell. 30 minutes for cantrips. While channeling the transcription you do not recognize anything of your surroundings. The transcription breaks when you or your book gets displaced or when you take damage. You can do that during a short or long rest. Additionally, you may extract some spell essence from enchanted objects too without dispelling or triggering the effect.</p>
+      <p>
+        Starting at 2nd level, after you collected one or more marbles with your <em>Binding Marbles</em> feature you can spend time to let your book absorb the energy from it. For each marble collected you can spend 1 hours to learn the corresponding spell. While channeling the transcription you do not recognize anything of your surroundings. The transcription breaks when you or your book gets displaced or when you take damage. You can do that during a short or long rest.
+      </p>
     </description>
     <sheet>
       <description>
-        After you collected one or more marbles with your <em>Binding Marbles</em> ability you can spend time to absorb the energy from it. For each marble collected you can spend 1 hours to learn the corresponding spell. 30 minutes for cantrips. You can do that during a short or long rest. While channeling the transcription you do not recognize anything of your surroundings. The transcription breaks when you or your book gets displaced or when you take damage. You can do that during a short or long rest. Additionally, you may extract some spell essence from enchanted objects too without dispelling or triggering the effect.
+        After you collected one or more marbles with your <em>Binding Marbles</em> feature you can spend time to absorb the energy from it. For each marble collected you can spend 1 hours to learn the corresponding spell. You can do that during a short or long rest. While channeling the transcription you do not recognize anything of your surroundings. The transcription breaks when you or your book gets displaced or when you take damage. You can do that during a short or long rest.
       </description>
     </sheet>
   </element>
 
   <element name="Enhanced Learning" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_SPELLBINDER_ENHANCED_LEARNING">
     <description>
-      <p>Starting at 3rd level, while reading any kind of text you can read and understand, your book magically takes notes of it. This includes spell scroll, spellbooks and any other sources too making you able to learn new spells this way with your Binding Book feature. Additionally, you can read and understand all writings, that are not encrypted, since the symbols transform to the runic language of your mind.</p>
+      <p>Starting at 3rd level, you can read and understand all writings, that are not encrypted, since the symbols transform to the runic language of your mind. while reading any kind of text, your book magically takes notes of it. This includes spell scroll, spell books and any other sources too making you able to learn new spells this way with your Binding Book feature.</p>
     </description>
     <sheet>
       <description>
-        While reading any kind of text you can read and understand, your book magically takes notes of it. This includes spell scroll, spellbooks and any other sources too making you able to learn new spells this way with your Binding Book feature. Additionally, you can read and understand all writings, that are not encrypted, since the symbols transform to the runic language of your mind.
+        You can read and understand all writings, that are not encrypted, since the symbols transform to the runic language of your mind. while reading any kind of text, your book magically takes notes of it. This includes spell scroll, spell books and any other sources too making you able to learn new spells this way with your Binding Book feature.
       </description>
     </sheet>
   </element>
@@ -509,9 +514,10 @@
 
   <element name="Crystalized Energy" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_SPELLBINDER_CRYSTALIZED_ENERGY">
     <description>
-      <p>At 5th level, you gain the ability to create fragile arcane crystals. While casting spells a spell you can decide to create a crystal holding the spell instead of releasing it right away. This crystal appears at a place you can see and can be used by any creature by shattering it. The place it shatters becomes the center point of the spell.</p>
-      <p class="intend">By casting a spell that needs concentration into a crystal, you declare a code word to activate it. After activation it last as long as the spell provides. You don’t need concentration on the spell of the crystal. You can only have one active crystal using this feature. You are able to cast another spell as usual with the concentration attribute during that time.</p>
-      <p class="intend">If the spell within is a single-targeted or self-targeted spell it affects the next possible target (read spell description which kind of target). The crystals can be destroyed without releasing the spell by using Dispel Magic on it.</p>
+      <p>At 5th level, you gain the ability to create fragile arcane crystals. While casting a spell you can decide to create a crystal holding the spell instead of releasing it right away. This crystal appears at a place you can see within the range of the chosen spell. By casting the spell that way you can declare a code word to activate it. The crystallized spell can also be activate by shattering the crystal. The place it shatters becomes the center point of the spell.</p>
+      <p class="intend">By casting a spell that needs concentration into a crystal the spell last as long as the spell provides after it’s been activated with a code word. Shattering those crystals release the spell without activating it and ends the spell if the crystal is already activated. You can only have one crystal with a spell that needs concentration using this feature. You don’t need concentration for the spell inside the crystal. You are able to cast another spell as usual with the concentration attribute during that time.</p>
+      <p class="intend">If the spell within is a single-targeted or self-targeted spell it affects the nearest possible target (read spell description which kind of target). The crystals can be destroyed without releasing the spell by using Dispel Magic on it.</p>
+      <p class="intend">To shatter a crystal it has to be hit with an attack (AC 10) or be thrown successfully (DC 13). There may be other ways to shatter them. Consult your DM to determine how.</p>
     </description>
     <sheet>
       <description>
@@ -522,18 +528,20 @@
 
   <element name="Versatile Energy" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_SPELLBINDER_VERSATILE_ENERGY">
     <description>
-      <p>When reaching 7th level, you learned how versatile the energies around you can be. When you cast a spellbinder spell or cantrip, you can temporarily replace its damage type with another spell-typical damage type.</p>
+      <p>When reaching 7th level, you learned how versatile the energies around you can be. When you cast a spell or cantrip, you can temporarily replace its damage type with another damage type.</p>
     </description>
     <sheet>
       <description>
-        When you cast a spellbinder spell or cantrip, you can temporarily replace its damage type with another spell-typical damage type.
+        When you cast a spell or cantrip, you can temporarily replace its damage type with another damage type.
       </description>
     </sheet>
   </element>
 
   <element name="Arcane Charging" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_SPELLBINDER_ARCANE_CHARGING">
     <description>
-      <p>At 10th level, you gain the ability to regenerate your powers by concentrating and meditating together with your <em>Binding Book</em>. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Spellbinder level (rounded up).</p>
+      <p>
+        At 10th level, you gain the ability to regenerate your powers by concentrating and meditating together with your <em>Binding Book</em>. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Spellbinder level (rounded up).
+      </p>
     </description>
     <sheet usage="1/day">
       <description>
@@ -575,8 +583,9 @@
       <p>At 20th level, you became one of the most powerful Spellbinder that exist and be able to release a immense amount of arcane energy, even though you might not have all the knowledge collected as you wanted. You can transform yourself into a creature of pure energy for 1 minute. During that time, you get the following benefits:</p>
       <ul>
         <li>Whenever you cast a Spellbinder spell that has a casting time of 1 action, you can cast it using your bonus action instead. </li>
+        <li>You are allowed to cast multiple spells in one turn.</li>
         <li>All your spells and cantrips deal maximum damage or the maximum amount of healing.</li>
-        <li>You emanate an aura of energy in a 30-foot radius. All allies within that aura have advantage on saving throws using Charisma, Wisdom and Intelligence.</li>
+        <li>You emanate an aura of energy in a 30-foot radius. All allies within that aura have advantage on saving throws using Charisma, Wisdom or Intelligence.</li>
       </ul>
       <p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
     </description>
@@ -584,8 +593,9 @@
       <description>
         For 1 minute, you gain the following benefits:
         Whenever you cast a Spellbinder spell that has a casting time of 1 action, you can cast it using your bonus action instead.
+        You are allowed to cast multiple spells in one turn.
         All your spells and cantrips deal maximum damage or the maximum amount of healing.
-        You emanate an aura of energy in a 30-foot radius. All allies within that aura have advantage on saving throws using Charisma, Wisdom and Intelligence.
+        You emanate an aura of energy in a 30-foot radius. All allies within that aura have advantage on saving throws using Charisma, Wisdom or Intelligence.
       </description>
     </sheet>
   </element>
