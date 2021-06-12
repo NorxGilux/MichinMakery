@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
       <file name="race-astrari.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/race-astrari.xml" />
     </update>
@@ -92,13 +92,14 @@
       <select type="Sub Race" name="Astrari Subrace" supports="Astrari" />
     </rules>
   </element>
-  <element name="Selûnite Astrari" type="Sub Race" source="Volo’s Guide to Monsters" id="ID_MIMA_ASTRARI_SUB_RACE_SELUNITE_ASTRARI">
+  <element name="Selûnite Astrari" type="Sub Race" source="Michin Makery" id="ID_MIMA_ASTRARI_SUB_RACE_SELUNITE_ASTRARI">
     <supports>Astrari</supports>
     <description>
       <p>Selûnite Astrari are mostly chaotic good. They got a very slightly glow of moon light on their skin. Their eyes are white during the day becoming more and more silver at night peaking at midnight. Selûnite's hair is always silver-white.</p>
       <p>
         <span class="feature">Resistance of Light.</span>You gain resistance to radiant damage.<br />
         <span class="feature">Shining Star.</span>You learn the <em>Shining Star</em> cantrip<br />
+        <div element="ID_MIMA_SPELL_SHINING_STAR" />
       </p>
     </description>
     <sheet display="false"/>
@@ -107,13 +108,14 @@
       <grant type="Spell" id="ID_MIMA_SPELL_SHINING_STAR" />
     </rules>
   </element>
-  <element name="Sharran Astrari" type="Sub Race" source="Volo’s Guide to Monsters" id="ID_MIMA_ASTRARI_SUB_RACE_SHARRAN_ASTRARI">
+  <element name="Sharran Astrari" type="Sub Race" source="Michin Makery" id="ID_MIMA_ASTRARI_SUB_RACE_SHARRAN_ASTRARI">
     <supports>Astrari</supports>
     <description>
       <p>Sharran Astrari are mostly neutral evil. They got a very slightly greyish tone to their skin. Their eyes are darkgrey during the day becoming more and more black at night peaking at midnight. Sharran's hair is always raven-black.</p>
       <p>
         <span class="feature">Resistance of Shadows.</span>You gain resistance to necrotic damage.<br />
-        <span class="feature">Shining Star.</span>You learn the <em>Shining Star</em> cantrip<br />
+        <span class="feature">Shining Star.</span>You learn the <em>Darken Star</em> cantrip<br />
+        <div element="ID_MIMA_SPELL_DARKEN_STAR" />
       </p>
     </description>
     <sheet display="false"/>
