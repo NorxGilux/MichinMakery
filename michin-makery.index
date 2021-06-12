@@ -3,7 +3,7 @@
 	<info>
 		<name>Michin Makery</name>
 		<description>The content from the Michin Makery.</description>
-		<update version="0.0.15">
+		<update version="0.0.16">
 			<file name="michin-makery.index" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery.index" />
 		</update>
 	</info>
@@ -13,8 +13,8 @@
 
     <!-- races -->
 		<file name="race-zuprix.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/race-zuprix.xml" />
-    <file name="race-lunari.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/race-lunari.xml" />
     <file name="race-kalapulu.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/race-kalapulu.xml" />
+    <file name="race-astrari.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/race-astrari.xml" />
     
     <!-- subraces -->
 
@@ -33,7 +33,7 @@
 		<file name="spells.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/spells.xml" />
     
     <!-- backgrounds -->
-    <file name="background-lunatic-follower.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/background-lunatic-follower.xml" />
+    <file name="background-starry-lover.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/background-starry-lover.xml" />
     
     <!-- items -->
     <file name="items.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/items.xml" />
@@ -51,5 +51,7 @@
     <obsolete name="items-green-dragon.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/items-green-dragon.xml" />
     <obsolete name="subrace-devineblood-aasimar.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/subrace-devineblood-aasimar.xml" />
     <obsolete name="race-deva.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/race-deva.xml" />
-	</files>
+    <obsolete name="race-lunari.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/race-lunari.xml" />
+    <obsolete name="background-lunatic-follower.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/background-lunatic-follower.xml" />
+  </files>
 </index>

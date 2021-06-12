@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <update version="0.0.1">
+      <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
+      <file name="race-astrari.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/race-astrari.xml" />
+    </update>
+  </info>
+
+  <element name="Astrari" type="Race" source="Michin Makery" id="ID_MIMA_RACE_ASTRARI">
+    <description>
+      <p class="flavor">Descendants of Night and Moon.</p>
+      <p>A little soul drifting thru the night. The sky full of stars, not a single cloud but also no moon. The path splits. A path of light and a path of darkness. On both paths standing a beautiful feminine silhouette waiting for the soul to decide, promising to give it a new life and new powers. Deciding for one has no return to the other.</p>
+      <h4>Physical Description</h4>
+      <p>An Astrari looks like an elvish human with the beauty of a feminine Drow. They are considered one of the most beautiful beings known. They have pale skin and mostly a gracile body type. Just by looking, an uninformed one can not say if an Astrari is biologically male or female. They are all quite feminine and similar beautiful.</p>
+      <h4>History</h4>
+      <p>Astrari first appeared before the War of Light and Darkness as they were created as stars. At the end of that war some may have gotten into a very unstable state of being and vanish.</p>
+      <p class="indent">Later when Toril got populated some Astrari found themselves in humanoid bodies, not remembering where there came from. Other humanoids, mostly elves and humans, got infused before their birth by the Moonmaiden or the Lady of Loss, becoming a humanoid Astrari. There are also stories of souls brought back to life as an Astrari by one of the Sisters.</p>
+      <h4>Society</h4>
+      <p>Astrari can live in any society but have unique abilities which differ from the usual people. Some may like them, some don't. Due to their heritage Astrari are usually admired by other elvenkind and other creatures who know about their connection to the Sisters-Who-Were-One.</p>
+      <h4>Personality</h4>
+      <p>Astrari know that they are beautiful and get what the want with ease. They mostly do want they want and love to trick somebody. Their most favourite season is the autumn, secondly the winter but never the spring and summer except for the clear night skies.</p>
+      <h4>Astrari Names</h4>
+      <p>Born Astrari usually have names like elves or humans. Reborn ones may keep their previous name.</p>
+      <h4>Astrari Traits</h4>
+      <p>Beings infused with lunar energy.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Increase one score by 2 and increase a different score by 1, or you increase three different scores by 1.<br />
+        <span class="feature">Age.</span>Astrari age like elves. Some live for ever.<br />
+        <span class="feature">Size.</span>Medium.<br />
+        <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br />
+        <span class="feature">Unclouded Vision.</span>You can see normally in dim light and darkness, both magical and nonmagical, to a distance of 120 feet.<br />
+        <span class="feature">Restless Eyes.</span>You no longer need to sleep. To gain the benefits of a long rest, you can spend all 8 hours doing light activity.<br />
+        <span class="feature">Delightful.</span>You have advantage on Persuasion (Charisma) ability checks and saving throws you make to avoid or end the charmed condition on yourself.<br />
+        <span class="feature">Languages.</span>You can speak, read and write in Common, Elvish and one other language that you and your DM agree is appropriate for the character.<br />
+        <span class="feature">Subrace.</span>Two subraces of Astrari exist: Selûnite Astrari and Sharran Astrari. Choose one of them for your character.<br />
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">any</set>
+      <set name="names" type="female">any</set>
+      <set name="names" type="family">any</set>
+      <set name="names-format">{{name}} {{family}}</set>
+      <set name="height" modifier="2d10">4'6"</set>
+      <set name="weight" modifier="1d4">90 lb.</set>
+    </setters>
+    <rules>
+      <select type="Ability Score Improvement" name="Ability Score Improvement Option (Astrari)" supports="Custom Ability Score Improvement Option" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <grant type="Vision" id="ID_MIMA_VISION_UNCLOUDED_VISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_ELVISH" />
+      <select type="Language" name="Language (Astrari)" supports="Standard||Exotic" />
+      <grant type="Racial Trait" id="ID_MIMA_ASTRARI_RACIAL_TRAIT_DELIGHTFUL" />
+      <grant type="Racial Trait" id="ID_MIMA_ASTRARI_RACIAL_TRAIT_RESTLESS_EYES" />
+      <grant type="Racial Trait" id="ID_MIMA_ASTRARI_RACIAL_TRAIT_ASTRARI_SUBRACE" />
+    </rules>
+  </element>
+  <element name="Unclouded Vision" type="Vision" source="Michin Makery" id="ID_MIMA_VISION_UNCLOUDED_VISION">
+    <description>
+      <p>You can see normally in dim light and darkness, any kind, to a distance of 120 feet.</p>
+    </description>
+    <sheet>
+      <desription>You can see normally in dim light and darkness, any kind, to a distance of 120 feet.</desription>
+    </sheet>
+  </element>
+  <element name="Delightful" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ASTRARI_RACIAL_TRAIT_DELIGHTFUL">
+    <description>
+      <p>You have advantage on Persuasion (Charisma) ability checks and saving throws you make to avoid or end the charmed condition on yourself.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on Persuasion (Charisma) ability checks and saving throws you make to avoid or end the charmed condition on yourself.</description>
+    </sheet>
+  </element>
+  <element name="Restless Eyes" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ASTRARI_RACIAL_TRAIT_RESTLESS_EYES">
+    <description>
+      <p>You no longer need to sleep. To gain the benefits of a long rest, you can spend all 8 hours doing light activity.</p>
+    </description>
+    <sheet>
+      <description>You no longer need to sleep. To gain the benefits of a long rest, you can spend all 8 hours doing light activity.</description>
+    </sheet>
+  </element>
+
+  <element name="Astrari Subrace" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ASTRARI_RACIAL_TRAIT_ASTRARI_SUBRACE">
+    <description>
+      <p>Two subraces of Astrari exist: Selûnite Astrari and Sharran Astrari. Choose one of them for your character.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Sub Race" name="Astrari Subrace" supports="Astrari" />
+    </rules>
+  </element>
+  <element name="Selûnite Astrari" type="Sub Race" source="Volo’s Guide to Monsters" id="ID_MIMA_ASTRARI_SUB_RACE_SELUNITE_ASTRARI">
+    <supports>Astrari</supports>
+    <description>
+      <p>Selûnite Astrari are mostly chaotic good. They got a very slightly glow of moon light on their skin. Their eyes are white during the day becoming more and more silver at night peaking at midnight. Selûnite's hair is always silver-white.</p>
+      <p>
+        <span class="feature">Resistance of Light.</span>You gain resistance to radiant damage.<br />
+        <span class="feature">Shining Star.</span>You learn the <em>Shining Star</em> cantrip<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" type="Condition"/>
+      <grant type="Spell" id="ID_MIMA_SPELL_SHINING_STAR" />
+    </rules>
+  </element>
+  <element name="Sharran Astrari" type="Sub Race" source="Volo’s Guide to Monsters" id="ID_MIMA_ASTRARI_SUB_RACE_SHARRAN_ASTRARI">
+    <supports>Astrari</supports>
+    <description>
+      <p>Sharran Astrari are mostly neutral evil. They got a very slightly greyish tone to their skin. Their eyes are darkgrey during the day becoming more and more black at night peaking at midnight. Sharran's hair is always raven-black.</p>
+      <p>
+        <span class="feature">Resistance of Shadows.</span>You gain resistance to necrotic damage.<br />
+        <span class="feature">Shining Star.</span>You learn the <em>Shining Star</em> cantrip<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" type="Condition"/>
+      <grant type="Spell" id="ID_MIMA_SPELL_DARKEN_STAR" />
+    </rules>
+  </element>
+</elements>

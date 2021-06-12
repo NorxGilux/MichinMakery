@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.1.12">
+    <update version="0.1.13">
       <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
       <file name="warlock-lunar-goddess.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/warlock-lunar-goddess.xml" />
     </update>
@@ -22,7 +22,6 @@
       <description>Your patron is the Moon... actually the Lunar Queen.</description>
     </sheet>
     <rules>
-      <grant type="Archetype Feature" id="ID_MIMA_LUNATIC_HERITAGE" />
       <grant type="Lunar Goddess Feature" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_EXPANDED_SPELL_LIST" level="1" />
       <grant type="Lunar Goddess Feature" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_LIGHT_OF_THE_MOON" level="1" />
       <grant type="Lunar Goddess Feature" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_DARK_SIDE_OF_THE_MOON" level="6" />

@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <name>Lunatic Follower</name>
-    <description>Lunatic Follower Background</description>
+    <name>Starry Lover</name>
+    <description>Starry Lover Background</description>
     <author url="https://github.com/NorxGilux/MichinMakery">Michin Makery</author>
-    <update version="0.0.6">
-      <file name="background-lunatic-follower.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/background-lunatic-follower.xml" />
+    <update version="0.0.1">
+      <file name="background-starry-lover.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/background-starry-lover.xml" />
     </update>
   </info>
 
-  <element name="Lunatic Follower" type="Background" source="Michin Makery" id="ID_MIMA_BACKGROUND_LUNATIC_FOLLOWER">
+  <element name="Starry Lover" type="Background" source="Michin Makery" id="ID_MIMA_BACKGROUND_STARRY_LOVER">
     <description>
-      <p>You live your life in the service of the lunar goddess. You act as an intermediary between her and the mortal world, bringing her light into this world. She maybe granted you some power in past.</p>
-      <p class="indent">Once you choosen this background, work with your DM to detail the nature of your service. Were you a good child? Did you fulfill your any task she gave to you? Have you recieved what you want from her? Was it immortality?</p>
+      <p>You live your life in the service of the stars. You act as an intermediary between them and the mortal world, bringing their messages into this world. Maybe you were a star yourself in the past or wish to become one?</p>
+      <p class="indent"></p>
       <ul class="unstyled">
         <li>
           <strong>Skill Proficiencies:</strong>Perception, Arcana
@@ -21,12 +21,12 @@
           <strong>Languages:</strong>Two of your choice
         </li>
         <li>
-          <strong>Equipment:</strong>A moonstone, a set of common clothes, and a belt pouch containing 20 gp
+          <strong>Equipment:</strong>A moonstone or an onyx, a set of common clothes, and a belt pouch containing 20 gp
         </li>
       </ul>
       <div element="ID_MIMA_BACKGROUND_FEATURE_STARISH_ORIENTATION" />
       <h5>SUGGESTED CHARACTERISTICS</h5>
-      <p>Lunatic Followers are suckers for the night, stars and of cause the moon. They mostly sleep during the day and live through the night. Their favourite gem is the moonstone and their most loved material silver. You can imagine what reaction a dagger made out of silver with moonstones and star carvings on it could create?</p>
+      <p>Starry Lover are suckers for the night, stars and of the moon. They mostly sleep during the day and live through the night. Their favourite gem is the moonstone or the onyx. You can imagine what reaction a dagger decorated with moonstones or onyx and star carvings could create?</p>
     </description>
     <setters>
       <set name="short">Perception, Arcana, 2 Languages</set>
@@ -34,7 +34,7 @@
     <rules>
       <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
       <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
-      <select type="Language" name="Language (Lunatic Follower)" number="2" supports="Standard||Exotic" />
+      <select type="Language" name="Language (Starry Lover)" number="2" supports="Standard||Exotic" />
       <grant type="Background Feature" id="ID_MIMA_BACKGROUND_FEATURE_STARISH_ORIENTATION" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
       <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
       <select type="List" name="Personality Trait" number="2">
@@ -56,11 +56,11 @@
         <item id="6">Free. Sometimes i just want to lay down and watch the stars twinkle. (Any)</item>
       </select>
       <select type="List" name="Bond">
-        <item id="1">I was dead once, so i make the best out of my second, maybe third, life now.</item>
+        <item id="1">I was dead once, so i make the best out of my second life now.</item>
         <item id="2">Somewhere out there waits my dear love for my return, but first i need to get my job done.</item>
-        <item id="3">I serve the lunar goddess with all my power. Spreading her light all over the world and make it a better place.</item>
+        <item id="3">I serve the stars with all my power. Spreading their messages all over the world and make it a better place.</item>
         <item id="4">Everything i do is for a greater good and i will know what for once i'm done.</item>
-        <item id="5">Nothing is more important than convincing people to become a lunatic follower too.</item>
+        <item id="5">Nothing is more important than convincing people to become a Starry Lover too.</item>
         <item id="6">Some people made my life very unhappy, i will take revenge on them someday.</item>
       </select>
       <select type="List" name="Flaw">
@@ -77,17 +77,8 @@
   <element name="Feature: Starish Orientation" type="Background Feature" source="Michin Makery" id="ID_MIMA_BACKGROUND_FEATURE_STARISH_ORIENTATION">
     <supports>Background Feature</supports>
     <description>
-      <p>You feel the most comfortable under the night sky. During the night, as long as you can see stars you have advantage on any orientation related checks. You may even meditate to communicate with the stars and moon to ask them where to go and what to do. Sometime their answers are not that easy to understand.</p>
+      <p>You feel the most comfortable under the night sky. During the night, as long as you can see stars you have advantage on any orientation related checks. You may even meditate to communicate with the stars to ask them where to go and what to do. Sometime their answers are not that easy to understand.</p>
     </description>
     <sheet alt="Starish Orientation" />
-  </element>
-
-  <element name="Lunatic Heritage" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_LUNATIC_HERITAGE">
-    <description>
-      <p>You are touched by the Lunatic Goddess.</p>
-    </description>
-    <sheet display="false">
-      <description>You are touched by the Lunatic Goddess.</description>
-    </sheet>
   </element>
 </elements>
