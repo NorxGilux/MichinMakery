@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.3">
+    <update version="0.0.4">
       <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
       <file name="race-astrari.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/race-astrari.xml" />
     </update>
@@ -99,10 +99,10 @@
       <p>
         <span class="feature">Resistance of Light.</span>You gain resistance to radiant damage.<br />
         <span class="feature">Shining Star.</span>You learn the <em>Shining Star</em> cantrip<br />
+      </p>
         <div class="reference">
           <div element="ID_MIMA_SPELL_SHINING_STAR" />
         </div>
-      </p>
     </description>
     <sheet display="false"/>
     <rules>
@@ -117,10 +117,10 @@
       <p>
         <span class="feature">Resistance of Shadows.</span>You gain resistance to necrotic damage.<br />
         <span class="feature">Shining Star.</span>You learn the <em>Darken Star</em> cantrip<br />
+      </p>
         <div class="reference">
           <div element="ID_MIMA_SPELL_DARKEN_STAR" />
         </div>
-      </p>
     </description>
     <sheet display="false"/>
     <rules>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.1.6">
+    <update version="0.1.7">
       <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
       <file name="spells.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/spells.xml" />
     </update>
@@ -12,6 +12,7 @@
       <p>You create a tiny glowing star in your hand. Until the spell ends, the star sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light is colored silver. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.</p>
       <p class="indent">You can place a star on any surface to make this effect stationary.</p>
       <p class="indent">You can decide to throw the star as a ranged spell attack after casting this spell or as an action afterwards. Doing that the star shatters dealing 1d6 radiant damage.</p>
+      <p class="indent">Charisma is your spellcasting ability for this spell.</p>
       <p class="indent">The spell creates more than one star when you reach higher levels: two stars at 5th level, three stars at 11th level, and four stars at 17th level. you can direct the stars at the same target or at different ones. Make a separate attack roll for each star.</p>
     </description>
     <setters>
@@ -35,6 +36,7 @@
       <p>You create a tiny shadowy star in your hand. Until the spell ends, the star overshadows any source of natural light within 30 feet. The star neutralizes only the light not the source, making it possible to have a campfire that sheds no light but still burns whatever touches the flame. The spell ends if you cast it again or dismiss it as an action.</p>
       <p class="indent">You can place a star on any surface to make this effect stationary.</p>
       <p class="indent">You can decide to throw the star as a ranged spell attack after casting this spell or as an action afterwards. Doing that the star shatters dealing 1d6 necrotic damage.</p>
+      <p class="indent">Charisma is your spellcasting ability for this spell.</p>
       <p class="indent">The spell creates more than one star when you reach higher levels: two stars at 5th level, three stars at 11th level, and four stars at 17th level. you can direct the stars at the same target or at different ones. Make a separate attack roll for each star.</p>
     </description>
     <setters>
