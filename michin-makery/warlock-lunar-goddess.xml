@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.1.13">
+    <update version="0.1.14">
       <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
       <file name="warlock-lunar-goddess.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/warlock-lunar-goddess.xml" />
     </update>
@@ -122,7 +122,6 @@
   <element name="Servant of the Moon" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_SERVANT_OF_THE_MOON">
     <description>
       <p>At 10th level the moon granted you a companion as a reward for your loyalty. You may choose between a Lunar Pixie, a Lunar Felidae or a Lunar Canis. You add half your proficiency bonus rounded down to the companions AC, attack roll, attack dmg, skills and saving throws that the companion is proficient in. It's max HP equals four times your Warlock level.</p>
-      <p class="indent">Additionally, you gain resistance to radiant damage.</p>
     </description>
     <sheet>
       <description>
@@ -140,7 +139,6 @@
       <stat name="additional:hp:max" value="level:warlock" />
       <stat name="companion:hp:max" value="additional:hp:max" bonus="base" />
       <stat name="companion:proficiency" value="proficiency:half" />
-      <grant id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" type="Condition"/>
     </rules>
   </element>
   <element name="Might of the Moon" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_MIGHT_OF_THE_MOON">
