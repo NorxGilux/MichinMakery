@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="sources.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/sources.xml" />
 		</update>
 	</info>
@@ -16,17 +16,6 @@
 			<set name="homebrew">true</set>
 		</setters>
 	</element>
-  <element name="Zarieth" type="Source" source="Zarieth" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_ZARI">
-    <description>
-      <![CDATA[<p></p>]]>
-    </description>
-    <setters>
-      <set name="abbreviation">ZARI</set>
-      <set name="url">https://www.gmbinder.com/share/-L7gG0ZSzBHgbWv7t_wf</set>
-      <set name="author" url="https://www.gmbinder.com/share/-L7gG0ZSzBHgbWv7t_wf">Zarieth</set>
-      <set name="homebrew">true</set>
-    </setters>
-  </element>
   <element name="DingoDoodles" type="Source" source="DingoDoodles" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_DIDO">
     <description>
       <![CDATA[<p></p>]]>
@@ -90,6 +79,17 @@
       <set name="abbreviation">XIBA</set>
       <set name="url">https://www.reddit.com/user/CUVICO/</set>
       <set name="author" url="https://www.reddit.com/user/CUVICO/">ROSA</set>
+      <set name="homebrew">true</set>
+    </setters>
+  </element>
+  <element name="Griffon's Saddlebag" type="Source" source="Griffon's Saddlebag" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_GRIFFONS_SADDLEBAG">
+    <description>
+      <![CDATA[<p></p>]]>
+    </description>
+    <setters>
+      <set name="abbreviation">GSB</set>
+      <set name="url">https://www.thegriffonssaddlebag.com</set>
+      <set name="author" url="https://www.thegriffonssaddlebag.com">GRIFF</set>
       <set name="homebrew">true</set>
     </setters>
   </element>

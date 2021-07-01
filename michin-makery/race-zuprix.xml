@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.5">
+    <update version="0.0.6">
       <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
       <file name="race-zuprix.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/race-zuprix.xml" />
     </update>
@@ -122,10 +122,6 @@
         You have natural weapons like Bite or Claws dealing 1d4 slashing or piercing damage. You can choose to use your Strength or Dexterity modifier for these attacks. You are also proficient with those attacks.
       </description>
     </sheet>
-    <setters>
-      <set name="height" modifier="2d10">4'8"</set>
-      <set name="weight" modifier="2d4">110 lb.</set>
-    </setters>
   </element>
 
   <element name="Advanced Natural Weapon" type="Racial Trait" source="Michin Makery" id="ID_MIMA_ZUPRIX_RACIAL_TRAIT_VERSATILE_AT_BIRTH_NATURAL_WEAPON_ADVANCED">
