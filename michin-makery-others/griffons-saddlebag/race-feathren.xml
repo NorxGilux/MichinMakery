@@ -3,12 +3,12 @@
   <info>
     <name>Feathren</name>
     <author url="https://www.thegriffonssaddlebag.com">Griffon's Saddlebag</author>
-    <update version="0.1">
+    <update version="0.2">
       <file name="race-feathren.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/griffons-saddlebag/race-feathren.xml" />
     </update>
   </info>
 
-  <element name="Feathren" type="Race" source="Griffon's Saddlebag" id="ID_RACE_FEATHREN">
+  <element name="Feathren" type="Race" source="Griffon's Saddlebag" id="ID_GSB_RACE_FEATHREN">
     <description>
       <p class="flavor">Cuddly Panda bears who will punch your face.</p>
       <p>Feathren are the representation of something new from something old. A step beyond their ancestral griffon heritage, these bipedal creatures celebrate their individuality amidst the cries and jeers from common folk. Originally born from the Astral Plane, where all things can be lost, found, and remade, feathren now walk the Material Plane in search of new ideas, materials, and direction. Filled with endless curiosity, many make their way through the world as adventurers and artisans, taking care to learn what they can from their experiences before moving on to the next one.</p>
@@ -98,16 +98,16 @@
       <grant type="Vision" id="ID_VISION_DARKVISION" />
       <grant type="Language" id="ID_LANGUAGE_COMMON" />
       <select type="Language" name="Language (Feathren)" supports="Standard||Exotic" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FEATHREN_NATURAL_CREATOR" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FEATHREN_TALONS" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FEATHREN_ASTRAL_ANCESTRY" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FEATHREN_KINDRED_SPEECH" />
+      <grant type="Racial Trait" id="ID_GSB_RACIAL_TRAIT_FEATHREN_NATURAL_CREATOR" />
+      <grant type="Racial Trait" id="ID_GSB_RACIAL_TRAIT_FEATHREN_TALONS" />
+      <grant type="Racial Trait" id="ID_GSB_RACIAL_TRAIT_FEATHREN_ASTRAL_ANCESTRY" />
+      <grant type="Racial Trait" id="ID_GSB_RACIAL_TRAIT_FEATHREN_KINDRED_SPEECH" />
       <select type="Racial Trait" name="Avian Feathren Ancestry" supports="Avian Feathren Ancestry" optional="false" />
       <select type="Racial Trait" name="Feline Feathren Ancestry" supports="Feline Feathren Ancestry" optional="false" />
     </rules>
   </element>
 
-  <element name="Natural Creator" type="Racial Trait" source="Griffon's Saddlebag" id="ID_RACIAL_TRAIT_FEATHREN_NATURAL_CREATOR">
+  <element name="Natural Creator" type="Racial Trait" source="Griffon's Saddlebag" id="ID_GSB_RACIAL_TRAIT_FEATHREN_NATURAL_CREATOR">
     <description>
       <p>You have proficiency in two artisan’s tools of your choice, and can gain proficiency in a new tool in half the normal amount of time.</p>
     </description>
@@ -116,7 +116,7 @@
       <select type="Proficiency" name="Artisan’s Tool (Natural Creator)" supports="Artisan tools" number="2" />
     </rules>
   </element>
-  <element name="Talons" type="Racial Trait" source="Griffon's Saddlebag" id="ID_RACIAL_TRAIT_FEATHREN_TALONS">
+  <element name="Talons" type="Racial Trait" source="Griffon's Saddlebag" id="ID_GSB_RACIAL_TRAIT_FEATHREN_TALONS">
     <description>
       <p>Your talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
     </description>
@@ -124,7 +124,7 @@
       <description>Your talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + {{strength:modifier}}, instead of the bludgeoning damage normal for an unarmed strike.</description>
     </sheet>
   </element>
-  <element name="Astral Ancestry" type="Racial Trait" source="Griffon's Saddlebag" id="ID_RACIAL_TRAIT_FEATHREN_ASTRAL_ANCESTRY">
+  <element name="Astral Ancestry" type="Racial Trait" source="Griffon's Saddlebag" id="ID_GSB_RACIAL_TRAIT_FEATHREN_ASTRAL_ANCESTRY">
     <description>
       <p>
         Due to your curious lineage stemming from the Astral Plane, you have a limited ability to magically harness the stardust that exists within all things. You can cast <em>identify</em> and <em>enhance ability</em> with this trait, without requiring material components. Once you cast either spell, you can’t cast that spell again with this trait until you finish a long rest.
@@ -138,7 +138,7 @@
       <grant type="Spell" id="ID_PHB_SPELL_ENHANCE_ABILITY" />
     </rules>
   </element>
-  <element name="Kindred Speech" type="Racial Trait" source="Griffon's Saddlebag" id="ID_RACIAL_TRAIT_FEATHREN_KINDRED_SPEECH">
+  <element name="Kindred Speech" type="Racial Trait" source="Griffon's Saddlebag" id="ID_GSB_RACIAL_TRAIT_FEATHREN_KINDRED_SPEECH">
     <description>
       <p>You have the ability to communicate in a limited manner with cats and birds that are Large or smaller, including griffons. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</p>
     </description>
@@ -148,7 +148,7 @@
   </element>
 
   <!-- Avian Feathren Ancestry -->
-  <element name="Jay, Owl, or Raven" type="Racial Trait" source="Griffon's Saddlebag" id="ID_RACIAL_TRAIT_FEATHREN_AVIAN_ANCESTRY_JOR">
+  <element name="Jay, Owl, or Raven" type="Racial Trait" source="Griffon's Saddlebag" id="ID_GSB_RACIAL_TRAIT_FEATHREN_AVIAN_ANCESTRY_JOR">
     <supports>Avian Feathren Ancestry</supports>
     <description>
       <p>Your Intelligence score increases by 2.</p>
@@ -158,7 +158,7 @@
       <stat name="intelligence" value="2" />
     </rules>
   </element>
-  <element name="Eagle, Falcon, or Hawk" type="Racial Trait" source="Griffon's Saddlebag" id="ID_RACIAL_TRAIT_FEATHREN_AVIAN_ANCESTRY_EFH">
+  <element name="Eagle, Falcon, or Hawk" type="Racial Trait" source="Griffon's Saddlebag" id="ID_GSB_RACIAL_TRAIT_FEATHREN_AVIAN_ANCESTRY_EFH">
     <supports>Avian Feathren Ancestry</supports>
     <description>
       <p>Your Wisdom score increases by 2.</p>
@@ -168,7 +168,7 @@
       <stat name="wisdom" value="2" />
     </rules>
   </element>
-  <element name="Cardinal, Mockingbird, or Parrot" type="Racial Trait" source="Griffon's Saddlebag" id="ID_RACIAL_TRAIT_FEATHREN_AVIAN_ANCESTRY_CMP">
+  <element name="Cardinal, Mockingbird, or Parrot" type="Racial Trait" source="Griffon's Saddlebag" id="ID_GSB_RACIAL_TRAIT_FEATHREN_AVIAN_ANCESTRY_CMP">
     <supports>Avian Feathren Ancestry</supports>
     <description>
       <p>Your Charisma score increases by 2.</p>
@@ -180,7 +180,7 @@
   </element>
 
   <!-- Feline Feathren Ancestry -->
-  <element name="Lion, Panther, or Saber-Toothed Tiger" type="Racial Trait" source="Griffon's Saddlebag" id="ID_RACIAL_TRAIT_FEATHREN_FELINE_ANCESTRY_LPS">
+  <element name="Lion, Panther, or Saber-Toothed Tiger" type="Racial Trait" source="Griffon's Saddlebag" id="ID_GSB_RACIAL_TRAIT_FEATHREN_FELINE_ANCESTRY_LPS">
     <supports>Feline Feathren Ancestry</supports>
     <description>
       <p>Your Strength score increases by 1.</p>
@@ -190,7 +190,7 @@
       <stat name="strength" value="1" />
     </rules>
   </element>
-  <element name="Cheetah, Serval,or Tiger" type="Racial Trait" source="Griffon's Saddlebag" id="ID_RACIAL_TRAIT_FEATHREN_FELINE_ANCESTRY_CST">
+  <element name="Cheetah, Serval,or Tiger" type="Racial Trait" source="Griffon's Saddlebag" id="ID_GSB_RACIAL_TRAIT_FEATHREN_FELINE_ANCESTRY_CST">
     <supports>Feline Feathren Ancestry</supports>
     <description>
       <p>Your Dexterity score increases by 1.</p>
@@ -200,7 +200,7 @@
       <stat name="dexterity" value="1" />
     </rules>
   </element>
-  <element name="Jaguar, Lynx, or Snow Leopard" type="Racial Trait" source="Griffon's Saddlebag" id="ID_RACIAL_TRAIT_FEATHREN_FELINE_ANCESTRY_JLS">
+  <element name="Jaguar, Lynx, or Snow Leopard" type="Racial Trait" source="Griffon's Saddlebag" id="ID_GSB_RACIAL_TRAIT_FEATHREN_FELINE_ANCESTRY_JLS">
     <supports>Feline Feathren Ancestry</supports>
     <description>
       <p>Your Constitution score increases by 1.</p>
