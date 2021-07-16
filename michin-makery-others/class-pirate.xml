@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <update version="0.0.1">
+      <file name="class-pirate.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/class-pirate.xml" />
+    </update>
+  </info>
+  <element name="Pirate" type="Class" source="Unknown" id="ID_UNK_CLASS_PIRATE">
+    <description>
+      <p> Avast, matey, and lend here yer ears. Pirates are lords and ladies of the skies and sea, simultaneously capable fighters, noble wanderers, and plucky socialites. At home away from land, pirates care more for the cool breeze of the sea or thunder of cloud cover than a busy street or quiet farmstead. </p>
+      <p class="indent"> Pirates are imbued with magic that lets them navigate the world via boat or airship. As veritable jacks and jills of all trades, no two pirates are alike. Some are dashing buccaneers as quick with wit as they are the tip of their rapier. Others are salty dogs whose sneer could frighten barnacles off the belly of a whale. </p>
+      <h4>Creating a Pirate</h4>
+      <p> To create a pirate consult the following subsections, which give you hit points, proficiencies, and starting equipment. Then look at the Pirate table to see which feature you get at each level. The descriptions of those features appear in the <em>Pirate Features</em> section.</p>
+      <h5>Quick Build</h5>
+      <p> You can make a pirate quickly by following these suggestions. First, put your highest ability score in Charisma, followed by Dexterity or Constitution. Second, choose the sailor background. </p>
+      <h3>Class Features</h3>
+      <p>As a pirate, you gain the following class features.</p>
+      <h5>Hit Points</h5>
+      <ul class="unstyled">
+        <li>
+          <strong>Hit Dice:</strong> 1d10 per Pirate level
+        </li>
+        <li>
+          <strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier
+        </li>
+        <li>
+          <strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per Pirate level after 1st
+        </li>
+      </ul>
+      <h5>Proficiencies</h5>
+      <ul class="unstyled mb">
+        <li>
+          <strong>Armor:</strong> Light armor, medium armor, shields
+        </li>
+        <li>
+          <strong>Weapons:</strong> Simple weapons, martial weapons, firearms
+        </li>
+        <li>
+          <strong>Tools:</strong> Vehicle (water) or vehicle (air)
+        </li>
+      </ul>
+      <ul class="unstyled">
+        <li>
+          <strong>Saving Throws:</strong> Dexterity, Charisma
+        </li>
+        <li>
+          <strong>Skills:</strong> Choose three skills from Acrobatics, Athletics, Deception, Insight, Intimidation, Perception, Performance, Persuasion, Sleight of Hand, Stealth, and Survival
+        </li>
+      </ul>
+      <h5>Equipment</h5>
+      <p> You start with the following equipment, in addition to the equipment granted by your background: </p>
+      <ul>
+        <li>(a) a shortsword or (b) a rapier</li>
+        <li>(a) a burglar’s pack or (b) an explorer’s pack</li>
+        <li>(a) a chain shirt or (b) leather armor</li>
+        <li>A light crossbow with 20 bolts and a dagger</li>
+      </ul>
+      <h5 class="caption">The Pirate</h5>
+      <table class="class-features">
+        <thead>
+          <tr>
+            <td class="col-5">Level</td>
+            <td class="left">Features</td>
+            <td>Cantrips known</td>
+            <td>1st</td>
+            <td>2nd</td>
+            <td>3rd</td>
+            <td>4th</td>
+            <td>5th</td>
+          </tr>
+        </thead>
+        <tr>
+          <td> 1st</td>
+          <td class="left">Shipworthy, Pirate’s Familiar</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 2st</td>
+          <td class="left">Pirate’s Luck, Sea Legs</td>
+          <td>2</td>
+          <td>2</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 3st</td>
+          <td class="left">Pirate Archetype</td>
+          <td>2</td>
+          <td>3</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 4th</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>2</td>
+          <td>3</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 5th</td>
+          <td class="left">Extra Attack</td>
+          <td>3</td>
+          <td>4</td>
+          <td>2</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 6th</td>
+          <td class="left">Pirate Archetype feature</td>
+          <td>3</td>
+          <td>4</td>
+          <td>2</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 7th</td>
+          <td class="left">Tenacity</td>
+          <td>3</td>
+          <td>4</td>
+          <td>3</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 8th</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>3</td>
+          <td>4</td>
+          <td>3</td>
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 9th</td>
+          <td class="left">Acclimatization</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>2</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 10th</td>
+          <td class="left">Confident Combatant</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>2</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 11th</td>
+          <td class="left">Pirate Archetype feature</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 12th</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 13th</td>
+          <td class="left">Pirate's Charm</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>1</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 14th</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>1</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 15th</td>
+          <td class="left">Uncanny Dodge</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 16th</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>--</td>
+        </tr>
+        <tr>
+          <td> 17th</td>
+          <td class="left">Pirate's Wit</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td> 18th</td>
+          <td class="left">Pirate Archetype feature</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td> 19th</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td> 20th</td>
+          <td class="left">Swashbuckler</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+        </tr>
+      </table>
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_SHIPWORTHY" />
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_PIRATES_FAMILIAR" />
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_SEA_LEGS" />
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_PIRATES_LUCK" />
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_SPELLCASTING_PIRATE" />
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_PIRATE_ARCHETYPE" />
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_ABILITYSCOREIMPROVEMENT_PIRATE" />
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_EXTRA_ATTACK" />
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_TENACITY" />
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_ACCLIMATIZATION" />
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_CONFIDENT_COMBATANT" />
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_PIRATES_CHARM" />
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_PIRATES_WIT" />
+      <div element="ID_UNK_CLASS_FEATURE_PIRATE_SWASHBUCKLER" />
+    </description>
+    <sheet display="false">
+      <description>Lords and ladies of the skies and sea.</description>
+    </sheet>
+    <setters>
+      <set name="short">Lords and ladies of the skies and sea.</set>
+      <set name="hd">d10</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+      <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_FIREARMS" />
+      <grant type="Proficiency" id="ID_UNK_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_AIR" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA"/>
+      <select type="Proficiency" name="Skill Proficiency (Pirate)" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" number="3"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_SHIPWORTHY" level="1"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_PIRATES_FAMILIAR" level="1"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_SEA_LEGS" level="2"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_PIRATES_LUCK" level="2"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_SPELLCASTING_PIRATE" level="2"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_PIRATE_ARCHETYPE" level="3"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_ABILITYSCOREIMPROVEMENT_PIRATE" level="4"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_EXTRA_ATTACK" level="5"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_TENACITY" level="7"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_ACCLIMATIZATION" level="9"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_CONFIDENT_COMBATANT" level="10"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_PIRATES_CHARM" level="13"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_PIRATES_WIT" level="17"/>
+      <grant type="Class Feature" id="ID_UNK_CLASS_FEATURE_PIRATE_SWASHBUCKLER" level="20"/>
+    </rules>
+  </element>
+  <element name="Shipworthy" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_SHIPWORTHY">
+    <description>
+      <p> You are intimately familiar with the conditions surrounding your vessel. Choose a type of vessel: airborne or waterborne. When you make a Dexterity, Intelligence, or Wisdom check related to operating a vessel of your chosen type, your proficiency bonus is doubled if you are using a skill that you’re proficient in. You gain the following benefits while operating a vehicle of your chosen type: </p>
+      <ul>
+        <li> You and your vehicle can’t become lost except by magical means. </li>
+        <li> Even when you are engaged in another activity while traveling in your vessel (such as navigating, tracking or reveling), you remain alert to danger. </li>
+        <li> Your cost to hire a crew is half of what it normally is (as per the PHB, one skilled hireling costs at least 2 gp per day). In addition, you can man a ship with 5 less crew than what is normally required (minimum of 1). </li>
+        <li> Because of your excellent tactics, the AC of your ships increases by +1 when you are at the command. This bonus increases by an additional +1 when you reach 5th level (+2), and again at 11th level (+3), and 17th level (+4). Your ship also has advantage on Dexterity saving throws against effects of which you are aware. </li>
+        <li> For any waterborne or airborne vehicle that you are the captain of with a crew of 10 or more (before your modifier), the hit points of the vehicle increase by an amount equal to 10 times your levels in this class. In addition, its speed increases by 2 mph. </li>
+        <li> When you complete a short rest on your chosen vessel, you can remove 1 level of exhaustion. </li>
+      </ul>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Shipworthy" supports="ID_UNK_CLASS_FEATURE_PIRATE_SHIPWORTHY_WATER|ID_UNK_CLASS_FEATURE_PIRATE_SHIPWORTHY_AIR" number="1"/>
+    </rules>
+  </element>
+  <element name="Shipworthy (Water)" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_SHIPWORTHY_WATER">
+    <description>
+      <p>You choose water vehicles.</p>
+    </description>
+    <sheet alt="Shipworthy">
+      <description> When you make a Dexterity, Intelligence, or Wisdom check related to operating a water vehicle, your proficiency bonus is doubled if you are using a skill that you’re proficient in. You and your vehicle can’t become lost except by magical means. Even when you are engaged in another activity while traveling in your vessel (such as navigating, tracking or reveling), you remain alert to danger. Your cost to hire a crew is half of what it normally is (as per the PHB, one skilled hireling costs at least 2 gp per day). In addition, you can man a ship with 5 less crew than what is normally required (minimum of 1). Because of your excellent tactics, the AC of your ships increases by +{{pirate:shipworthy:acbonus}} when you are at the command. Your ship also has advantage on Dexterity saving throws against effects of which you are aware. For any waterborne or airborne vehicle that you are the captain of with a crew of 10 or more (before your modifier), the hit points of the vehicle increase by {{pirate:shipworthy:hpbonus}}. In addition, its speed increases by 2 mph. When you complete a short rest on your chosen vessel, you can remove 1 level of exhaustion. </description>
+    </sheet>
+    <rules>
+      <stat name="pirate:shipworthy:acbonus" value="1" level="1"/>
+      <stat name="pirate:shipworthy:acbonus" value="1" level="5"/>
+      <stat name="pirate:shipworthy:acbonus" value="1" level="11"/>
+      <stat name="pirate:shipworthy:acbonus" value="1" level="17"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="1"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="2"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="3"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="4"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="5"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="6"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="7"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="8"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="9"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="10"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="11"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="12"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="13"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="14"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="15"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="16"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="17"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="18"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="19"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="20"/>
+    </rules>
+  </element>
+  <element name="Shipworthy (Air)" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_SHIPWORTHY_AIR">
+    <description>
+      <p>You choose air vehicles.</p>
+    </description>
+    <sheet alt="Shipworthy">
+      <description> When you make a Dexterity, Intelligence, or Wisdom check related to operating a air vehicle, your proficiency bonus is doubled if you are using a skill that you’re proficient in. You and your vehicle can’t become lost except by magical means. Even when you are engaged in another activity while traveling in your vessel (such as navigating, tracking or reveling), you remain alert to danger. Your cost to hire a crew is half of what it normally is (as per the PHB, one skilled hireling costs at least 2 gp per day). In addition, you can man a ship with 5 less crew than what is normally required (minimum of 1). Because of your excellent tactics, the AC of your ships increases by +{{pirate:shipworthy:acbonus}} when you are at the command. Your ship also has advantage on Dexterity saving throws against effects of which you are aware. For any waterborne or airborne vehicle that you are the captain of with a crew of 10 or more (before your modifier), the hit points of the vehicle increase by {{pirate:shipworthy:hpbonus}}. In addition, its speed increases by 2 mph. When you complete a short rest on your chosen vessel, you can remove 1 level of exhaustion. </description>
+    </sheet>
+    <rules>
+      <stat name="pirate:shipworthy:acbonus" value="1" level="1"/>
+      <stat name="pirate:shipworthy:acbonus" value="1" level="5"/>
+      <stat name="pirate:shipworthy:acbonus" value="1" level="11"/>
+      <stat name="pirate:shipworthy:acbonus" value="1" level="17"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="1"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="2"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="3"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="4"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="5"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="6"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="7"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="8"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="9"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="10"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="11"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="12"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="13"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="14"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="15"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="16"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="17"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="18"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="19"/>
+      <stat name="pirate:shipworthy:hpbonus" value="10" level="20"/>
+    </rules>
+  </element>
+  <element name="Pirate's Familiar" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_PIRATES_FAMILIAR">
+    <description>
+      <p> You have an animal companion that goes on adventures with you. Choose one of the following: bat, cat, crab, frog (toad), hawk, lizard, octopus, owl, poisonous snake, fish (quipper), rat, raven (parrot or macaw), sea horse, spider, or weasel. </p>
+      <p class="indent"> Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can’t attack, but it can take other actions as normal. </p>
+      <p class="indent"> You can comprehend and verbally communicate with your familiar. The knowledge and awareness of your familiar are limited by its Intelligence, but at a minimum, it can give you information about anything that it has perceived within the past day such as the number of monsters in the next room or whether or not there is a trap over in the next corridor (if it can detect it, of course). </p>
+      <p class="indent"> Its hit point maximum equals the hit point number in its stat block or three times your pirate level, whichever is higher. Like any creature, it can spend Hit Dice during a short rest to regain hit points. </p>
+      <p class="indent"> If the familiar dies, you can obtain a new familiar by spending 8 hours magically bonding with another creature from the list above that isn’t hostile to you and that meets the requirements. You can’t have more than one familiar at a time. </p>
+    </description>
+    <sheet>
+      <description> You have an animal companion that goes on adventures with you. Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can’t attack, but it can take other actions as normal. You can comprehend and verbally communicate with your familiar. The knowledge and awareness of your familiar are limited by its Intelligence, but at a minimum, it can give you information about anything that it has perceived within the past day such as the number of monsters in the next room or whether or not there is a trap over in the next corridor (if it can detect it, of course). If the familiar dies, you can obtain a new familiar by spending 8 hours magically bonding with another creature from the list above that isn’t hostile to you and that meets the requirements. You can’t have more than one familiar at a time. </description>
+    </sheet>
+    <rules>
+      <select type="Companion" name="Pirate’s Companion" supports="ID_WOTC_PHB_COMPANION_BAT|ID_WOTC_PHB_COMPANION_CAT|ID_WOTC_PHB_COMPANION_CRAB|ID_WOTC_PHB_COMPANION_FROG|ID_WOTC_PHB_COMPANION_HAWK|ID_WOTC_PHB_COMPANION_LIZARD|ID_WOTC_PHB_COMPANION_OCTOPUS|ID_WOTC_PHB_COMPANION_OWL|ID_WOTC_PHB_COMPANION_POISONOUS_SNAKE|ID_WOTC_PHB_COMPANION_QUIPPER|ID_WOTC_PHB_COMPANION_RAT|ID_WOTC_PHB_COMPANION_RAVEN|ID_WOTC_PHB_COMPANION_SEA_HORSE|ID_WOTC_PHB_COMPANION_SPIDER|ID_WOTC_PHB_COMPANION_WEASEL" />
+      <stat name="additional:hp:max" value="level:pirate" />
+      <stat name="additional:hp:max" value="level:pirate" />
+      <stat name="additional:hp:max" value="level:pirate" />
+      <stat name="companion:hp:max" value="additional:hp:max" bonus="base" />
+    </rules>
+  </element>
+  <element name="Sea Legs" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_SEA_LEGS">
+    <description>
+      <p> You have advantage on saving throws against attacks and effects that would push you back or knock you prone, such as water from a crashing wave or the gust of wind spell. </p>
+    </description>
+    <sheet>
+      <description> You have advantage on saving throws against attacks and effects that would push you back or knock you prone, such as water from a crashing wave or the gust of wind spell. </description>
+    </sheet>
+  </element>
+  <element name="Pirate's Luck" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_PIRATES_LUCK">
+    <description>
+      <p> As a pirate, you have a knack for overcoming situations many others would not. </p>
+      <p class="indent"> When you make an ability check, attack roll, or saving throw, you can roll a d4 and add the number rolled to the result. You can wait until after you roll the d20 before deciding to use this feature, but must decide before the GM says whether the roll succeeds or fails. </p>
+      <p class="indent"> The die changes when you reach certain levels in this class. The die becomes a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level. </p>
+      <p class="indent"> You can use this feature a number of times equal to half your pirate level (rounded down). You regain any expended uses when you finish a short or long rest. </p>
+    </description>
+    <sheet usage="{{pirate:luck:usage}}/short rest">
+      <description> When you make an ability check, attack roll, or saving throw, you can roll a d{{pirate:luck:die}} and add the number rolled to the result. You can wait until after you roll the d20 before deciding to use this feature, but must decide before the GM says whether the roll succeeds or fails. </description>
+    </sheet>
+    <rules>
+      <stat name="pirate:luck:die" value="4" level="2" bonus="base"/>
+      <stat name="pirate:luck:die" value="6" level="5" bonus="base"/>
+      <stat name="pirate:luck:die" value="8" level="11" bonus="base"/>
+      <stat name="pirate:luck:die" value="10" level="17" bonus="base"/>
+      <stat name="pirate:luck:usage" value="level:pirate:half"/>
+    </rules>
+  </element>
+  <element name="Spellcasting" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_SPELLCASTING_PIRATE">
+    <description>
+      <p> You have learned to use the magical essence of the sea or sky to cast spells, much as a ranger does. See the Fifth Edition core rulebook for the general rules of spellcasting and this page for the pirate spell list. </p>
+      <h5 class="caption">Cantrips</h5>
+      <p> You know two cantrips of your choice from the pirate spell list. At higher levels, you learn additional pirate cantrips of your choice, as shown in the Cantrips Known column of the Pirate table. </p>
+      <p class="indent"> When you gain a level in this class, you can replace one of the pirate cantrips you know with another cantrip from the pirate spell list. </p>
+      <h5 class="caption">Preparing and Casting Spells</h5>
+      <p> The Pirate table shows how many spell slots you have to cast your pirate spells. To cast one of your pirate spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest. </p>
+      <p class="indent"> You prepare the list of pirate spells that are available for you to cast, choosing from the pirate spell list. When you do so, choose a number of pirate spells equal to your Charisma modifier + half your pirate level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots. </p>
+      <p class="indent"> For example, if you are a 5th-level pirate, you have four 1stlevel and two 2nd-level spell slots. With a Charisma of 16, your list of prepared spells can include five spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2ndlevel slot. Casting the spell doesn't remove it from your list of prepared spells. </p>
+      <p class="indent"> You can change your list of prepared spells when you finish a long rest. Preparing a new list of pirate spells requires time spent focusing on nature and your current environment: at least 1 minute per spell level for each spell on your list. </p>
+      <h5 class="caption">Spellcasting Ability</h5>
+      <p> Charisma is your spellcasting ability for your pirate spells since your magic draws on your overall force of will. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a pirate spell you cast and when making an attack roll with one. </p>
+      <center>
+        <p>
+          <strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier
+        </p>
+        <p>
+          <strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier
+        </p>
+      </center>
+    </description>
+    <sheet display="false">
+      <description>You can cast magic.</description>
+    </sheet>
+    <spellcasting name="Pirate" ability="Charisma" prepare="true">
+      <list known="true">Pirate</list>
+    </spellcasting>
+    <rules>
+      <stat name="witch:spellcasting:slots:1" value="2" level="2" />
+      <stat name="witch:spellcasting:slots:1" value="1" level="3" />
+      <stat name="witch:spellcasting:slots:1" value="1" level="5" />
+      <stat name="witch:spellcasting:slots:2" value="2" level="5" />
+      <stat name="witch:spellcasting:slots:2" value="1" level="7" />
+      <stat name="witch:spellcasting:slots:3" value="2" level="9" />
+      <stat name="witch:spellcasting:slots:3" value="1" level="11" />
+      <stat name="witch:spellcasting:slots:4" value="1" level="13" />
+      <stat name="witch:spellcasting:slots:4" value="1" level="15" />
+      <stat name="witch:spellcasting:slots:4" value="1" level="17" />
+      <stat name="witch:spellcasting:slots:5" value="1" level="17" />
+      <stat name="witch:spellcasting:slots:5" value="1" level="19" />
+    </rules>
+  </element>
+  <element name="Pirate Archetype" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_PIRATE_ARCHETYPE">
+    <description>
+      <p> You choose an archetype that you strive to emulate: Buccaneer or Salty Dog, both detailed at the end of the class description. Your choice grants you features at 3rd level, then again at 6th, 11th, and 18th level. </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Archetype" name="Pirate Archetype" supports="Pirate Archetype" level="3" />
+    </rules>
+  </element>
+  <element name="Ability Score Improvement" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_ABILITYSCOREIMPROVEMENT_PIRATE">
+    <compendium display="false" />
+    <description>
+      <p> When you reach 4th level, and again at 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature. </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Improvement Option (Pirate 4)" supports="Improvement Option,Pirate,4" level="4" />
+      <select type="Class Feature" name="Improvement Option (Pirate 8)" supports="Improvement Option,Pirate,8" level="8" />
+      <select type="Class Feature" name="Improvement Option (Pirate 12)" supports="Improvement Option,Pirate,12" level="12" />
+      <select type="Class Feature" name="Improvement Option (Pirate 14)" supports="Improvement Option,Pirate,14" level="14" />
+      <select type="Class Feature" name="Improvement Option (Pirate 16)" supports="Improvement Option,Pirate,16" level="16" />
+      <select type="Class Feature" name="Improvement Option (Pirate 19)" supports="Improvement Option,Pirate,19" level="19" />
+    </rules>
+  </element>
+  <element name="Extra Attack" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_EXTRA_ATTACK">
+    <description>
+      <p> You can attack twice, instead of once, whenever you take the Attack action on your turn. </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+    </rules>
+  </element>
+  <element name="Tenacity" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_TENACITY">
+    <description>
+      <p> Whether it's because you have a mind of steel or you’re just plain stubborn, you’ve learned to harden yourself against mental attacks. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence saving throws. </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="ID_PROFICIENCY_SAVINGTHROW_WISDOM"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM"/>
+    </rules>
+  </element>
+  <element name="Acclimatization" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_ACCLIMATIZATION">
+    <description>
+      <p> Choose a damage type: acid, cold, fire, poison, lightning, or thunder. You gain resistance to the chosen damage type. </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Acclimatization" supports="Pirates Acclimatization"/>
+    </rules>
+  </element>
+  <element name="Acclimatization (acid)" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_ACCLIMATIZATION_ACID">
+    <supports>Pirates Acclimatization</supports>
+    <description>
+      <p> You gain resistance to the acid damage type. </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+    </rules>
+  </element>
+  <element name="Acclimatization (cold)" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_ACCLIMATIZATION_COLD">
+    <supports>Pirates Acclimatization</supports>
+    <description>
+      <p> You gain resistance to the cold damage type. </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+    </rules>
+  </element>
+  <element name="Acclimatization (fire)" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_ACCLIMATIZATION_FIRE">
+    <supports>Pirates Acclimatization</supports>
+    <description>
+      <p> You gain resistance to the fire damage type. </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+    </rules>
+  </element>
+  <element name="Acclimatization (poison)" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_ACCLIMATIZATION_POISON">
+    <supports>Pirates Acclimatization</supports>
+    <description>
+      <p> You gain resistance to the poison damage type. </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+    </rules>
+  </element>
+  <element name="Acclimatization (lightning)" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_ACCLIMATIZATION_LIGHTNING">
+    <supports>Pirates Acclimatization</supports>
+    <description>
+      <p> You gain resistance to the lightning damage type. </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+    </rules>
+  </element>
+  <element name="Acclimatization (thunder)" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_ACCLIMATIZATION_THUNDER">
+    <supports>Pirates Acclimatization</supports>
+    <description>
+      <p> You gain resistance to the thunder damage type. </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+    </rules>
+  </element>
+  <element name="Confident Combatant" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_CONFIDENT_COMBATANT">
+    <description>
+      <p> At 10th level, your overwhelming confidence thrusts you into battle. You can give yourself a bonus to your Initiative equal to your Charisma modifier. </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="initiative" value="charisma:modifier" />
+    </rules>
+  </element>
+  <element name="Pirate's Charm" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_PIRATES_CHARM">
+    <description>
+      <p> When another creature within 30 feet of you that you can see makes an ability check, attack roll, or saving throw, you can use your reaction to expend one use of your Pirate's Luck to roll your Pirate's Luck die and add or subtract (your choice) the number rolled to/from the result. You can wait until after they roll the d20 before deciding to use this feature but must decide before the GM says whether the roll succeeds or fails. </p>
+    </description>
+    <sheet usage="Pirate's Luck">
+      <description> When another creature within 30 feet of you that you can see makes an ability check, attack roll, or saving throw, you can use your reaction to expend one use of your Pirate's Luck to roll your Pirate's Luck die and add or subtract (your choice) the number rolled to/from the result. You can wait until after they roll the d20 before deciding to use this feature but must decide before the GM says whether the roll succeeds or fails. </description>
+    </sheet>
+  </element>
+  <element name="Pirate's Wit" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_PIRATES_WIT">
+    <description>
+      <p> As a bonus action, you can expend uses of your Pirate's Luck to regain expended spell slots of 5th-level or lower. When you do, you must expend one use of your Pirate's Luck per level of spell slot regained. </p>
+    </description>
+    <sheet usage="Pirate's Luck (bonus action)">
+      <description> As a bonus action, you can expend uses of your Pirate's Luck to regain expended spell slots of 5th-level or lower. When you do, you must expend one use of your Pirate's Luck per level of spell slot regained. </description>
+    </sheet>
+  </element>
+  <element name="Swashbuckler" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_PIRATE_SWASHBUCKLER">
+    <description>
+      <p> At 20th level, you are a master duelist and fighter, easily fending off your foes with wit and style. Once on each of your turns, you can add your Charisma bonus to your attack roll. </p>
+    </description>
+    <sheet usage="1/turn">
+      <description> Once on each of your turns, you can add {{charisma:modifier}} to your attack roll. </description>
+    </sheet>
+  </element>
+  
+  <!-- Buccaneer -->
+  <element name="Buccaneer" type="Archetype" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_BUCCANEER">
+    <supports>Pirate Archetype</supports>
+    <description>
+      <p> You are a daring, adventurous, and—often—reckless sailor. To you, the pirate’s life is about good rum, good song, and plenty of treasure. </p>
+      <div element="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_BUCCANEER_SPELLS"/>
+      <div element="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_DASHING_DISPUTANT"/>
+      <div element="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_TREASURE_SENSE"/>
+      <div element="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_RAKISH_CHARM"/>
+      <div element="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_SENSATIONAL_SCRAPPER"/>
+      <div element="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_DUEL_OF_FATE"/>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Archetype Feature" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_BUCCANEER_SPELLS" level="3" />
+      <grant type="Archetype Feature" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_DASHING_DISPUTANT" level="3" />
+      <grant type="Archetype Feature" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_TREASURE_SENSE" level="3" />
+      <grant type="Archetype Feature" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_RAKISH_CHARM" level="6" />
+      <grant type="Archetype Feature" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_SENSATIONAL_SCRAPPER" level="11" />
+      <grant type="Archetype Feature" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_DUEL_OF_FATE" level="18" />
+    </rules>
+  </element>
+  <element name="Buccaneer Spells" type="Archetype Feature" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_BUCCANEER_SPELLS">
+    <description>
+      <p> You always have certain spells prepared after you reach particular levels in this class, as shown in the Buccaneer Spells table. These spells count as pirate spells for you, but they don't count against the number of pirate spells you prepare. </p>
+      <table class="buccaneer-spells">
+        <thead>
+          <tr>
+            <td class="col-5">Pirate Level</td>
+            <td class="left">Spell</td>
+          </tr>
+        </thead>
+        <tr>
+          <td> 3rd</td>
+          <td class="left">command, false life</td>
+        </tr>
+        <tr>
+          <td> 5th</td>
+          <td class="left">blur, invisibility</td>
+        </tr>
+        <tr>
+          <td> 9th</td>
+          <td class="left">fear, sending</td>
+        </tr>
+        <tr>
+          <td> 13th</td>
+          <td class="left">banishment, greater invisibility</td>
+        </tr>
+        <tr>
+          <td> 17th</td>
+          <td class="left">dominate person, scrying</td>
+        </tr>
+      </table>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_COMMAND" level="3" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" level="3" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_BLUR" level="5" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="5" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FEAR" level="9" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SENDING" level="9" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" level="13" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_GREATER_INVISIBILITY" level="13" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" level="17" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="17" spellcasting="Pirate" prepared="true" />
+    </rules>
+  </element>
+  <element name="Dashing Disputant" type="Archetype Feature" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_DASHING_DISPUTANT">
+    <description>
+      <p> Your fighting style is a hypnotic sight to behold, full of panache and wonder. Immediately after you take the Attack action against a creature with a melee weapon on your turn, you can expend one use of your Pirate's Luck to use your bonus action to beguile the target. The target must make a Wisdom saving throw against your spell save DC. Creatures immune to charm automatically succeed on their saving throw. On a failed saving throw, the target has disadvantage on its attack rolls against you until the end of your next turn. </p>
+      <p class="indent"> On subsequent turns, you can use your bonus action to maintain this effect (at no cost), extending its duration until the end of your next turn. However, the effect ends if you move more than 5 feet away from the creature, if the creature can neither see nor hear you, or if the creature takes damage. </p>
+    </description>
+    <sheet usage="Priate's Luck">
+      <description> Immediately after you take the Attack action against a creature with a melee weapon on your turn, you can expend one use of your Pirate's Luck to use your bonus action to beguile the target. The target must make a Wisdom saving throw against DC{{spellcasting:dc}}. Creatures immune to charm automatically succeed on their saving throw. On a failed saving throw, the target has disadvantage on its attack rolls against you until the end of your next turn. On subsequent turns, you can use your bonus action to maintain this effect (at no cost), extending its duration until the end of your next turn. However, the effect ends if you move more than 5 feet away from the creature, if the creature can neither see nor hear you, or if the creature takes damage. </description>
+    </sheet>
+  </element>
+  <element name="Treasure Sense" type="Archetype Feature" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_TREASURE_SENSE">
+    <description>
+      <p> You have a sense for when treasure is nearby. You can use your action and expend one use of your Pirate's Luck to focus your awareness on the area around you. For the next minute, you can sense whether or not treasure (at least 100 gp or more) is present within 100 feet of you. This feature doesn’t reveal the total amount of treasure or its type. </p>
+    </description>
+    <sheet usage="Priate's Luck (action)">
+      <description> You have a sense for when treasure is nearby. You can use your action and expend one use of your Pirate's Luck to focus your awareness on the area around you. For the next minute, you can sense whether or not treasure (at least 100 gp or more) is present within 100 feet of you. This feature doesn’t reveal the total amount of treasure or its type. </description>
+    </sheet>
+  </element>
+  <element name="Rakish Charm" type="Archetype Feature" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_RAKISH_CHARM">
+    <description>
+      <p> At 6th level, as an action, you can expend one use of your Pirate's Luck to captivate a small audience with your wit and grace. Choose a number of creatures equal to your Charisma modifier within 30 feet of you that can see and hear you. Each creature must make a Wisdom saving throw, and does so with advantage if your companions are fighting them. If a creature fails its saving throw, it is charmed by you. While charmed by you, the creature’s speed drops to 0 and the creature is incapacitated. The effect lasts until the start of your next turn, you move more than 5 feet away from the creature, the creature can neither see nor hear you, or the creature takes damage. </p>
+    </description>
+    <sheet usage="Priate's Luck (action)">
+      <description> As an action, you can expend one use of your Pirate's Luck to captivate a small audience with your wit and grace. Choose a number of creatures equal to {{charisma:modifier}} within 30 feet of you that can see and hear you. Each creature must make a Wisdom saving throw, and does so with advantage if your companions are fighting them. If a creature fails its saving throw, it is charmed by you. While charmed by you, the creature’s speed drops to 0 and the creature is incapacitated. The effect lasts until the start of your next turn, you move more than 5 feet away from the creature, the creature can neither see nor hear you, or the creature takes damage. </description>
+    </sheet>
+  </element>
+  <element name="Sensational Scrapper" type="Archetype Feature" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_SENSATIONAL_SCRAPPER">
+    <description>
+      <p> You can expend two uses of your Pirate's Luck to use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target. To do so, each attack must be made with a weapon that lacks the heavy or two-handed properties. </p>
+    </description>
+    <sheet usage="Priate's Luck (action)">
+      <description> You can expend two uses of your Pirate's Luck to use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target. To do so, each attack must be made with a weapon that lacks the heavy or two-handed properties. </description>
+    </sheet>
+  </element>
+  <element name="Duel of Fate" type="Archetype Feature" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_BUCCANEER_DUEL_OF_FATE">
+    <description>
+      <p> At 18th level, you can use your bonus action to entice a creature to face you one on one. Choose one creature that you can see within 30 feet that can see and hear you. Creatures that can’t be charmed are immune to this effect. </p>
+      <p class="indent"> While enthralled by you, the creature must use all of its movement to get within melee reach of you, and it has advantage on its attacks against you, and you and other creatures have advantage on attack rolls against it. </p>
+      <p class="indent"> The effect lasts as long as you maintain your concentration (as if concentrating on a spell). As an action, the enthralled creature can make a Wisdom saving throw to regain control of itself. On a successful save, the effect ends. </p>
+    </description>
+    <sheet usage="bonus action">
+      <description> You can use your bonus action to entice a creature to face you one on one. Choose one creature that you can see within 30 feet that can see and hear you. Creatures that can’t be charmed are immune to this effect. While enthralled by you, the creature must use all of its movement to get within melee reach of you, and it has advantage on its attacks against you, and you and other creatures have advantage on attack rolls against it. The effect lasts as long as you maintain your concentration (as if concentrating on a spell). As an action, the enthralled creature can make a Wisdom saving throw to regain control of itself. On a successful save, the effect ends. </description>
+    </sheet>
+  </element>
+  
+  <!-- Salty Dog -->
+  <element name="Salty Dog" type="Archetype" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_SALTY_DOG">
+    <supports>Pirate Archetype</supports>
+    <description>
+      <p> Not all pirates are charming or dashing swashbucklers. There are those that are nothing more than rotten-toothed thugs, content with sailing the seas or skies and taking what they feel is owed to them. These Machiavellian salty dogs use the pirate’s code to manipulate and coerce others into their bidding, always preferring simplicity and brute force over bombast. </p>
+      <div element="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_SALTY_DOG_SPELLS"/>
+      <div element="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_FIGHTING_STYLE"/>
+      <div element="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_FEROCITY"/>
+      <div element="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_HEAVY_ARMOR_PROFICIENCY"/>
+      <div element="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_DURABILITY"/>
+      <div element="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_SHRUG_IT_OFF"/>
+      <div element="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_RESILIENCE"/>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Archetype Feature" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_SALTY_DOG_SPELLS" level="3" />
+      <grant type="Archetype Feature" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_FIGHTING_STYLE" level="3" />
+      <grant type="Archetype Feature" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_FEROCITY" level="3" />
+      <grant type="Archetype Feature" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_HEAVY_ARMOR_PROFICIENCY" level="3" />
+      <grant type="Archetype Feature" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_DURABILITY" level="6" />
+      <grant type="Archetype Feature" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_SHRUG_IT_OFF" level="11" />
+      <grant type="Archetype Feature" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_RESILIENCE" level="18" />
+    </rules>
+  </element>
+  <element name="Salty Dog Spells" type="Archetype Feature" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_SALTY_DOG_SPELLS">
+    <description>
+      <p> You always have certain spells prepared after you reach particular levels in this class, as shown in the Salty Dog Spells table. These spells count as pirate spells for you, but they don't count against the number of pirate spells you prepare. </p>
+      <table class="salty-dog-spells">
+        <thead>
+          <tr>
+            <td class="col-5">Pirate Level</td>
+            <td class="left">Spell</td>
+          </tr>
+        </thead>
+        <tr>
+          <td> 3rd</td>
+          <td class="left">grease, heroism</td>
+        </tr>
+        <tr>
+          <td> 5th</td>
+          <td class="left">gust of wind, moonbeam</td>
+        </tr>
+        <tr>
+          <td> 9th</td>
+          <td class="left">call lightning, slow</td>
+        </tr>
+        <tr>
+          <td> 13th</td>
+          <td class="left">black tentacles, stoneskin</td>
+        </tr>
+        <tr>
+          <td> 17th</td>
+          <td class="left">conjure elemental, wall of force</td>
+        </tr>
+      </table>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_GREASE" level="3" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_HEROISM" level="3" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="5" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_MOONBEAM" level="5" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CALL_LIGHTNING" level="9" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SLOW" level="9" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES" level="13" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="13" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CONJURE_ELEMENTAL" level="17" spellcasting="Pirate" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" level="17" spellcasting="Pirate" prepared="true" />
+    </rules>
+  </element>
+  <element name="Fighting Style" type="Archetype Feature" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_FIGHTING_STYLE">
+    <description>
+      <p> You adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if something in the game lets you choose again. </p>
+      <ul class="unstyled">
+        <li>
+          <strong>Archery.</strong> You gain a +2 bonus to attack rolls you make with ranged weapons.
+        </li>
+        <li>
+          <strong>Dueling.</strong> When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+        </li>
+        <li>
+          <strong>Marksman.</strong> Once per turn, you can use your bonus action to grant yourself advantage on the next attack you make with a ranged weapon. This benefit lasts until the end of your turn.
+        </li>
+      </ul>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Fighting Style" supports="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_ARCHERY|ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING|ID_UNK_CLASS_FEATURE_FIGHTINGSTYLE_MARKSMAN" level="3"/>
+    </rules>
+  </element>
+  <element name="Ferocity" type="Archetype Feature" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_FEROCITY">
+    <description>
+      <p> You can use your bonus action to expend one use of your Pirate's Luck to make a single melee weapon attack. The attack must be made with a weapon that lacks the twohanded and heavy properties. </p>
+    </description>
+    <sheet usage="Pirate's Luck (bonus action)">
+      <description> You can use your bonus action to expend one use of your Pirate's Luck to make a single melee weapon attack. The attack must be made with a weapon that lacks the twohanded and heavy properties. </description>
+    </sheet>
+  </element>
+  <element name="Heavy Armor Proficiency" type="Archetype Feature" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_HEAVY_ARMOR_PROFICIENCY">
+    <description>
+      <p> You gain proficiency with heavy armor. </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+    </rules>
+  </element>
+  <element name="Durability" type="Archetype Feature" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_DURABILITY">
+    <description>
+      <p> You gain resistance to poison damage and you are immune to the poisoned condition. In addition, you ignore the effects of nonmagical extreme cold and extreme heat. </p>
+    </description>
+    <sheet>
+      <description> You are immune to the poisoned condition. In addition, you ignore the effects of nonmagical extreme cold and extreme heat. </description>
+    </sheet>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+    </rules>
+  </element>
+  <element name="Shrug It Off" type="Archetype Feature" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_SHRUG_IT_OFF">
+    <description>
+      <p> When you are hit by a spell or weapon attack, you can use your reaction to expend one use of your Pirate's Luck to reduce the damage you take from the attack by an amount equal to 10 + your pirate level. If you reduce the damage to 0, you can make one attack as part of the same action. The attack must be made with a weapon that lacks the twohanded and heavy properties. </p>
+    </description>
+    <sheet usage="Pirate's Luck">
+      <description> When you are hit by a spell or weapon attack, you can use your reaction to expend one use of your Pirate's Luck to reduce the damage you take from the attack by an amount equal to {{pirate:shrug:reduce}}. If you reduce the damage to 0, you can make one attack as part of the same action. The attack must be made with a weapon that lacks the twohanded and heavy properties. </description>
+    </sheet>
+    <rules>
+      <stat name="pirate:shrug:reduce" value="10" />
+      <stat name="pirate:shrug:reduce" value="level:pirate" />
+    </rules>
+  </element>
+  <element name="Resilience" type="Archetype Feature" source="Unknown" id="ID_UNK_PIRATE_ARCHETYPE_FEATURE_SALTY_DOG_RESILIENCE">
+    <description>
+      <p> Beginning at 18th level, if you fail a Strength, Dexterity, or Constitution saving throw, you can expend three uses of your Pirate's Luck and succeed instead. </p>
+    </description>
+    <sheet usage="Pirate's Luck">
+      <description> If you fail a Strength, Dexterity, or Constitution saving throw, you can expend three uses of your Pirate's Luck and succeed instead. </description>
+    </sheet>
+  </element>
+  
+  <!-- Spell list -->
+  <append id="ID_PHB_SPELL_DANCING_LIGHTS">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_GUIDANCE">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MESSAGE">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MINOR_ILLUSION">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_RESISTANCE">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SPARE_THE_DYING">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_VICIOUS_MOCKERY">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ALARM">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CHARM_PERSON">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CURE_WOUNDS">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DETECT_MAGIC">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FAERIE_FIRE">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FOG_CLOUD">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HAIL_OF_THORNS">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HUNTERS_MARK">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_IDENTIFY">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_JUMP">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_LONGSTRIDER">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_TASHAS_HIDEOUS_LAUGHTER">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_BARKSKIN">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DARKVISION">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DETECT_THOUGHTS">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ENTHRALL">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FIND_TRAPS">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HEAT_METAL">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_LESSER_RESTORATION">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_LOCATE_OBJECT">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PASS_WITHOUT_TRACE">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PROTECTION_FROM_POISON">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SILENCE">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SUGGESTION">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_BESTOW_CURSE">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CONJURE_BARRAGE">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DAYLIGHT">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_NONDETECTION">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SENDING">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_TONGUES">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_WATER_BREATHING">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_WATER_WALK">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_WIND_WALL">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CONFUSION">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DIMENSION_DOOR">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_LOCATE_CREATURE">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_STONESKIN">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_COMMUNE_WITH_NATURE">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_GEAS">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HOLD_MONSTER">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_LEGEND_LORE">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MISLEAD">
+    <supports>Pirate</supports>
+  </append>
+  <append id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND">
+    <supports>Pirate</supports>
+  </append>
+  <!-- new features -->
+  <element name="Tool Proficiency (Vehicles (Air))" type="Proficiency" source="Unknown" id="ID_UNK_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_AIR">
+    <supports>Tool, Vehicles</supports>
+    <sheet alt="Vehicles (Air)" />
+  </element>
+  <element name="Marksman" type="Class Feature" source="Unknown" id="ID_UNK_CLASS_FEATURE_FIGHTINGSTYLE_MARKSMAN">
+    <supports>Fighting Style, Pirate</supports>
+    <description>
+      <p> Once per turn, you can use your bonus action to grant yourself advantage on the next attack you make with a ranged weapon. This benefit lasts until the end of your turn. </p>
+    </description>
+    <sheet usage="1/turn">
+      <description> Once per turn, you can use your bonus action to grant yourself advantage on the next attack you make with a ranged weapon. This benefit lasts until the end of your turn. </description>
+    </sheet>
+  </element>
+</elements>

@@ -3,7 +3,7 @@
 	<info>
 		<name>Michin Makery</name>
 		<description>The content from various sources implemented.</description>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="michin-makery-others.index" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others.index" />
 		</update>
 	</info>
@@ -19,6 +19,7 @@
     <file name="race-catrin.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/race-catrin.xml" />
     
     <!-- classes -->
+    <file name="class-pirate.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/class-pirate.xml" />
     
     <!-- items -->
     <file name="items-missing.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/items-missing.xml" />
@@ -40,7 +41,7 @@
     <file name="wizard-material-magic.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/griffons-saddlebag/wizard-material-magic.xml" />
     <file name="race-feathren.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/griffons-saddlebag/race-feathren.xml" />
 
-    <!-- deprecated -->obsolete
+    <!-- deprecated -->
     <obsolete name="class-healer.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/class-healer.xml" />
 		<obsolete name="class-witch.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/class-witch.xml" />
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <author url="https://github.com/NorxGilux/MichinMakery">Michin Makery</author>
       <file name="class-witch.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/class-witch.xml" />
     </update>
@@ -25,7 +25,7 @@
       <h5>Hit Points</h5>
       <ul class="unstyled">
         <li>
-          <strong>Hit Dice:</strong> 1d6 per Spellbinder level
+          <strong>Hit Dice:</strong> 1d6 per Witch level
         </li>
         <li>
           <strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier
@@ -59,7 +59,7 @@
       <ul>
         <li>a component pouch</li>
         <li>(a) a quarterstaff, (b) a dagger or (c) a sickle</li>
-        <li>(a) a sling and 20 sling bullet or (c) 10 darts</li>
+        <li>(a) a sling and 20 sling bullet or (b) 10 darts</li>
         <li>(a) a component pouch or (b) a spellcasting focus</li>
         <li>an explorer's pack</li>
       </ul>

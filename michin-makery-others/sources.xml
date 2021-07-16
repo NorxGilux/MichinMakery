@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="sources.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/sources.xml" />
 		</update>
 	</info>
@@ -90,6 +90,17 @@
       <set name="abbreviation">GSB</set>
       <set name="url">https://www.thegriffonssaddlebag.com</set>
       <set name="author" url="https://www.thegriffonssaddlebag.com">GRIFF</set>
+      <set name="homebrew">true</set>
+    </setters>
+  </element>
+  <element name="Unknown" type="Source" source="Unknown" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_UNKNOWN">
+    <description>
+      <![CDATA[<p></p>]]>
+    </description>
+    <setters>
+      <set name="abbreviation">UNK</set>
+      <set name="url"></set>
+      <set name="author" url="">UNKs</set>
       <set name="homebrew">true</set>
     </setters>
   </element>
