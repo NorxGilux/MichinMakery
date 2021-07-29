@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.2">
+    <update version="0.0.3">
       <author url="https://github.com/NorxGilux/MichinMakery">Michin Makery</author>
       <file name="class-witch.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/class-witch.xml" />
     </update>
@@ -1135,7 +1135,7 @@
     <requirements>[level:9], ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_CHARM_OF_PROFICIENCY</requirements>
     <description>
       <p>
-        The wearer of this Charm your proficiency bonus to every roll where their proficiency is applied to.
+        The wearer of this Charm adds your proficiency bonus to every roll where their proficiency is applied to.
       </p>
     </description>
     <sheet>
@@ -1733,7 +1733,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Hex of Regeneration (Grand)" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_HEX_OF_REGENERATION_GRAND">
+  <element name="Hex of Regeneration (Grand)" type="Class Feature" source="" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_HEX_OF_REGENERATION_GRAND">
     <supports>Witchcrafts</supports>
     <prerequisite>15th level, Hex of Regeneration (Major)</prerequisite>
     <requirements>[level:15],ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_HEX_OF_REGENERATION_MAJOR</requirements>
@@ -1750,7 +1750,7 @@
   </element>
 
   <!-- Potions -->
-  <element name="Potion Crafting" type="Class Feature" source="Player’s Handbook" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING">
+  <element name="Potion Crafting" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING">
     <supports>Witchcrafts</supports>
     <description>
       <p>
@@ -1761,7 +1761,7 @@
       <description>You learn the formula of a common potion of your choice. It takes you one hours to collect the ingredients and four hour to brew them. You can choose this Witchcraft again to learn an additional formula of a common potion.</description>
     </sheet>
   </element>
-  <element name="Potion Crafting" type="Class Feature" source="Player’s Handbook" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING1">
+  <element name="Potion Crafting" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING1">
     <supports>Witchcrafts</supports>
     <requirements>ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING</requirements>
     <description>
@@ -1771,7 +1771,7 @@
     </description>
     <sheet display="false" />
   </element>
-  <element name="Potion Crafting" type="Class Feature" source="Player’s Handbook" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING2">
+  <element name="Potion Crafting" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING2">
     <supports>Witchcrafts</supports>
     <requirements>ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING1</requirements>
     <description>
@@ -1781,7 +1781,7 @@
     </description>
     <sheet display="false" />
   </element>
-  <element name="Potion Crafting" type="Class Feature" source="Player’s Handbook" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING3">
+  <element name="Potion Crafting" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING3">
     <supports>Witchcrafts</supports>
     <requirements>ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING2</requirements>
     <description>
@@ -1791,7 +1791,7 @@
     </description>
     <sheet display="false" />
   </element>
-  <element name="Potion Crafting" type="Class Feature" source="Player’s Handbook" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING4">
+  <element name="Potion Crafting" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING4">
     <supports>Witchcrafts</supports>
     <requirements>ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING3</requirements>
     <description>
@@ -1801,7 +1801,7 @@
     </description>
     <sheet display="false" />
   </element>
-  <element name="Potion Crafting (Major)" type="Class Feature" source="Player’s Handbook" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING_MAJOR">
+  <element name="Potion Crafting (Major)" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING_MAJOR">
     <supports>Witchcrafts</supports>
     <prerequisite>9th level, Potion Crafting</prerequisite>
     <requirements>[level:9],ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING</requirements>
@@ -1816,7 +1816,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Potion Crafting (Major)" type="Class Feature" source="Player’s Handbook" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING_MAJOR1">
+  <element name="Potion Crafting (Major)" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING_MAJOR1">
     <supports>Witchcrafts</supports>
     <prerequisite>9th level, Potion Crafting</prerequisite>
     <requirements>ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING_MAJOR</requirements>
@@ -1827,7 +1827,7 @@
     </description>
     <sheet display="false" />
   </element>
-  <element name="Potion Crafting (Grand)" type="Class Feature" source="Player’s Handbook" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING_GRAND">
+  <element name="Potion Crafting (Grand)" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING_GRAND">
     <supports>Witchcrafts</supports>
     <prerequisite>15th level, Potion Crafting (Major)</prerequisite>
     <requirements>[level:15],ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING_MAJOR</requirements>
@@ -1842,7 +1842,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Potion Crafting (Grand)" type="Class Feature" source="Player’s Handbook" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING_GRAND1">
+  <element name="Potion Crafting (Grand)" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING_GRAND1">
     <supports>Witchcrafts</supports>
     <prerequisite>15th level, Potion Crafting (Major)</prerequisite>
     <requirements>ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING_GRAND</requirements>
