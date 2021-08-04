@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="class-pirate.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/class-pirate.xml" />
     </update>
   </info>
@@ -1053,6 +1053,7 @@
   <append id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND">
     <supports>Pirate</supports>
   </append>
+  
   <!-- new features -->
   <element name="Tool Proficiency (Vehicles (Air))" type="Proficiency" source="Unknown" id="ID_UNK_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_AIR">
     <supports>Tool, Vehicles</supports>
