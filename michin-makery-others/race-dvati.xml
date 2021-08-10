@@ -52,7 +52,7 @@
 		</rules>
 	</element>
 
-	<element name="Dual Bodies" type="Racial Trait" source="Xibalba" id="ID_SCAR_DVATI_RACIAL_TRAIT_DUAL_BODIES">
+	<element name="Dual Bodies" type="Racial Trait" source="ScarlettSpider" id="ID_SCAR_DVATI_RACIAL_TRAIT_DUAL_BODIES">
 		<description>
 			<p>Twins can move, speak, and act independently of eachother. They choose which one of them takes an action, bonus action, or reaction. If twins gain any additional actions, they can split those actions up between themselves.</p>
 			<p class="indent">Each twin has their own movement speed. If a twin takes the Dash action, they can choose to split the extra movement speed between both of them. Whenever twins are able to make more than one attack, they can alternate those attacks between themselves.</p>
@@ -62,7 +62,7 @@
 			<description>Twins can move, speak, and act independently of eachother. They choose which one of them takes an action, bonus action, or reaction. If twins gain any additional actions, they can split those actions up between themselves. Each twin has their own movement speed. If a twin takes the Dash action, they can choose to split the extra movement speed between both of them. Whenever twins are able to make more than one attack, they can alternate those attacks between themselves. Nonmagical physical effects are not shared between twins. If a twin becomes blinded, deafened, grappled, incapacitated, paralyzed, petrified, poisoned, prone, restrained, or stunned the other twin is not.</description>
 		</sheet>
 	</element>	
-	<element name="Single Soul" type="Racial Trait" source="Xibalba" id="ID_SCAR_DVATI_RACIAL_TRAIT_SINGLE_SOUL">
+	<element name="Single Soul" type="Racial Trait" source="ScarlettSpider" id="ID_SCAR_DVATI_RACIAL_TRAIT_SINGLE_SOUL">
 		<description>
 			<p>While twins are on the same plane of existence, they have the following benefits:</p>
 			<ul>
@@ -76,7 +76,7 @@
 			<description>While twins are on the same plane of existence, Twins have advantage on saving throws against effects that would cause them to become charmed, frightened, or put to sleep. If a twin becomes charmed, frightened, or unconcsious, the other twin is affected as well. Twins can communicate telepathically with eachother. As an action, a twin can see through the other twin's eyes and hear what they hear until the start of their next turn. During this time, the twin using this feature is nonmagically deafened and blinded with regard to their own senses. Spells and magical effects affect both twins. For example; if a dispel magic, enhance ability, or telekinesis spell are cast upon one twin, or if a twin is affected by a magical trap or an area of antimagic, the other twin is also affected. Whenever a twin casts a spell that requires concentration, the other twin must also concentrate on that same spell. If a twin casts a spell that requires material components, the other twin can provide those components for them.</description>
 		</sheet>
 	</element>	
-	<element name="Twin Fate" type="Racial Trait" source="Xibalba" id="ID_SCAR_DVATI_RACIAL_TRAIT_TWIN_FATE">
+	<element name="Twin Fate" type="Racial Trait" source="ScarlettSpider" id="ID_SCAR_DVATI_RACIAL_TRAIT_TWIN_FATE">
 		<description>
 			<p>Twins make separate death saving thows. If one twin becomes stabilized, they both become stabilized. If a twin dies, the surviving twin loses their Dual Bodies and Single Soul racial traits until the deceased twin is returned to life. After each long rest thereafter, the surviving twin must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion. These exhaustion levels cannot be removed by anything except for a wish spell or until the deceased twin is returned to life, at which point all exhaustion levels are immediately lost.</p>
 		</description>
