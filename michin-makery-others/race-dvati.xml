@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<author url="https://www.reddit.com/user/CUVICO/">Scarlett Spider</author>
+			<file name="race-dvati.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/race-dvati.xml" />
+		</update>
+	</info>
+
+	<element name="Dvati" type="Race" source="ScarlettSpider" id="ID_SCAR_RACE_CATRIN">
+		<description>
+			<p class="flavor">One soul, two bodies</p>
+			<p>The Dvati are an ancient people that are native to an area of the Outerplanes known as the Outlands. They are a peaceful folk who value the arts, debate, duality, and equality.</p>
+			<p class="indent">Dvati are a unique race, as they are always born as a pair of twins who are completely identical, even across genders. Dvati resemble elves in some ways, often being mistaken for drow or shadar-kai children. They are slender in body with large pointed ears, dark blue eyes that lack irises, and four-fingered hands. Their skin colors are varying shades of gray and they have black or white hair.</p>
+			<p class="indent">Each pair of dvati twins share one soul between them, as they are one being split into two bodies. Despite this, twins can have different personality traits from one another, sometimes resulting in twins that are opposites. Regardless of their personalities, dvati twins are two sides to the same coin and they never disagree for too long. A debate or rivalry between a set of twins is always in the pursuit of balance and understanding.</p>
+			<p class="indent">The special bond between dvati twins is far beyond that of siblings from other races. They share skills, knowledge, feelings, memories, and all other aspects of a soul's experience in life. When one twin is separated from the other for too long, the other twin is overcome with worry and longing for their other half. These feelings are so powerful, that if one twin dies, the other's connection to their soul begins to slip away, until it too dies. Dvati twins suffer in separation. A dvati that has a deceased twin will either long to join them in death or desperately seek any possible way to revive their other half.</p>
+			<h4>Handling two adventurers</h4>
+			<p>The dvati race puts two characters into the hands of one player. Keep in mind, dvati twins should be treated as one creature, unless a specific racial feature says otherwise. They share their Statistics, Skills, turn in Initiative, Actions, and Class Abilities. Hit Die and Hit Points are not divided between twins, they share those resource as one creature. Twins can use separate equipment like weapons and armor. They may even use separate magic items, but they share attunement slot.</p>
+			<p class="indent">Whenever both twins are forced to make a saving throw from the same source (not including death saving throws), only one twin rolls, and the DM decides how any existing Advantage or Disadvantage is applied to that roll. If both twins are subject to the same source of damage (i.e., a fireball spell), they only take the damage once, as they are being treated as one creature.</p>
+			<h4>Dvati Traits</h4>
+			<p>Your dvati characters have the following racial traits that they shares in common with other dvati.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Wisdom Score increases by 2 and your Charisma score increases by 1.<br />
+				<span class="feature">Age.</span>Dvati age slowly compared to most other humanoids, not reaching adulthood until they are around 40 years old. A dvati younger than 40 may appear like a teenager or child. They have long lifespans, living for up to 250 years.<br />
+				<span class="feature">Alignment.</span>Dvati view the world through a balanced lens. Most dvati are neutral, with some leaning towards lawfulness.<br />
+				<span class="feature">Size.</span>The dvati are a short and slight people. Their size is small.<br />
+				<span class="feature">Speed.</span>Your base speed is 25 feet.<br />
+				<span class="feature">Dual Bodies.</span>Twins can move, speak, and act independently of eachother. They choose which one of them takes an action, bonus action, or reaction. If twins gain any additional actions, they can split those actions up between themselves. Each twin has their own movement speed. If a twin takes the Dash action, they can choose to split the extra movement speed between both of them. Whenever twins are able to make more than one attack, they can alternate those attacks between themselves. Nonmagical physical effects are not shared between twins. If a twin becomes blinded, deafened, grappled, incapacitated, paralyzed, petrified, poisoned, prone, restrained, or stunned the other twin is not.<br />
+				<span class="feature">Single Soul.</span>While twins are on the same plane of existence, they have the following benefits. Twins have advantage on saving throws against effects that would cause them to become charmed, frightened, or put to sleep. If a twin becomes charmed, frightened, or unconcsious, the other twin is affected as well. Twins can communicate telepathically with eachother. As an action, a twin can see through the other twin's eyes and hear what they hear until the start of their next turn. During this time, the twin using this feature is nonmagically deafened and blinded with regard to their own senses. Spells and magical effects affect both twins. For example; if a dispel magic, enhance ability, or telekinesis spell are cast upon one twin, or if a twin is affected by a magical trap or an area of antimagic, the other twin is also affected. Whenever a twin casts a spell that requires concentration, the other twin must also concentrate on that same spell. If a twin casts a spell that requires material components, the other twin can provide those components for them.<br />
+				<span class="feature">Twin Fate.</span>Twins make separate death saving thows. If one twin becomes stabilized, they both become stabilized. If a twin dies, the surviving twin loses their Dual Bodies and Single Soul racial traits until the deceased twin is returned to life. After each long rest thereafter, the surviving twin must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion. These exhaustion levels cannot be removed by anything except for a wish spell or until the deceased twin is returned to life, at which point all exhaustion levels are immediately lost.<br />
+				<span class="feature">Languages.</span>Twins can speak, read, and write Common. Twins can also speak Dvati, which has no written language. The verbal Dvati language is extremely complicated and almost impossible to speak without a twin. Each twin speaks in unison, with one twin providing the words, and the other providing complimenting sounds that convey meaning, emotion, and intent.<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Dvati</set>
+			<set name="names" type="female">Dvati</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="2d10"></set>
+			<set name="weight" modifier="1d4"></set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="2" />
+			<stat name="charisma" value="1" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_SCAR_LANGUAGE_DVAIT" />
+			<grant type="Racial Trait" id="ID_SCAR_DVATI_RACIAL_TRAIT_DUAL_BODIES" />
+			<grant type="Racial Trait" id="ID_SCAR_DVATI_RACIAL_TRAIT_SINGLE_SOUL" />
+			<grant type="Racial Trait" id="ID_SCAR_DVATI_RACIAL_TRAIT_TWIN_FATE" />
+		</rules>
+	</element>
+
+	<element name="Dual Bodies" type="Racial Trait" source="Xibalba" id="ID_SCAR_DVATI_RACIAL_TRAIT_DUAL_BODIES">
+		<description>
+			<p>Twins can move, speak, and act independently of eachother. They choose which one of them takes an action, bonus action, or reaction. If twins gain any additional actions, they can split those actions up between themselves.</p>
+			<p class="indent">Each twin has their own movement speed. If a twin takes the Dash action, they can choose to split the extra movement speed between both of them. Whenever twins are able to make more than one attack, they can alternate those attacks between themselves.</p>
+			<p class="indent">Nonmagical physical effects are not shared between twins. If a twin becomes blinded, deafened, grappled, incapacitated, paralyzed, petrified, poisoned, prone, restrained, or stunned the other twin is not.</p>
+		</description>
+		<sheet>
+			<description>Twins can move, speak, and act independently of eachother. They choose which one of them takes an action, bonus action, or reaction. If twins gain any additional actions, they can split those actions up between themselves. Each twin has their own movement speed. If a twin takes the Dash action, they can choose to split the extra movement speed between both of them. Whenever twins are able to make more than one attack, they can alternate those attacks between themselves. Nonmagical physical effects are not shared between twins. If a twin becomes blinded, deafened, grappled, incapacitated, paralyzed, petrified, poisoned, prone, restrained, or stunned the other twin is not.</description>
+		</sheet>
+	</element>	
+	<element name="Single Soul" type="Racial Trait" source="Xibalba" id="ID_SCAR_DVATI_RACIAL_TRAIT_SINGLE_SOUL">
+		<description>
+			<p>While twins are on the same plane of existence, they have the following benefits:</p>
+			<ul>
+				<li>Twins have advantage on saving throws against effects that would cause them to become charmed, frightened, or put to sleep. If a twin becomes charmed, frightened, or unconcsious, the other twin is affected as well.</li>
+				<li>Twins can communicate telepathically with eachother. As an action, a twin can see through the other twin's eyes and hear what they hear until the start of their next turn. During this time, the twin using this feature is nonmagically deafened and blinded with regard to their own senses.</li>
+				<li>Spells and magical effects affect both twins. For example; if a dispel magic, enhance ability, or telekinesis spell are cast upon one twin, or if a twin is affected by a magical trap or an area of antimagic, the other twin is also affected.</li>
+				<li>Whenever a twin casts a spell that requires concentration, the other twin must also concentrate on that same spell. If a twin casts a spell that requires material components, the other twin can provide those components for them.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>While twins are on the same plane of existence, Twins have advantage on saving throws against effects that would cause them to become charmed, frightened, or put to sleep. If a twin becomes charmed, frightened, or unconcsious, the other twin is affected as well. Twins can communicate telepathically with eachother. As an action, a twin can see through the other twin's eyes and hear what they hear until the start of their next turn. During this time, the twin using this feature is nonmagically deafened and blinded with regard to their own senses. Spells and magical effects affect both twins. For example; if a dispel magic, enhance ability, or telekinesis spell are cast upon one twin, or if a twin is affected by a magical trap or an area of antimagic, the other twin is also affected. Whenever a twin casts a spell that requires concentration, the other twin must also concentrate on that same spell. If a twin casts a spell that requires material components, the other twin can provide those components for them.</description>
+		</sheet>
+	</element>	
+	<element name="Twin Fate" type="Racial Trait" source="Xibalba" id="ID_SCAR_DVATI_RACIAL_TRAIT_TWIN_FATE">
+		<description>
+			<p>Twins make separate death saving thows. If one twin becomes stabilized, they both become stabilized. If a twin dies, the surviving twin loses their Dual Bodies and Single Soul racial traits until the deceased twin is returned to life. After each long rest thereafter, the surviving twin must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion. These exhaustion levels cannot be removed by anything except for a wish spell or until the deceased twin is returned to life, at which point all exhaustion levels are immediately lost.</p>
+		</description>
+		<sheet>
+			<description>Twins make separate death saving thows. If one twin becomes stabilized, they both become stabilized. If a twin dies, the surviving twin loses their Dual Bodies and Single Soul racial traits until the deceased twin is returned to life. After each long rest thereafter, the surviving twin must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion. These exhaustion levels cannot be removed by anything except for a wish spell or until the deceased twin is returned to life, at which point all exhaustion levels are immediately lost.</description>
+		</sheet>
+	</element>
+
+	<element name="Dvati" type="Language" source="ScarlettSpider" id="ID_SCAR_LANGUAGE_DVAIT">
+		<supports>Exotic</supports>
+		<description>
+			<p>The verbal Dvati language is extremely complicated and almost impossible to speak without a twin. Each twin speaks in unison, with one twin providing the words, and the other providing complimenting sounds that convey meaning, emotion, and intent.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Dvati</set>
+			<set name="script">Dvati</set>
+		</setters>
+	</element>
+</elements>
