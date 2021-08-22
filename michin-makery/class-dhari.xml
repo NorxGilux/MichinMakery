@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.1.2">
+    <update version="0.1.3">
       <author url="https://github.com/NorxGilux/MichinMakery">Michin Makery</author>
-      <file name="class-dhāri.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/class-dhāri.xml" />
+      <file name="class-dhari.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/class-dhari.xml" />
     </update>
   </info>
 
@@ -220,9 +220,9 @@
       <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_PERFECTION" level="17"/>
       <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_ELUSIVE" level="18"/>
       <grant type="Class Feature" id="ID_MIMA_CLASS_FEATURE_DHARI_PERFECTED_TALENT" level="20"/>
-      <stat name="dhāri:dc" value="8" />
-      <stat name="dhāri:dc" value="proficiency" />
-      <stat name="dhāri:dc" value="dexterity:modifier" />
+      <stat name="dhari:dc" value="8" />
+      <stat name="dhari:dc" value="proficiency" />
+      <stat name="dhari:dc" value="dexterity:modifier" />
     </rules>
     <multiclass id="ID_MIMA_MULTICLASS_DHARI">
       <prerequisite>Dexterity 13, Charisma 13</prerequisite>
@@ -296,16 +296,16 @@
         On reading your signature weapon(s) you may choose to infuse them with an element of your choice (Acid, Cold, Fire, Lightning, Poison, Thunder). Attacks using Elemental Strike are considered magical and deal additional {{charisma:modifier}} damage of the choosen element.
       </description>
       <description level="5">
-        On reading your signature weapon(s) you may choose to infuse them with an element of your choice (Acid, Cold, Fire, Lightning, Poison, Thunder). Attacks using Elemental Strike are considered magical and deal additional {{charisma:modifier}} + 1d{{dhāri:dice:size}} damage of the choosen element.
+        On reading your signature weapon(s) you may choose to infuse them with an element of your choice (Acid, Cold, Fire, Lightning, Poison, Thunder). Attacks using Elemental Strike are considered magical and deal additional {{charisma:modifier}} + 1d{{dhari:dice:size}} damage of the choosen element.
       </description>
       <description level="11">
-        On reading your signature weapon(s) you may choose to infuse them with an element of your choice (Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Radiant, Thunder). Attacks using Elemental Strike are considered magical and deal additional {{charisma:modifier}} + 1d{{dhāri:dice:size}} damage of the choosen element.
+        On reading your signature weapon(s) you may choose to infuse them with an element of your choice (Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Radiant, Thunder). Attacks using Elemental Strike are considered magical and deal additional {{charisma:modifier}} + 1d{{dhari:dice:size}} damage of the choosen element.
       </description>
     </sheet>
     <rules>
-      <stat name="dhāri:dice:size" value="4" bonus="base" level="5" />
-      <stat name="dhāri:dice:size" value="6" bonus="base" level="11" />
-      <stat name="dhāri:dice:size" value="8" bonus="base" level="17" />
+      <stat name="dhari:dice:size" value="4" bonus="base" level="5" />
+      <stat name="dhari:dice:size" value="6" bonus="base" level="11" />
+      <stat name="dhari:dice:size" value="8" bonus="base" level="17" />
     </rules>
   </element>
   <element name="Artistic Archetype" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_DHARI_ARTISTIC_ARCHETYPE">
@@ -417,7 +417,7 @@
     </sheet>
   </element>
 
-  <!-- Chakra-Dhari -->
+  <!--#region Chakra-Dhari -->
   <element name="Chakra-Dhari" type="Archetype" source="Michin Makery" id="ID_MIMA_ARCHETYPE_CHAKRA_DHARI">
     <supports>Artistic Archetype</supports>
     <description>
@@ -478,15 +478,15 @@
       <description>Your Chakram deals a d8 slashing damage instead of a d6.</description>
     </sheet>
   </element>
-
-  <!-- Chakram Techniques -->
+  <!--#endregion-->
+  <!--#region Chakram Techniques -->
   <element name="Double Punch" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES_DOUBLE_PUNCH">
     <supports>Chakram Techniques</supports>
     <description>
-      <p>You can attack one target in melee range with both Chakrams at the same time to deal the damage of them both. You use one attack roll for this attack. On a hit, the target does a strength save against 8 + your proficiency bonus + your dexterity modifier. On a failed save, you knock the target prone.</p>
+      <p>You can attack one target in melee range with both Chakrams at the same time to deal the damage of them both. You use one attack roll for this attack but both damage rolls. On a hit, the target does a strength save against 8 + your proficiency bonus + your dexterity modifier. On a failed save, you knock the target prone.</p>
     </description>
     <sheet usage="Chakram Techniques">
-      <description>You can attack one target in melee range with both Chakrams at the same time to deal the damage of them both. You use one attack roll for this attack. On a hit, the target does a strength save against {{dhāri:dc}}. On a failed save, you knock the target prone.</description>
+      <description>You can attack one target in melee range with both Chakrams at the same time to deal the damage of them both. You use one attack roll for this attack but both damage rolls. On a hit, the target does a strength save against {{dhari:dc}}. On a failed save, you knock the target prone.</description>
     </sheet>
   </element>
   <element name="Spinner" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_CHAKRA_DHARI_CHAKRAM_TECHNIQUES_SPINNER">
@@ -503,16 +503,17 @@
       <p>You’ve learnt the famous Chakra-Dhari technique to hit multiple targets by ricocheting your chakram. You can use your attack action to make two ranged attack with your chakrams against one target. If your attack hits, then any number of additional creatures of your choice within 10 feet of that target must make a Dexterity saving throw against 8 + your proficiency bonus + your dexterity modifier. Each creature that fails the save takes the same amount of damage as your first target. Additionally, you can attack targets that are not in your line of sight, such as around corners.</p>
     </description>
     <sheet usage="Chakram Techniques">
-      <description>You can use your attack action to make two ranged attack with your chakrams against one target. If your attack hits, then any number of additional creatures of your choice within 10 feet of that target must make a Dexterity saving throw against {{dhāri:dc}}. Each creature that fails the save takes the same amount of damage as your first target. Additionally, you can attack targets that are not in your line of sight, such as around corners.</description>
+      <description>You can use your attack action to make two ranged attack with your chakrams against one target. If your attack hits, then any number of additional creatures of your choice within 10 feet of that target must make a Dexterity saving throw against {{dhari:dc}}. Each creature that fails the save takes the same amount of damage as your first target. Additionally, you can attack targets that are not in your line of sight, such as around corners.</description>
     </sheet>
   </element>
+  <!--#endregion-->
 
-  <!-- Noda-Dhari -->
+  <!--#region Noda-Dhari -->
   <element name="Noda-Dhari" type="Archetype" source="Michin Makery" id="ID_MIMA_ARCHETYPE_NODA_DHARI">
     <supports>Artistic Archetype</supports>
     <description>
       <p>The Noda-Dhari uses a handcrafted Nodachi. Special techniques are the Kashira Punch, Senkai and the Lotus Assault.</p>
-      <div element="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_TWOWEAPON_FIGHTING_NODACHI"/>
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_GREAT_WEAPON_FIGHTING_NODACHI"/>
       <div element="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES"/>
       <div class="reference">
         <div element="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES_KASHIRA_PUNCH" />
@@ -528,15 +529,16 @@
     <sheet display="false"/>
     <rules>
       <grant type="Proficiency" id="ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_NODACHI" />
-      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_TWOWEAPON_FIGHTING_NODACHI" level="3" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_GREAT_WEAPON_FIGHTING_NODACHI" level="3" />
       <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES" level="3" />
       <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_INCREASED_NODACHI_DAMAGE" level="11" />
     </rules>
   </element>
-  <element name="Great Weapon Fighting (Nodachi)" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_TWOWEAPON_FIGHTING_NODACHI">
+  <element name="Great Weapon Fighting (Nodachi)" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_GREAT_WEAPON_FIGHTING_NODACHI">
     <description>
-      <p>When you roll a 1 or 2 on a damage die for an attack you make with a Nodachi, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
-    </p>
+      <p>
+        When you roll a 1 or 2 on a damage die for an attack you make with a Nodachi, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
+      </p>
     </description>
     <sheet>
       <description>When you roll a 1 or 2 on a damage die for an attack you make with a Nodachi, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</description>
@@ -569,15 +571,15 @@
       <description>Your Nodachi deals 2d8 slashing damage instead of 1d10.</description>
     </sheet>
   </element>
-
-  <!-- Nodachi Techniques -->
+  <!--#endregion-->
+  <!--#region Nodachi Techniques -->
   <element name="Kashira Punch" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES_KASHIRA_PUNCH">
     <supports>Nodachi Techniques</supports>
     <description>
       <p>You can attack one creature within 5 feet as much as you have attacks. One of those attacks only dealing 1d6 bludgeoning damage instead of 1d10 (slashing) as you attack with the Kashira (pommel) of your Nodachi. On hit with the Kashira the target must succeed on a Constitution saving throw againt 8 + your proficiency bonus + your dexterity modifier or be stunned until the end of your next turn.</p>
     </description>
     <sheet usage="Nodachi Techniques">
-      <description>You can attack one creature within 5 feet as much as you have attacks. One of those attacks only dealing 1d6 bludgeoning damage instead of 1d10 (slashing) as you attack with the Kashira (pommel) of your Nodachi. On hit with the Kashira the target must succeed on a Constitution saving throw againt {{dhāri:dc}} or be stunned until the end of your next turn.</description>
+      <description>You can attack one creature within 5 feet as much as you have attacks. One of those attacks only dealing 1d6 bludgeoning damage instead of 1d10 (slashing) as you attack with the Kashira (pommel) of your Nodachi. On hit with the Kashira the target must succeed on a Constitution saving throw againt {{dhari:dc}} or be stunned until the end of your next turn.</description>
     </sheet>
   </element>
   <element name="Senkai" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES_SENKAI">
@@ -586,7 +588,7 @@
       <p>You can spin around with your Nodachi to strike every enemy around you within 10 feet with one attack and damage roll for all. Regardless of a hit, every target must succeed on a Strength save against 8 + your proficiency bonus + your dexterity modifier or be pushed back for 10 feet.</p>
     </description>
     <sheet usage="Nodachi Techniques">
-      <description>You can spin around with your Nodachi to strike every enemy around you within 10 feet with one attack and damage roll for all. Regardless of a hit, every target must succeed on a Strength save against {{dhāri:dc}} or be pushed back for 10 feet.</description>
+      <description>You can spin around with your Nodachi to strike every enemy around you within 10 feet with one attack and damage roll for all. Regardless of a hit, every target must succeed on a Strength save against {{dhari:dc}} or be pushed back for 10 feet.</description>
     </sheet>
   </element>
   <element name="Lotus Assault" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_NODA_DHARI_NODACHI_TECHNIQUES_LOTUS_ASSAULT">
@@ -597,4 +599,100 @@
       <description>You can use your attack action to dash to a target within 50 feet of you and make an attack against that target. On hit you may dash to up to 4 other creatures within 30 feet of the initial target and make an attack against them. You end within 10 feet of your initial target.</description>
     </sheet>
   </element>
+  <!--#endregion-->
+
+  <!--#region Scy-Dhari-->
+  <element name="Scy-Dhari" type="Archetype" source="Michin Makery" id="ID_MIMA_ARCHETYPE_SCY_DHARI">
+    <supports>Artistic Archetype</supports>
+    <description>
+      <p>The Scy-Dhari uses a strong, heavy Scythe. Special techniques are the Tendon Cut, Defensive Swirl and the Deadly Charge.</p>
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_PRECISE_FIGHTING_SCYTHE"/>
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_SCYTHE_TECHNIQUES"/>
+      <div class="reference">
+        <div element="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_SCYTHE_TECHNIQUES_TENDON_CUT" />
+      </div>
+      <div class="reference">
+        <div element="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_SCYTHE_TECHNIQUES_DEFENSIVE_SWIRL" />
+      </div>
+      <div class="reference">
+        <div element="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_SCYTHE_TECHNIQUES_DEADLY_CHARGE" />
+      </div>
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_INCREASED_SCYTHE_DAMAGE"/>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Proficiency" id="ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_PRECISE_FIGHTING_SCYTHE" level="3" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_SCYTHE_TECHNIQUES" level="3" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_INCREASED_SCYTHE_DAMAGE" level="11" />
+    </rules>
+  </element>
+  <element name="Precise Fighting (Scythe)" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_PRECISE_FIGHTING_SCYTHE">
+    <description>
+      <p>
+        You gain a +2 bonus to attack and damage rolls you make a melee attack with your Scythe against a wounded target.
+      </p>
+    </description>
+    <sheet>
+      <description>You gain a +2 bonus to attack and damage rolls you make a melee attack with your Scythe against a wounded target.</description>
+    </sheet>
+  </element>
+  <element name="Scythe Techniques" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_SCYTHE_TECHNIQUES">
+    <description>
+      <p>At 3rd level, you learned some important techniques. As your attack action you may use Tendon Cut or Defensive Swirl. At 9th level you learn the superior technique Deadly Charge.</p>
+      <p class="indent">You regain any expended uses when you finish a Short Rest.</p>
+    </description>
+    <sheet usage="{{proficiency}}/Short Rest">
+      <description level="3">
+        As your attack action, you may use Tendon Cut or Defensive Swirl. You have to wield a Scythe.
+      </description>
+      <description level="9">
+        As your attack action, you may use Tendon Cut, Defensive Swirl or Deadly Charge. You have to wield a Scythe.
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_SCYTHE_TECHNIQUES_TENDON_CUT" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_SCYTHE_TECHNIQUES_DEFENSIVE_SWIRL" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_SCYTHE_TECHNIQUES_DEADLY_CHARGE" level="9"/>
+    </rules>
+  </element>
+  <element name="Increased Scythe Damage" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_INCREASED_SCYTHE_DAMAGE">
+    <description>
+      <p>At 11th level, you learn to use your Scythe even more precisely. Your Scythe deals 2d8 slashing damage instead of 2d6.</p>
+    </description>
+    <sheet>
+      <description>Your Scythe deals 2d8 slashing damage instead of 2d6.</description>
+    </sheet>
+  </element>
+  <!--#endregion-->
+  <!--#region Scythe Techniques-->
+  <element name="Tendon Cut" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_SCYTHE_TECHNIQUES_TENDON_CUT">
+    <description>
+      <p>You can use your precision to make your foe unable to move. On hit with your Scythe the target must succeed on a Constitution saving throw againt 8 + your proficiency bonus + your dexterity modifier or be restrained until the end of your next turn.</p>
+    </description>
+    <sheet usage="Scythe Techniques">
+      <description>On hit with your Scythe the target must succeed on a Constitution saving throw againt {{dhari:dc}} or be restrained until the end of your next turn.</description>
+    </sheet>
+  </element>
+  <element name="Defensive Swirl" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_SCYTHE_TECHNIQUES_DEFENSIVE_SWIRL">
+    <description>
+      <p>You're able to quickly react on projectiles and spin your Scythe. If you are targeted by a ranged attack (including spells made with a ranged spell attack roll) you may use your reaction trying to avoid it. When you do so, the damage you take from the attack is reduced by 1d12 + your Dexterity modifier + your Dhari level.</p>
+    </description>
+    <sheet usage="Scythe Techniques">
+      <description>If you are targeted by a ranged attack (including spells made with a ranged spell attack roll) you may use your reaction trying to avoid it. When you do so, the damage you take from the attack is reduced by 1d10 + {{dhari:scythe:defensiveswirl}}.</description>
+    </sheet>
+    <rules>
+      <stat name="dhari:scythe:defensiveswirl" value ="level:dhari"/>
+      <stat name="dhari:scythe:defensiveswirl" value ="dexterity:modifier"/>
+    </rules>
+  </element>
+  <element name="Deadly Charge" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_SCY_DHARI_SCYTHE_TECHNIQUES_DEADLY_CHARGE">
+    <description>
+      <p>You've learnt the famous Scy-Dhari technique of charge and strike. You can charge 30 feet forward and attempt to strike any enemy in that line and 5 feet next to it. Make a attack roll for each target. Every targe in the middle of your 15-feet line succeed on a strength save against 8 + your proficiency bonus + your dexterity modifier or be pushed 5 feet to either side.</p>
+    </description>
+    <sheet usage="Scythe Techniques">
+      <description>You can charge 30 feet forward and attempt to strike any enemy in that line and 5 feet next to it. Make a attack roll for each target. Every targe in the middle of your 15-feet line succeed on a strength save against {{dhari:dc}} or be pushed 5 feet to either side.</description>
+    </sheet>
+  </element>
+  <!--#endregion-->
 </elements>

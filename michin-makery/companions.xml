@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.12">
+    <update version="0.0.13">
       <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
       <file name="companions.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/companions.xml" />
     </update>
@@ -25,7 +25,7 @@
       <set name="speed">30 ft., climb 30 ft.</set>
       <set name="languages">Celestial, Sylvan, Elvish</set>
       <set name="skills">Perception +4, Persuasion +7, Stealth +7</set>
-      <set name="type">Fey, Celestial</set>
+      <set name="type">Fey, Extraplanar</set>
       <set name="size">Tiny</set>
       <set name="alignment">neutral good</set>
       <set name="challenge">1</set>
@@ -99,7 +99,7 @@
       <set name="speed">60 ft.</set>
       <set name="languages">Celestial, Sylvan, Elvish</set>
       <set name="skills">Perception +4, Stealth +6</set>
-      <set name="type">Beast, Celestial</set>
+      <set name="type">Beast, Extraplanar</set>
       <set name="size">Large</set>
       <set name="alignment">unaligned</set>
       <set name="challenge">2</set>
@@ -166,7 +166,7 @@
       <set name="speed">60 ft.</set>
       <set name="languages">Celestial, Sylvan, Elvish</set>
       <set name="skills">Perception +4, Stealth +6</set>
-      <set name="type">Beast, Celestial</set>
+      <set name="type">Beast, Extraplanar</set>
       <set name="size">Large</set>
       <set name="alignment">unaligned</set>
       <set name="challenge">2</set>

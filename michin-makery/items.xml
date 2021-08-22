@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.13">
+    <update version="0.0.14">
       <file name="items.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/items.xml" />
     </update>
   </info>
@@ -56,6 +56,29 @@
   <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
     <rules>
       <grant type="Proficiency" id="ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_NODACHI" />
+    </rules>
+  </append>
+
+  <element name="Scythe" type="Weapon" source="Michin Makery" id="ID_MIMA_WEAPON_SCYTHE">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+    <description>
+      <p></p>
+    </description>
+    <setters>
+      <set name="category">Weapons</set>
+      <set name="cost" currency="gp">100</set>
+      <set name="weight" lb="8">8 lb.</set>
+      <set name="slot">twohand</set>
+      <set name="damage" type="slashing">2d6</set>
+      <set name="proficiency">ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE</set>
+    </setters>
+  </element>
+  <element name="Weapon Proficiency (SCYTHE)" type="Proficiency" source="Michin Makery" id="ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE">
+    <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+  </element>
+  <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+    <rules>
+      <grant type="Proficiency" id="ID_MIMA_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE" />
     </rules>
   </append>
 
