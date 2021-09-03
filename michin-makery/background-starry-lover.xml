@@ -4,7 +4,7 @@
     <name>Starry Lover</name>
     <description>Starry Lover Background</description>
     <author url="https://github.com/NorxGilux/MichinMakery">Michin Makery</author>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="background-starry-lover.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/background-starry-lover.xml" />
     </update>
   </info>
@@ -26,7 +26,7 @@
       </ul>
       <div element="ID_MIMA_BACKGROUND_FEATURE_STARISH_ORIENTATION" />
       <h5>SUGGESTED CHARACTERISTICS</h5>
-      <p>Starry Lover are suckers for the night, stars and of the moon. They mostly sleep during the day and live through the night. Their favourite gem is the moonstone or the onyx. You can imagine what reaction a dagger decorated with moonstones or onyx and star carvings could create?</p>
+      <p>Starry Lover are suckers for the stars, night and/or the moon. They mostly sleep during the day and live through the night. Their favourite gem is the moonstone or the onyx. You can imagine what reaction a dagger decorated with moonstones or onyx and star carvings could create?</p>
     </description>
     <setters>
       <set name="short">Perception, Arcana, 2 Languages</set>
@@ -52,7 +52,7 @@
         <item id="2">Charity. I always try to help those in need, no matter what the personal cost. (Good)</item>
         <item id="3">Karma. Everthing and everyone has a good and a bad side. I embrace both and build a solid ground in the middle. (Neutral)</item>
         <item id="4">Independence. Who needs rules, i make my own. (Chaotic)</item>
-        <item id="5">Power. If I can attain more power, no even Selune will tell me what to do. (Evil)</item>
+        <item id="5">Power. If I can attain more power, no even She will tell me what to do. (Evil)</item>
         <item id="6">Free. Sometimes i just want to lay down and watch the stars twinkle. (Any)</item>
       </select>
       <select type="List" name="Bond">

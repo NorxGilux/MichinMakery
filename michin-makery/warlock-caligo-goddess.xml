@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <update version="0.0.1">
+      <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
+      <file name="warlock-caligo-goddess.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/warlock-caligo-goddess.xml" />
+    </update>
+  </info>
+
+  <element name="The Caligo Goddess" type="Archetype" source="Michin Makery" id="ID_MIMA_ARCHETYPE_CALIGO_GODDESS">
+    <supports>Otherworldly Patron</supports>
+    <description>
+      <p>The Dark is the most present beeing of the night. Some nights spending light. Some nights leave everyone in darkness. Many people envy the dark for the mysteries laid within. A darkness tainted by the loss of several. Any magical creature can feel the magic of that darkness - especially warlocks. But only a few knew the truth.</p>
+      <p class="indent">The Caligo Queen actually is the one who darkens the night everytime, also gift some spellcaster a potion of her own power. But nobody should play with her highness or harm her followers. It could not end well.</p>
+      <div element="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_EXPANDED_SPELL_LIST" />
+      <div element="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_DARKNESS_OF_THE_NIGHT" />
+      <div element="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_HAZE_OF_THE_NIGHT" />
+      <div element="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_SERVANT_OF_THE_NIGHT" />
+      <div element="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_MIGHT_OF_THE_NIGHT" />
+    </description>
+    <sheet display="false">
+      <description>Your patron is the Night... actually the Dark Queen.</description>
+    </sheet>
+    <rules>
+      <grant type="Caligo Goddess Feature" id="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_EXPANDED_SPELL_LIST" level="1" />
+      <grant type="Caligo Goddess Feature" id="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_DARKNESS_OF_THE_NIGHT" level="1" />
+      <grant type="Caligo Goddess Feature" id="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_HAZE_OF_THE_NIGHT" level="6" />
+      <grant type="Caligo Goddess Feature" id="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_SERVANT_OF_THE_NIGHT" level="10" />
+      <grant type="Caligo Goddess Feature" id="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_MIGHT_OF_THE_NIGHT" level="14" />
+    </rules>
+  </element>
+  <element name="Expanded Spell List" type="Caligo Goddess Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_EXPANDED_SPELL_LIST">
+    <description>
+      <p>The Caligo Goddess lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+      <h5 class="caption">CALIGO GODDESS EXPANDED SPELLS</h5>
+      <table>
+        <thead>
+          <tr>
+            <td>Spell Level</td>
+            <td>Spells</td>
+          </tr>
+        </thead>
+        <tr>
+          <td>1st</td>
+          <td>
+            <em>false life, chromatic orb</em>
+          </td>
+        </tr>
+        <tr>
+          <td>2nd</td>
+          <td>
+            <em>shadow blade, phantasmal force</em>
+          </td>
+        </tr>
+        <tr>
+          <td>3rd</td>
+          <td>
+            <em>blink, creeping darkness</em>
+          </td>
+        </tr>
+        <tr>
+          <td>4th</td>
+          <td>
+            <em>caligo sphere, embracing darkness</em>
+          </td>
+        </tr>
+        <tr>
+          <td>5th</td>
+          <td>
+            <em>caligo beam, caligo grasp</em>
+          </td>
+        </tr>
+      </table>
+    </description>
+    <sheet display="false">
+      <description>The Caligo Goddess lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+    </sheet>
+    <spellcasting name="Warlock" extend="true">
+      <extend>LIST_CALIGO_GODDESS</extend>
+      <extend>ID_PHB_SPELL_FALSE_LIFE</extend>
+      <extend>ID_PHB_SPELL_CHROMATIC_ORB</extend>
+      <extend>ID_XGTE_SPELL_SHADOW_BLADE</extend>
+      <extend>ID_PHB_SPELL_PHANTASMAL_FORCE</extend>
+      <extend>ID_PHB_SPELL_BLINK</extend>
+    </spellcasting>
+  </element>
+  <element name="Darkness of the Night" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_DARKNESS_OF_THE_NIGHT">
+    <description>
+      <p>Starting at 1st level, you can surround you with darkness. As a bonus action, you magically wreathe yourself in swirling shadows. For 1 minute, you gain the following benefits:</p>
+      <ul>
+        <li>Every source of natural light in a 30-feet radius around you vanishes.</li>
+        <li>Any creature takes necrotic damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.</li>
+        <li>Whenever you roll necrotic damage on your turn, the roll gains a bonus to equal to your Charisma modifier. This only occurs once for an attack action or spell.</li>
+      </ul>
+      <p class="indent">Once you use this feature, you can’t use it again until you finish a short rest.</p>
+    </description>
+    <sheet usage="{{darknessofthenight:usage}}/Short Rest">
+      <description>
+        <p>As a bonus action, you magically wreathe yourself in swirling shadows. For 1 minute, you gain the following benefits:</p>
+        <ul>
+          <li>Every source of natural light in a 30-feet radius around you vanishes. </li>
+          <li>Any creature takes necrotic damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you. </li>
+          <li>Whenever you roll necrotic damage on your turn, the roll gains a bonus to equal to your Charisma modifier. This only occurs once for an attack action or spell.</li>
+        </ul>
+      </description>
+    </sheet>
+    <rules>
+      <stat name="darknessofthenight:usage" value="1" />
+    </rules>
+  </element>
+  <element name="Haze of the Night" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_HAZE_OF_THE_NIGHT">
+    <description>
+      <p>Starting at 6th level, you can vanish in a cloud of shadows in response to harm. You can use your reaction at any time to move up to 30 feet to an unoccupied space you can see.</p>
+    </description>
+    <sheet usage="Reaction/Short Rest">
+      <description>
+        You can vanish in a cloud of shadows in beware of harm. You can use your reaction at any time to move up to 30 feet to an unoccupied space you can see.
+      </description>
+    </sheet>
+  </element>
+  <element name="Servant of the Night" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_SERVANT_OF_THE_NIGHT">
+    <description>
+      <p>At 10th level the night granted you a companion as a reward for your loyalty. You may choose between a Caligo Pixie, a Caligo Felidae or a Caligo Canis. You add half your proficiency bonus rounded down to the companions AC, attack roll, attack dmg, skills and saving throws that the companion is proficient in. It's max HP equals four times your Warlock level.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>Whenever your companion attacks, add half your proficiency bonus rounded down to the companions attack roll and attack dmg.</p>
+      </description>
+    </sheet>
+    <rules>
+      <select type="Companion" name="Servant of the Moon" supports="ID_MIMA_COMPANION_CALIGO_PIXIE|ID_MIMA_COMPANION_CALIGO_FELIDAE|ID_MIMA_COMPANION_CALIGO_CANIS" />
+      <stat name="companion:ac" value="proficiency:half" />
+      <stat name="companion:attack" value="proficiency:half" />
+      <stat name="companion:damage" value="proficiency:half" />
+      <stat name="additional:hp:max" value="level:warlock" />
+      <stat name="additional:hp:max" value="level:warlock" />
+      <stat name="additional:hp:max" value="level:warlock" />
+      <stat name="additional:hp:max" value="level:warlock" />
+      <stat name="companion:hp:max" value="additional:hp:max" bonus="base" />
+      <stat name="companion:proficiency" value="proficiency:half" />
+    </rules>
+  </element>
+  <element name="Might of the Night" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_MIGHT_OF_THE_NIGHT">
+    <description>
+      <p>
+        Starting at 14th level, you can become a conduit of the Night’s power with darkness emitting from your hair, allowing you to double your damage dices for one attack or spell. When using this feature any creature other than you within 30 feet of you must make a Wisdom saving throw against DC 15 or be frightened of you until the end of their next turn. Allied creatures who know you have advantage on this saving throw.
+      </p>
+      <p class="indent">You can decide to use this feature before your attack roll.</p>
+      <p class="indent">You must finish a short or long rest before you can use this part of the feature again.</p>
+      <p class="indent">
+        Additionally to this you and your <em>Servant of the Night</em> may choose to let Spectral wings appear on your back, gaining a flying speed of 40 feet. You can use your Spectral Wings at any time regardless of the restriction for the first part of this feature.
+      </p>
+    </description>
+    <sheet usage="1/Short Rest">
+      <description>
+        When casting a spell you may double the damage dices for that cast. Any creature other than you within 30 feet of you must make a Wisdom saving throw against 15 or be frightened of you until the end of their next turn. Allied creatures who know you have advantage on this saving throw.
+      </description>
+    </sheet>
+  </element>
+
+  <element name="Eternal Night" type="Class Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_INVOCATION_ETERNAL_NIGHT">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>9th level, The Caligo Goddess</prerequisite>
+    <requirements>[level:9],ID_MIMA_ARCHETYPE_CALIGO_GODDESS</requirements>
+    <description>
+      <p>
+        You have advantage on saving throws against the charmed condition. You can use your <em>Darkness of the Night</em> feature once more per short rest and gain resistance against radiant damage while it is active.
+      </p>
+    </description>
+    <sheet>
+      <description>
+        You have advantage on saving throws against the charmed condition. While <em>Darkness of the Night</em> is active you have resistance against radiant damage.
+      </description>
+    </sheet>
+    <rules>
+      <stat name="darknessofthenight:usage" value="1" />
+    </rules>
+  </element>
+</elements>

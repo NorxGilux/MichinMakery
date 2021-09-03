@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.1.14">
+    <update version="0.1.15">
       <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
       <file name="warlock-lunar-goddess.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/warlock-lunar-goddess.xml" />
     </update>
@@ -14,7 +14,7 @@
       <p class="indent">The Lunar Queen actually is the one who sheds the magic coming from the moon, also gift some spellcaster a potion of her own power. But nobody should play with her kindness or harm her followers. It could not end well.</p>
       <div element="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_EXPANDED_SPELL_LIST" />
       <div element="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_LIGHT_OF_THE_MOON" />
-      <div element="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_DARK_SIDE_OF_THE_MOON" />
+      <div element="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_HAZE_OF_THE_MOON" />
       <div element="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_SERVANT_OF_THE_MOON" />
       <div element="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_MIGHT_OF_THE_MOON" />
     </description>
@@ -24,7 +24,7 @@
     <rules>
       <grant type="Lunar Goddess Feature" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_EXPANDED_SPELL_LIST" level="1" />
       <grant type="Lunar Goddess Feature" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_LIGHT_OF_THE_MOON" level="1" />
-      <grant type="Lunar Goddess Feature" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_DARK_SIDE_OF_THE_MOON" level="6" />
+      <grant type="Lunar Goddess Feature" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_HAZE_OF_THE_MOON" level="6" />
       <grant type="Lunar Goddess Feature" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_SERVANT_OF_THE_MOON" level="10" />
       <grant type="Lunar Goddess Feature" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_MIGHT_OF_THE_MOON" level="14" />
     </rules>
@@ -67,7 +67,7 @@
         <tr>
           <td>5th</td>
           <td>
-            <em>wall of light, lunar beam, lunar grasp</em>
+            <em>lunar beam, lunar grasp</em>
           </td>
         </tr>
       </table>
@@ -82,7 +82,6 @@
       <extend>ID_PHB_SPELL_MOONBEAM</extend>
       <extend>ID_PHB_SPELL_PHANTASMAL_FORCE</extend>
       <extend>ID_PHB_SPELL_BLINK</extend>
-      <extend>ID_XGTE_SPELL_WALL_OF_LIGHT</extend>
     </spellcasting>
   </element>
   <element name="Light of the Moon" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_LIGHT_OF_THE_MOON">
@@ -109,7 +108,7 @@
       <stat name="lightofthemoon:usage" value="1" />
     </rules>
   </element>
-  <element name="Dark Side of the Moon" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_DARK_SIDE_OF_THE_MOON">
+  <element name="Haze of the Moon" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_HAZE_OF_THE_MOON">
     <description>
       <p>Starting at 6th level, you can vanish in a cloud of stars in response to harm. You can use your reaction at any time to move up to 30 feet to an unoccupied space you can see.</p>
     </description>
