@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.3">
+    <update version="0.0.4">
       <author url="https://github.com/NorxGilux/MichinMakery">Michin Makery</author>
       <file name="class-witch.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/class-witch.xml" />
     </update>
@@ -229,7 +229,7 @@
         </tr>
         <tr>
           <td>10th</td>
-          <td class="left">Features</td>
+          <td class="left"></td>
           <td>4</td>
           <td>11</td>
           <td>4</td>
@@ -607,7 +607,7 @@
 
   <element name="Familiar's Shapeshift" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_FAMILIARS_SHAPESHIFT">
     <description>
-      <p>At 5th level, you can use an action to magically transform your familiar into the shape of a beast that you have seen before. You can use this feature twice and regain expended uses when you finish a short or long rest. You can use both usages of this feature to let the familiar transform into a stronger beast. One point equals a challenge rating of 1/2. This increases to challenge rating 1 at 8th level. You can also choose a beast of a lower rating to transform your familiar into.</p>
+      <p>At 5th level, you can use an action to magically transform your familiar into the shape of a beast that you have seen before. You can use this feature twice and regain expended uses when you finish a short or long rest. You can use both multiple of this feature at once to let the familiar transform into a stronger beast. One point equals a challenge rating of 1/2. This increases to challenge rating 1 at 8th level. You can also choose a beast of a lower rating to transform your familiar into.</p>
       <p class="indent">Your familiar can stay in a that shape for a number of hours equal to half your Witch level (rounded down). It then revert to it's normal form unless you expend another use of this feature. Your familiar can revert to it's normal form earlier by using a bonus action on it's turn. Your familiar automatically revert if it falls unconscious, drops to 0 hit points, or dies.</p>
       <p class="indent">While your familiar is transformed, the following rules apply:</p>
       <ul>
@@ -617,13 +617,17 @@
       </ul>
     </description>
     <sheet usage="{{witch:familiar:shapeshift:usage}}/short rest">
-      <description>
-        Your familiar can magically assume the shape of a beast that you have seen before. It can stay in a beast shape for {{witch:familiar:shapeshift:hours}} hours. It then reverts to your normal form unless you expend another use of this feature. Your familiar can revert to it's normal form earlier by using a bonus action on it's turn. It automatically reverts if it falls unconscious, drops to 0 hit points, or dies.
+      <description level="5">
+        Your familiar can magically assume the shape of a beast that you have seen before. It can stay in a beast shape for {{witch:familiar:shapeshift:hours}} hours. It then reverts to your normal form unless you expend another use of this feature. Your familiar can revert to it's normal form earlier by using a bonus action on it's turn. It automatically reverts if it falls unconscious, drops to 0 hit points, or dies. You can use multiple usages of this feature at once to let the familiar transform into a stronger beast. One point equals a challenge rating of 1/2.
+      </description>
+      <description level="8" >
+        Your familiar can magically assume the shape of a beast that you have seen before. It can stay in a beast shape for {{witch:familiar:shapeshift:hours}} hours. It then reverts to your normal form unless you expend another use of this feature. Your familiar can revert to it's normal form earlier by using a bonus action on it's turn. It automatically reverts if it falls unconscious, drops to 0 hit points, or dies. You can use multiple usages of this feature at once to let the familiar transform into a stronger beast. One point equals a challenge rating of {{witch:familiar:shapeshift:cr}}.
       </description>
     </sheet>
     <rules>
       <stat name="witch:familiar:shapeshift:usage" value="2" />
       <stat name="witch:familiar:shapeshift:hours" value="level:witch:half" />
+      <stat name="witch:familiar:shapeshift:cr" value="1" />
     </rules>
   </element>
 
@@ -665,7 +669,7 @@
     <description>
       <p>At 13th level, you now add your full proficiency bonus instead of half to your Familiars AC, attack roll, attack dmg, skills and saving throws that it is proficient in.</p>
       <p class="indent">
-        Additionally, you can choose elementals with your <em>Familiar's Shapeshift</em> feature too.
+        Additionally, you can choose elementals with your <em>Familiar's Shapeshift</em> feature too. The CR per Point increases from 1 to 2 and you can use <em>Familiar's Shapeshift</em> once more per short rest.
       </p>
     </description>
     <sheet>
@@ -674,7 +678,8 @@
       </description>
     </sheet>
     <rules>
-      <stat name="witch:familiar:shapeshift:usage" value="2" />
+      <stat name="witch:familiar:shapeshift:usage" value="1" />
+      <stat name="witch:familiar:shapeshift:cr" value="1" />
     </rules>
   </element>
 
@@ -708,8 +713,8 @@
     </sheet>
   </element>
 
-  <!-- Witchcrafts -->
-  <!-- Charms -->
+  <!--#region Witchcrafts -->
+  <!--#region Charms -->
   <element name="Charm of Strength" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_CHARM_OF_STRENGTH">
     <supports>Witchcrafts</supports>
     <description>
@@ -1400,8 +1405,9 @@
       </description>
     </sheet>
   </element>
+  <!-- #endregion -->
 
-  <!-- Hexes -->
+  <!--#region Hexes -->
   <element name="Hex of Disadvantage" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_HEX_OF_DISADVANTAGE">
     <supports>Witchcrafts</supports>
     <description>
@@ -1748,8 +1754,9 @@
       </description>
     </sheet>
   </element>
-
-  <!-- Potions -->
+<!--#endregion-->
+  
+  <!--#region Potions -->
   <element name="Potion Crafting" type="Class Feature" source="Michin Makery" id="ID_MIMA_CLASS_FEATURE_WITCH_WITCHCRAFTS_POTION_CRAFTING">
     <supports>Witchcrafts</supports>
     <description>
@@ -1853,8 +1860,10 @@
     </description>
     <sheet display="false" />
   </element>
-
-  <!-- Spell List -->
+  <!--#endregion-->
+<!--#endregion-->
+  
+  <!--#region Spell List -->
   <append id="ID_PHB_SPELL_ACID_SPLASH">
     <supports>Witch</supports>
   </append>
@@ -2326,8 +2335,8 @@
   <append id="ID_XGTE_SPELL_WRATH_OF_NATURE">
     <supports>Witch</supports>
   </append>
-
   <append id="ID_MIMA_HITCHCOCKS_NIGHTMARE">
     <supports>Witch</supports>
   </append>
+  <!--#endregion-->
 </elements>
