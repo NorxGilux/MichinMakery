@@ -3,7 +3,7 @@
 	<info>
 		<name>Michin Makery</name>
 		<description>The content from various sources implemented.</description>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="michin-makery-others.index" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others.index" />
 		</update>
 	</info>
@@ -17,6 +17,7 @@
     <file name="race-moonborn.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/race-moonborn.xml" />
     <file name="race-pandafolk.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/race-pandafolk.xml" />
     <file name="race-catrin.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/race-catrin.xml" />
+    <file name="race-hadozee.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/race-hadozee.xml" />
     
     <!-- classes -->
     <file name="class-pirate.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/class-pirate.xml" />

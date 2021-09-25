@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Hadozee</name>
+		<update version="0.1">
+			<file name="race-hadozee.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/race-hadozee.xml" />
+		</update>
+	</info>
+
+	<element name="Hadozee" type="Race" source="dandwiki" id="ID_DNDW_RACE_HADOZEE">
+		<description>
+			<p>Hadozee, the so called "deck apes", are a hard-working spacefaring race known for their salty language, able warriors, but otherwise peaceful outlook. Spacers to the core, most hadozee encountered away from their homeworld have never been to their ancestral home. They've taken up the role of sailors and mercenaries through the endless sea of space on many a ship.</p>
+			<h4>Physical Description</h4>
+			<p>The hadozee, are tall hairy humanoids with simian faces, a shaggy mane and a stooped posture. Their hair is usually orange or brown among other dark colors. The mouth of a hadozee is a protruding muzzle with several long fangs. They have lean muscles and patagium – a parachute-like membranes that stretch from wrist to ankle – that allows them to glide short distances. They are also very nimble, able to climb trees, ropes, and other surfaces with ease. In short, one may say they resemble apes that have some flight ability.</p>
+			<h4>History</h4>
+			<p>The hadozee homeworld is in a small sphere at the edge of known space. It is a subtropical world consisting of high mesas, and deep jungle canyons; the ideal environment for their gliding ability. Though they prefer warm weather, they can dress for colder climes. They are said to live there like monkeys in a rainforest. However, a diaspora occurred some eons ago, scattering much of the race. Thus, hadozee were no longer exclusive to their unnamed home world. They could be encountered in many places within the reaches of space.</p>
+			<h4>Society</h4>
+			<p>Groups of hadozee form troops. They often tried to survive wherever their diaspora landed them, however they could. Those who landed on Prime would come to be good friends with elves, for whom they would fight in some wars. Hadozee generally are not warmongers, but they are capable of great strength and savagery in battle. The chieftain of the troop is said to have the most power, and thereby deter the other hadozees from violence.</p>
+			<p class="indent">Hadozee sometimes have wanderlust. Many who are born off their home resulting from the diaspora are curious of the stars. They will usually try to find ways to get on a spaceship crew. If that fails, they may resort to stowing away. Regardless, hadozee are an iconic part of many ship crews. They are typically hard-working and prioritized. Usually, they despise work, especially grunt duty, as they prefer to be free flying around the cabin.</p>
+			<h4>Hadozee Names</h4>
+			<p>
+				The hadozee tongue shares similarities with elven, but they choose short names over laborious ones.<br />
+				<span class="feature">Male Names:</span>Tuk, Konn, Koto<br />
+				<span class="feature">Female Names:</span>Esh, Ani, Bee
+			</p>
+			<h4>Hadozee Traits</h4>
+			<p>Space monkeys.</p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong> Your Dexterity score increases by 2, and your Constitution increases by 1.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Age.</em>
+				</strong> Hadozee mature at 18 years and can live to around 80 years.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Alignment.</em>
+				</strong> Most hadozee are good. Those that tend towards chaos value their freedom and become explorers or cat burglars. Hadozee with lawful tendencies sign on as merchant sailors, or warriors on elven or human warships. Evil hadozee become corsairs and pirates.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> Hadozee stand between 6-1/2 and 7 feet tall, and tend to weigh between 200 and 225 pounds. Your size is Medium.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your base walking speed is 30 feet.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Prehensile feet.</em>
+				</strong> You can hold objects in your feet as though they were hands. You must still use your empty feet to move along the ground. For example, you can wield a weapon in a foot while hanging from a rope with your hands, or wield a weapon in your hands while hanging from the rope by your feet.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Gliding.</em>
+				</strong> You have a glide speed of 30 feet.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Monkey.</em>
+				</strong> Like any monkey, you can use your four limbs to easily scale surfaces. You have a climb speed of 25 feet.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Boreal Trained.</em>
+				</strong> You have your ancestors abilities from swinging around the trees all their lives. You are proficient in the Acrobatics skill.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Languages.</em>
+				</strong> You can speak, read, and write Common and Elvish.
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Tuk, Konn, Koto</set>
+			<set name="names" type="female">Esh, Ani, Bee</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="1d6">6'6"</set>
+			<set name="weight" modifier="1d4">200 lb.</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Hadozee)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Hadozee)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_ELVISH" />
+			<grant type="Racial Trait" id="ID_DNDW_HADOZEE_RACIAL_TRAIT_PREHENSILE_FEET" />
+			<grant type="Racial Trait" id="ID_DNDW_HADOZEE_RACIAL_TRAIT_GLIDING" />
+			<grant type="Racial Trait" id="ID_DNDW_HADOZEE_RACIAL_TRAIT_MONKEY" />
+			<grant type="Racial Trait" id="ID_DNDW_HADOZEE_RACIAL_TRAIT_BOREAL_TRAINED" />
+		</rules>
+	</element>
+	<element name="Prehensile feet" type="Racial Trait" source="dandwiki" id="ID_DNDW_HADOZEE_RACIAL_TRAIT_PREHENSILE_FEET">
+		<description>
+			<p>You can hold objects in your feet as though they were hands. You must still use your empty feet to move along the ground. For example, you can wield a weapon in a foot while hanging from a rope with your hands, or wield a weapon in your hands while hanging from the rope by your feet.</p>
+		</description>
+		<sheet>
+			<description>You can hold objects in your feet as though they were hands. You must still use your empty feet to move along the ground. For example, you can wield a weapon in a foot while hanging from a rope with your hands, or wield a weapon in your hands while hanging from the rope by your feet.</description>
+		</sheet>
+	</element>
+	<element name="Gliding" type="Racial Trait" source="dandwiki" id="ID_DNDW_HADOZEE_RACIAL_TRAIT_GLIDING">
+		<description>
+			<p>You have a glide speed of 30 feet.</p>
+		</description>
+		<sheet>
+			<description>You have a glide speed of 30 feet.</description>
+		</sheet>
+	</element>
+	<element name="Monkey" type="Racial Trait" source="dandwiki" id="ID_DNDW_HADOZEE_RACIAL_TRAIT_MONKEY">
+		<description>
+			<p>Like any monkey, you can use your four limbs to easily scale surfaces. You have a climb speed of 25 feet.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="innate speed:climb" value="25" bonus="base" />
+		</rules>
+	</element>
+	<element name="Boreal Trained" type="Racial Trait" source="dandwiki" id="ID_DNDW_HADOZEE_RACIAL_TRAIT_BOREAL_TRAINED">
+		<description>
+			<p>You have your ancestors abilities from swinging around the trees all their lives. You are proficient in the Acrobatics skill.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+		</rules>
+	</element>
+</elements>
