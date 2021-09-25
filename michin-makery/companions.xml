@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.14">
+    <update version="0.0.15">
       <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
       <file name="companions.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/companions.xml" />
     </update>
@@ -440,6 +440,85 @@
   </element>
   <!--#endregion-->
   <!--#endregion-->
-  
+
+  <element name="Sea Guenon" type="Companion" source="Michin Makery" id="ID_MIMA_COMPANION_GUENON">
+    <description>
+      <p>The Sea Guenon is a old monkey race with swim skin between their toes. They are able to swim and breathe underwater unlike other Guenon or monkeys. They love shiny things and are most likely thiefs.</p>
+    </description>
+    <setters>
+      <set name="strength">10</set>
+      <set name="dexterity">16</set>
+      <set name="constitution">11</set>
+      <set name="intelligence">10</set>
+      <set name="wisdom">10</set>
+      <set name="charisma">14</set>
+      <set name="ac">13</set>
+      <set name="hp">3 (1d6)</set>
+      <set name="speed">30 ft., climb 30 ft., swim 30 ft.</set>
+      <set name="languages">Aquan</set>
+      <set name="skills">Acrobatics +5, Perception +3, Sleight of Hand +5, Stealth +5</set>
+      <set name="type">Beast</set>
+      <set name="size">Small</set>
+      <set name="alignment">unaligned</set>
+      <set name="challenge">1/4</set>
+      <set name="traits">ID_MIMA_COMPANION_TRAIT_GUENON_AMPHIBIOUS,ID_MIMA_COMPANION_TRAIT_GUENON_GRAB_AND_GO</set>
+      <set name="actions">ID_MIMA_COMPANION_TRAIT_GUENON_MULTIATTACK,ID_MIMA_COMPANION_TRAIT_GUENON_GRAB,ID_MIMA_COMPANION_TRAIT_GUENON_BITE,ID_MIMA_COMPANION_TRAIT_GUENON_SLAM</set>
+    </setters>
+    <rules>
+      <stat name="companion:ac" value="13" />
+      <stat name="companion:hp:max" value="3" bonus="base" />
+      <stat name="companion:speed" value="30" bonus="base" />
+      <stat name="companion:speed:climb" value="30" bonus="base" />
+      <stat name="companion:speed:swim" value="30" bonus="base" />
+    </rules>
+  </element>
+  <element name="Amphibious" type="Companion Trait" source="Michin Makery" id="ID_MIMA_COMPANION_TRAIT_GUENON_AMPHIBIOUS">
+    <description>
+      <p>The monkeys can breathe air or water.</p>
+    </description>
+    <sheet>
+      <description>The monkeys can breathe air or water.</description>
+    </sheet>
+  </element>
+  <element name="Grab and Go" type="Companion Trait" source="Michin Makery" id="ID_MIMA_COMPANION_TRAIT_GUENON_GRAB_AND_GO">
+    <description>
+      <p>If the Sea Guenon uses its Grab action, it may use a bonus action to both Disengage and Dash.</p>
+    </description>
+    <sheet>
+      <description>If the Sea Guenon uses its Grab action, it may use a bonus action to both Disengage and Dash.</description>
+    </sheet>
+  </element>
+  <element name="Multiattack" type="Companion Action" source="Michin Makery" id="ID_MIMA_COMPANION_TRAIT_GUENON_MULTIATTACK">
+    <description>
+      <p>The monkey may make two slam attacks or a slam and a bite attack.</p>
+    </description>
+    <sheet>
+      <description>The monkey may make two slam attacks or a slam and a bite attack.</description>
+    </sheet>
+  </element>
+  <element name="Grab" type="Companion Action" source="Michin Makery" id="ID_MIMA_COMPANION_TRAIT_GUENON_GRAB">
+    <description>
+      <p>The Guenon uses Sleight of Hand to grab an object. If the object is worn by another creature, the creature may make a contested Dexterity check to retain the object if the creature notices the robery. To do so, the creature may make a contested check using Dexterity to retain the object.</p>
+    </description>
+    <sheet>
+      <description>The Guenon uses Sleight of Hand to grab an object. If the object is worn by another creature, the creature may make a contested Dexterity check to retain the object if the creature notices the robery. To do so, the creature may make a contested check using either Dexterity to retain the object.</description>
+    </sheet>
+  </element>
+  <element name="Bite" type="Companion Action" source="Michin Makery" id="ID_MIMA_COMPANION_TRAIT_GUENON_BITE">
+    <description>
+      <p>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</p>
+    </description>
+    <sheet>
+      <description>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</description>
+    </sheet>
+  </element>
+  <element name="Slam" type="Companion Action" source="Michin Makery" id="ID_MIMA_COMPANION_TRAIT_GUENON_SLAM">
+    <description>
+      <p>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.</p>
+    </description>
+    <sheet>
+      <description>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.</description>
+    </sheet>
+  </element>
 
 </elements>
