@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <update version="0.0.1">
+      <file name="items.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/items.xml" />
+    </update>
+  </info>
+
+  <element name="Rope Dart" type="Weapon" source="bfreeman" id="ID_BFM_ROPE_DART">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+    <description>
+      <p>The rope dart consists of a piercing blade affixed to the end of a length of rope. The rope can be swung around the body, using the arms and legs as pivot points to build momentum. As the rope unwinds, the blade can be flung at nearby foes.</p>
+      <div element="ID_BFM_WEAPON_PROPERTY_SPECIAL_ROPE_DART" />
+    </description>
+    <setters>
+      <set name="category">Weapons</set>
+      <set name="cost" currency="gp">15</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="slot">twohand</set>
+      <set name="range">15(reach)</set>
+      <set name="damage" type="piercing">1d6</set>
+      <set name="proficiency">ID_BFM_PROFICIENCY_WEAPON_PROFICIENCY_ROPE_DART</set>
+    </setters>
+  </element>
+  <element name="Special (Rope Dart)" type="Weapon Property" source="bfreeman" id="ID_BFM_WEAPON_PROPERTY_SPECIAL_ROPE_DART">
+    <description>
+      <p>You have disadvantage when you use the rope dart to attack a target within 5 feet of you. As a bonus action, you may coil the rope and use this weapon as a dagger with the two-handed property and lacking the thrown property or uncoil the rope and resume its normal use. Additionally, the rope dart can be used as a monk weapon.</p>
+    </description>
+  </element>
+  <element name="Weapon Proficiency (Rope Dart)" type="Proficiency" source="bfreeman" id="ID_BFM_PROFICIENCY_WEAPON_PROFICIENCY_ROPE_DART">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
+  </element>
+  <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+    <rules>
+      <grant type="Proficiency" id="ID_BFM_PROFICIENCY_WEAPON_PROFICIENCY_ROPE_DART" />
+    </rules>
+  </append>
+</elements>

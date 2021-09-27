@@ -3,7 +3,7 @@
 	<info>
 		<name>Michin Makery</name>
 		<description>The content from various sources implemented.</description>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="michin-makery-others.index" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others.index" />
 		</update>
 	</info>
@@ -23,6 +23,7 @@
     <file name="class-pirate.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/class-pirate.xml" />
     
     <!-- items -->
+    <file name="items.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/items.xml" />
     <file name="items-missing.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/items-missing.xml" />
     <file name="items-tomb-of-annihilation.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/items-tomb-of-annihilation.xml" />
     <file name="items-mmic.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/items-mmic.xml" />
