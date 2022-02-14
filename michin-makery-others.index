@@ -3,7 +3,7 @@
 	<info>
 		<name>Michin Makery</name>
 		<description>The content from various sources implemented.</description>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="michin-makery-others.index" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others.index" />
 		</update>
 	</info>
