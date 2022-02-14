@@ -23,7 +23,7 @@
     <file name="class-pirate.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/class-pirate.xml" />
     
     <!-- subclasses -->
-    <file name="paladin-shadows" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/paladin-shadows.xml" />
+    <file name="paladin-shadows.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/paladin-shadows.xml" />
     
     <!-- items -->
     <file name="items.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/items.xml" />
