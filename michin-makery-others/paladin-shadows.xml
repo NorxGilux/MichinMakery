@@ -8,7 +8,7 @@
       <file name="paladin-shadows.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/paladin-shadows.xml" />
     </update>
   </info>
-  <element name="Oath of the Shadows" type="Archetype" source="DnD Unleashed" id="ID_DNDU_ARCHETYPE_PALADIN_OATH_OF_THE_SHADOWS">
+  <element name="Oath of Shadows" type="Archetype" source="DnD Unleashed" id="ID_DNDU_ARCHETYPE_PALADIN_OATH_OF_THE_SHADOWS">
     <supports>Sacred Oath</supports>
     <description>
       <p>The Oath of Shadows is a secretive code, sworn by those paladins who realize that they cannot do what they must by the light of day. They take to the night and shadows, cloaking themselves in power drawn from the shadowfell turning the darkness against their foes. Some are selfish blackguards seeking personal wealth, while others are vigilante heroes seeking to root out evil that is normally shielded by the law.</p>
