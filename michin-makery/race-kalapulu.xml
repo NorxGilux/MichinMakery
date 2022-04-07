@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.4">
+    <update version="0.0.5">
       <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
       <file name="race-kalapulu.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery/race-kalapulu.xml" />
     </update>
@@ -28,7 +28,7 @@
       <span class="feature">Age.</span>Kalapulu reach maturity at an age of 13. They can life 60 to 80 years.<br />
       <span class="feature">Alignment.</span>Kalapulu tend to be lawful or neutral and are always good.<br />
       <span class="feature">Size.</span>Kalapulu are between 3 and 4 feet tall and average about 42 pounds. Their size is medium.<br />
-      <span class="feature">Speed.</span>Your base walking, climbing and swimming speed is 25 feet.<br />
+      <span class="feature">Speed.</span>Your base walking, climbing and swimming speed is 30 feet.<br />
       <span class="feature">Aquatic Lifestyle.</span>You can breathe underwater.<br />
       <span class="feature">Partial Photosynthesis.</span>Your plant-based body allows you to skip up to two meals per day depending on the sunlight. Being in bright sunlight allows you to regenerate hit points equal to your proficiency bonus + constitution modifier every hour.<br />
       <span class="feature">Natural Weapon (Tendrils).</span>You can use your tendrils as natural weapons with 5 feet range and reach (10 feet). They deal 1d4 + your strength modifier bludgeoning damage. You are proficient with those attacks and use strength as your attack ability.<br />
