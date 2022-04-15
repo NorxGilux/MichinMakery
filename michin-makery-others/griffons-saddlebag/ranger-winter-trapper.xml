@@ -4,7 +4,7 @@
     <name>Winter Trapper</name>
     <author url="https://www.thegriffonssaddlebag.com">Griffon's Saddlebag</author>
     <update version="0.1">
-      <file name="ranger-winter-trapper.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/griffons-saddlebag/ranger-winter-trapper.xml" />
+      <file name="ranger-winter-trapper.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/master/michin-makery-others/griffons-saddlebag/ranger-winter-trapper.xml" />
     </update>
   </info>
   <element name="Winter Trapper" type="Archetype" source="Griffon's Saddlebag" id="ID_GSB_ARCHETYPE_RANGER_WINTER_TRAPPER">

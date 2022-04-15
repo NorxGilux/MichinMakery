@@ -2,7 +2,7 @@
 <elements>
   <info>
     <update version="0.0.3">
-      <file name="class-pirate.xml" url="https://raw.githubusercontent.com/NorxGilux/MichinMakery/master/michin-makery-others/class-pirate.xml" />
+      <file name="class-pirate.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/master/michin-makery-others/class-pirate.xml" />
     </update>
   </info>
   <element name="Pirate" type="Class" source="Unknown" id="ID_UNK_CLASS_PIRATE">
