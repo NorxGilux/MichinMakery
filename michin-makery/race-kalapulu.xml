@@ -2,7 +2,7 @@
 <elements>
   <info>
     <update version="0.0.5">
-      <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
+      <author url="https://github.com/rireih/MichinMakery">Michin Makery</author>
       <file name="race-kalapulu.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/master/michin-makery/race-kalapulu.xml" />
     </update>
   </info>
@@ -14,19 +14,18 @@
     <h4>Physical Description</h4>
     <p>Kalapulu appear like wooden reptile humanoids with mushrooms sometimes growing out their bodies. Their hair look like tendrils.</p>
     <h4>History</h4>
-    <p>Their are no historical source written so far. There was once a group of adventurers who found those creatures.</p>
+    <p>Their are no historical source written so far. There was once a group of adventurers who found those creatures by using a portal into unknown territory.</p>
     <h4>Society</h4>
     <p>Kalapulu are always pacifistic, instead of fighting they enlight a peace pipe to settle the anger. They do not eat any kind of meat or animal products.</p>
     <h4>Personality</h4>
     <p>Those creatures are very chilled most of the time, if not they change it with verious methodes. They refuse to fight most of the time and love to create a good mood within the group or community they live in.</p>
     <h4>Kalapulu Names</h4>
-    <p>Kalapulu are named after any kind of plants or fungs they are most realated to.</p>
+    <p>Kalapulu are named after any kind of plants or fungs they are most related to.</p>
     <h4>Kalapulu Traits</h4>
     <p>Chilled pacifistic visionary creatures.</p>
     <p>
-      <span class="feature">Ability Score Increase.</span>Your Ability score increases by 2.<br />
+      <span class="feature">Ability Score Increase.</span>Increase one score by 2, or you increase two different scores by 1.<br />
       <span class="feature">Age.</span>Kalapulu reach maturity at an age of 13. They can life 60 to 80 years.<br />
-      <span class="feature">Alignment.</span>Kalapulu tend to be lawful or neutral and are always good.<br />
       <span class="feature">Size.</span>Kalapulu are between 3 and 4 feet tall and average about 42 pounds. Their size is medium.<br />
       <span class="feature">Speed.</span>Your base walking, climbing and swimming speed is 30 feet.<br />
       <span class="feature">Aquatic Lifestyle.</span>You can breathe underwater.<br />

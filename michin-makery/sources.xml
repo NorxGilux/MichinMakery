@@ -12,7 +12,7 @@
 		<setters>
 			<set name="abbreviation">MIMA</set>
 			<set name="url">https://github.com/rireih/MichinMakery</set>
-			<set name="author" url="https://github.com/NorxGilux">Norx Gilux</set>
+			<set name="author" url="https://github.com/rireih">Norx Gilux</set>
 			<set name="homebrew">true</set>
 		</setters>
 	</element>

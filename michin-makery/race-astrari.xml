@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.4">
-      <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
+    <update version="0.0.5">
+      <author url="https://github.com/rireih/MichinMakery">Michin Makery</author>
       <file name="race-astrari.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/master/michin-makery/race-astrari.xml" />
     </update>
   </info>
 
   <element name="Astrari" type="Race" source="Michin Makery" id="ID_MIMA_RACE_ASTRARI">
     <description>
-      <p class="flavor">Descendants of Night and Moon.</p>
+      <p class="flavor">Descendants of Night and Moon</p>
       <p>A little soul drifting thru the night. The sky full of stars, not a single cloud but also no moon. The path splits. A path of light and a path of darkness. On both paths standing a beautiful feminine silhouette waiting for the soul to decide, promising to give it a new life and new powers. Deciding for one has no return to the other.</p>
       <h4>Physical Description</h4>
       <p>An Astrari looks like an elvish human with the beauty of a feminine Drow. They are considered one of the most beautiful beings known. They have pale skin and mostly a gracile body type. Just by looking, an uninformed one can not say if an Astrari is biologically male or female. They are all quite feminine and similar beautiful.</p>
@@ -98,7 +98,7 @@
       <p>Selûnite Astrari are mostly chaotic good. They got a very slightly glow of moon light on their skin. Their eyes are white during the day becoming more and more silver at night peaking at midnight. Selûnite's hair is always silver-white.</p>
       <p>
         <span class="feature">Resistance of Light.</span>You gain resistance to radiant damage.<br />
-        <span class="feature">Shining Star.</span>You learn the <em>Shining Star</em> cantrip<br />
+        <span class="feature">Shining Star.</span>You learn the <em>Shining Star</em> cantrip.<br />
       </p>
         <div class="reference">
           <div element="ID_MIMA_SPELL_SHINING_STAR" />
@@ -116,7 +116,7 @@
       <p>Sharran Astrari are mostly neutral evil. They got a very slightly greyish tone to their skin. Their eyes are darkgrey during the day becoming more and more black at night peaking at midnight. Sharran's hair is always raven-black.</p>
       <p>
         <span class="feature">Resistance of Shadows.</span>You gain resistance to necrotic damage.<br />
-        <span class="feature">Shining Star.</span>You learn the <em>Darken Star</em> cantrip<br />
+        <span class="feature">Darken Star.</span>You learn the <em>Darken Star</em> cantrip.<br />
       </p>
         <div class="reference">
           <div element="ID_MIMA_SPELL_DARKEN_STAR" />

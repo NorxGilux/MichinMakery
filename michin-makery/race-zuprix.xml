@@ -2,15 +2,15 @@
 <elements>
   <info>
     <update version="0.0.6">
-      <author url="https://github.com/NorxGilux/Michin_Makery">Michin Makery</author>
+      <author url="https://github.com/rireih/MichinMakery">Michin Makery</author>
       <file name="race-zuprix.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/master/michin-makery/race-zuprix.xml" />
     </update>
   </info>
 
   <element name="Zuprix" type="Race" source="Michin Makery" id="ID_MIMA_RACE_ZUPRIX">
     <description>
-      <p class="flavor">Versatile arcane creatures created to protect something precious.</p>
-      <p>Ciron stared at the other kids playing without him. For outsiders it looks like he is sad that he is not allowed to play with him but actually he is happy about it because he doesn’t want to play with them for a reason. Just by sitting outside he can protect his friend even better from anything. Recently, children in this tiny town get missing and never come back. Due to that the mighty Lomar created Ciron to protect his child. Lomar was once a sage of the Nai’Lo family, a noble high elf family, and had a secret project of creating Zuprix together with a mysterious man called Cephalon and some other wizards. </p>
+      <p class="flavor">Versatile arcane creatures created to protect something precious</p>
+      <p>Ciron stared at the other kids playing without him. For outsiders it looks like he is sad that he is not allowed to play with him but actually he is happy about it because he doesn’t want to play with them for a reason. Just by sitting outside he can protect his friend even better from anything. Recently, children in this tiny town get missing and never come back. Due to that the mighty Lomar created Ciron to protect his child. Lomar was once a sage of the Nai’Lo family, a noble high elf family, and had a secret project of creating Zuprix together with a mysterious man called Cephalon and some other wizards.</p>
       <h4>Physical Description</h4>
       <p>Zuprix can look like any other race, tribe, folk or being that exist. The only difference is, they got some runic tattoos.</p>
       <h4>History</h4>
@@ -20,19 +20,16 @@
       <h4>Personality</h4>
       <p>Zuprix life to protect one specific object, creature or even a person. They do everything to not let anything evil close to that. Stealing or kidnapping those precious makes them outrageous and dangerous. They sometimes seem mentally absent. Therefore, it’s been told that Zuprix got no soul. In their early year, they adapt behaviors and manners of the people surrounding them like a usual child.</p>
       <h4>Zuprix Names</h4>
-      <p>
-        Zuprix are usually named by their creators but don’t have to be. They can have any kind of names even a number.
-      </p>
+      <p>Zuprix are usually named by their creators but don’t have to be. They can have any kind of names even a number.</p>
       <h4>Zuprix Traits</h4>
       <p>Beings created from arcane energy.</p>
       <p>
         <span class="feature">Ability Score Increase.</span>You got 3 points to spent on any Ability Score in any combination.<br />
         <span class="feature">Age.</span>Zuprix don’t mature and age in the same way that other races do. They potentially live as long as the precious they are protecting sometimes longer. Maybe even an eternity.<br />
-        <span class="feature">Alignment.</span>Usually Zuprix tend towards a neutral alignment. But depending on their creators and their quest it may change in any direction.<br />
         <span class="feature">Size.</span>Any one of Tiny, Small, Medium, Large.<br />
         <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br />
         <span class="feature">Darkvision.</span>Due to your origin in the arcane you are able to see in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.<br />
-        <span class="feature">Versatile at Birth.</span>Since you are created by the imagination of your creator, you may have natural weapons like Bite or Claws dealing 1d4 (or 1d8 for the second improvement on the same natural weapon) slashing or piercing damage. You can choose to use your Strength or Dexterity modifier for these attacks. Additionally, you may have wings, a cloud or anything that fits to fly and/or be able to swim at a speed of 30 feet. To be able to fly, you can’t be wearing medium or heavy armor. You can also just choose a proficiency or language you like. You can choose this feature up to four times, reducing the points available for your Ability Score Increase by 1 each time after the first (up to 3 times for natural weapons).<br />
+        <span class="feature">Versatile at Birth.</span>Since you are created by the imagination of your creator, you may have natural weapons like Bite and/or Claws dealing 1d4 (or 1d8 for the second improvement on the same natural weapon) slashing or piercing damage. You can choose to use your Strength or Dexterity modifier for these attacks. Additionally, you may have wings, a cloud or anything that fits to fly and/or be able to swim at a speed of 30 feet. To be able to fly, you can’t be wearing medium or heavy armor. You can also just choose a proficiency or language you like. You can choose this feature up to four times, reducing the points available for your Ability Score Increase by 1 each time after the first (up to 3 times for natural weapons).<br />
         <span class="feature">Bound by Nature.</span>Your whole life is given to you to protect something precious. You are bound to an object or a creature to protect it from harm and/or fulfill a quest relating to it. While this precious is not destroyed or dead you come back to life 3 days after you died. You reappear next to this precious. This feature also allows you to regrow parts of your body by the same speed.<br />
         <span class="feature">Ever Active Mind.</span>Zuprix don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you restore the arcane energy within you. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.<br />
         <span class="feature">Languages.</span>You can speak, read and write in Common and Primordial.<br />
