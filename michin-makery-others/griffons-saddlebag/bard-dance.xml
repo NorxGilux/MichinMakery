@@ -4,7 +4,7 @@
     <name>College of Dance</name>
     <author url="https://www.thegriffonssaddlebag.com">Griffon's Saddlebag</author>
     <update version="0.1">
-      <file name="bard-dance.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/master/michin-makery-others/griffons-saddlebag/bard-dance.xml" />
+      <file name="bard-dance.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/griffons-saddlebag/bard-dance.xml" />
     </update>
   </info>
   <element name="College of Dance" type="Archetype" source="Griffon's Saddlebag" id="ID_GSB_ARCHETYPE_BARD_COLLEGE_OF_DANCE">

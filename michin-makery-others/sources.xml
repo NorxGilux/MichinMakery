@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.11">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/master/michin-makery-others/sources.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/sources.xml" />
 		</update>
 	</info>
 	<element name="dandwiki" type="Source" source="dandwiki" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_DNDW">

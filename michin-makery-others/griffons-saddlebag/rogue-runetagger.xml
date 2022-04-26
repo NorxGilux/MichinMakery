@@ -4,7 +4,7 @@
     <name>Runetagger</name>
     <author url="https://www.thegriffonssaddlebag.com">Griffon's Saddlebag</author>
     <update version="0.1">
-      <file name="rogue-runetagger.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/master/michin-makery-others/griffons-saddlebag/rogue-runetagger.xml" />
+      <file name="rogue-runetagger.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/griffons-saddlebag/rogue-runetagger.xml" />
     </update>
   </info>
   <element name="Runetagger" type="Archetype" source="Griffon's Saddlebag" id="ID_GSB_ARCHETYPE_ROGUE_RUNETAGGER">

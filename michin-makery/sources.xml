@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.3">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/master/michin-makery/sources.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery/sources.xml" />
 		</update>
 	</info>
 	<element name="Michin Makery" type="Source" source="Michin Makery" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY">

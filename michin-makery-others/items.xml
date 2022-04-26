@@ -2,7 +2,7 @@
 <elements>
   <info>
     <update version="0.0.1">
-      <file name="items.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/master/michin-makery-others/items.xml" />
+      <file name="items.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/items.xml" />
     </update>
   </info>
 
