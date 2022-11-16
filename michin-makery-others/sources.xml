@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.12">
+		<update version="0.0.13">
 			<file name="sources.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/sources.xml" />
 		</update>
 	</info>
@@ -145,6 +145,17 @@
       <set name="abbreviation">HDW</set>
       <set name="url">https://www.patreon.com/humpswares</set>
       <set name="author" url="">HDW</set>
+      <set name="homebrew">true</set>
+    </setters>
+  </element>
+  <element name="Tray Cool" type="Source" source="Tray Cool" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_TRAY_COOL">
+    <description>
+      <![CDATA[<p></p>]]>
+    </description>
+    <setters>
+      <set name="abbreviation">TC</set>
+      <set name="url">https://www.pinterest.de/coolrooster0077/</set>
+      <set name="author" url="">TC</set>
       <set name="homebrew">true</set>
     </setters>
   </element>

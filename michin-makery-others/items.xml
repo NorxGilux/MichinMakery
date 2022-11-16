@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="items.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/items.xml" />
     </update>
   </info>
@@ -35,4 +35,25 @@
       <grant type="Proficiency" id="ID_BFM_PROFICIENCY_WEAPON_PROFICIENCY_ROPE_DART" />
     </rules>
   </append>
+
+  <element name="Dragon's Breath Amulet" type="Magic Item" source="Tray Cool" id="ID_TC_DRAGONS_BREATH_AMULET">
+    <description>
+      <p>
+        While attuned to this amulet, the wearer can cast <em>Dragon's Breath</em> up to three times per long rest.
+      </p>
+      <div element="ID_XGTE_SPELL_DRAGONS_BREATH" />
+    </description>
+    <setters>
+      <set name="keywords">dragons, breath</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+    </setters>
+    <rules>
+      <grant type="Spell" id="ID_XGTE_SPELL_DRAGONS_BREATH" />
+    </rules>
+  </element>
 </elements>
