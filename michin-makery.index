@@ -3,7 +3,7 @@
 	<info>
 		<name>Michin Makery</name>
 		<description>The content from the Michin Makery.</description>
-		<update version="0.0.17">
+		<update version="0.0.18">
 			<file name="michin-makery.index" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery.index" />
 		</update>
 	</info>
@@ -25,6 +25,7 @@
 
     <!-- archetypes -->
 		<file name="warlock-lunar-goddess.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery/warlock-lunar-goddess.xml" />
+		<file name="warlock-caligo-goddess.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery/warlock-caligo-goddess.xml" />
     
     <!-- features -->
     <file name="warlock-pact-of-the-stone.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery/warlock-pact-of-the-stone.xml" />
