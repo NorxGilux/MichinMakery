@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <update version="0.0.1">
+      <author url="https://blackbandos-homebrew.fandom.com/wiki/The_Specter_(5e_Warlock_Archetype)">Blackbandos</author>
+      <file name="warlock-specter.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/warlock-specter.xml" />
+    </update>
+  </info>
+
+  <element name="The Specter" type="Archetype" source="Blackbandos" id="ID_WARLOCK_ARCHETYPE_SPECTER">
+    <supports>Otherworldly Patron</supports>
+    <description>
+      <p>Your pact has been made with a powerful incorporeal spirit, one that is far more mighty than the average ghost. Your patron may have granted you your powers through a normal pact, imbuing you with its power, or it may have directly possessed you, using your body as a tool for whatever purposes it deems worthy.</p>
+      <div element="ID_WARLOCK_ARCHETYPE_SPECTER_EXPANDED_SPELL_LIST" />
+      <div element="ID_WARLOCK_ARCHETYPE_SPECTER_OCCUPIED_BODY" />
+      <div element="ID_WARLOCK_ARCHETYPE_SPECTER_DEAD_KNOWLEDGE" />
+      <div element="ID_WARLOCK_ARCHETYPE_SPECTER_GHOSTWALKING" />
+      <div element="ID_WARLOCK_ARCHETYPE_SPECTER_SPECTRAL_DEFENSE" />
+      <div element="ID_WARLOCK_ARCHETYPE_SPECTER_POSSESS" />
+    </description>
+    <sheet display="false">
+      <description>Your patron is a ghostly specter.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WARLOCK_ARCHETYPE_SPECTER_EXPANDED_SPELL_LIST" level="1" />
+      <grant type="Archetype Feature" id="ID_WARLOCK_ARCHETYPE_SPECTER_OCCUPIED_BODY" level="1" />
+      <grant type="Archetype Feature" id="ID_WARLOCK_ARCHETYPE_SPECTER_DEAD_KNOWLEDGE" level="1" />
+      <grant type="Archetype Feature" id="ID_WARLOCK_ARCHETYPE_SPECTER_GHOSTWALKING" level="6" />
+      <grant type="Archetype Feature" id="ID_WARLOCK_ARCHETYPE_SPECTER_SPECTRAL_DEFENSE" level="10" />
+      <grant type="Archetype Feature" id="ID_WARLOCK_ARCHETYPE_SPECTER_POSSESS" level="14" />
+    </rules>
+  </element>
+  <element name="Expanded Spell List" type="Archetype Feature" source="Blackbandos" id="ID_WARLOCK_ARCHETYPE_SPECTER_EXPANDED_SPELL_LIST">
+    <description>
+      <p>The Specter lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+      <h5 class="caption">LUNAR GODDESS EXPANDED SPELLS</h5>
+      <table>
+        <thead>
+          <tr>
+            <td>Spell Level</td>
+            <td>Spells</td>
+          </tr>
+        </thead>
+        <tr>
+          <td>1st</td>
+          <td>
+            <em>command, dissonant whispers</em>
+          </td>
+        </tr>
+        <tr>
+          <td>2nd</td>
+          <td>
+            <em>pass without trace, phantasmal force</em>
+          </td>
+        </tr>
+        <tr>
+          <td>3rd</td>
+          <td>
+            <em>feign death, phantom steed</em>
+          </td>
+        </tr>
+        <tr>
+          <td>4th</td>
+          <td>
+            <em>death ward, phantasmal killer</em>
+          </td>
+        </tr>
+        <tr>
+          <td>5th</td>
+          <td>
+            <em>antilife shell, telekinesis</em>
+          </td>
+        </tr>
+      </table>
+    </description>
+    <sheet display="false">
+      <description>The Specter lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</description>
+    </sheet>
+    <spellcasting name="Warlock" extend="true">
+      <extend>ID_PHB_SPELL_COMMAND</extend>
+      <extend>ID_PHB_SPELL_DISSONANT_WHISPERS</extend>
+      <extend>ID_PHB_SPELL_PASS_WITHOUT_TRACE</extend>
+      <extend>ID_PHB_SPELL_PHANTASMAL_FORCE</extend>
+      <extend>ID_PHB_SPELL_FEIGN_DEATH</extend>
+      <extend>ID_PHB_SPELL_PHANTOM_STEED</extend>
+      <extend>ID_PHB_SPELL_DEATH_WARD</extend>
+      <extend>ID_PHB_SPELL_PHANTASMAL_KILLER</extend>
+      <extend>ID_PHB_SPELL_ANTILIFE_SHELL</extend>
+      <extend>ID_PHB_SPELL_TELEKINESIS</extend>
+    </spellcasting>
+  </element>
+  <element name="Occupied Body" type="Archetype Feature" source="Blackbandos" id="ID_WARLOCK_ARCHETYPE_SPECTER_OCCUPIED_BODY">
+    <description>
+      <p>When you choose this patron, at 1st level, your body is already permanently occupied by your patron's spirit. You are immune to being possessed, and spells or other magical effects that would detect possession treat you as being possessed.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>your body is already permanently occupied by your patron's spirit. You are immune to being possessed, and spells or other magical effects that would detect possession treat you as being possessed.</p>
+      </description>
+    </sheet>
+  </element>
+  <element name="Dead Knowledge" type="Archetype Feature" source="Blackbandos" id="ID_WARLOCK_ARCHETYPE_SPECTER_DEAD_KNOWLEDGE">
+    <description>
+      <p>Also, at 1st level, your patron lets you take on its ancient knowledge, temporarily. When you finish a short or long rest, you can gain proficiency in one of the following skills of your choice, until your next short or long rest: Arcana, History, Nature, or Religion.</p>
+      <p class="indent">Alternatively, instead of gaining proficiency in a skill until your next short or long rest, you can learn any one language until your next short or long rest.</p>
+    </description>
+    <sheet>
+      <description>
+        When you finish a short or long rest, you can gain proficiency in one of the following skills of your choice, until your next short or long rest: Arcana, History, Nature, or Religion. Alternatively, instead of gaining proficiency in a skill until your next short or long rest, you can learn any one language until your next short or long rest.
+      </description>
+    </sheet>
+  </element>
+  <element name="Ghostwalking" type="Archetype Feature" source="Blackbandos" id="ID_WARLOCK_ARCHETYPE_SPECTER_GHOSTWALKING">
+    <description>
+      <p>By 6th level, you can temporarily phase parts of yourself out of the physical world, like your patron. As a bonus action, you can become ethereal until the end of your current turn. While ethereal, the following rules apply:</p>
+      <ul>
+        <li>You can move through objects and creatures as if they were difficult terrain.</li>
+        <li>If you end your turn inside an object, you are immediately shunted to the nearest unoccupied space, and take force damage equal to twice the amount of feet you were moved.</li>
+      </ul>
+      <p class="indent">You can use this feature a number of times equal to your Charisma modifier (a minimum of once) and regain all expended uses after a short or long rest.</p>
+    </description>
+    <sheet usage="{{charisma:modifier}}/Short Rest">
+      <description>
+        <p>As a bonus action, you can become ethereal until the end of your current turn. While ethereal, the following rules apply: - You can move through objects and creatures as if they were difficult terrain. - If you end your turn inside an object, you are immediately shunted to the nearest unoccupied space, and take force damage equal to twice the amount of feet you were moved.</p>
+      </description>
+    </sheet>
+  </element>
+  <element name="Spectral Defense" type="Archetype Feature" source="Blackbandos" id="ID_WARLOCK_ARCHETYPE_SPECTER_SPECTRAL_DEFENSE">
+    <description>
+      <p>Beginning at 10th level, the ghastly power of your patron grants you the defenses of etherealness. You reduce all nonmagical bludgeoning, piercing, and slashing damage dealt to you by an amount equal to your Charisma modifier (a minimum of 1).</p>
+    </description>
+    <sheet usage="1/Short Rest">
+      <description>
+        <p>You reduce all nonmagical bludgeoning, piercing, and slashing damage dealt to you by an amount equal to {{charisma:modifier}} (a minimum of 1).</p>
+      </description>
+    </sheet>
+  </element>
+  <element name="Ghostwalking" type="Archetype Feature" source="Blackbandos" id="ID_WARLOCK_ARCHETYPE_SPECTER_GHOSTWALKING">
+    <description>
+      <p>By 6th level, you can temporarily phase parts of yourself out of the physical world, like your patron. As a bonus action, you can become ethereal until the end of your current turn. While ethereal, the following rules apply:</p>
+      <ul>
+        <li>You can move through objects and creatures as if they were difficult terrain.</li>
+        <li>If you end your turn inside an object, you are immediately shunted to the nearest unoccupied space, and take force damage equal to twice the amount of feet you were moved.</li>
+      </ul>
+      <p class="indent">You can use this feature a number of times equal to your Charisma modifier (a minimum of once) and regain all expended uses after a short or long rest.</p>
+    </description>
+    <sheet usage="{{charisma:modifier}}/Short Rest">
+      <description>
+        <p>As a bonus action, you can become ethereal until the end of your current turn. While ethereal, the following rules apply: - You can move through objects and creatures as if they were difficult terrain. - If you end your turn inside an object, you are immediately shunted to the nearest unoccupied space, and take force damage equal to twice the amount of feet you were moved.</p>
+      </description>
+    </sheet>
+  </element>
+  <element name="Possess" type="Archetype Feature" source="Blackbandos" id="ID_WARLOCK_ARCHETYPE_SPECTER_POSSESS">
+    <description>
+      <p>At 14th level, you can fully change into a spectral form, taking over the body of a creature. As an action, you can cast dominate monster at 8th level without a spell slot on a creature within 5 feet of yourself, with the following changes for the duration of the spell:</p>
+      <ul>
+        <li>The target makes a Charisma saving throw instead of a Wisdom saving throw.</li>
+        <li>You cannot cast any spells.</li>
+        <li>Your body occupies the same space as the target and is not visible, and you are considered as benefiting from full cover. When the spell ends, you are shunted to the nearest unoccupied space you can occupy.</li>
+        <li>You can only experience what the target sees and hears, and can communicate with the host telepathically.</li>
+        <li>You have advantage on Charisma (Deception) checks made to pass off as the creature you are possessing.</li>
+        <li>If the target is reduced to 0 hit points, the spell ends.</li>
+        <li>If the target is targeted with a dispel evil and good spell or similar effect that would end possession, you must succeed on a Charisma saving throw against the caster's spell save DC, or the spell ends.</li>
+      </ul>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_DOMINATE_MONSTER" />
+      </div>
+      <p class="indent">After casting dominate monster in this way, you must take a long rest before doing so, again.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>
+        <p>As an action, you can cast dominate monster at 8th level without a spell slot on a creature within 5 feet of yourself, with the following changes for the duration of the spell: - The target makes a Charisma saving throw instead of a Wisdom saving throw. - You cannot cast any spells. - Your body occupies the same space as the target and is not visible, and you are considered as benefiting from full cover. When the spell ends, you are shunted to the nearest unoccupied space you can occupy. - You can only experience what the target sees and hears, and can communicate with the host telepathically. - You have advantage on Charisma (Deception) checks made to pass off as the creature you are possessing. - If the target is reduced to 0 hit points, the spell ends. - If the target is targeted with a dispel evil and good spell or similar effect that would end possession, you must succeed on a Charisma saving throw against the caster's spell save DC, or the spell ends.</p>
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_DOMINATE_MONSTER" spellcasting="Warlock" />
+    </rules>
+  </element>
+</elements>
