@@ -3,7 +3,7 @@
 	<info>
 		<name>Michin Makery</name>
 		<description>The content from various sources implemented.</description>
-		<update version="0.0.10">
+		<update version="0.0.11">
 			<file name="michin-makery-others.index" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others.index" />
 		</update>
 	</info>
@@ -25,6 +25,7 @@
     
     <!-- subclasses -->
     <file name="paladin-shadows.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/paladin-shadows.xml" />
+    <file name="warlock-specter.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/warlock-specter.xml" />
     
     <!-- items -->
     <file name="items.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/items.xml" />
