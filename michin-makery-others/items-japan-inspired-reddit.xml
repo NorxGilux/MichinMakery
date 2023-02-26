@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Missing Items</name>
+		<author url="https://www.reddit.com/user/Agginmad/">AMRD</author>
+		<update version="0.1">
+			<file name="items-japan-inspired-reddit.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/items-japan-inspired-reddit.xml" />
+		</update>
+	</info>
+  <element name="Demon Hunter Kimono" type="Magic Item" source="Agginmad (reddit)" id="ID_AMRD_DEMON_HUNTER_KIMONO">
+    <description>
+      <p>Years ago, during The Sundering, powerful artifacts were stolen from both devils and angels. Without them, these extra-planar creatures struggle to breach the material plane, securing the mortals within from their unending conflict. The Oniryoshi clan guard the fiendish artifact and enchant their silken vestments to aid in this endeavour.</p>
+      <p class="indent">While wearing this kimono you can, as a bonus action, speak its command words 'repel' or 'hunt' to cause the 'Aversion' or 'Pursuit' properties to activate, respectively.</p>
+      <p class="indent">Aversion. The printed image on your kimono mobilises into an illustration of a fiendish soul burning into nonexistence. Each creature in a 30-foot cone must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. A non-fiend creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. A fiend has disadvantage on this saving throw. If a fiend fails this save, it is afflicted as if by the fear spell for the duration and can only repeat the saving throw if it doesn't have line of sight to you.</p>
+      <p class="indent">Once you use this property, you can't do so again until the following dawn.</p>
+      <p class="indent">Pursuit. When you activate this property as a bonus action, you can teleport up to 30 feet appearing in a space adjacent to a creature that is frightened of you. After you do so roll a d6. On a 1 you can't use this property again until the following dawn.</p>
+    </description>
+    <setters>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
+  <element name="Mask of The Oni" type="Magic Item" source="Agginmad (reddit)" id="ID_AMRD_MASK_OF_THE_ONI">
+    <description>
+      <p>Infiltrating a sect of demon-aligned, shapeshifting ogre-mages is no easy feat. Tomoe Gozen, an agent of the Courteous Cabal, cites such a mask as instrumental in her defeat of the Oniso uprising. The tasks associated with the mask are almost always noble, such is the nature of its forebears.</p>
+      <p class="indent">While you wear this mask you have advantage on Charisma (Intimidation) checks and disadvantage on Charisma (Persuasion) checks. Provided you can hear one another, you can always understand a fiend or giant when it talks, and it can always understand you when you talk, regardless of the languages you share.</p>
+      <p class="indent">Demon's Growth. As an action, you can grow into the form of a Large, red-skinned, golden-clawed demon. You cast the spell enlarge/reduce on yourself, choosing the enlarge option and without requiring material components or concentration. You gain claws, natural weapons that deal slashing damage equal to 1d8 plus you Strength modifier. Once you use this feature, you can't do so again until the following dawn.</p>
+      <p class="indent">Enhanced Attunement. As part of an hour-long ritual you can agree to complete a task set out by the last attuner of this mask. When you do so, the mask fuses onto your face, turning your skin red, your teeth gold, and giving your eyes an ethereal sanguine glow. You can cast the spell disguise self at will, without requiring a spell slot. You can't unattune from the mask until you complete the task set out during the ritual. If you choose to unattune from the mask, you must set a task for the next enhanced attuner to complete.</p>
+    </description>
+    <setters>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+  </element>
+  <element name="Glaive of the Green Tyrant" type="Magic Item" source="Agginmad (reddit)" id="ID_AMRD_GLAIVE_GREEN_TYRANT_RARE">
+    <description>
+      <p>Legend tells of a great warrior queen who, having bested a bronze dragon in a game of wits, sought the ability to wield the power of storms. With this power, she laid waste to entire armies, throwing them back into the ranks of their allies, or burning them with flashes of incandescent lightning. Some called her liberator, others: tyrant. Though defeated by the Hero in Red, some of her power yet remains in the Green Tyrant's ancient glaive.</p>
+      <p class="indent">Summon Storm. With a flourish of the glaive you can expend a bonus action to whip up a tornado - 5-foot-diameter, 30-foot-high cylinder of rushing air and crackling lightning - centred on a point within 60 feet. Each creature that starts its turn in the tornado's space or enters the space for the first time on a turn must make a DC 15 Strength saving throw. On a failure, a creature is thrown 10 feet in a random direction, landing prone, and takes 1d6 bludgeoning and 1d6 lightning damage. Roll a d8 to determine the direction: 1, north; 2, northeast; 3, east; 4, southeast; 5, south; 6, southwest; 7, west; or 8 northwest.</p>
+      <p class="indent">As a bonus action on your turn, you can move the tornado up to 20 feet. Each creature whose space the tornado moves through must succeed on a DC 15 Dexterity saving throw or take 1d6 lightning damage. A creature can't take damage from this effect more than once per turn. Once you use the Summon Storm property, you can't do so again until the following dawn.</p>
+      <p class="indent">Once you use the Summon Storm property, you can't do so again until the following dawn.</p>
+    </description>
+    <setters>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="glaive">Weapon</set>
+      <set name="rarity">Rare</set>
+      <set name="weapon">ID_WOTC_PHB_WEAPON_GLAIVE</set>
+      <set name="attunement">true</set>
+    </setters>
+  </element>  
+  <element name="Glaive of the Green Tyrant" type="Magic Item" source="Agginmad (reddit)" id="ID_AMRD_GLAIVE_GREEN_TYRANT_VERY_RARE">
+    <description>
+      <p>Legend tells of a great warrior queen who, having bested a bronze dragon in a game of wits, sought the ability to wield the power of storms. With this power, she laid waste to entire armies, throwing them back into the ranks of their allies, or burning them with flashes of incandescent lightning. Some called her liberator, others: tyrant. Though defeated by the Hero in Red, some of her power yet remains in the Green Tyrant's ancient glaive.</p>
+      <p class="indent">Summon Storm. With a flourish of the glaive you can expend a bonus action to whip up a tornado - 5-foot-diameter, 30-foot-high cylinder of rushing air and crackling lightning - centred on a point within 60 feet. Each creature that starts its turn in the tornado's space or enters the space for the first time on a turn must make a DC 16 Strength saving throw. On a failure, a creature is thrown 10 feet in a random direction, landing prone, and takes 1d8 bludgeoning and 1d8 lightning damage. Roll a d8 to determine the direction: 1, north; 2, northeast; 3, east; 4, southeast; 5, south; 6, southwest; 7, west; or 8 northwest.</p>
+      <p class="indent">As a bonus action on your turn, you can move the tornado up to 20 feet. Each creature whose space the tornado moves through must succeed on a DC 16 Dexterity saving throw or take 1d8 lightning damage. A creature can't take damage from this effect more than once per turn. Once you use the Summon Storm property, you can't do so again until the following dawn.</p>
+      <p class="indent">Once you use the Summon Storm property, you can't do so again until the following dawn.</p>
+    </description>
+    <setters>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="glaive">Weapon</set>
+      <set name="rarity">Very Rare</set>
+      <set name="weapon">ID_WOTC_PHB_WEAPON_GLAIVE</set>
+      <set name="attunement">true</set>
+    </setters>
+  </element>  
+  <element name="Glaive of the Green Tyrant" type="Magic Item" source="Agginmad (reddit)" id="ID_AMRD_GLAIVE_GREEN_TYRANT_UNCOMMON">
+    <description>
+      <p>Legend tells of a great warrior queen who, having bested a bronze dragon in a game of wits, sought the ability to wield the power of storms. With this power, she laid waste to entire armies, throwing them back into the ranks of their allies, or burning them with flashes of incandescent lightning. Some called her liberator, others: tyrant. Though defeated by the Hero in Red, some of her power yet remains in the Green Tyrant's ancient glaive.</p>
+      <p class="indent">Summon Storm. With a flourish of the glaive you can expend a bonus action to whip up a tornado - 5-foot-diameter, 30-foot-high cylinder of rushing air and crackling lightning - centred on a point within 60 feet. Each creature that starts its turn in the tornado's space or enters the space for the first time on a turn must make a DC 13 Strength saving throw. On a failure, a creature is thrown 10 feet in a random direction, landing prone, and takes 1d4 bludgeoning and 1d4 lightning damage. Roll a d8 to determine the direction: 1, north; 2, northeast; 3, east; 4, southeast; 5, south; 6, southwest; 7, west; or 8 northwest.</p>
+      <p class="indent">As a bonus action on your turn, you can move the tornado up to 20 feet. Each creature whose space the tornado moves through must succeed on a DC 13 Dexterity saving throw or take 1d4 lightning damage. A creature can't take damage from this effect more than once per turn. Once you use the Summon Storm property, you can't do so again until the following dawn.</p>
+      <p class="indent">Once you use the Summon Storm property, you can't do so again until the following dawn.</p>
+    </description>
+    <setters>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="glaive">Weapon</set>
+      <set name="rarity">Uncommon</set>
+      <set name="weapon">ID_WOTC_PHB_WEAPON_GLAIVE</set>
+      <set name="attunement">true</set>
+    </setters>
+  </element>  
+  <element name="Shisui, Water Slasher" type="Magic Item" source="Agginmad (reddit)" id="ID_AMRD_SHISUI_WATER_SLASHER">
+    <description>
+      <p>Masters of movement and manipulators of momentum, the river ronin were protectors of the waterways. Legend says such samurai could control water with their ki, forming it into shields, whips and whirlpools. These blades, known as the shisui, gave the ronin the ability to conjure water to wield in even the driest deserts or most remote mountain tops.</p>
+      <p class="indent">This weapon has 5 charges and regains expended 1d4 + 1 charges daily at dawn. As an action you can expend one charge to create water, as per the create or destroy water spell.</p>
+      <p class="indent">Torrent. Using the Attack action, you can expend one charge to fire a torrent of water from your blade. If you're able to make multiple attacks with the Attack action, this effect replaces one of them. You create a 2-foot-wide, 15-foot-long line of high pressu- re water. Each creature in the area must succeed on a DC 15 Strength saving throw or either be pushed 5 feet back or be knocked prone (your choice).</p>
+      <p class="indent">Jet. As an action, you can spend 2 charges to propel yourself forward in a straight line up to 30 feet long to an unoccupied space you can see. Each creature in a 10-foot-wide line between your origin and your destination must make a DC 15 Dexterity saving throw as high powered jets of water slice into them. A creature takes 4d6 slashing damage on a failed saving throw, or half as much damage on a success.</p>
+    </description>
+    <setters>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="rarity">Rare</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+  </element>  
+  <element name="Onikiri, Demon Cutter" type="Magic Item" source="Agginmad (reddit)" id="ID_AMRD_ONIKIRI_DEMON_CUTTER">
+    <description>
+      <p>Luckily, this time, the samurai were prepared. While lesser samurai cut through the demonic underlings, radiant arcs of energy blossoming out from their onikiri to strike down the hordes of stinking dretches, their sensei calmly locked eyes with the huge, bulbous demon. A circled cleared as both samurai and demonlings subconsciously made space for the impending duel. If the sensei could hold the demon's attention for long enough, the day would be theirs.</p>
+      <p class="indent">This magic weapon has 5 charges and regains expended 1d4 + 1 charges daily at dawn. You can cast the light cantrip on the blade at will.</p>
+      <p class="indent">Radiant Wrath. As a bonus action while holding the blade, you can expend 1 charge to imbue it with crackling radiant energy until the end of your next turn. While imbued, each time you hit a creature with an attack using this blade, it takes an additional 1d8 radiant damage. In addition each fiend within 10 feet of your target must succeed on a DC 15 Dexterity saving throw or take 1d8 radiant damage as crackling, radiant energy arcs out towards it.</p>
+      <p class="indent">Demon Lure. As a bonus action while holding the blade, you can expend 1 charge to draw the attention of one creature you can see within 30 feet of you, forcing it to make a DC 15 Wisdom saving throw. A creature with the fiend type makes this saving throw with disadvantage. On a failure, the creature becomes fixated on you for the next minute giving it disadvantage on attack rolls against creatures other than you. This effect ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target of this effect, or if a creature friendly to you damages the target of this effect.</p>
+    </description>
+    <setters>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="rarity">Rare</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+  </element>
+</elements>

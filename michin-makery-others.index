@@ -3,7 +3,7 @@
 	<info>
 		<name>Michin Makery</name>
 		<description>The content from various sources implemented.</description>
-		<update version="0.0.11">
+		<update version="0.0.12">
 			<file name="michin-makery-others.index" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others.index" />
 		</update>
 	</info>
@@ -32,6 +32,7 @@
     <file name="items-missing.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/items-missing.xml" />
     <file name="items-tomb-of-annihilation.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/items-tomb-of-annihilation.xml" />
     <file name="items-mmic.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/items-mmic.xml" />
+    <file name="items-japan-inspired-reddit.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/items-japan-inspired-reddit.xml" />
     
     <!-- griffons-saddlebag -->
     <file name="barbarian-glacier.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/griffons-saddlebag/barbarian-glacier.xml" />
