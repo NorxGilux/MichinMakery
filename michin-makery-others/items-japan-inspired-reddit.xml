@@ -3,7 +3,7 @@
 	<info>
 		<name>Missing Items</name>
 		<author url="https://www.reddit.com/user/Agginmad/">AMRD</author>
-		<update version="0.1">
+		<update version="0.2">
 			<file name="items-japan-inspired-reddit.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/items-japan-inspired-reddit.xml" />
 		</update>
 	</info>
@@ -52,7 +52,7 @@
       <set name="cost" currency="gp">0</set>
       <set name="type" addition="glaive">Weapon</set>
       <set name="rarity">Rare</set>
-      <set name="weapon">ID_WOTC_PHB_WEAPON_GLAIVE</set>
+      <set name="weapon">Glaive</set>
       <set name="attunement">true</set>
     </setters>
   </element>  
@@ -68,7 +68,7 @@
       <set name="cost" currency="gp">0</set>
       <set name="type" addition="glaive">Weapon</set>
       <set name="rarity">Very Rare</set>
-      <set name="weapon">ID_WOTC_PHB_WEAPON_GLAIVE</set>
+      <set name="weapon">Glaive</set>
       <set name="attunement">true</set>
     </setters>
   </element>  
@@ -84,7 +84,7 @@
       <set name="cost" currency="gp">0</set>
       <set name="type" addition="glaive">Weapon</set>
       <set name="rarity">Uncommon</set>
-      <set name="weapon">ID_WOTC_PHB_WEAPON_GLAIVE</set>
+      <set name="weapon">Glaive</set>
       <set name="attunement">true</set>
     </setters>
   </element>  
