@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.1.9">
+    <update version="0.1.10">
       <author url="https://github.com/rireih/MichinMakery">Michin Makery</author>
       <file name="spells.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery/spells.xml" />
     </update>
@@ -32,7 +32,6 @@
     </setters>
   </element>
   <element name="Curing Moonlight" type="Spell" source="Michin Makery" id="ID_MIMA_CURING_MOONLIGHT">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
     <description>
       <p>
@@ -64,7 +63,6 @@
     </setters>
   </element>
   <element name="Lunar Sphere" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_SPHERE">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
     <description>
       <p>You point at a location within range, and a glowing 1-foot-diameter ball of radiant energy streaks there and explodes in a 20-foot-radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 9d6 radiant or force damage (your choice) damage and cannot become invisible. On a successful save, a creature takes half the damage and can turn invisible.</p>
@@ -94,7 +92,6 @@
     </setters>
   </element>
   <element name="Embracing Moonlight" type="Spell" source="Michin Makery" id="ID_MIMA_EMBRACING_MOONLIGHT">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
     <description>
       <p>You call out to the Moon and infuse a creature with magical moonlight to slightly transform the creature in a guardian of the Moon. The transformation lasts until the spell ends. The creature’s eyes begin to glow, and the hair appears as if made from silver water, and gain the following benefits:  </p>
@@ -125,7 +122,6 @@
     </setters>
   </element>
   <element name="Lunar Beam" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_BEAM">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
     <description>
       <p>You point on a target within range and unleash a lunatic beam to strike it with immense force. The target can be a creature, an object, or a creation of magical force, such as the wall created by wall of force. On hit, the target takes 8d8 radiant or force damage (your choice) and must make a charisma saving throw. On a failed save the next attack against the target has advantage. Alternatively, the next saving throw of the target has disadvantage, whichever situation is first.</p>
@@ -155,7 +151,6 @@
     </setters>
   </element>
   <element name="Lunar Grasp" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_GRASP">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
     <description>
       <p>A shining figure glowing with moonlight appears at your shoulder, and reaches out to a creature within range. The creature must make a Charisma saving throw. If they fail, the grasp cleaves into their soul, inflicting 10d6 radiant or force damage (your choice) damage. If this damage reduces the creature to 30 hit points or fewer, they are instantly slain. If they succeed they receive half damage and do not get executed. Once the attack is made, the figure vanishes. If the target has a natural 20 on its saving throw, it receives no damage. On a natural 1 instead, the damage is doubled.</p>
@@ -185,7 +180,6 @@
     </setters>
   </element>
   <element name="Lunar Cure" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_CURE">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
     <description>
       <p>A wave of healing moonlight washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 4d8 + your spellcasting ability modifier and has advantage on it's next attack. This spell has no effect on constructs.</p>
@@ -215,7 +209,6 @@
     </setters>
   </element>
   <element name="Lunar Vengeance" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_VENGEANCE">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
     <description>
       <p>
@@ -247,7 +240,6 @@
     </setters>
   </element>
   <element name="Lunar Embrace" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_EMBRACE">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
     <description>
       <p>
@@ -308,7 +300,6 @@
     </setters>
   </element>
   <element name="Creeping Darkness" type="Spell" source="Michin Makery" id="ID_MIMA_CREEPING_DARKNESS">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
     <description>
       <p>
@@ -340,7 +331,6 @@
     </setters>
   </element>
   <element name="Caligo Sphere" type="Spell" source="Michin Makery" id="ID_MIMA_CALIGO_SPHERE">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
     <description>
       <p>You point at a location within range, and a shadowy 1-foot-diameter ball of necrotic energy streaks there and explodes in a 20-foot-radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 9d6 negrotic or force damage (your choice) damage. On a successful save, a creature takes half the damage. The sphere leaves it's area of effect with a magical darkness for one round.</p>
@@ -370,7 +360,6 @@
     </setters>
   </element>
   <element name="Embracing Darkness" type="Spell" source="Michin Makery" id="ID_MIMA_EMBRACING_DARKNESS">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
     <description>
       <p>You call out to the dark Night and infuse a creature with magical darkness to slightly transform the creature in a guardian of the Night. The transformation lasts until the spell ends. The creature’s eyes begin to darken, and the hair appears as if made from black water, and gain the following benefits:  </p>
@@ -401,7 +390,6 @@
     </setters>
   </element>
   <element name="Caligo Beam" type="Spell" source="Michin Makery" id="ID_MIMA_CALIGO_BEAM">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
     <description>
       <p>You point on a target within range and unleash a dark beam to strike it with immense force. The target can be a creature, an object, or a creation of magical force, such as the wall created by wall of force. On hit, the target takes 8d8 necrotic or force damage (your choice) and must make a charisma saving throw. On a failed save the next attack against the target has advantage. Alternatively, the next saving throw of the target has disadvantage, whichever situation is first.</p>
@@ -431,7 +419,6 @@
     </setters>
   </element>
   <element name="Caligo Grasp" type="Spell" source="Michin Makery" id="ID_MIMA_CALIGO_GRASP">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
     <description>
       <p>A dark figure emitting shadows appears at your shoulder, and reaches out to a creature within range. The creature must make a Charisma saving throw. If they fail, the grasp cleaves into their soul, inflicting 10d6 necrotic damage. If this damage reduces the creature to 30 hit points or fewer, they are instantly slain. If they succeed they receive half damage and do not get executed. Once the attack is made, the figure vanishes. If the target has a natural 20 on its saving throw, it receives no damage. On a natural 1 instead, the damage is doubled.</p>
@@ -461,7 +448,6 @@
     </setters>
   </element>
   <element name="Caligo Wave" type="Spell" source="Michin Makery" id="ID_MIMA_CALIGO_WAVE">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
     <description>
       <p>A wave of darkness washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target must succeed on a Constitution saving throw or takes negrotic or force damage (your choice) damage equal to 4d8 + your spellcasting ability modifier and has disadvantage on it's next attack. On a successful save, a creature takes only half the damage. This spell has no effect on constructs.</p>
@@ -491,7 +477,6 @@
     </setters>
   </element>
   <element name="Caligo Vengeance" type="Spell" source="Michin Makery" id="ID_MIMA_CALIGO_VENGEANCE">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
     <description>
       <p>
@@ -523,7 +508,6 @@
     </setters>
   </element>
   <element name="Caligo Embrace" type="Spell" source="Michin Makery" id="ID_MIMA_CALIGO_EMBRACE">
-    <supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard, Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
     <description>
       <p>
