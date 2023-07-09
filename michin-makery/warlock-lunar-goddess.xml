@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.1.15">
+    <update version="0.1.16">
       <author url="https://github.com/rireih/MichinMakery">Michin Makery</author>
       <file name="warlock-lunar-goddess.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery/warlock-lunar-goddess.xml" />
     </update>
@@ -76,14 +76,22 @@
       <description>The Lunar Goddess lets you choose from an expanded list of spells when you learn a warlock spell.</description>
     </sheet>
     <spellcasting name="Warlock" extend="true">
-      <extend>LIST_LUNAR_GODDESS</extend>
       <extend>ID_PHB_SPELL_FAERIE_FIRE</extend>
       <extend>ID_PHB_SPELL_CHROMATIC_ORB</extend>
       <extend>ID_PHB_SPELL_MOONBEAM</extend>
       <extend>ID_PHB_SPELL_PHANTASMAL_FORCE</extend>
       <extend>ID_PHB_SPELL_BLINK</extend>
+      <extend>ID_MIMA_CURING_MOONLIGHT</extend>
+      <extend>ID_MIMA_LUNAR_SPHERE</extend>
+      <extend>ID_MIMA_EMBRACING_MOONLIGHT</extend>
+      <extend>ID_MIMA_LUNAR_BEAM</extend>
+      <extend>ID_MIMA_LUNAR_GRASP</extend>
+      <extend>ID_MIMA_LUNAR_CURE</extend>
+      <extend>ID_MIMA_LUNAR_VENGEANCE</extend>
+      <extend>ID_MIMA_LUNAR_EMBRACE</extend>
     </spellcasting>
   </element>
+  
   <element name="Light of the Moon" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_LUNAR_GODDESS_LIGHT_OF_THE_MOON">
     <description>
       <p>Starting at 1st level, you can surround you with moonlight. As a bonus action, you magically wreathe yourself in swirling moonlight. For 1 minute, you gain the following benefits:</p>

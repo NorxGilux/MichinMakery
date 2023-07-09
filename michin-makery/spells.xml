@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.1.10">
+    <update version="0.1.11">
       <author url="https://github.com/rireih/MichinMakery">Michin Makery</author>
       <file name="spells.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery/spells.xml" />
     </update>
@@ -32,7 +32,9 @@
     </setters>
   </element>
   <element name="Curing Moonlight" type="Spell" source="Michin Makery" id="ID_MIMA_CURING_MOONLIGHT">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_LUNAR_GODDESS</requirements>
     <description>
       <p>
         You create drop of liquid moonlight over the targeted creature. The drop lays onto the creature's skin or may enter their body to heal. The target regains hit points equal to 3d8 + your spellcasting ability modifier and has advantage on it's next attack. This spell has no effect on constructs.
@@ -63,7 +65,9 @@
     </setters>
   </element>
   <element name="Lunar Sphere" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_SPHERE">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_LUNAR_GODDESS</requirements>
     <description>
       <p>You point at a location within range, and a glowing 1-foot-diameter ball of radiant energy streaks there and explodes in a 20-foot-radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 9d6 radiant or force damage (your choice) damage and cannot become invisible. On a successful save, a creature takes half the damage and can turn invisible.</p>
       <p class="indent">
@@ -92,7 +96,9 @@
     </setters>
   </element>
   <element name="Embracing Moonlight" type="Spell" source="Michin Makery" id="ID_MIMA_EMBRACING_MOONLIGHT">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_LUNAR_GODDESS</requirements>
     <description>
       <p>You call out to the Moon and infuse a creature with magical moonlight to slightly transform the creature in a guardian of the Moon. The transformation lasts until the spell ends. The creature’s eyes begin to glow, and the hair appears as if made from silver water, and gain the following benefits:  </p>
       <ul>
@@ -122,7 +128,9 @@
     </setters>
   </element>
   <element name="Lunar Beam" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_BEAM">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_LUNAR_GODDESS</requirements>
     <description>
       <p>You point on a target within range and unleash a lunatic beam to strike it with immense force. The target can be a creature, an object, or a creation of magical force, such as the wall created by wall of force. On hit, the target takes 8d8 radiant or force damage (your choice) and must make a charisma saving throw. On a failed save the next attack against the target has advantage. Alternatively, the next saving throw of the target has disadvantage, whichever situation is first.</p>
       <p class="indent">
@@ -151,7 +159,9 @@
     </setters>
   </element>
   <element name="Lunar Grasp" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_GRASP">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_LUNAR_GODDESS</requirements>
     <description>
       <p>A shining figure glowing with moonlight appears at your shoulder, and reaches out to a creature within range. The creature must make a Charisma saving throw. If they fail, the grasp cleaves into their soul, inflicting 10d6 radiant or force damage (your choice) damage. If this damage reduces the creature to 30 hit points or fewer, they are instantly slain. If they succeed they receive half damage and do not get executed. Once the attack is made, the figure vanishes. If the target has a natural 20 on its saving throw, it receives no damage. On a natural 1 instead, the damage is doubled.</p>
       <p class="indent">
@@ -180,7 +190,9 @@
     </setters>
   </element>
   <element name="Lunar Cure" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_CURE">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_LUNAR_GODDESS</requirements>
     <description>
       <p>A wave of healing moonlight washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 4d8 + your spellcasting ability modifier and has advantage on it's next attack. This spell has no effect on constructs.</p>
       <p class="indent">
@@ -209,7 +221,9 @@
     </setters>
   </element>
   <element name="Lunar Vengeance" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_VENGEANCE">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_LUNAR_GODDESS</requirements>
     <description>
       <p>
         You summon a massive amount of moonlight that surrounds you, sparkling the air around your body and infusing you with glowing strength. Whenever a creature within 120 feet hits you with an attack or spell a spark of moonlight attempts to strike back. The creature must make a Dexterity saving throw. It takes 5d6 radiant or force damage (your choice) damage on a failed save. While <em>Lunar Vengeance</em> is active you have advantage on attack rolls and spell attack rolls that deal radiant damage.
@@ -240,7 +254,9 @@
     </setters>
   </element>
   <element name="Lunar Embrace" type="Spell" source="Michin Makery" id="ID_MIMA_LUNAR_EMBRACE">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Selûne</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_LUNAR_GODDESS</requirements>
     <description>
       <p>
         You call out to the Moon and infuse some creatures with magical moonlight. Choose a number of creatures up to your spellcasting ability modifier and transform them in guardians of the Moon. The transformation lasts until the spell ends. The creatures eyes begin to glow, and their hair appears as if made from silver water, and gain the following benefits:
@@ -300,7 +316,9 @@
     </setters>
   </element>
   <element name="Creeping Darkness" type="Spell" source="Michin Makery" id="ID_MIMA_CREEPING_DARKNESS">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_CALIGO_GODDESS</requirements>
     <description>
       <p>
         You create drop of liquid darkness over the targeted creature. The drop lays onto the creature's skin or may enter their body to make them suffer. The target must succeed on a Constitution saving throw or takes negrotic or force damage (your choice) damage equal to 3d8 + your spellcasting ability modifier and has disadvantage on it's next attack. On a successful save, a creature takes only half the damage. This spell has no effect on constructs.
@@ -331,7 +349,9 @@
     </setters>
   </element>
   <element name="Caligo Sphere" type="Spell" source="Michin Makery" id="ID_MIMA_CALIGO_SPHERE">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_CALIGO_GODDESS</requirements>
     <description>
       <p>You point at a location within range, and a shadowy 1-foot-diameter ball of necrotic energy streaks there and explodes in a 20-foot-radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 9d6 negrotic or force damage (your choice) damage. On a successful save, a creature takes half the damage. The sphere leaves it's area of effect with a magical darkness for one round.</p>
       <p class="indent">
@@ -360,7 +380,9 @@
     </setters>
   </element>
   <element name="Embracing Darkness" type="Spell" source="Michin Makery" id="ID_MIMA_EMBRACING_DARKNESS">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_CALIGO_GODDESS</requirements>
     <description>
       <p>You call out to the dark Night and infuse a creature with magical darkness to slightly transform the creature in a guardian of the Night. The transformation lasts until the spell ends. The creature’s eyes begin to darken, and the hair appears as if made from black water, and gain the following benefits:  </p>
       <ul>
@@ -390,7 +412,9 @@
     </setters>
   </element>
   <element name="Caligo Beam" type="Spell" source="Michin Makery" id="ID_MIMA_CALIGO_BEAM">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_CALIGO_GODDESS</requirements>
     <description>
       <p>You point on a target within range and unleash a dark beam to strike it with immense force. The target can be a creature, an object, or a creation of magical force, such as the wall created by wall of force. On hit, the target takes 8d8 necrotic or force damage (your choice) and must make a charisma saving throw. On a failed save the next attack against the target has advantage. Alternatively, the next saving throw of the target has disadvantage, whichever situation is first.</p>
       <p class="indent">
@@ -419,7 +443,9 @@
     </setters>
   </element>
   <element name="Caligo Grasp" type="Spell" source="Michin Makery" id="ID_MIMA_CALIGO_GRASP">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_CALIGO_GODDESS</requirements>
     <description>
       <p>A dark figure emitting shadows appears at your shoulder, and reaches out to a creature within range. The creature must make a Charisma saving throw. If they fail, the grasp cleaves into their soul, inflicting 10d6 necrotic damage. If this damage reduces the creature to 30 hit points or fewer, they are instantly slain. If they succeed they receive half damage and do not get executed. Once the attack is made, the figure vanishes. If the target has a natural 20 on its saving throw, it receives no damage. On a natural 1 instead, the damage is doubled.</p>
       <p class="indent">
@@ -448,7 +474,9 @@
     </setters>
   </element>
   <element name="Caligo Wave" type="Spell" source="Michin Makery" id="ID_MIMA_CALIGO_WAVE">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_CALIGO_GODDESS</requirements>
     <description>
       <p>A wave of darkness washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target must succeed on a Constitution saving throw or takes negrotic or force damage (your choice) damage equal to 4d8 + your spellcasting ability modifier and has disadvantage on it's next attack. On a successful save, a creature takes only half the damage. This spell has no effect on constructs.</p>
       <p class="indent">
@@ -477,7 +505,9 @@
     </setters>
   </element>
   <element name="Caligo Vengeance" type="Spell" source="Michin Makery" id="ID_MIMA_CALIGO_VENGEANCE">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_CALIGO_GODDESS</requirements>
     <description>
       <p>
         You summon a massive amount of darkness that surrounds you, covering your body and infusing you with necrotic strength. Whenever a creature within 120 feet hits you with an attack or spell a spark of darkness attempts to strike back. The creature must make a Dexterity saving throw. It takes 5d6 negrotic or force damage (your choice) damage on a failed save. While <em>Caligo Vengeance</em> is active you have advantage on attack rolls and spell attack rolls that deal necrotic damage.
@@ -508,7 +538,9 @@
     </setters>
   </element>
   <element name="Caligo Embrace" type="Spell" source="Michin Makery" id="ID_MIMA_CALIGO_EMBRACE">
+    <supports>Warlock</supports>
     <prerequisite>Follower of Shar</prerequisite>
+    <requirements>ID_MIMA_ARCHETYPE_CALIGO_GODDESS</requirements>
     <description>
       <p>
         You call out to the dark Night and infuse some creatures with magical darkness. Choose a number of creatures up to your spellcasting ability modifier and transform them in guardians of the dark Night. The transformation lasts until the spell ends. The creatures eyes begin to darken, and their hair appears as if made from black water, and gain the following benefits:

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <author url="https://github.com/rireih/MichinMakery">Michin Makery</author>
       <file name="warlock-caligo-goddess.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery/warlock-caligo-goddess.xml" />
     </update>
@@ -82,6 +82,14 @@
       <extend>ID_XGTE_SPELL_SHADOW_BLADE</extend>
       <extend>ID_PHB_SPELL_PHANTASMAL_FORCE</extend>
       <extend>ID_PHB_SPELL_BLINK</extend>
+      <extend>ID_MIMA_CREEPING_DARKNESS</extend>
+      <extend>ID_MIMA_CALIGO_SPHERE</extend>
+      <extend>ID_MIMA_EMBRACING_DARKNESS</extend>
+      <extend>ID_MIMA_CALIGO_BEAM</extend>
+      <extend>ID_MIMA_CALIGO_GRASP</extend>
+      <extend>ID_MIMA_CALIGO_WAVE</extend>
+      <extend>ID_MIMA_CALIGO_VENGEANCE</extend>
+      <extend>ID_MIMA_CALIGO_EMBRACE</extend>
     </spellcasting>
   </element>
   <element name="Darkness of the Night" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_CALIGO_GODDESS_DARKNESS_OF_THE_NIGHT">
