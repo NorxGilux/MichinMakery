@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Spellbinder</name>
+    <description>Spellbinder from Michin Makery</description>
+    <author url="https://github.com/rireih/MichinMakery">Michin Makery</author>
+    <update version="0.0.1">
+      <file name="wizard-spellbinder.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery/wizard-spellbinder.xml" />
+    </update>
+  </info>
+  <element name="Spellbinder" type="Archetype" source="Michin Makery" id="ID_MIMA_ARCHETYPE_WIZARD_SPELLBINDER">
+    <supports>Arcane Tradition</supports>
+    <description>
+      <p>Infused with the rawest form of magical energy a little creature running around on a battlefield full of spellcasters. The little creature is collecting tiny glowing marbles which radiant a tiny magical aura from within. Sometimes a marble disappears in a floating book close. Others drop to the ground near some of the fighting people unleashing several bolts or other spells previously casted by them.</p>
+      <p class="indent">A Spellbinder got the never-ending quest to collect all knowledge corresponding to the arcane energies in the whole multiverse. Spellbinder are not born or trained like others; they are evolved into. Spellcasters who want to get the complete enlightenment about their magic and their potential might became a Spellbinder. But more often those seekers end up dead before their transformation. Spellbinder are able to remember their previous life and what they’ve learned but many things they need to relearn like using magic due to their new but deeper connection to it.</p>
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_BINDING_BOOK" />
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_BINDING_MARBLES" />
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_CRYSTALIZED_ENERGY" />
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_ARCANE_CHARGING" />
+      <div element="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_SUPREME_ARCANIST" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_BINDING_BOOK" level="2" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_BINDING_MARBLES" level="2" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_CRYSTALIZED_ENERGY" level="6" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_ARCANE_CHARGING" level="10" />
+      <grant type="Archetype Feature" id="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_SUPREME_ARCANIST" level="14" />
+    </rules>
+  </element>
+  <element name="Binding Book" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_BINDING_BOOK">
+    <description>
+      <p>
+        <em>2nd-level Spellbinder feature</em>
+      </p>
+      <p>You get to be linked to a spellbook. You need this book to feel complete, without it you slowly become insane. This spellbook contains your memories and everything you acknowledged including every cantrip and spell you learned. If you learn any spells the non-traditional way the spells magically appear in the spellbook. You need to have it by your side to cast spells. While casting spells your book floats and some light effects coming from it representing the spell.</p>
+      <p class="intend">Your connection to your spellbook allows you to know where it is located at any time if you or your book isn’t on a different plane nor in a magic isolated zone.</p>
+      <p class="intend">This book is your one and only spellcasting focus and can’t be harmed as long as you live.</p>
+      <p class="intend">You are the only person who can write and read in this book. Every other person need permission from you or can only read cryptic runes shimmering and flowing thru the pages.</p>
+    </description>
+    <sheet>
+      <description>
+        This spellbook contains your memories and everything you acknowledged including every cantrip and spell you learned. If you learn any spells the non-traditional way the spells magically appear in the spellbook. You need to have it by your side to cast spells. While casting spells your book floats and some light effects coming from it representing the spell. Your connection to your spellbook allows you to know where it is located at any time if you or your book isn’t on a different plane nor in a magic isolated zone. This book is your one and only spellcasting focus and can’t be harmed as long as you live.This book is your one and only spellcasting focus and can’t be harmed as long as you live. You are the only person who can write and read in this book. Every other person need permission from you or can only read cryptic runes shimmering and flowing thru the pages.
+      </description>
+    </sheet>
+  </element>
+  <element name="Binding Marbles" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_BINDING_MARBLES">
+    <description>
+      <p>
+        <em>2nd-level Spellbinder feature</em>
+      </p>
+      <p>You get the ability to catch the essence of arcane power in your presence. By obtaining such energy you generate small crystalline marbles, which are shimmering inside by the cause of the caught energy. As a reaction, you get the chance to generate a marble of a spell or cantrip casted within 80 feet of you. To create such marbles, you must make a check with your spellcasting ability modifier + proficiency bonus against a DC of 10 + the base spell level casted, not the level which the spell is casted on. For cantrips the DC is 10. You can use a marble to cast the spell or cantrip within it by using your own spell slots. Alternatively, you can transfer the spell bound in the marble into your Binding Book during a rest as light activity. Either action consumes the marble.</p>
+      <p class="intend">You can generate only one marble during a combat using this feature.</p>
+    </description>
+    <sheet usage="1/combat">
+      <description>
+        As a reaction, you get the chance to generate a marble of a spell or cantrip casted within 80 feet of you. To create such marbles, you must make a check with +{{spellbinder:bindingmarbles}} against a DC of 10 + the base spell level casted, not the level which the spell is casted on. For cantrips the DC is 10. You can use a marble to cast the spell or cantrip within it by using your own spell slots. Alternatively, you can transfer the spell bound in the marble into your Binding Book during a rest as light activity. Either action consumes the marble.
+      </description>
+    </sheet>
+    <rules>
+      <stat name="spellbinder:bindingmarbles" value="wisdom:modifier" />
+      <stat name="spellbinder:bindingmarbles" value="proficiency" />
+    </rules>
+  </element>
+  <element name="Crystalized Energy" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_CRYSTALIZED_ENERGY">
+    <description>
+      <p>
+        <em>6th-level Spellbinder feature</em>
+      </p>
+      <p>You gain the ability to create fragile arcane crystals. While casting a spell you can decide to create a crystal holding the spell instead of releasing it right away. This crystal appears at a place you can see within the range of the chosen spell. By casting the spell that way you can declare a code word to activate it. The crystallized spell can also be activate by shattering the crystal. The place it shatters becomes the center point of the spell.</p>
+      <p class="intend">By casting a spell that needs concentration into a crystal the spell last as long as the spell provides after it’s been activated with a code word. Shattering those crystals release the spell without activating it and ends the spell if the crystal is already activated. You can only have one crystal with a spell that needs concentration using this feature. You don’t need concentration for the spell inside the crystal. You are able to cast another spell as usual with the concentration attribute during that time.</p>
+      <p class="intend">If the spell within is a single-targeted or self-targeted spell it affects the nearest possible target (read spell description which kind of target). The crystals can be destroyed without releasing the spell by using Dispel Magic on it.</p>
+      <p class="intend">To shatter a crystal it has to be hit with an attack (AC 10) or be thrown successfully (DC 13). There may be other ways to shatter them. Consult your DM to determine how.</p>
+    </description>
+    <sheet>
+      <description>
+        While casting a spell you can decide to create a crystal holding the spell instead of releasing it right away. This crystal appears at a place you can see within the range of the chosen spell. By casting the spell that way you can declare a code word to activate it. The crystallized spell can also be activate by shattering the crystal. The place it shatters becomes the center point of the spell.
+        By casting a spell that needs concentration into a crystal the spell last as long as the spell provides after it’s been activated with a code word. Shattering those crystals release the spell without activating it and ends the spell if the crystal is already activated. You can only have one crystal with a spell that needs concentration using this feature. You don’t need concentration for the spell inside the crystal. You are able to cast another spell as usual with the concentration attribute during that time.
+        To shatter a crystal it has to be hit with an attack (AC 10) or be thrown successfully (DC 13). There may be other ways to shatter them. Consult your DM to determine how.
+      </description>
+    </sheet>
+  </element>
+  <element name="Arcane Charging" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_ARCANE_CHARGING">
+    <description>
+      <p>
+        <em>10th-level Spellbinder feature</em>
+      </p>
+      <p>You gain the ability to regenerate your powers by concentrating and meditating together with your <em>Binding Book</em>. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Spellbinder level (rounded up).</p>
+      <p class="indent">Additionally, you gain expertise in Arcana if you don't already have it.</p>
+    </description>
+    <sheet usage="1/day">
+      <description>
+        When you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level of {{level:half:up}}.
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Class Feature" id="ID_EXPERTISE_SKILL_ARCANA"/>
+    </rules>
+  </element>
+  <element name="Supreme Arcanist" type="Archetype Feature" source="Michin Makery" id="ID_MIMA_ARCHETYPE_FEATURE_SPELLBINDER_SUPREME_ARCANIST">
+    <description>
+      <p>
+        <em>14th-level Spellbinder feature</em>
+      </p>
+      <p>You became one of the most powerful Spellbinder that exist and be able to release a immense amount of arcane energy, even though you might not have all the knowledge collected as you wanted. You can transform yourself into a creature of pure energy for 1 minute. During that time, you get the following benefits:</p>
+      <ul>
+        <li>Whenever you cast a Spell that has a casting time of 1 action, you can cast it using your bonus action instead.</li>
+        <li>You are allowed to cast multiple spells in one turn.</li>
+        <li>You emanate an aura of energy in a 30-foot radius. All allies within that aura have advantage on saving throws using Charisma, Wisdom or Intelligence.</li>
+      </ul>
+      <p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
+    </description>
+    <sheet action="Reaction" usage="1/Long Rest">
+      <description>
+        You can transform yourself into a creature of pure energy for 1 minute. During that time, you get the following benefits: - Whenever you cast a Spell that has a casting time of 1 action, you can cast it using your bonus action instead. - You are allowed to cast multiple spells in one turn. - You emanate an aura of energy in a 30-foot radius. All allies within that aura have advantage on saving throws using Charisma, Wisdom or Intelligence.
+      </description>
+    </sheet>
+  </element>
+</elements>

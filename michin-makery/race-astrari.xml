@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <update version="0.0.5">
+    <update version="0.0.6">
       <author url="https://github.com/rireih/MichinMakery">Michin Makery</author>
       <file name="race-astrari.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery/race-astrari.xml" />
     </update>
@@ -32,7 +32,7 @@
         <span class="feature">Unclouded Vision.</span>You can see normally in dim light and darkness, both magical and nonmagical, to a distance of 120 feet.<br />
         <span class="feature">Restless Eyes.</span>You no longer need to sleep. To gain the benefits of a long rest, you can spend all 8 hours doing light activity.<br />
         <span class="feature">Delightful.</span>You have advantage on Persuasion (Charisma) ability checks and saving throws you make to avoid or end the charmed condition on yourself.<br />
-        <span class="feature">Languages.</span>You can speak, read and write in Common, Elvish and one other language that you and your DM agree is appropriate for the character.<br />
+        <span class="feature">Languages.</span>You can speak, read and write in Common, Elvish, Astralis and one other language that you and your DM agree is appropriate for the character.<br />
         <span class="feature">Subrace.</span>Two subraces of Astrari exist: Selûnite Astrari and Sharran Astrari. Choose one of them for your character.<br />
       </p>
     </description>
@@ -52,6 +52,7 @@
       <grant type="Vision" id="ID_MIMA_VISION_UNCLOUDED_VISION" />
       <grant type="Language" id="ID_LANGUAGE_COMMON" />
       <grant type="Language" id="ID_LANGUAGE_ELVISH" />
+      <grant type="Language" id="ID_LANGUAGE_MIMA_ASTRALIS" />
       <select type="Language" name="Language (Astrari)" supports="Standard||Exotic" />
       <grant type="Racial Trait" id="ID_MIMA_ASTRARI_RACIAL_TRAIT_DELIGHTFUL" />
       <grant type="Racial Trait" id="ID_MIMA_ASTRARI_RACIAL_TRAIT_RESTLESS_EYES" />
@@ -127,5 +128,17 @@
       <grant id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" type="Condition"/>
       <grant type="Spell" id="ID_MIMA_SPELL_DARKEN_STAR" />
     </rules>
+  </element>
+
+  <element name="Astralis" type="Language" source="Michin Makery" id="ID_LANGUAGE_MIMA_ASTRALIS">
+    <supports>Exotic</supports>
+    <description>
+      <p>Typically spoken by Astrari. It sounds similar to Elvish .</p>
+    </description>
+    <setters>
+      <set name="exotic">true</set>
+      <set name="speakers">Astrari</set>
+      <set name="script">Astralis</set>
+    </setters>
   </element>
 </elements>

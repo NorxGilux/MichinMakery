@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <update version="0.0.1">
+      <author url="https://github.com/rireih/MichinMakery">Michin Makery</author>
+      <file name="race-ailuri.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery/race-ailuri.xml" />
+    </update>
+  </info>
+
+  <element name="Ailuri" type="Race" source="Michin Makery" id="ID_MIMA_RACE_AILURI">
+    <description>
+    <p class="flavor">Humanoid red panda</p>
+    <h4>Physical Description</h4>
+      <p>Ailuri can be easily identified by their unique ruddy coat color, which acts like camouflage within the canopy of fir trees where branches are covered with clumps of reddish-brown moss and white lichens.</p>
+      <p class="indent">They have large, round heads and short snouts with big, pointed ears. Their faces are white with reddish-brown “tear” marks that extend from the eyes to the corner of the mouth. These markings could have evolved to help keep the sun out of their eyes. Their tails are marked with alternating red and buff rings.</p>
+      <p class="indent">Ailuri have a soft, dense woolly undercoat covered by long, coarse guard hairs. Long, bushy tails help these arboreal animals maintain balance and protect them from harsh cold and winds. Dense fur completely covers their feet which have five, widely separated toes and semi-retractable claws.</p>
+    <h4>Personality</h4>
+    <p>They are very playful and love to fool around.</p>
+    <h4>Ailuri Names</h4>
+    <p>Ailuri usually have short names with one or two syllables mostly.</p>
+    <h4>Ailuri Traits</h4>
+    <p>Chilled pacifistic visionary creatures.</p>
+    <p>
+      <span class="feature">Ability Score Increase.</span>Increase one score by 2 and increase a different score by 1, or you increase three different scores by 1.<br />
+      <span class="feature">Age.</span>Ailuri reach maturity at an age of 14. They live to be around 70.<br />
+      <span class="feature">Size.</span>Ailuri are between 2 and 4 feet tall and average about 10 pounds. Their size is small.<br />
+      <span class="feature">Speed.</span>Your base walking and climbing speed is 30 feet.<br />
+      <span class="feature">Naturally Stealthy.</span>You have a nature ability to hide, auto stealth. You are able to hide behind any creature or object at least one size bigger than you.<br />
+      <span class="feature">Small Claws.</span>The small claws on your paws make for an effective natural weapon, which you can use to make unarmed strikes. Your unarmed strikes deal 1d4 + your Dexterity modifier slashing damage.<br />
+      <span class="feature">Defensive Haze.</span>You can use your tendrils as natural weapons with 5 feet range and reach (10 feet). They deal 1d4 + your strength modifier bludgeoning damage. You are proficient with those attacks and use strength as your attack ability.<br />
+      <span class="feature">Thick Fur.</span>Your thick fur is optimized for cold weather. You have resistance to cold damage.<br />
+      <span class="feature">Languages.</span>You can speak, read and write in Common and Ailing.<br />
+    </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Chota</set>
+      <set name="names" type="female">Vira</set>
+      <set name="names-format">{{name}}</set>
+      <set name="height" modifier="2d10">4'6"</set>
+      <set name="weight" modifier="1d4">90 lb.</set>
+    </setters>
+    <rules>
+      <select type="Ability Score Improvement" name="Ability Score Increase, Ailuri" supports="Custom Ability Score Improvement Option" />
+      <grant type="Size" id="ID_SIZE_SMALL" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <stat name="innate speed:climb" value="30" bonus="base" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_MIMA_AILING" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Racial Trait" id="ID_MIMA_AILURI_RACIAL_TRAIT_NATURALLY_STEALTHY" />
+      <grant type="Racial Trait" id="ID_MIMA_AILURI_RACIAL_TRAIT_SMALL_CLAWS" />
+      <grant type="Racial Trait" id="ID_MIMA_AILURI_RACIAL_TRAIT_THICK_FUR" />
+    </rules>
+  </element>
+  <element name="Naturally Stealthy" type="Racial Trait" source="Michin Makery" id="ID_MIMA_AILURI_RACIAL_TRAIT_NATURALLY_STEALTHY">
+    <description>
+      <p>You have a nature ability to hide, auto stealth. You are able to hide behind any creature or object at least one size bigger than you.</p>
+      <p class="indent">You have Proficiency in Stealth.</p>
+    </description>
+    <sheet>
+      <description>
+        You are able to hide behind any creature or object at least one size bigger than you.
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+    </rules>
+  </element>
+  <element name="Small Claws" type="Racial Trait" source="Michin Makery" id="ID_MIMA_AILURI_RACIAL_TRAIT_SMALL_CLAWS">
+    <description>
+      <p>The small claws on your paws make for an effective natural weapon, which you can use to make unarmed strikes. Your unarmed strikes deal 1d4 + your Dexterity modifier slashing damage.</p>
+    </description>
+    <sheet>
+      <description>Your unarmed strikes deal 1d4 + {{ailuri:claws:attack}} slashing damage.</description>
+    </sheet>
+    <rules>
+      <stat name="ailuri:claws:attack" value ="dexterity:modifier"/>
+    </rules>
+  </element>
+  <element name="Thick Fur" type="Racial Trait" source="Michin Makery" id="ID_MIMA_AILURI_RACIAL_TRAIT_THICK_FUR">
+    <description>
+      <p>Your thick fur is optimized for cold weather. You have resistance to cold damage.</p>
+    </description>
+    <sheet>
+      <description>You have resistance to cold damage.</description>
+    </sheet>
+    <rules>
+      <grant id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" type="Condition"/>
+    </rules>
+  </element>
+
+  <element name="Ailing" type="Language" source="Michin Makery" id="ID_LANGUAGE_MIMA_AILING">
+    <supports>Exotic</supports>
+    <description>
+      <p>Typically spoken by Ailuri. It sounds similar to Sylvan but doesn't share other similarities.</p>
+    </description>
+    <setters>
+      <set name="exotic">true</set>
+      <set name="speakers">Ailuri</set>
+      <set name="script">Kumoish</set>
+    </setters>
+  </element>
+</elements>
