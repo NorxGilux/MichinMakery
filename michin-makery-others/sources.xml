@@ -180,7 +180,7 @@
       <set name="author" url="">AMRD</set>
       <set name="homebrew">true</set>
     </setters>
-  </element>  
+  </element>
   <element name="Felso (DnD Beyond)" type="Source" source="Felso (DnD Beyond)" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_FELSO">
     <description>
       <![CDATA[<p></p>]]>
@@ -189,6 +189,17 @@
       <set name="abbreviation">DNDBF</set>
       <set name="url">https://www.dndbeyond.com</set>
       <set name="author" url="">Felso</set>
+      <set name="homebrew">true</set>
+    </setters>
+  </element>
+  <element name="incendiarismnz (Reddit)" type="Source" source="incendiarismnz (Reddit)" id="ID_HOMEBREW_SOURCE_MICHIN_MAKERY_OTHERS_INCENDIARISMNZ">
+    <description>
+      <![CDATA[<p></p>]]>
+    </description>
+    <setters>
+      <set name="abbreviation">RDIDM</set>
+      <set name="url">https://www.reddit.com/user/incendiarismnz/</set>
+      <set name="author" url="">incendiarismnz</set>
       <set name="homebrew">true</set>
     </setters>
   </element>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Wildheart</name>
+    <author url="https://www.reddit.com/r/UnearthedArcana/comments/iimco3/roguish_archetype_wildheart_a_wild_magic_rogue/">incendiarismnz</author>
+    <update version="0.1">
+      <file name="rogue-wildheart.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/rogue-wildheart.xml" />
+    </update>
+  </info>
+  <element name="Wildheart" type="Archetype" source="incendiarismnz (Reddit)" id="ID_GSB_ARCHETYPE_ROGUE_WILDHEART">
+    <supports>Roguish Archetype</supports>
+    <description>
+      <p>Rogues who learn to channel the ever-changing magics of the Feywild take a gamble on the kindness of the powers who weave it. Tricksters and firestarters, these rogues call on the powers of the Feywild to change the tide of battle — whether in their favour or otherwise.</p>
+      <div element="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_WILD_DIE" />
+      <div element="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_WILD_SURGE" />
+      <div element="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_DUPLICITOUR_NATURE" />
+      <div element="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_CHANGELING" />
+      <div element="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_SOW_DISSENT" />
+      <div element="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_WILD_SOUL" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Archetype Feature" id="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_WILD_DIE" level="3"/>
+      <grant type="Archetype Feature" id="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_WILD_SURGE" level="3"/>
+      <grant type="Archetype Feature" id="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_DUPLICITOUR_NATURE" level="3"/>
+      <grant type="Archetype Feature" id="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_CHANGELING" level="9"/>
+      <grant type="Archetype Feature" id="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_SOW_DISSENT" level="13"/>
+      <grant type="Archetype Feature" id="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_WILD_SOUL" level="17"/>
+    </rules>
+  </element>
+  <element name="Wild Die" type="Archetype Feature" source="incendiarismnz (Reddit)" id="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_WILD_DIE">
+    <description>
+      <p>Starting at 3rd level, your connection to the Feywild enables you to channel wild magic in short bursts through the use of a special die called the Wild Die.</p>
+      <p class="indent">You have one Wild Die, a d6, and regain its use after a long rest or when you roll a 20 on the d20 roll for an attack that qualifies for Sneak Attack.</p>
+      <p class="indent">Your Wild Die changes when you reach certain levels in this class. The die becomes a d8 at 9th level, a d10 at 13th level, and a d12 at 17th level.</p>
+    </description>
+    <sheet usage="1/long rest">
+      <description>You have one Wild Die, a d{{wildheart:wilddie:die}}, and regain its use after a long rest or when you roll a 20 on the d20 roll for an attack that qualifies for Sneak Attack.</description>
+    </sheet>
+    <rules>
+			<stat name="wildheart:wilddie:die" value="6" bonus="die" level="3" />
+			<stat name="wildheart:wilddie:die" value="8" bonus="die" level="9" />
+			<stat name="wildheart:wilddie:die" value="10" bonus="die" level="13" />
+			<stat name="wildheart:wilddie:die" value="12" bonus="die" level="17" />
+    </rules>
+  </element>
+  <element name="Wild Surge" type="Archetype Feature" source="incendiarismnz (Reddit)" id="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_WILD_SURGE">
+    <description>
+      <p>Once per turn, immediately after you hit with a weapon attack, you may use a bonus action to expend your Wild Die and roll on the Wild Surge table (featured right).</p>
+      <p class="indent">If the Wild Surge requires a saving throw, the DC equals <b>8 + your proficiency bonus + your Charisma modifier</b>. Any spell effects use Charisma as your spellcasting ability modifier, and if it normally requires concentration, it doesn’t require concentration in this case; the spell lasts for its full duration.</p>
+    </description>
+    <sheet usage="1/turn">
+      <description>Once per turn, immediately after you hit with a weapon attack, you may use a bonus action to expend your Wild Die and roll on the Wild Surge table. The DC for saving throws equals {{wildheart:wildsurge:dc}}.</description>
+    </sheet>
+    <rules>
+			<stat name="wildheart:wildsurge:dc" value="8" />
+			<stat name="wildheart:wildsurge:dc" value="proficiency" />
+			<stat name="wildheart:wildsurge:dc" value="charisma:modifier" />
+    </rules>
+  </element>
+  <element name="Duplicitous Nature" type="Archetype Feature" source="incendiarismnz (Reddit)" id="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_DUPLICITOUR_NATURE">
+    <description>
+      <p>Starting at 3rd level, your exposure to the magic of the Feywild empowers you with the deceptive abilities of the Fey.</p>
+      <p class="indent">As an action, you may cast Disguise Self once per short rest.</p>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_DISGUISE_SELF" />
+			</div>
+    </description>
+    <sheet usage="1/short rest">
+      <description>As an action, you may cast Disguise Self.</description>
+    </sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" />
+		</rules>
+  </element>
+  <element name="Changeling" type="Archetype Feature" source="incendiarismnz (Reddit)" id="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_CHANGELING">
+    <description>
+      <p>Starting at 9th level, you can use an action to cast alter self.</p>
+      <p class="indent">You can use this feature once per long rest.</p>
+      <p class="indent">Additionally, you gain advantage on Charisma (Deception) ability checks.</p>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_ALTER_SELF" />
+			</div>
+    </description>
+    <sheet usage="1/long rest">
+      <description>You can use an action to cast alter self. Additionally, you have advantage on Charisma (Deception) ability checks.</description>
+    </sheet>
+    <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" />
+    </rules>
+  </element>
+  <element name="Sow Dissent" type="Archetype Feature" source="incendiarismnz (Reddit)" id="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_SOW_DISSENT">
+    <description>
+      <p>Starting at 13th level, your chaotic nature enables you to meddle with the tide of battle.</p>
+      <p class="indent">As an action, you may grant every creature within 30 feet of you a bonus or penalty (your choice) on their next attack roll equal to a roll of your Wild Die. This effect lasts for 1 minute.</p>
+      <p class="indent">You can use this feature once per long rest, or until you regain the use of this feature by spending your Wild Die.</p>
+    </description>
+    <sheet usage="1/long rest">
+      <description>As an action, you may grant every creature within 30 feet of you a bonus or penalty (your choice) on their next attack roll equal to a roll of your Wild Die. This effect lasts for 1 minute. You also regain the use of this feature by spending your Wild Die.</description>
+    </sheet>
+  </element>
+  <element name="Wild Soul" type="Archetype Feature" source="incendiarismnz (Reddit)" id="ID_RDIDM_ARCHETYPE_FEATURE_ROGUE_WILDHEART_WILD_SOUL">
+    <description>
+      <p>Starting from 17th level, when you use the Wild Surge feature, you may roll two Wild Dice and choose the result you want.</p>
+    </description>
+    <sheet>
+      <description>When you use the Wild Surge feature, you may roll two Wild Dice and choose the result you want.</description>
+    </sheet>
+  </element>
+</elements>
