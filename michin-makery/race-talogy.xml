@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <update version="0.0.1">
+      <author url="https://github.com/rireih/MichinMakery">Michin Makery</author>
+      <file name="race-talogy.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery/race-talogy.xml" />
+    </update>
+  </info>
+
+  <element name="Talogy" type="Race" source="Michin Makery" id="ID_MIMA_RACE_TALOGY">
+    <description>
+    <p class="flavor">Still a Tabaxi with some shiny improvements, inspired by the Foreclaimers</p>
+    <p>The Talogy are a vastly unknown race which originated from the common Tabaxi species. Some of these individuals were born as Tabaxi and later in life forged into a Talogy. Often the result of tragic accidents and unfortunate circumstances, some individuals of these newly formed species try to create a new society of their own. Exceedingly improved Tabaxi, with highly creative and technically skilled Artificern among them while socially similar to their mostly tribal societies made up of large familial units.</p>
+    <h4>History</h4>
+    <p>Inheriting the nature of the tabaxi they are ultimate travelers and rarely stay in one place for long. Intensely driven by curiosity to collect interesting artifacts, gather tales and stories, and lay eyes on all the world's wonders. Their innate nature pushes them to leave no secrets uncovered, no treasures or legends lost. They have even been found wondering the stars, the Steel Plains of Mirrodin and savanna of Dominaria. They are also fearsome warriors, having halted the dragons on their conquest of the lands and tracking down their lairs like a swarm of ants taking down a beetle.</p>
+    <h4>Physical Description</h4>
+    <p>Like their less improved brothers and sisters, the Talogy are varied people in both attitude and appearance. In some lands, Talogy live like the cats they resemble, naturally curious and at home in playful environments. In other places, Talogy live as other folk do, not exhibiting the feline behavior the Cat Lord intended. The appearances of the Talogy are as varied as their attitudes. Some Talogy have features or patterning in their fur like tigers, jaguars, or other big cats, while others have appearances more like a house cat. The same variety is seen with their mechanical parts. Some Talogy are mostly Tabaxi, with just a few mechanical Prostheses like arms or legs, other individuals are almost not recognizable as catfolk anymore.</p>
+    <h4>Talogy Traits</h4>
+    <p>Forge-improved Tabaxi.</p>
+    <p>
+      <span class="feature">Ability Score Increase.</span>Increase one score by 2, or you increase two different scores by 1.<br />
+      <span class="feature">Age.</span>Due to the variety of the Mechanical parts age is vastly different between individuals. From 65-80 but up to over 900 Years are possible. They mature normally at the age of 16.<br />
+      <span class="feature">Size.</span>Medium or Small. You choose the size when you select this race. 4'11" to 6'8" tall, with a muscular but slim physique.<br />
+      <span class="feature">Speed.</span>Your base walking and climbing speed is 30 feet.<br />
+      <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.<br />
+      <span class="feature">Cat's Claws.</span>Your claws are natural weapons, which you can use to make unarmed strikes. When you hit with them, you deal slashing damage equal to 1d6 + your Strength (or Dexterity) modifier, instead of the bludgeoning damage normal for an unarmed strike.<br />
+      <span class="feature">Feline Agility.</span>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you stand still (move 0 feet) on one of your turns.<br />
+      <span class="feature">Powered.</span>A Talogy's power crystal can be removed at will and when it is removed from its socket, they lose all racial bonuses as well as any innate ability to cast spells. After a day, the mechanical parts will slowly disfunction until only basic functions are left. They will slowly begin to degrade over 100 Years, eventually reducing their lifespan by half.<br />
+      <span class="feature">Solar Powered.</span>When powered, you do not need to sleep normally nor can you be put to sleep from magical effects.<br />
+      <span class="feature">Solar Cat's Claws.</span>When Powered your unarmed strikes, deal an additional 1d4 force damage.<br />
+      <span class="feature">Subrace.</span>Adult Talogy may choose to accept a type of body augmentation and subsequently be classified as a subrace. Choosing a body augmentation requires creating a new power crystal, which allows for only one augmentation at a time. The removal and insertion of a new crystal takes a toll on the Talogy's body and requires a long rest for the effects of the new crystal to take place.<br />
+      <span class="feature">Languages.</span>You can speak, read and write in Common, Tabaxi and Payit.<br />
+    </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="name">Cloud on the Mountaintop (Cloud), Five Timber (Timber), Jade Shoe (Jade), Left-Handed Hummingbird (Bird), Seven Thundercloud (Thunder), Skirt of Snakes (Snake), Smoking Mirror (Smoke)</set>
+      <set name="names" type="clan">Bright Cliffs, Distant Rain, Mountain Tree, Rumbling River, Snoring Mountain</set>
+      <set name="names-format">{{name}}</set>
+      <set name="height" modifier="2d10">4'11"</set>
+      <set name="weight" modifier="1d4">100 lb.</set>
+    </setters>
+    <rules>
+      <select type="Ability Score Improvement" name="Ability Score Improvement Option (Talogy)" supports="Custom Ability Score Improvement Option" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <stat name="innate speed:climb" value="30" bonus="base" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_MIMA_TABAXI" />
+      <grant type="Language" id="ID_LANGUAGE_MIMA_PAYIT" />
+      <grant type="Racial Trait" id="ID_MIMA_TALOGY_RACIAL_TRAIT_CATS_CLAWS" />
+      <grant type="Racial Trait" id="ID_MIMA_TALOGY_RACIAL_TRAIT_FELINE_AGILITY" />
+      <grant type="Racial Trait" id="ID_MIMA_TALOGY_RACIAL_TRAIT_POWERED" />
+      <grant type="Racial Trait" id="ID_MIMA_TALOGY_RACIAL_TRAIT_SOLAR_POWERED" />
+      <grant type="Racial Trait" id="ID_MIMA_TALOGY_RACIAL_TRAIT_SOLAR_CATS_CLAWS" />
+      <grant type="Racial Trait" id="ID_MIMA_TALOGY_RACIAL_TRAIT_TALOGY_SUBRACE" />
+    </rules>
+  </element>
+
+	<element name="Cat's Claws" type="Racial Trait" source="Michin Makery" id="ID_MIMA_TALOGY_RACIAL_TRAIT_CATS_CLAWS">
+		<description>
+			<p>Your claws are natural weapons, which you can use to make unarmed strikes. When you hit with them, you deal slashing damage equal to 1d6 + your Strength (or Dexterity) modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + {{strength:modifier}} or 1d6 + {{dexterity:modifier}} slashing damage.</description>
+		</sheet>
+	</element>
+  <element name="Feline Agility" type="Racial Trait" source="Michin Makery" id="ID_MIMA_TALOGY_RACIAL_TRAIT_FELINE_AGILITY">
+		<description>
+			<p> Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns. </p>
+		</description>
+		<sheet>
+			<description>When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</description>
+		</sheet>
+	</element>
+  <element name="Powered" type="Racial Trait" source="Michin Makery" id="ID_MIMA_TALOGY_RACIAL_TRAIT_POWERED">
+    <description>
+      <p>A Talogy's power crystal can be removed at will and when it is removed from its socket, they lose all racial bonuses as well as any innate ability to cast spells. After a day, the mechanical parts will slowly disfunction until only basic functions are left. They will slowly begin to degrade over 100 Years, eventually reducing their lifespan by half.</p>
+    </description>
+    <sheet>
+      <description>A Talogy's power crystal can be removed at will and when it is removed from its socket, they lose all racial bonuses as well as any innate ability to cast spells. After a day, the mechanical parts will slowly disfunction until only basic functions are left. They will slowly begin to degrade over 100 Years, eventually reducing their lifespan by half.</description>
+    </sheet>
+  </element>
+  <element name="Solar Powered" type="Racial Trait" source="Michin Makery" id="ID_MIMA_TALOGY_RACIAL_TRAIT_SOLAR_POWERED">
+    <description>
+      <p>When powered, you do not need to sleep normally nor can you be put to sleep from magical effects.</p>
+    </description>
+    <sheet>
+      <description>When powered, you do not need to sleep normally nor can you be put to sleep from magical effects.</description>
+    </sheet>
+  </element>
+  <element name="Solar Cat's Claws" type="Racial Trait" source="Michin Makery" id="ID_MIMA_TALOGY_RACIAL_TRAIT_SOLAR_CATS_CLAWS">
+    <description>
+      <p>When Powered your unarmed strikes, deal an additional 1d4 force damage.</p>
+    </description>
+    <sheet>
+      <description>When Powered your unarmed strikes, deal an additional 1d4 force damage.</description>
+    </sheet>
+  </element>
+
+  <element name="Talogy Subrace" type="Racial Trait" source="Michin Makery" id="ID_MIMA_TALOGY_RACIAL_TRAIT_TALOGY_SUBRACE">
+    <description>
+      <p>A adult Talogy may choose one of eleven body augmentations.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Sub Race" name="Talogy Subrace" supports="Talogy" />
+    </rules>
+  </element>
+  <element name="No Augmentation, Talogy" type="Sub Race" source="Michin Makery" id="ID_MIMA_TALOGY_SUB_RACE_NO_AUGMENTATION">
+    <supports>Talogy</supports>
+    <description>
+      <p>You haven't choosen your body augmentation, yet.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>You haven't choosen your body augmentation, yet.</p>
+      </description>
+    </sheet>
+  </element>
+  <element name="Agility Enhancement, Talogy" type="Sub Race" source="Michin Makery" id="ID_MIMA_TALOGY_SUB_RACE_AGILITY_ENHANCEMENT">
+    <supports>Talogy</supports>
+    <description>
+      <p>Your base movement speed is increased by 10 ft.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>Your base movement speed is increased by 10 ft.</p>
+      </description>
+    </sheet>
+    <rules>			
+      <stat name="innate speed:misc" value="10" bonus="agility enhancement" />
+    </rules>
+  </element>
+  <element name="Cat Eyes, Talogy" type="Sub Race" source="Michin Makery" id="ID_MIMA_TALOGY_SUB_RACE_CAT_EYES">
+    <supports>Talogy</supports>
+    <description>
+      <p>Gain improved Darkvision to a range of 120ft.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>Your Darkvision is increased to a range of 120ft.</p>
+      </description>
+    </sheet>
+  </element>
+  <element name="Focused Solar Lenses, Talogy" type="Sub Race" source="Michin Makery" id="ID_MIMA_TALOGY_SUB_RACE_FOCUSED_SOLAR_LENSES">
+    <supports>Talogy</supports>
+    <description>
+      <p>While in direct sunlight, you can fire a focused beam of energy out of your eyes in a straight line for up to 15 ft. that does 1d6 + your level fire damage. The enemy must make a Dexterity save (dc 10 + int.modifier), on a successful save they take half damage. You may use this ability a number of times equal to your Intelligence modifier. You regain all expended uses after a long rest.</p>
+    </description>
+    <sheet usage="{{intelligence:modifier}}/Long Rest">
+      <description>
+        <p>While in direct sunlight, you can fire a focused beam of energy out of your eyes in a straight line for up to 15 ft. that does 1d6 + {{level}} fire damage. The enemy must make a dc {{talogy:focusesolarelenses:dc}} Dexterity save, on a successful save they take half damage.</p>
+      </description>
+    </sheet>
+    <rules>
+      <stat name="talogy:focusesolarelenses:dc" value="10"/>
+      <stat name="talogy:focusesolarelenses:dc" value="intelligence:modifier"/>
+    </rules>
+  </element>
+  <element name="Gills, Talogy" type="Sub Race" source="Michin Makery" id="ID_MIMA_TALOGY_SUB_RACE_GILLS">
+    <supports>Talogy</supports>
+    <description>
+      <p>You gain the ability to breathe underwater.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>You can breathe underwater.</p>
+      </description>
+    </sheet>
+  </element>
+  <element name="Metallic Skin, Talogy" type="Sub Race" source="Michin Makery" id="ID_MIMA_TALOGY_SUB_RACE_METALLIC_SKIN">
+    <supports>Talogy</supports>
+    <description>
+      <p>You gain a +1 to your Constitution while Powered.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>You gain a +1 to your Constitution while Powered. (already included in Ability Score)</p>
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Grants" id="ID_GRANTS_FORECLAIMER_SUBRACE" />
+      <stat name="constitution" value="1" />
+    </rules>
+  </element>
+  <element name="Muscle Enhancement, Talogy" type="Sub Race" source="Michin Makery" id="ID_MIMA_TALOGY_SUB_RACE_MUSCLE_ENHANCEMENT">
+    <supports>Talogy</supports>
+    <description>
+      <p>You gain a +1 to your Strength while Powered.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>You gain a +1 to your Strength while Powered. (already included in Ability Score)</p>
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Grants" id="ID_GRANTS_FORECLAIMER_SUBRACE" />
+      <stat name="strength" value="1" />
+    </rules>
+  </element>
+  <element name="Mythril Bones, Talogy" type="Sub Race" source="Michin Makery" id="ID_MIMA_TALOGY_SUB_RACE_MYTHRIL_BONES">
+    <supports>Talogy</supports>
+    <description>
+      <p>When falling you can roll 1d4 + your level to reduce the amount of fall damage you take.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>When falling you can roll 1d4 + {{level}} to reduce the amount of fall damage you take.</p>
+      </description>
+    </sheet>
+  </element>
+  <element name="Optical Camouflage, Talogy" type="Sub Race" source="Michin Makery" id="ID_MIMA_TALOGY_SUB_RACE_OPTICAL_CAMOUFLAGE">
+    <supports>Talogy</supports>
+    <description>
+      <p>Once per day, you can use invisibility on yourself for 2 rounds. The spell recharges after a long rest. You may not use this ability if unpowered.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_INVISIBILITY" />
+      </div>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>
+        <p>You can use invisibility on yourself for 2 rounds. You may not use this ability if unpowered.</p>
+      </description>
+    </sheet>
+    <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" prepared="true" />
+    </rules>
+  </element>
+  <element name="Sixth Sense, Talogy" type="Sub Race" source="Michin Makery" id="ID_MIMA_TALOGY_SUB_RACE_SIXTH_SENSE">
+    <supports>Talogy</supports>
+    <description>
+      <p>You gain Proficiency in Dexterity saving throws.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>You gain Proficiency in Dexterity saving throws.</p>
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+    </rules>
+  </element>
+  <element name="Tempered Skin, Talogy" type="Sub Race" source="Michin Makery" id="ID_MIMA_TALOGY_SUB_RACE_TEMPERED_SKIN">
+    <supports>Talogy</supports>
+    <description>
+      <p>You gain resistance to Fire Damage while powered.</p>
+    </description>
+    <sheet>
+      <description>You gain resistance to Fire damage while powered.</description>
+    </sheet>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+    </rules>
+  </element>
+  <element name="Toxic Blood, Talogy" type="Sub Race" source="Michin Makery" id="ID_MIMA_TALOGY_SUB_RACE_TOXIC_BLOOD">
+    <supports>Talogy</supports>
+    <description>
+      <p>You gain resistance to disease and poison.</p>
+    </description>
+    <sheet>
+      <description>You gain resistance to disease and poison.</description>
+    </sheet>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+    </rules>
+  </element>
+
+  <element name="Payit" type="Language" source="Michin Makery" id="ID_LANGUAGE_MIMA_PAYIT">
+    <supports>Exotic</supports>
+    <description>
+      <p>Payit was the native language of the Payit and Itza, a human ethnic group and subgroup of East Maztica that lived in the nation of Payit and the Far Payit region.</p>
+    </description>
+    <setters>
+      <set name="exotic">true</set>
+      <set name="speakers">Talogy,Payit,Itza</set>
+      <set name="script">Payit</set>
+    </setters>
+  </element>
+
+  <element name="Tabaxi" type="Language" source="Michin Makery" id="ID_LANGUAGE_MIMA_TABAXI">
+    <supports>Exotic</supports>
+    <description>
+      <p>Tabaxi was a language spoken by the Tabaxi tribe of humans in the jungles of Chult. It was a part of the Chultan language, and had its origin in Katashaka, a continent southwest of Faerûn and west of Zakhara.</p>
+    </description>
+    <setters>
+      <set name="exotic">true</set>
+      <set name="speakers">Tabaxi,Talogy</set>
+      <set name="script">Tabaxi</set>
+    </setters>
+  </element>
+</elements>

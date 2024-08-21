@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Foreclaimer</name>
-    <update version="0.3">
+    <update version="0.4">
       <file name="race-foreclaimer.xml" url="https://raw.githubusercontent.com/rireih/MichinMakery/main/michin-makery-others/race-foreclaimer.xml" />
     </update>
   </info>
@@ -126,7 +126,7 @@
       <p>You gain the ability to breathe underwater.</p>
     </description>
     <sheet>
-      <description>When powered, you do not need to sleep nor can you be put to sleep from magical effects.</description>
+      <description>You gain the ability to breathe underwater.</description>
     </sheet>
     <rules>
       <grant type="Grants" id="ID_GRANTS_FORECLAIMER_SUBRACE" />
@@ -167,7 +167,7 @@
       <p>You gain a +1 to your Strength while Powered.</p>
     </description>
     <sheet>
-      <description>You gain a +1 to your Strength while Powered.</description>
+      <description>You gain a +1 to your Strength while Powered. (already included in Ability Score)</description>
     </sheet>
     <rules>
       <grant type="Grants" id="ID_GRANTS_FORECLAIMER_SUBRACE" />
@@ -181,7 +181,7 @@
       <p>You gain a +1 to your Constitution while Powered.</p>
     </description>
     <sheet>
-      <description>You gain a +1 to your Constitution while Powered.</description>
+      <description>You gain a +1 to your Constitution while Powered. (already included in Ability Score)</description>
     </sheet>
     <rules>
       <grant type="Grants" id="ID_GRANTS_FORECLAIMER_SUBRACE" />
@@ -241,7 +241,7 @@
     </sheet>
     <rules>
       <grant type="Grants" id="ID_GRANTS_FORECLAIMER_SUBRACE" />
-      <stat name="dexterity" value="1" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
     </rules>
   </element>
 
